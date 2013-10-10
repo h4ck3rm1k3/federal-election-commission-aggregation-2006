@@ -1,0 +1,140 @@
+countraw: 4
+countrows: 2
+filename: 215743.fec
+header: {}
+rows:
+- input: F6,C00413849,Johnson for Idaho,P.O. Box 7807,,Boise,ID,83707,H6ID01169,Johnson^Keith^Mr.^,H,ID,01,20060504
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00413849
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Johnson for Idaho
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 7807
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Boise
+  - name: STATE
+    number: '7'
+    value: ID
+  - name: ZIP
+    number: '8'
+    value: '83707'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H6ID01169
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Johnson^Keith^Mr.^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: ID
+  - name: CAN/DIST
+    number: '13'
+    value: '01'
+  - name: Signed
+    number: 14-
+    value: '20060504'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00413849
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Lindstrom-Atchley^Janet^^
+  - name: STREET 1
+    number: '5'
+    value: 1925 Paloma Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Pasadena
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '91104'
+  - name: INDEMP
+    number: '10'
+    value: self
+  - name: INDOCC
+    number: '11'
+    value: Investor
+  - name: Of Contribution
+    number: 12-
+    value: '20060504'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: '0005246'
+  - value: ''
+  expected_count: 27
+  input: F65,C00413849,IND,Lindstrom-Atchley^Janet^^,1925 Paloma Street,,Pasadena,CA,91104,self,Investor,20060504,1000.00,,,,,,,,,,,,,,0005246,
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+sourceurl: !!python/unicode 20060504
+type: single
