@@ -1,0 +1,142 @@
+countraw: 4
+countrows: 2
+filename: 237978.fec
+header: {}
+rows:
+- input: '"F6","C00420760","Friends of Mazie Hirono","P.O. Box 677","","Honolulu","HI","96809","","Mazie
+    Hirono","H","HI","2","20060913"'
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00420760
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Friends of Mazie Hirono
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 677
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Honolulu
+  - name: STATE
+    number: '7'
+    value: HI
+  - name: ZIP
+    number: '8'
+    value: '96809'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Mazie Hirono
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: HI
+  - name: CAN/DIST
+    number: '13'
+    value: '2'
+  - name: Signed
+    number: 14-
+    value: '20060913'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00420760
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Tokioka^Franklin M.
+  - name: STREET 1
+    number: '5'
+    value: PO Box 1520
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Honolulu
+  - name: STATE
+    number: '8'
+    value: HI
+  - name: ZIP
+    number: '9'
+    value: '96806'
+  - name: INDEMP
+    number: '10'
+    value: Island Holdings
+  - name: INDOCC
+    number: '11'
+    value: ' Inc'
+  - name: Of Contribution
+    number: 12-
+    value: Chairman
+  - name: AMOUNT
+    number: '13'
+    value: '20060913'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: C4058389
+  expected_count: 27
+  input: '"F65","C00420760","IND","Tokioka^Franklin M.","PO Box 1520","","Honolulu","HI","96806","Island
+    Holdings, Inc","Chairman","20060913","1000.00","","","","","","","","","","","","","","C4058389"'
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+sourceurl: !!python/unicode 20060914
+type: single
