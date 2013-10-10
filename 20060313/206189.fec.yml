@@ -1,0 +1,226 @@
+countraw: 5
+countrows: 3
+filename: 206189.fec
+header: {}
+rows:
+- input: '"F6","C00414615","Badnarik for Congress","6633 E Highway 290","Suite 100","Austin","TX","787231157","H6TX10098","Michael  Badnarik","H","TX","10","20060313"'
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00414615
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Badnarik for Congress
+  - name: STREET 1
+    number: '4'
+    value: 6633 E Highway 290
+  - name: STREET 2
+    number: '5'
+    value: Suite 100
+  - name: CITY
+    number: '6'
+    value: Austin
+  - name: STATE
+    number: '7'
+    value: TX
+  - name: ZIP
+    number: '8'
+    value: '787231157'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H6TX10098
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Michael  Badnarik
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: TX
+  - name: CAN/DIST
+    number: '13'
+    value: '10'
+  - name: Signed
+    number: 14-
+    value: '20060313'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00414615
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Gaarder^Bruce^^
+  - name: STREET 1
+    number: '5'
+    value: PO Box 4085
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Mountain Home Afb
+  - name: STATE
+    number: '8'
+    value: ID
+  - name: ZIP
+    number: '9'
+    value: '836480085'
+  - name: INDEMP
+    number: '10'
+    value: Biomark
+  - name: INDOCC
+    number: '11'
+    value: ' Inc.'
+  - name: Of Contribution
+    number: 12-
+    value: Electronic Engineering Technician
+  - name: AMOUNT
+    number: '13'
+    value: '20060311'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1950'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F65-I-c10854
+  expected_count: 27
+  input: '"F65","C00414615","IND","Gaarder^Bruce^^","PO Box 4085","","Mountain Home
+    Afb","ID","836480085","Biomark, Inc.","Electronic Engineering Technician","20060311","1950","","","","","","","","","","","","","","F65-I-c10854"'
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: '"F65","C00414615","IND","Davis^Michael^^","2849 Wellington Circle","","Rogers","AR","727583902","EMC
+    Corp","SAN administrator","20060311","1900","","","","","","","","","","","","","","F65-I-c10852"'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00414615
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Davis^Michael^^
+  - name: STREET 1
+    number: '5'
+    value: 2849 Wellington Circle
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Rogers
+  - name: STATE
+    number: '8'
+    value: AR
+  - name: ZIP
+    number: '9'
+    value: '727583902'
+  - name: INDEMP
+    number: '10'
+    value: EMC Corp
+  - name: INDOCC
+    number: '11'
+    value: SAN administrator
+  - name: Of Contribution
+    number: 12-
+    value: '20060311'
+  - name: AMOUNT
+    number: '13'
+    value: '1900'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F65-I-c10852
+sourceurl: !!python/unicode 20060313
+type: single
