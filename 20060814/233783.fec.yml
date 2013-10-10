@@ -1,0 +1,125 @@
+countraw: 3
+countrows: 1
+filename: 233783.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H8NY22045
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: 5 Plantation Crest
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Clifton Park
+  - name: STATE
+    number: '7'
+    value: NY
+  - name: ZIP
+    number: '8'
+    value: '12065   '
+  - name: PTY/CODE
+    number: '9'
+    value: REP
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: NY
+  - name: CAN/DIST
+    number: '12'
+    value: '20'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '2006'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: ''
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: Sweeney for Congress
+  - name: STREET 1
+    number: '16'
+    value: ' Inc'
+  - name: STREET 2
+    number: '17'
+    value: Post Office Box 1465
+  - name: CITY
+    number: '18'
+    value: ''
+  - name: STATE
+    number: '19'
+    value: Clifton Park
+  - name: ZIP
+    number: '20'
+    value: NY
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: '12065   '
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: C00427369
+  - name: STREET 1
+    number: '23'
+    value: BOMP-BOWLING FOR OUR MAJORITY
+  - name: STREET 2
+    number: '24'
+    value: PO BOX 40366
+  - name: CITY
+    number: '25'
+    value: ''
+  - name: STATE
+    number: '26'
+    value: Washington
+  - name: ZIP
+    number: '27'
+    value: 'DC '
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: '20016    '
+  - name: Signed
+    number: 29-
+    value: John E. Sweeney
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: '20060814'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '0.00'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: '0.00'
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: E. Sweeney
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: John
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: ''
+  - value: ''
+  expected_count: 36
+  input: '"F2","H8NY22045","","5 Plantation Crest","","Clifton Park","NY","12065   ","REP","H","NY",20,2006,"","Sweeney
+    for Congress, Inc","Post Office Box 1465","","Clifton Park","NY","12065   ","C00427369","BOMP-BOWLING
+    FOR OUR MAJORITY","PO BOX 40366","","Washington","DC ","20016    ","John E. Sweeney",20060814,0.00,0.00,"E.
+    Sweeney","John","","",""'
+  input_count: 37
+  record: fec.version.v5_3.F2
+  result: []
+sourceurl: !!python/unicode 20060814
+type: single
