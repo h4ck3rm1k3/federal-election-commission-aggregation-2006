@@ -1,0 +1,124 @@
+countraw: 3
+countrows: 1
+filename: 218086.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H6VT00178
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: PO Box 505
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Williston
+  - name: STATE
+    number: '7'
+    value: VT
+  - name: ZIP
+    number: '8'
+    value: '05495    '
+  - name: PTY/CODE
+    number: '9'
+    value: REP
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: VT
+  - name: CAN/DIST
+    number: '12'
+    value: ''
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '2006'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: C00414755
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: Martha Rainville for Congress
+  - name: STREET 1
+    number: '16'
+    value: P.O. Box 505
+  - name: STREET 2
+    number: '17'
+    value: ''
+  - name: CITY
+    number: '18'
+    value: Williston
+  - name: STATE
+    number: '19'
+    value: VT
+  - name: ZIP
+    number: '20'
+    value: 05495
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: ''
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: 2006 Joint Candidate Committee
+  - name: STREET 1
+    number: '23'
+    value: 228 S. Washington Street
+  - name: STREET 2
+    number: '24'
+    value: ' Ste. 115'
+  - name: CITY
+    number: '25'
+    value: ''
+  - name: STATE
+    number: '26'
+    value: Alexandria
+  - name: ZIP
+    number: '27'
+    value: VA
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: '22314'
+  - name: Signed
+    number: 29-
+    value: Martha Rainville
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: '20060518'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '0.00'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: '0.00'
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: Rainville
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: Martha
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: Ms.
+  - value: ''
+  expected_count: 36
+  input: F2,H6VT00178,,PO Box 505,,Williston,VT,05495    ,REP,H,VT,,2006,C00414755,Martha
+    Rainville for Congress,P.O. Box 505,,Williston,VT,05495,,2006 Joint Candidate
+    Committee,"228 S. Washington Street, Ste. 115",,Alexandria,VA,22314,Martha Rainville,20060518,0.00,0.00,Rainville,Martha,,Ms.,
+  input_count: 37
+  record: fec.version.v5_3.F2
+  result: []
+sourceurl: !!python/unicode 20060518
+type: single
