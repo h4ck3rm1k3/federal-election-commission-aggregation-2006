@@ -1,0 +1,1085 @@
+countraw: 15
+countrows: 13
+filename: 220591.fec
+header: {}
+rows:
+- input: F6,C00367862,Mike Rogers for Congress,123 EAST 13TH STREET,,Anniston,AL,36201,H2AL03032,Rogers^Michael^Mr.^,H,AL,3,20060601
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367862
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Mike Rogers for Congress
+  - name: STREET 1
+    number: '4'
+    value: 123 EAST 13TH STREET
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Anniston
+  - name: STATE
+    number: '7'
+    value: AL
+  - name: ZIP
+    number: '8'
+    value: '36201'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2AL03032
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Rogers^Michael^Mr.^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: AL
+  - name: CAN/DIST
+    number: '13'
+    value: '3'
+  - name: Signed
+    number: 14-
+    value: '20060601'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367862
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: BERIWAL^MADHU^^
+  - name: STREET 1
+    number: '5'
+    value: 2126 NORTH WOODCHASE COURT
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: BATON ROUGE
+  - name: STATE
+    number: '8'
+    value: LA
+  - name: ZIP
+    number: '9'
+    value: '70808'
+  - name: INDEMP
+    number: '10'
+    value: IEM
+  - name: INDOCC
+    number: '11'
+    value: ' INC.'
+  - name: Of Contribution
+    number: 12-
+    value: EMERGENCY PLANNER
+  - name: AMOUNT
+    number: '13'
+    value: '20060531'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00367862
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H2AL03032
+  - name: CAN/OFFICE
+    number: '17'
+    value: Rogers^Michael^Mr.^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: AL
+  - name: CONDUIT NAME
+    number: '20'
+    value: '3'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.20990
+  expected_count: 27
+  input: F65,C00367862,IND,BERIWAL^MADHU^^,2126 NORTH WOODCHASE COURT,,BATON ROUGE,LA,70808,"IEM,
+    INC.",EMERGENCY PLANNER,20060531,1000.00,C00367862,H2AL03032,Rogers^Michael^Mr.^,H,AL,3,,,,,,,,F6.20990
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: F65,C00367862,IND,Christen^Neil^Dr.^,4805 Laurel Trace,,Anniston,AL,36207,Regional
+    Medical Center,Physician,20060531,1000.00,C00367862,H2AL03032,Rogers^Michael^Mr.^,H,AL,3,,,,,,,,F6.20997
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367862
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Christen^Neil^Dr.^
+  - name: STREET 1
+    number: '5'
+    value: 4805 Laurel Trace
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Anniston
+  - name: STATE
+    number: '8'
+    value: AL
+  - name: ZIP
+    number: '9'
+    value: '36207'
+  - name: INDEMP
+    number: '10'
+    value: Regional Medical Center
+  - name: INDOCC
+    number: '11'
+    value: Physician
+  - name: Of Contribution
+    number: 12-
+    value: '20060531'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00367862
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H2AL03032
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Rogers^Michael^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: AL
+  - name: CAN/DIST
+    number: '19'
+    value: '3'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.20997
+- input: F65,C00367862,IND,Deason^Larry^^,870 BROOKHAVEN,,ANNISTON,AL,36207,F&M BANK,PRESIDENT,20060531,1000.00,C00367862,H2AL03032,Rogers^Michael^Mr.^,H,AL,3,,,,,,,,F6.21000
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367862
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Deason^Larry^^
+  - name: STREET 1
+    number: '5'
+    value: 870 BROOKHAVEN
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: ANNISTON
+  - name: STATE
+    number: '8'
+    value: AL
+  - name: ZIP
+    number: '9'
+    value: '36207'
+  - name: INDEMP
+    number: '10'
+    value: F&M BANK
+  - name: INDOCC
+    number: '11'
+    value: PRESIDENT
+  - name: Of Contribution
+    number: 12-
+    value: '20060531'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00367862
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H2AL03032
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Rogers^Michael^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: AL
+  - name: CAN/DIST
+    number: '19'
+    value: '3'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.21000
+- input: F65,C00367862,IND,KING^EVERETT^^,11 RUBY RIDGE ROAD,,ANNISTON,AL,36207,ERA-KING
+    REAL ESTATE COMPANY,PRESIDENT,20060531,1000.00,C00367862,H2AL03032,Rogers^Michael^Mr.^,H,AL,3,,,,,,,,F6.20992
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367862
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: KING^EVERETT^^
+  - name: STREET 1
+    number: '5'
+    value: 11 RUBY RIDGE ROAD
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: ANNISTON
+  - name: STATE
+    number: '8'
+    value: AL
+  - name: ZIP
+    number: '9'
+    value: '36207'
+  - name: INDEMP
+    number: '10'
+    value: ERA-KING REAL ESTATE COMPANY
+  - name: INDOCC
+    number: '11'
+    value: PRESIDENT
+  - name: Of Contribution
+    number: 12-
+    value: '20060531'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00367862
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H2AL03032
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Rogers^Michael^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: AL
+  - name: CAN/DIST
+    number: '19'
+    value: '3'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.20992
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367862
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: MARSH^A.C.^^
+  - name: STREET 1
+    number: '5'
+    value: 546 HILLYER HIGH
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: ANNISTON
+  - name: STATE
+    number: '8'
+    value: AL
+  - name: ZIP
+    number: '9'
+    value: '36207'
+  - name: INDEMP
+    number: '10'
+    value: INDUSTRIAL PLATING COMP
+  - name: INDOCC
+    number: '11'
+    value: ' INC'
+  - name: Of Contribution
+    number: 12-
+    value: OWNER
+  - name: AMOUNT
+    number: '13'
+    value: '20060531'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00367862
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H2AL03032
+  - name: CAN/OFFICE
+    number: '17'
+    value: Rogers^Michael^Mr.^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: AL
+  - name: CONDUIT NAME
+    number: '20'
+    value: '3'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.20999
+  expected_count: 27
+  input: F65,C00367862,IND,MARSH^A.C.^^,546 HILLYER HIGH,,ANNISTON,AL,36207,"INDUSTRIAL
+    PLATING COMP, INC",OWNER,20060531,1000.00,C00367862,H2AL03032,Rogers^Michael^Mr.^,H,AL,3,,,,,,,,F6.20999
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: F65,C00367862,IND,McWhorter^Betty^^,1117 Glenwood Terrace,,Anniston,AL,36207,Victoria
+    Inn,Owner,20060531,2000.00,C00367862,H2AL03032,Rogers^Michael^Mr.^,H,AL,3,,,,,,,,F6.20988
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367862
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: McWhorter^Betty^^
+  - name: STREET 1
+    number: '5'
+    value: 1117 Glenwood Terrace
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Anniston
+  - name: STATE
+    number: '8'
+    value: AL
+  - name: ZIP
+    number: '9'
+    value: '36207'
+  - name: INDEMP
+    number: '10'
+    value: Victoria Inn
+  - name: INDOCC
+    number: '11'
+    value: Owner
+  - name: Of Contribution
+    number: 12-
+    value: '20060531'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00367862
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H2AL03032
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Rogers^Michael^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: AL
+  - name: CAN/DIST
+    number: '19'
+    value: '3'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.20988
+- input: F65,C00367862,IND,ROTHWELL^BRUCE^^,2219 THOUSAND OAKS BLVD,,THOUSAND OAKS,CA,91362,WIREWRIGHT
+    MFG,DISTRIBUTION SALES,20060531,2000.00,C00367862,H2AL03032,Rogers^Michael^Mr.^,H,AL,3,,,,,,,,F6.20991
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367862
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: ROTHWELL^BRUCE^^
+  - name: STREET 1
+    number: '5'
+    value: 2219 THOUSAND OAKS BLVD
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: THOUSAND OAKS
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '91362'
+  - name: INDEMP
+    number: '10'
+    value: WIREWRIGHT MFG
+  - name: INDOCC
+    number: '11'
+    value: DISTRIBUTION SALES
+  - name: Of Contribution
+    number: 12-
+    value: '20060531'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00367862
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H2AL03032
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Rogers^Michael^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: AL
+  - name: CAN/DIST
+    number: '19'
+    value: '3'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.20991
+- input: F65,C00367862,IND,SPENCER^E.L.*^^JR,PO BOX 3288,,AUBURN,AL,36831,E.L. SPENCER
+    LUMBER COMPANY,PRESIDENT,20060531,1000.00,C00367862,H2AL03032,Rogers^Michael^Mr.^,H,AL,3,,,,,,,,F6.20989
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367862
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: SPENCER^E.L.*^^JR
+  - name: STREET 1
+    number: '5'
+    value: PO BOX 3288
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: AUBURN
+  - name: STATE
+    number: '8'
+    value: AL
+  - name: ZIP
+    number: '9'
+    value: '36831'
+  - name: INDEMP
+    number: '10'
+    value: E.L. SPENCER LUMBER COMPANY
+  - name: INDOCC
+    number: '11'
+    value: PRESIDENT
+  - name: Of Contribution
+    number: 12-
+    value: '20060531'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00367862
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H2AL03032
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Rogers^Michael^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: AL
+  - name: CAN/DIST
+    number: '19'
+    value: '3'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.20989
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367862
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: WOLLSTEIN^STEVE*^^
+  - name: STREET 1
+    number: '5'
+    value: 1225 FOREST LANE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: ANNISTON
+  - name: STATE
+    number: '8'
+    value: AL
+  - name: ZIP
+    number: '9'
+    value: '36207'
+  - name: INDEMP
+    number: '10'
+    value: YOUNG
+  - name: INDOCC
+    number: '11'
+    value: ' WOLLSTEIN'
+  - name: Of Contribution
+    number: 12-
+    value: ' JACKSON'
+  - name: AMOUNT
+    number: '13'
+    value: ' & WHITTINGT'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ATTORNEY
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '20060531'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: '1000.00'
+  - name: CAN/OFFICE
+    number: '17'
+    value: C00367862
+  - name: CAN/STATE
+    number: '18'
+    value: H2AL03032
+  - name: CAN/DIST
+    number: '19'
+    value: Rogers^Michael^Mr.^
+  - name: CONDUIT NAME
+    number: '20'
+    value: H
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: AL
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: '3'
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: ''
+  - value: F6.20998
+  expected_count: 27
+  input: F65,C00367862,IND,WOLLSTEIN^STEVE*^^,1225 FOREST LANE,,ANNISTON,AL,36207,"YOUNG,
+    WOLLSTEIN, JACKSON, & WHITTINGT",ATTORNEY,20060531,1000.00,C00367862,H2AL03032,Rogers^Michael^Mr.^,H,AL,3,,,,,,,,F6.20998
+  input_count: 30
+  record: fec.version.v5_3.F65
+  result: []
+- input: F65,C00367862,PAC,GENERAL DYNAMICS VOLUNTARY POLITICAL CONTRIBUTION PLAN,3190
+    FAIRVIEW PARK DRIVE,.,FALLS CHURCH,VA,22042,,,20060531,1000.00,C00367862,H2AL03032,Rogers^Michael^Mr.^,H,AL,3,,,,,,,,F6.20993
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367862
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: GENERAL DYNAMICS VOLUNTARY POLITICAL CONTRIBUTION PLAN
+  - name: STREET 1
+    number: '5'
+    value: 3190 FAIRVIEW PARK DRIVE
+  - name: STREET 2
+    number: '6'
+    value: .
+  - name: CITY
+    number: '7'
+    value: FALLS CHURCH
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22042'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20060531'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00367862
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H2AL03032
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Rogers^Michael^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: AL
+  - name: CAN/DIST
+    number: '19'
+    value: '3'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.20993
+- input: F65,C00367862,PAC,GENERAL ELECTRIC COMPANY POLITICAL ACTION COMMITTEE,1299
+    PENNSYLVANIA AVE NW STE 1100,.,WASHINGTON,DC,20004,,,20060531,1000.00,C00367862,H2AL03032,Rogers^Michael^Mr.^,H,AL,3,,,,,,,,F6.20994
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367862
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: GENERAL ELECTRIC COMPANY POLITICAL ACTION COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: 1299 PENNSYLVANIA AVE NW STE 1100
+  - name: STREET 2
+    number: '6'
+    value: .
+  - name: CITY
+    number: '7'
+    value: WASHINGTON
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20004'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20060531'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00367862
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H2AL03032
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Rogers^Michael^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: AL
+  - name: CAN/DIST
+    number: '19'
+    value: '3'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.20994
+- input: F65,C00367862,PAC,WASHINGTON GROUP INTERNATIONAL PAC,2345 CRYSTAL DRIVE STE
+    708,,ARLINGTON,VA,22202,,,20060531,1000.00,C00367862,H2AL03032,Rogers^Michael^Mr.^,H,AL,3,,,,,,,,F6.21002
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367862
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: WASHINGTON GROUP INTERNATIONAL PAC
+  - name: STREET 1
+    number: '5'
+    value: 2345 CRYSTAL DRIVE STE 708
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: ARLINGTON
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22202'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20060531'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00367862
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H2AL03032
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Rogers^Michael^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: AL
+  - name: CAN/DIST
+    number: '19'
+    value: '3'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.21002
+sourceurl: !!python/unicode 20060601
+type: single
