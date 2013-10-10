@@ -1,0 +1,485 @@
+countraw: 6
+countrows: 4
+filename: 237209.fec
+header: {}
+rows:
+- input: '"F24","C00025254","Minnesota Democratic Farmer Labor Party","255 East Plato
+    Blvd","","Saint Paul","MN","55107   ","William Davis",20060908,"24"'
+  record: fec.version.v5_3.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00025254
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Minnesota Democratic Farmer Labor Party
+  - name: STREET 1
+    number: '4'
+    value: 255 East Plato Blvd
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Saint Paul
+  - name: STATE
+    number: '7'
+    value: MN
+  - name: ZIP
+    number: '8'
+    value: '55107   '
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: William Davis
+  - name: Signed
+    number: 10-
+    value: '20060908'
+  - name: REPORT TYPE
+    number: '11'
+    value: '24'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00025254
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Illingworth Communications
+  - name: STREET 1
+    number: '5'
+    value: 8400 Dellwood Rd Ct N
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Mahtomedi
+  - name: STATE
+    number: '8'
+    value: MN
+  - name: ZIP
+    number: '9'
+    value: '55115    '
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Primary Radio Ad Fees
+  - name: DATE
+    number: '11'
+    value: '20060907'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '1012.50'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H6MN05183
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ELLISON
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ' KEITH MAURICE'
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: MN
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '05'
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: William Davis
+  - name: Notarized
+    number: 33-
+    value: '20060908'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: 60908.E23239
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: P2006
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: 24E
+  - value: '46195.90'
+  expected_count: 46
+  input: '"SE24","C00025254","ORG","Illingworth Communications","8400 Dellwood Rd
+    Ct N","","Mahtomedi","MN","55115    ","Primary Radio Ad Fees",20060907,1012.50,"S","H6MN05183","ELLISON,
+    KEITH MAURICE","H","MN",05,"","","","","","","","","","","","","William Davis",20060908,,,"","","60908.E23239","","","","","P2006","","","24E",46195.90'
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00025254
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Illingworth Communications
+  - name: STREET 1
+    number: '5'
+    value: 8400 Dellwood Rd Ct N
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Mahtomedi
+  - name: STATE
+    number: '8'
+    value: MN
+  - name: ZIP
+    number: '9'
+    value: '55115    '
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: PrePrimary Radio Ads
+  - name: DATE
+    number: '11'
+    value: '20060907'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '10125.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H6MN05183
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ELLISON
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ' KEITH MAURICE'
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: MN
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '05'
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: William Davis
+  - name: Notarized
+    number: 33-
+    value: '20060908'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: 60908.E23238
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: P2006
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: 24E
+  - value: '46195.90'
+  expected_count: 46
+  input: '"SE24","C00025254","ORG","Illingworth Communications","8400 Dellwood Rd
+    Ct N","","Mahtomedi","MN","55115    ","PrePrimary Radio Ads",20060907,10125.00,"S","H6MN05183","ELLISON,
+    KEITH MAURICE","H","MN",05,"","","","","","","","","","","","","William Davis",20060908,,,"","","60908.E23238","","","","","P2006","","","24E",46195.90'
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00025254
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Sound 80
+  - name: STREET 1
+    number: '5'
+    value: 4027 IDS Center
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Minneapolis
+  - name: STATE
+    number: '8'
+    value: MN
+  - name: ZIP
+    number: '9'
+    value: '55402    '
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Primary Radio Ad Production
+  - name: DATE
+    number: '11'
+    value: '20060907'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '797.80'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H6MN05183
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ELLISON
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ' KEITH MAURICE'
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: MN
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '05'
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: William Davis
+  - name: Notarized
+    number: 33-
+    value: '20060908'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: 60908.E23237
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: P2006
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: 24E
+  - value: '46195.90'
+  expected_count: 46
+  input: '"SE24","C00025254","ORG","Sound 80","4027 IDS Center","","Minneapolis","MN","55402    ","Primary
+    Radio Ad Production",20060907,797.80,"S","H6MN05183","ELLISON, KEITH MAURICE","H","MN",05,"","","","","","","","","","","","","William
+    Davis",20060908,,,"","","60908.E23237","","","","","P2006","","","24E",46195.90'
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+sourceurl: !!python/unicode 20060908
+type: single
