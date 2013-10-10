@@ -1,0 +1,141 @@
+countraw: 4
+countrows: 2
+filename: 237448.fec
+header: {}
+rows:
+- input: F6,C00424945,FINE FOR CONGRESS,3907 ZENITH AVE SOUTH,,MINNEAPOLIS,MN,55410,H6MN05290,Fine^Alan^Mr.^,H,MN,05,20060911
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00424945
+  - name: COMMITTEE NAME
+    number: '3'
+    value: FINE FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 3907 ZENITH AVE SOUTH
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: MINNEAPOLIS
+  - name: STATE
+    number: '7'
+    value: MN
+  - name: ZIP
+    number: '8'
+    value: '55410'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H6MN05290
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Fine^Alan^Mr.^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: MN
+  - name: CAN/DIST
+    number: '13'
+    value: '05'
+  - name: Signed
+    number: 14-
+    value: '20060911'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00424945
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Olson^Clifford^Mr.^
+  - name: STREET 1
+    number: '5'
+    value: 18787 Hobby Hills Circle
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Prior Lake
+  - name: STATE
+    number: '8'
+    value: MN
+  - name: ZIP
+    number: '9'
+    value: '55372'
+  - name: INDEMP
+    number: '10'
+    value: Abelconn
+  - name: INDOCC
+    number: '11'
+    value: ' LLC'
+  - name: Of Contribution
+    number: 12-
+    value: Partner
+  - name: AMOUNT
+    number: '13'
+    value: '20060909'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1100.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00424945
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H6MN05290
+  - name: CAN/OFFICE
+    number: '17'
+    value: Fine^Alan^Mr.^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: MN
+  - name: CONDUIT NAME
+    number: '20'
+    value: '05'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.5044
+  expected_count: 27
+  input: F65,C00424945,IND,Olson^Clifford^Mr.^,18787 Hobby Hills Circle,,Prior Lake,MN,55372,"Abelconn,
+    LLC",Partner,20060909,1100.00,C00424945,H6MN05290,Fine^Alan^Mr.^,H,MN,05,,,,,,,,F6.5044
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+sourceurl: !!python/unicode 20060911
+type: single
