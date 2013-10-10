@@ -1,0 +1,231 @@
+countraw: 5
+countrows: 3
+filename: 203896.fec
+header: {}
+rows:
+- input: F6,C00305342,Committee to Re-Elect Ron Paul,837 W Plantation Dr,,Clute,TX,77531,H6TX22101,Paul^Ronald
+    E.^^,H,TX,14,20060222
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00305342
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Committee to Re-Elect Ron Paul
+  - name: STREET 1
+    number: '4'
+    value: 837 W Plantation Dr
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Clute
+  - name: STATE
+    number: '7'
+    value: TX
+  - name: ZIP
+    number: '8'
+    value: '77531'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H6TX22101
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Paul^Ronald E.^^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: TX
+  - name: CAN/DIST
+    number: '13'
+    value: '14'
+  - name: Signed
+    number: 14-
+    value: '20060222'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00305342
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Leopard^Lawrence W.^Mr.^
+  - name: STREET 1
+    number: '5'
+    value: 211 Grove St
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Wellesley
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: 02482
+  - name: INDEMP
+    number: '10'
+    value: Geocapital Partners/Equity Mgmt Assoc.
+  - name: INDOCC
+    number: '11'
+    value: Investment Mgr
+  - name: Of Contribution
+    number: 12-
+    value: '20060221'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 0214986
+  - value: ''
+  expected_count: 27
+  input: F65,C00305342,IND,Leopard^Lawrence W.^Mr.^,211 Grove St,,Wellesley,MA,02482,Geocapital
+    Partners/Equity Mgmt Assoc.,Investment Mgr,20060221,1000.00,,,,,,,,,,,,,,0214986,
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00305342
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Wu^Jack Y. M.^^
+  - name: STREET 1
+    number: '5'
+    value: 290 El Camino Real
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Port Lavaca
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '77979'
+  - name: INDEMP
+    number: '10'
+    value: Formosa Plastics
+  - name: INDOCC
+    number: '11'
+    value: Vice President
+  - name: Of Contribution
+    number: 12-
+    value: '20060221'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 0214995
+  - value: ''
+  expected_count: 27
+  input: F65,C00305342,IND,Wu^Jack Y. M.^^,290 El Camino Real,,Port Lavaca,TX,77979,Formosa
+    Plastics,Vice President,20060221,1000.00,,,,,,,,,,,,,,0214995,
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+sourceurl: !!python/unicode 20060222
+type: single
