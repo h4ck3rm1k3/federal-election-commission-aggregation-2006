@@ -1,0 +1,395 @@
+countraw: 7
+countrows: 5
+filename: 215301.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00265322
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Friends of Congressman Tim Holden
+  - name: STREET 1
+    number: '4'
+    value: 18 N. SECOND ST.
+  - name: STREET 2
+    number: '5'
+    value: ' BOX 37'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: SAINT CLAIR
+  - name: ZIP
+    number: '8'
+    value: PA
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '17970'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H2PA06080
+  - name: CAN/OFFICE
+    number: '11'
+    value: Tim Holden
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: PA
+  - name: Signed
+    number: 14-
+    value: '17'
+  - value: '20060501'
+  expected_count: 14
+  input: F6,"C00265322","Friends of Congressman Tim Holden","18 N. SECOND ST., BOX
+    37","","SAINT CLAIR","PA","17970","H2PA06080","Tim Holden","H","PA","17",20060501
+  input_count: 15
+  record: fec.version.v5_3.F6
+  result: []
+- input: F65,"C00265322","IND","Lynch^Linda","12769 Quarterhouse Lane","","Woodbridge","VA","22192","Homemaker","",20060501,"1000","","","","","","","","","","","","","","C19541"
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00265322
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Lynch^Linda
+  - name: STREET 1
+    number: '5'
+    value: 12769 Quarterhouse Lane
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Woodbridge
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22192'
+  - name: INDEMP
+    number: '10'
+    value: Homemaker
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20060501'
+  - name: AMOUNT
+    number: '13'
+    value: '1000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C19541
+- input: F65,"C00265322","IND","Lnych^John","12769 Quartehorse Lane","","Woodbridge","VA","22192","","",20060501,"1000","","","","","","","","","","","","","","C19542"
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00265322
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Lnych^John
+  - name: STREET 1
+    number: '5'
+    value: 12769 Quartehorse Lane
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Woodbridge
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22192'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20060501'
+  - name: AMOUNT
+    number: '13'
+    value: '1000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C19542
+- input: F65,"C00265322","IND","Magliocchetti^Paul J.","10203 Woodvale Pond Drive","","Fairfax
+    Station","VA","220391658","Paul Magliochetti & Associates","Associate",20060501,"1000","","","","","","","","","","","","","","C19543"
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00265322
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Magliocchetti^Paul J.
+  - name: STREET 1
+    number: '5'
+    value: 10203 Woodvale Pond Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Fairfax Station
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '220391658'
+  - name: INDEMP
+    number: '10'
+    value: Paul Magliochetti & Associates
+  - name: INDOCC
+    number: '11'
+    value: Associate
+  - name: Of Contribution
+    number: 12-
+    value: '20060501'
+  - name: AMOUNT
+    number: '13'
+    value: '1000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C19543
+- input: F65,"C00265322","IND","Kingery DeRosa^Rebecca","22014 Foxlair RD","","Gaithersburg","MD","20882","PMA
+    Group","Controller",20060501,"1000","","","","","","","","","","","","","","C19544"
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00265322
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Kingery DeRosa^Rebecca
+  - name: STREET 1
+    number: '5'
+    value: 22014 Foxlair RD
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Gaithersburg
+  - name: STATE
+    number: '8'
+    value: MD
+  - name: ZIP
+    number: '9'
+    value: '20882'
+  - name: INDEMP
+    number: '10'
+    value: PMA Group
+  - name: INDOCC
+    number: '11'
+    value: Controller
+  - name: Of Contribution
+    number: 12-
+    value: '20060501'
+  - name: AMOUNT
+    number: '13'
+    value: '1000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C19544
+sourceurl: !!python/unicode 20060501
+type: single
