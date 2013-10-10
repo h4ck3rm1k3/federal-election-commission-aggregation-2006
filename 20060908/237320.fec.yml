@@ -1,0 +1,332 @@
+countraw: 5
+countrows: 3
+filename: 237320.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00011114
+  - name: COMMITTEE NAME
+    number: '3'
+    value: AMERICAN FEDERATION OF STATE COUNTY & MUNICIPAL EMPLOYEES - P E O P L E
+  - name: STREET 1
+    number: '4'
+    value: ' QUALIFIED'
+  - name: STREET 2
+    number: '5'
+    value: 1625 L STREET NW
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: WASHINGTON
+  - name: ZIP
+    number: '8'
+    value: DC
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: '20036'
+  - name: Signed
+    number: 10-
+    value: LUCY^WILLIAM^^
+  - name: REPORT TYPE
+    number: '11'
+    value: '20060908'
+  - value: '24'
+  expected_count: 11
+  input: F24,C00011114,"AMERICAN FEDERATION OF STATE COUNTY & MUNICIPAL EMPLOYEES
+    - P E O P L E, QUALIFIED",1625 L STREET NW,,WASHINGTON,DC,20036,LUCY^WILLIAM^^,20060908,24
+  input_count: 12
+  record: fec.version.v5_3.F24
+  result: []
+- input: SE24,C00011114,ORG,THE CAMPAIGN GROUP,1600 Locust Street,,Philadelphia,PA,19103,Production
+    Costs - TV ADS (OH),20060908,5000.00,O,,CHABOT^STEVE^^,H,OH,01,C00011114,,,,,,,,,,,,,20060908,,,,,SE24.78178,,,,,G2006,,004,,5000.00
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00011114
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: THE CAMPAIGN GROUP
+  - name: STREET 1
+    number: '5'
+    value: 1600 Locust Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Philadelphia
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '19103'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Production Costs - TV ADS (OH)
+  - name: DATE
+    number: '11'
+    value: '20060908'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '5000.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: O
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: CHABOT^STEVE^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: OH
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '01'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00011114
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: '20060908'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.78178
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '004'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '5000.00'
+- input: SE24,C00011114,ORG,THE CAMPAIGN GROUP,1600 Locust Street,,Philadelphia,PA,19103,Production
+    Costs - TV ADS (OH),20060908,5000.00,O,,PRICE^DEBORAH^^,H,OH,15,C00011114,,,,,,,,,,,,,20060908,,,,,SE24.78179,,,,,G2006,,004,,5000.00
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00011114
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: THE CAMPAIGN GROUP
+  - name: STREET 1
+    number: '5'
+    value: 1600 Locust Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Philadelphia
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '19103'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Production Costs - TV ADS (OH)
+  - name: DATE
+    number: '11'
+    value: '20060908'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '5000.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: O
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: PRICE^DEBORAH^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: OH
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '15'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00011114
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: '20060908'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.78179
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '004'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '5000.00'
+sourceurl: !!python/unicode 20060908
+type: single
