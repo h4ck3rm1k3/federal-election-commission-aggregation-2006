@@ -1,0 +1,225 @@
+countraw: 5
+countrows: 3
+filename: 219420.fec
+header: {}
+rows:
+- input: F6,"C00367631","Herseth for Congress","PO Box 2009","","Sioux Falls","SD","57101","","","S","SD","0",20060523
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367631
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Herseth for Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 2009
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Sioux Falls
+  - name: STATE
+    number: '7'
+    value: SD
+  - name: ZIP
+    number: '8'
+    value: '57101'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ''
+  - name: CAN/OFFICE
+    number: '11'
+    value: S
+  - name: CAN/STATE
+    number: '12'
+    value: SD
+  - name: CAN/DIST
+    number: '13'
+    value: '0'
+  - name: Signed
+    number: 14-
+    value: '20060523'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367631
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Curry^Arlene
+  - name: STREET 1
+    number: '5'
+    value: R.R. 2
+  - name: STREET 2
+    number: '6'
+    value: ' Box 512'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Elk Point
+  - name: ZIP
+    number: '9'
+    value: SD
+  - name: INDEMP
+    number: '10'
+    value: '57025'
+  - name: INDOCC
+    number: '11'
+    value: Self
+  - name: Of Contribution
+    number: 12-
+    value: consultant
+  - name: AMOUNT
+    number: '13'
+    value: '20060523'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: C36521
+  expected_count: 27
+  input: F65,"C00367631","IND","Curry^Arlene","R.R. 2, Box 512","","Elk Point","SD","57025","Self","consultant",20060523,"1000","","","","","","","","","","","","","","C36521"
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: F65,"C00367631","PAC","Land O'Lakes PAC","Steven Krikava","PO Box 64101","Saint
+    Paul","MN","55164","","",20060522,"1000","C00009423","","","","","","","","","","","","","C36522"
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367631
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Land O'Lakes PAC
+  - name: STREET 1
+    number: '5'
+    value: Steven Krikava
+  - name: STREET 2
+    number: '6'
+    value: PO Box 64101
+  - name: CITY
+    number: '7'
+    value: Saint Paul
+  - name: STATE
+    number: '8'
+    value: MN
+  - name: ZIP
+    number: '9'
+    value: '55164'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20060522'
+  - name: AMOUNT
+    number: '13'
+    value: '1000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00009423
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C36522
+sourceurl: !!python/unicode 20060523
+type: single
