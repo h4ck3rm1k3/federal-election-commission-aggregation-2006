@@ -1,0 +1,146 @@
+countraw: 4
+countrows: 2
+filename: 208301.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00414623
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Earnest for Congress
+  - name: STREET 1
+    number: '4'
+    value: 888 S. Figueroa St.
+  - name: STREET 2
+    number: '5'
+    value: ' #860'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Los Angeles
+  - name: ZIP
+    number: '8'
+    value: CA
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '900175457'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ''
+  - name: CAN/OFFICE
+    number: '11'
+    value: Richard L. Earnest
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: CA
+  - name: Signed
+    number: 14-
+    value: '50'
+  - value: '20060328'
+  expected_count: 14
+  input: '"F6","C00414623","Earnest for Congress","888 S. Figueroa St., #860","","Los
+    Angeles","CA","900175457","","Richard L. Earnest","H","CA",50,"20060328"'
+  input_count: 15
+  record: fec.version.v5_3.F6
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00414623
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Pickens^Madeleine A.^Mrs.
+  - name: STREET 1
+    number: '5'
+    value: 2683  Via De La Valle
+  - name: STREET 2
+    number: '6'
+    value: ' #G414'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Del Mar
+  - name: ZIP
+    number: '9'
+    value: Ca
+  - name: INDEMP
+    number: '10'
+    value: '92014'
+  - name: INDOCC
+    number: '11'
+    value: Del Mar CC
+  - name: Of Contribution
+    number: 12-
+    value: President
+  - name: AMOUNT
+    number: '13'
+    value: '20060327'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2100.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: INC479
+  expected_count: 27
+  input: '"F65","C00414623","IND","Pickens^Madeleine A.^Mrs.","2683  Via De La Valle,
+    #G414","","Del Mar","Ca","92014","Del Mar CC","President",20060327,2100.00,"","","","","","","","","","","","","","INC479"'
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+sourceurl: !!python/unicode 20060328
+type: single
