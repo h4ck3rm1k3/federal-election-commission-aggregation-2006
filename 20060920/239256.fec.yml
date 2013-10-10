@@ -1,0 +1,375 @@
+countraw: 7
+countrows: 5
+filename: 239256.fec
+header: {}
+rows:
+- input: F24,C00021121,VOICE OF TEACHERS FOR EDUC/CMTE ON POL EDUC OF NY STATE UNTD
+    TEACHERS (VOTE/COPE) OF NYSUT,800 Troy Schenectady Road,,Latham,NY,121102455,Lubin^Alan^^,20060920,24
+  record: fec.version.v5_3.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00021121
+  - name: COMMITTEE NAME
+    number: '3'
+    value: VOICE OF TEACHERS FOR EDUC/CMTE ON POL EDUC OF NY STATE UNTD TEACHERS (VOTE/COPE)
+      OF NYSUT
+  - name: STREET 1
+    number: '4'
+    value: 800 Troy Schenectady Road
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Latham
+  - name: STATE
+    number: '7'
+    value: NY
+  - name: ZIP
+    number: '8'
+    value: '121102455'
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: Lubin^Alan^^
+  - name: Signed
+    number: 10-
+    value: '20060920'
+  - name: REPORT TYPE
+    number: '11'
+    value: '24'
+- input: SE24,C00021121,ORG,New York State United Teachers,800 Troy Schenectady Road,,Latham,NY,12110,Letters
+    to members for John Hall,20060920,4914.90,S,H6NY19144,HALL^JOHN JOSEPH^^,H,NY,19,C00021121,,,,,,,,,,,,,20060920,,,,,SE24.15901,,,,,P2006,,001,,4914.90
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00021121
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: New York State United Teachers
+  - name: STREET 1
+    number: '5'
+    value: 800 Troy Schenectady Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Latham
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '12110'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Letters to members for John Hall
+  - name: DATE
+    number: '11'
+    value: '20060920'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '4914.90'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H6NY19144
+  - name: S/O CAN/NAME
+    number: '15'
+    value: HALL^JOHN JOSEPH^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: NY
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '19'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00021121
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: '20060920'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.15901
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: P2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '001'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '4914.90'
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SE24
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: SE24.15901
+  - name: TEXT4000
+    number: '4'
+    value: Letters to members endorsing John Hall for candidate for Congress.  No
+      coordination with candidate.
+  - name: AMENDED CD
+    number: '5'
+    value: NO VALUE!
+  expected_count: 5
+  input: TEXT,SE24,SE24.15901,Letters to members endorsing John Hall for candidate
+    for Congress.  No coordination with candidate.
+  input_count: 4
+  record: fec.version.v5_3.TEXT
+  result: []
+- input: SE24,C00021121,ORG,New York State United Teachers,800 Troy Schenectady Road,,Latham,NY,12110,Insert
+    in Newspaper to members,20060920,501.62,S,S0NY00188,CLINTON^HILLARY RODHAM^^,S,NY,00,C00021121,,,,,,,,,,,,,20060920,,,,,SE24.15906,,,,,P2006,,001,,501.62
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00021121
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: New York State United Teachers
+  - name: STREET 1
+    number: '5'
+    value: 800 Troy Schenectady Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Latham
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '12110'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Insert in Newspaper to members
+  - name: DATE
+    number: '11'
+    value: '20060920'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '501.62'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S0NY00188
+  - name: S/O CAN/NAME
+    number: '15'
+    value: CLINTON^HILLARY RODHAM^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: S
+  - name: S/O STATE
+    number: '17'
+    value: NY
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00021121
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: '20060920'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.15906
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: P2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '001'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '501.62'
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SE24
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: SE24.15906
+  - name: TEXT4000
+    number: '4'
+    value: Insert in newspaper distributed to members endorsing Hillary Clinton for
+      senator.  No coordination with candidate.
+  - name: AMENDED CD
+    number: '5'
+    value: NO VALUE!
+  expected_count: 5
+  input: TEXT,SE24,SE24.15906,Insert in newspaper distributed to members endorsing
+    Hillary Clinton for senator.  No coordination with candidate.
+  input_count: 4
+  record: fec.version.v5_3.TEXT
+  result: []
+sourceurl: !!python/unicode 20060920
+type: single
