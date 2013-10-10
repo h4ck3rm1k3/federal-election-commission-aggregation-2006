@@ -1,0 +1,207 @@
+countraw: 4
+countrows: 2
+filename: 229621.fec
+header: {}
+rows:
+- input: F5N,C00349449,COLUMBUS STEEL CASTINGS PAC,2211 Parsons Avenue,,Columbus,OH,43207,,,,,Q2,,,,20060401,20060630,.00,750.00,Jusitn
+    Nunez,20060720,,,,
+  record: fec.version.v5_3.F5
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F5N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00349449
+  - name: COMMITTEE NAME
+    number: '3'
+    value: COLUMBUS STEEL CASTINGS PAC
+  - name: STREET 1
+    number: '4'
+    value: 2211 Parsons Avenue
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Columbus
+  - name: STATE
+    number: '7'
+    value: OH
+  - name: ZIP
+    number: '8'
+    value: '43207'
+  - name: CHG OF ADDRESS
+    number: '9'
+    value: ''
+  - name: Qual/Non Q
+    number: 10-
+    value: ''
+  - name: INDEMP
+    number: '11'
+    value: ''
+  - name: INDOCC
+    number: '12'
+    value: ''
+  - name: RPTCODE
+    number: '13'
+    value: Q2
+  - name: SPACE HOLDER
+    number: '14'
+    value: ''
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: SPACE HOLDER
+    number: '16'
+    value: ''
+  - name: Coverage From
+    number: 17-
+    value: '20060401'
+  - name: Coverage To
+    number: 18-
+    value: '20060630'
+  - name: TOTAL CONTRIBUTION
+    number: '19'
+    value: '.00'
+  - name: TOTAL INDEP. EXPEND
+    number: '20'
+    value: '750.00'
+  - name: Person Completing Form
+    number: 21-
+    value: Jusitn Nunez
+  - name: Signed
+    number: 22-
+    value: '20060720'
+  - name: SPACE HOLDER
+    number: '23'
+    value: ''
+  - name: SPACE HOLDER
+    number: '24'
+    value: ''
+  - name: SPACE HOLDER
+    number: '25'
+    value: ''
+  - name: HOUR 48HOUR CODE
+    number: 26-24
+    value: ''
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00349449
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: comitee to elect Michael Elicson
+  - name: STREET 1
+    number: '5'
+    value: ''
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: contribution
+  - name: Of Expenditure
+    number: 11-
+    value: '20060525'
+  - name: AMOUNT
+    number: '12'
+    value: '750.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O CAN/STATE
+    number: '17'
+    value: OH
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '26'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: F57.000001
+  - name: CATEGORY CODE
+    number: '33'
+    value: '011'
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: ''
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '.00'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+  - value: ''
+  expected_count: 37
+  input: F57,C00349449,IND,comitee to elect Michael Elicson,,,,,,contribution,20060525,750.00,S,,,H,OH,26,,,,,,,,,,,,,,F57.000001,011,,.00,,,
+  input_count: 38
+  record: fec.version.v5_3.F57
+  result: []
+sourceurl: !!python/unicode 20060720
+type: single
