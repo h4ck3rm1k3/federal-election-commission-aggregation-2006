@@ -1,0 +1,195 @@
+countraw: 4
+countrows: 2
+filename: 232277.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00346635
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Republican Majority for Choice
+  - name: STREET 1
+    number: '4'
+    value: 342 East Jericho Tpk.
+  - name: STREET 2
+    number: '5'
+    value: ' Suite 338'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Mineola
+  - name: ZIP
+    number: '8'
+    value: NY
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: '11501   '
+  - name: Signed
+    number: 10-
+    value: Susan B. Walrich
+  - name: REPORT TYPE
+    number: '11'
+    value: '20060806'
+  - value: '24'
+  expected_count: 11
+  input: '"F24","C00346635","Republican Majority for Choice","342 East Jericho Tpk.,
+    Suite 338","","Mineola","NY","11501   ","Susan B. Walrich",20060806,"24"'
+  input_count: 12
+  record: fec.version.v5_3.F24
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00346635
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Campbell & Campbell Campaigns
+  - name: STREET 1
+    number: '5'
+    value: 140 Littleton Road
+  - name: STREET 2
+    number: '6'
+    value: 'Suite 320 '
+  - name: CITY
+    number: '7'
+    value: Parsippany
+  - name: STATE
+    number: '8'
+    value: NJ
+  - name: ZIP
+    number: '9'
+    value: '07054    '
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: GOTV phone bank
+  - name: DATE
+    number: '11'
+    value: '20060806'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '2065.68'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H6MI03081
+  - name: S/O CAN/NAME
+    number: '15'
+    value: SCHWARZ
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ' JOHN'
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: MI
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '03'
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: Susan B. Walrich
+  - name: Notarized
+    number: 33-
+    value: '20060806'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: 60803.E431
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: P2006
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: 24E
+  - value: '12431.99'
+  expected_count: 46
+  input: '"SE24","C00346635","ORG","Campbell & Campbell Campaigns","140 Littleton
+    Road","Suite 320 ","Parsippany","NJ","07054    ","GOTV phone bank",20060806,2065.68,"S","H6MI03081","SCHWARZ,
+    JOHN","H","MI",03,"","","","","","","","","","","","","Susan B. Walrich",20060806,,,"","","60803.E431","","","","","P2006","","","24E",12431.99'
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+sourceurl: !!python/unicode 20060806
+type: single
