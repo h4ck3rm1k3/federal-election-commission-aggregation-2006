@@ -1,0 +1,753 @@
+countraw: 11
+countrows: 9
+filename: 220528.fec
+header: {}
+rows:
+- input: '"F6","C00269340","LoBiondo for Congress","PO Box 775","","Marmora","NJ","082230775","H2NJ02037","Frank
+    A. LoBiondo","H","NJ","2 ",20060531'
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00269340
+  - name: COMMITTEE NAME
+    number: '3'
+    value: LoBiondo for Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 775
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Marmora
+  - name: STATE
+    number: '7'
+    value: NJ
+  - name: ZIP
+    number: '8'
+    value: 082230775
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2NJ02037
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Frank A. LoBiondo
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: NJ
+  - name: CAN/DIST
+    number: '13'
+    value: '2 '
+  - name: Signed
+    number: 14-
+    value: '20060531'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00269340
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: DRIVE Committee Political Fund
+  - name: STREET 1
+    number: '5'
+    value: 'Attn:  James Hoffa'
+  - name: STREET 2
+    number: '6'
+    value: ' Treasurer'
+  - name: CITY
+    number: '7'
+    value: 25 Louisiana Avenue
+  - name: STATE
+    number: '8'
+    value: ' N.W. '
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: INDEMP
+    number: '10'
+    value: DC
+  - name: INDOCC
+    number: '11'
+    value: '20001'
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20060530'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '5000.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: 60531.C20278
+  expected_count: 27
+  input: '"F65","C00269340","PAC","DRIVE Committee Political Fund","Attn:  James Hoffa,
+    Treasurer","25 Louisiana Avenue, N.W. ","Washington","DC","20001","","",20060530,5000.00,"","","","","",,"","","","","","","","60531.C20278"'
+  input_count: 29
+  record: fec.version.v5_3.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00269340
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: DRIVE Committee Political Fund
+  - name: STREET 1
+    number: '5'
+    value: 'Attn:  James Hoffa'
+  - name: STREET 2
+    number: '6'
+    value: ' Treasurer'
+  - name: CITY
+    number: '7'
+    value: 25 Louisiana Avenue
+  - name: STATE
+    number: '8'
+    value: ' N.W. '
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: INDEMP
+    number: '10'
+    value: DC
+  - name: INDOCC
+    number: '11'
+    value: '20001'
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20060530'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '5000.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: 60531.C20277
+  expected_count: 27
+  input: '"F65","C00269340","PAC","DRIVE Committee Political Fund","Attn:  James Hoffa,
+    Treasurer","25 Louisiana Avenue, N.W. ","Washington","DC","20001","","",20060530,5000.00,"","","","","",,"","","","","","","","60531.C20277"'
+  input_count: 29
+  record: fec.version.v5_3.F65
+  result: []
+- input: '"F65","C00269340","IND","Friedmutter^Brad","9016 Bald Eagle Drive","","Las
+    Vegas","NV","89134","The Friedmutter Group","President",20060531,1000.00,"","","","","",,"","","","","","","","60531.C20280"'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00269340
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Friedmutter^Brad
+  - name: STREET 1
+    number: '5'
+    value: 9016 Bald Eagle Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Las Vegas
+  - name: STATE
+    number: '8'
+    value: NV
+  - name: ZIP
+    number: '9'
+    value: '89134'
+  - name: INDEMP
+    number: '10'
+    value: The Friedmutter Group
+  - name: INDOCC
+    number: '11'
+    value: President
+  - name: Of Contribution
+    number: 12-
+    value: '20060531'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 60531.C20280
+- input: '"F65","C00269340","IND","Guzzardo^Joe","79 Pintail Dr","","Glassboro","NJ","080283226","Resorts
+    International","VP Corp. Security",20060531,1000.00,"","","","","",,"","","","","","","","60531.C20281"'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00269340
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Guzzardo^Joe
+  - name: STREET 1
+    number: '5'
+    value: 79 Pintail Dr
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Glassboro
+  - name: STATE
+    number: '8'
+    value: NJ
+  - name: ZIP
+    number: '9'
+    value: 080283226
+  - name: INDEMP
+    number: '10'
+    value: Resorts International
+  - name: INDOCC
+    number: '11'
+    value: VP Corp. Security
+  - name: Of Contribution
+    number: 12-
+    value: '20060531'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 60531.C20281
+- input: '"F65","C00269340","PAC","Joseph Derosa","1335 S Prairie Ave Unit 908","Unit
+    908 ","Chicago","IL","606053132","Resorts International","Executive",20060531,1000.00,"","","","","",,"","","","","","","","60531.C20285"'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00269340
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Joseph Derosa
+  - name: STREET 1
+    number: '5'
+    value: 1335 S Prairie Ave Unit 908
+  - name: STREET 2
+    number: '6'
+    value: 'Unit 908 '
+  - name: CITY
+    number: '7'
+    value: Chicago
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '606053132'
+  - name: INDEMP
+    number: '10'
+    value: Resorts International
+  - name: INDOCC
+    number: '11'
+    value: Executive
+  - name: Of Contribution
+    number: 12-
+    value: '20060531'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 60531.C20285
+- input: '"F65","C00269340","IND","Millage^Lance","429 Meadow Rdg","","Schererville","IN","463752988","Resorts
+    International","Corporate Controller",20060531,1000.00,"","","","","",,"","","","","","","","60531.C20282"'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00269340
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Millage^Lance
+  - name: STREET 1
+    number: '5'
+    value: 429 Meadow Rdg
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Schererville
+  - name: STATE
+    number: '8'
+    value: IN
+  - name: ZIP
+    number: '9'
+    value: '463752988'
+  - name: INDEMP
+    number: '10'
+    value: Resorts International
+  - name: INDOCC
+    number: '11'
+    value: Corporate Controller
+  - name: Of Contribution
+    number: 12-
+    value: '20060531'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 60531.C20282
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00269340
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Tropicana Resort & Casino PAC
+  - name: STREET 1
+    number: '5'
+    value: 'Attn:  Edward Mulholland'
+  - name: STREET 2
+    number: '6'
+    value: ' II'
+  - name: CITY
+    number: '7'
+    value: ' Trea'
+  - name: STATE
+    number: '8'
+    value: '3801 Las Vegas Blvd. '
+  - name: ZIP
+    number: '9'
+    value: South Las Vegas
+  - name: INDEMP
+    number: '10'
+    value: NV
+  - name: INDOCC
+    number: '11'
+    value: '89109'
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20060531'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '2500.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: 60531.C20283
+  expected_count: 27
+  input: '"F65","C00269340","PAC","Tropicana Resort & Casino PAC","Attn:  Edward Mulholland,
+    II, Trea","3801 Las Vegas Blvd. ","South Las Vegas","NV","89109","","",20060531,2500.00,"","","","","",,"","","","","","","","60531.C20283"'
+  input_count: 29
+  record: fec.version.v5_3.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00269340
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Tropicana Resort & Casino PAC
+  - name: STREET 1
+    number: '5'
+    value: 'Attn:  Edward Mulholland'
+  - name: STREET 2
+    number: '6'
+    value: ' II'
+  - name: CITY
+    number: '7'
+    value: ' Trea'
+  - name: STATE
+    number: '8'
+    value: '3801 Las Vegas Blvd. '
+  - name: ZIP
+    number: '9'
+    value: South Las Vegas
+  - name: INDEMP
+    number: '10'
+    value: NV
+  - name: INDOCC
+    number: '11'
+    value: '89109'
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20060531'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '2499.23'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: 60531.C20284
+  expected_count: 27
+  input: '"F65","C00269340","PAC","Tropicana Resort & Casino PAC","Attn:  Edward Mulholland,
+    II, Trea","3801 Las Vegas Blvd. ","South Las Vegas","NV","89109","","",20060531,2499.23,"","","","","",,"","","","","","","","60531.C20284"'
+  input_count: 29
+  record: fec.version.v5_3.F65
+  result: []
+sourceurl: !!python/unicode 20060531
+type: single
