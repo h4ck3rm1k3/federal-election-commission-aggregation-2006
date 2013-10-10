@@ -1,0 +1,125 @@
+countraw: 3
+countrows: 1
+filename: 237087.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H8IL08044
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: 8 Hubbell Court
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Barrington
+  - name: STATE
+    number: '7'
+    value: IL
+  - name: ZIP
+    number: '8'
+    value: '60010'
+  - name: PTY/CODE
+    number: '9'
+    value: REP
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: IL
+  - name: CAN/DIST
+    number: '12'
+    value: '8'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '2006'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: C00411314
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: David McSweeney for Congress 2006
+  - name: STREET 1
+    number: '16'
+    value: ' Inc'
+  - name: STREET 2
+    number: '17'
+    value: 8 Hubbell Court
+  - name: CITY
+    number: '18'
+    value: ''
+  - name: STATE
+    number: '19'
+    value: Barrington
+  - name: ZIP
+    number: '20'
+    value: IL
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: '60010'
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: C00428144
+  - name: STREET 1
+    number: '23'
+    value: ILLINOIS CONGRESSIONAL VICTORY COMMITTEE 2006
+  - name: STREET 2
+    number: '24'
+    value: 228 S WASHINGTON ST STE 115
+  - name: CITY
+    number: '25'
+    value: ''
+  - name: STATE
+    number: '26'
+    value: ALEXANDRIA
+  - name: ZIP
+    number: '27'
+    value: VA
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: '22314'
+  - name: Signed
+    number: 29-
+    value: McSweeney^S. David^^
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: '20060907'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '0.00'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: '0.00'
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: McSweeney
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: S. David
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: ''
+  - value: ''
+  expected_count: 36
+  input: F2A,H8IL08044,,8 Hubbell Court,,Barrington,IL,60010,REP,H,IL,8,2006,C00411314,"David
+    McSweeney for Congress 2006, Inc",8 Hubbell Court,,Barrington,IL,60010,C00428144,ILLINOIS
+    CONGRESSIONAL VICTORY COMMITTEE 2006,228 S WASHINGTON ST STE 115,,ALEXANDRIA,VA,22314,McSweeney^S.
+    David^^,20060907,0.00,0.00,McSweeney,S. David,,,
+  input_count: 37
+  record: fec.version.v5_3.F2
+  result: []
+sourceurl: !!python/unicode 20060907
+type: single
