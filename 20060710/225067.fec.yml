@@ -1,0 +1,319 @@
+countraw: 6
+countrows: 4
+filename: 225067.fec
+header: {}
+rows:
+- input: F6,"C00384735","Friends of John Barrow","PO Box 8166","","Savannah","GA","31412","h4ga12010","John
+    Jenkins Barrow","H","GA","12",20060710
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00384735
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Friends of John Barrow
+  - name: STREET 1
+    number: '4'
+    value: PO Box 8166
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Savannah
+  - name: STATE
+    number: '7'
+    value: GA
+  - name: ZIP
+    number: '8'
+    value: '31412'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: h4ga12010
+  - name: CANDIDATE NAME
+    number: '10'
+    value: John Jenkins Barrow
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: GA
+  - name: CAN/DIST
+    number: '13'
+    value: '12'
+  - name: Signed
+    number: 14-
+    value: '20060710'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00384735
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Hyatt^John M.
+  - name: STREET 1
+    number: '5'
+    value: 755 Commerce Drive
+  - name: STREET 2
+    number: '6'
+    value: Suite 720 Commerce Plaza
+  - name: CITY
+    number: '7'
+    value: Decatur
+  - name: STATE
+    number: '8'
+    value: GA
+  - name: ZIP
+    number: '9'
+    value: '30030'
+  - name: INDEMP
+    number: '10'
+    value: Hyatt & Hyatt
+  - name: INDOCC
+    number: '11'
+    value: ' P.C.'
+  - name: Of Contribution
+    number: 12-
+    value: Attorney
+  - name: AMOUNT
+    number: '13'
+    value: '20060710'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: C36119
+  expected_count: 27
+  input: F65,"C00384735","IND","Hyatt^John M.","755 Commerce Drive","Suite 720 Commerce
+    Plaza","Decatur","GA","30030","Hyatt & Hyatt, P.C.","Attorney",20060710,"1000","","","","","","","","","","","","","","C36119"
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00384735
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Lanier^Robert E.
+  - name: STREET 1
+    number: '5'
+    value: 755 Commerce Drive
+  - name: STREET 2
+    number: '6'
+    value: Suite 700
+  - name: CITY
+    number: '7'
+    value: Decatur
+  - name: STATE
+    number: '8'
+    value: GA
+  - name: ZIP
+    number: '9'
+    value: '30030'
+  - name: INDEMP
+    number: '10'
+    value: REL Properties
+  - name: INDOCC
+    number: '11'
+    value: ' Inc.'
+  - name: Of Contribution
+    number: 12-
+    value: President & CEO
+  - name: AMOUNT
+    number: '13'
+    value: '20060710'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: C36120
+  expected_count: 27
+  input: F65,"C00384735","IND","Lanier^Robert E.","755 Commerce Drive","Suite 700","Decatur","GA","30030","REL
+    Properties, Inc.","President & CEO",20060710,"1000","","","","","","","","","","","","","","C36120"
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00384735
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: NATCA-PAC
+  - name: STREET 1
+    number: '5'
+    value: 1325 Massachusetts Avenue
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20005'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20060710'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '5000'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00369454
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: C36121
+  expected_count: 27
+  input: F65,"C00384735","PAC","NATCA-PAC","1325 Massachusetts Avenue, NW","","Washington","DC","20005","","",20060710,"5000","C00369454","","","","","","","","","","","","","C36121"
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+sourceurl: !!python/unicode 20060710
+type: single
