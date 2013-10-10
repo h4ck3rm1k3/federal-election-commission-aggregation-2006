@@ -1,0 +1,1101 @@
+countraw: 11
+countrows: 9
+filename: 232871.fec
+header: {}
+rows:
+- input: F24,C00346536,CLUB FOR GROWTH INC PAC,2001 L St. NW,Suite 600,WASHINGTON,DC,20036,Toomey^Pat^^,20060808,24
+  record: fec.version.v5_3.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00346536
+  - name: COMMITTEE NAME
+    number: '3'
+    value: CLUB FOR GROWTH INC PAC
+  - name: STREET 1
+    number: '4'
+    value: 2001 L St. NW
+  - name: STREET 2
+    number: '5'
+    value: Suite 600
+  - name: CITY
+    number: '6'
+    value: WASHINGTON
+  - name: STATE
+    number: '7'
+    value: DC
+  - name: ZIP
+    number: '8'
+    value: '20036'
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: Toomey^Pat^^
+  - name: Signed
+    number: 10-
+    value: '20060808'
+  - name: REPORT TYPE
+    number: '11'
+    value: '24'
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F24
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: The FECFile software is not adding the transactions on the 24 hour report
+      filed on 8/8/06 in to previously reported transactions in the 'Calender Year
+      To Date Per Election for Office Sought' section. The actual amount year to date
+      supporting Sharon Angle will be $15
+  - name: AMENDED CD
+    number: '5'
+    value: 602.67 and $260
+  - value: 898.20 opposing Dean Heller after all of today's reported transactions.
+  expected_count: 5
+  input: TEXT,F24,,"The FECFile software is not adding the transactions on the 24
+    hour report filed on 8/8/06 in to previously reported transactions in the 'Calender
+    Year To Date Per Election for Office Sought' section. The actual amount year to
+    date supporting Sharon Angle will be $15,602.67 and $260,898.20 opposing Dean
+    Heller after all of today's reported transactions."
+  input_count: 6
+  record: fec.version.v5_3.TEXT
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00346536
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Media Ad Ventures
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 8136 Old Keene Mill Rd.
+  - name: CITY
+    number: '7'
+    value: Ste. A-300
+  - name: STATE
+    number: '8'
+    value: Springfield
+  - name: ZIP
+    number: '9'
+    value: VA
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '22152'
+  - name: DATE
+    number: '11'
+    value: tv
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: ' radio ad air buy'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20060807'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '50000.00'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: O
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H6NV02164
+  - name: S/O STATE
+    number: '17'
+    value: HELLER^DEAN^^
+  - name: S/O CAN/DIST
+    number: '18'
+    value: H
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: NV
+  - name: Unused field
+    number: '20'
+    value: '02'
+  - name: Unused field
+    number: '21'
+    value: C00346536
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20060808'
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: SE24.76382
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: P2006
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: ''
+  - value: '50000.00'
+  expected_count: 46
+  input: SE24,C00346536,ORG,"Media Ad Ventures, Inc.",8136 Old Keene Mill Rd.,Ste.
+    A-300,Springfield,VA,22152,"tv, radio ad air buy",20060807,50000.00,O,H6NV02164,HELLER^DEAN^^,H,NV,02,C00346536,,,,,,,,,,,,,20060808,,,,,SE24.76382,,,,,P2006,,,,50000.00
+  input_count: 48
+  record: fec.version.v5_3.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00346536
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: The Club for Growth
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 2001 L St.
+  - name: CITY
+    number: '7'
+    value: ' NW'
+  - name: STATE
+    number: '8'
+    value: Ste. 600
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: DATE
+    number: '11'
+    value: '20036'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: internet communication(from adv. line21)
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20060802'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '41.40'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: S
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H6NV02172
+  - name: S/O STATE
+    number: '17'
+    value: ANGLE^SHARRON E^^
+  - name: S/O CAN/DIST
+    number: '18'
+    value: H
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: NV
+  - name: Unused field
+    number: '20'
+    value: '02'
+  - name: Unused field
+    number: '21'
+    value: C00346536
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20060808'
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: SE24.76380
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: P2006
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: ''
+  - value: '41.40'
+  expected_count: 46
+  input: SE24,C00346536,ORG,"The Club for Growth, Inc.","2001 L St., NW",Ste. 600,Washington,DC,20036,internet
+    communication(from adv. line21),20060802,41.40,S,H6NV02172,ANGLE^SHARRON E^^,H,NV,02,C00346536,,,,,,,,,,,,,20060808,,,,,SE24.76380,,,,,P2006,,,,41.40
+  input_count: 48
+  record: fec.version.v5_3.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00346536
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: The Club for Growth
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 2001 L St.
+  - name: CITY
+    number: '7'
+    value: ' NW'
+  - name: STATE
+    number: '8'
+    value: Ste. 600
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: DATE
+    number: '11'
+    value: '20036'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: internet communication(from adv. line21)
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20060804'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '41.36'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: S
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H6NV02172
+  - name: S/O STATE
+    number: '17'
+    value: ANGLE^SHARRON E^^
+  - name: S/O CAN/DIST
+    number: '18'
+    value: H
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: NV
+  - name: Unused field
+    number: '20'
+    value: '02'
+  - name: Unused field
+    number: '21'
+    value: C00346536
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20060808'
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: SE24.76381
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: P2006
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: ''
+  - value: '82.76'
+  expected_count: 46
+  input: SE24,C00346536,ORG,"The Club for Growth, Inc.","2001 L St., NW",Ste. 600,Washington,DC,20036,internet
+    communication(from adv. line21),20060804,41.36,S,H6NV02172,ANGLE^SHARRON E^^,H,NV,02,C00346536,,,,,,,,,,,,,20060808,,,,,SE24.76381,,,,,P2006,,,,82.76
+  input_count: 48
+  record: fec.version.v5_3.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00346536
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: The Club for Growth
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 2001 L St.
+  - name: CITY
+    number: '7'
+    value: ' NW'
+  - name: STATE
+    number: '8'
+    value: Ste. 600
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: DATE
+    number: '11'
+    value: '20036'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: production cost (from advance line 21)
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20060807'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '27.69'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: O
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H6NV02164
+  - name: S/O STATE
+    number: '17'
+    value: HELLER^DEAN^^
+  - name: S/O CAN/DIST
+    number: '18'
+    value: H
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: NV
+  - name: Unused field
+    number: '20'
+    value: '02'
+  - name: Unused field
+    number: '21'
+    value: C00346536
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20060808'
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: SE24.76383
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: P2006
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: ''
+  - value: '50027.69'
+  expected_count: 46
+  input: SE24,C00346536,ORG,"The Club for Growth, Inc.","2001 L St., NW",Ste. 600,Washington,DC,20036,production
+    cost (from advance line 21),20060807,27.69,O,H6NV02164,HELLER^DEAN^^,H,NV,02,C00346536,,,,,,,,,,,,,20060808,,,,,SE24.76383,,,,,P2006,,,,50027.69
+  input_count: 48
+  record: fec.version.v5_3.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00346536
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: The Club for Growth
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 2001 L St.
+  - name: CITY
+    number: '7'
+    value: ' NW'
+  - name: STATE
+    number: '8'
+    value: Ste. 600
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: DATE
+    number: '11'
+    value: '20036'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: internet communication(from adv. line21)
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20060807'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '14.00'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: S
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H6NV02172
+  - name: S/O STATE
+    number: '17'
+    value: ANGLE^SHARRON E^^
+  - name: S/O CAN/DIST
+    number: '18'
+    value: H
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: NV
+  - name: Unused field
+    number: '20'
+    value: '02'
+  - name: Unused field
+    number: '21'
+    value: C00346536
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20060808'
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: SE24.76407
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: P2006
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: ''
+  - value: '96.76'
+  expected_count: 46
+  input: SE24,C00346536,ORG,"The Club for Growth, Inc.","2001 L St., NW",Ste. 600,Washington,DC,20036,internet
+    communication(from adv. line21),20060807,14.00,S,H6NV02172,ANGLE^SHARRON E^^,H,NV,02,C00346536,,,,,,,,,,,,,20060808,,,,,SE24.76407,,,,,P2006,,,,96.76
+  input_count: 48
+  record: fec.version.v5_3.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00346536
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: The Club for Growth
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 2001 L St.
+  - name: CITY
+    number: '7'
+    value: ' NW'
+  - name: STATE
+    number: '8'
+    value: Ste. 600
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: DATE
+    number: '11'
+    value: '20036'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: email costs (from advance line 21)
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20060807'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '382.04'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: S
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H6NV02172
+  - name: S/O STATE
+    number: '17'
+    value: ANGLE^SHARRON E^^
+  - name: S/O CAN/DIST
+    number: '18'
+    value: H
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: NV
+  - name: Unused field
+    number: '20'
+    value: '02'
+  - name: Unused field
+    number: '21'
+    value: C00346536
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20060808'
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: SE24.83361
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: P2006
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: ''
+  - value: '478.80'
+  expected_count: 46
+  input: SE24,C00346536,ORG,"The Club for Growth, Inc.","2001 L St., NW",Ste. 600,Washington,DC,20036,email
+    costs (from advance line 21),20060807,382.04,S,H6NV02172,ANGLE^SHARRON E^^,H,NV,02,C00346536,,,,,,,,,,,,,20060808,,,,,SE24.83361,,,,,P2006,,,,478.80
+  input_count: 48
+  record: fec.version.v5_3.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00346536
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: The Club for Growth
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 2001 L St.
+  - name: CITY
+    number: '7'
+    value: ' NW'
+  - name: STATE
+    number: '8'
+    value: Ste. 600
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: DATE
+    number: '11'
+    value: '20036'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: processing fees (from advance line 21)
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20060807'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '46.90'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: S
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H6NV02172
+  - name: S/O STATE
+    number: '17'
+    value: ANGLE^SHARRON E^^
+  - name: S/O CAN/DIST
+    number: '18'
+    value: H
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: NV
+  - name: Unused field
+    number: '20'
+    value: '02'
+  - name: Unused field
+    number: '21'
+    value: C00346536
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20060808'
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: SE24.83398
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: P2006
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: ''
+  - value: '525.70'
+  expected_count: 46
+  input: SE24,C00346536,ORG,"The Club for Growth, Inc.","2001 L St., NW",Ste. 600,Washington,DC,20036,processing
+    fees (from advance line 21),20060807,46.90,S,H6NV02172,ANGLE^SHARRON E^^,H,NV,02,C00346536,,,,,,,,,,,,,20060808,,,,,SE24.83398,,,,,P2006,,,,525.70
+  input_count: 48
+  record: fec.version.v5_3.SE
+  result: []
+sourceurl: !!python/unicode 20060808
+type: single
