@@ -1,0 +1,178 @@
+countraw: 5
+countrows: 3
+filename: 195076.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00413674
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Steve Young for Congress
+  - name: STREET 1
+    number: '4'
+    value: 555 South Flower St.
+  - name: STREET 2
+    number: '5'
+    value: '#4210'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Los Angeles
+  - name: ZIP
+    number: '8'
+    value: CA
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '90071'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ''
+  - name: CAN/OFFICE
+    number: '11'
+    value: Young^Steven R.
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: CA
+  - name: Signed
+    number: 14-
+    value: '48'
+  - value: '20060103'
+  expected_count: 14
+  input: '"F6N","C00413674","Steve Young for Congress","555 South Flower St.,#4210",,"Los
+    Angeles","CA","90071","","Young^Steven R.","H","CA","48","20060103"'
+  input_count: 15
+  record: <fec.version.v5_2.F6.Records instance at 0x5657b00>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00413674
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Steven R. Young
+  - name: STREET 1
+    number: '5'
+    value: 101 Pacifica
+  - name: STREET 2
+    number: '6'
+    value: ' Ste.240'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Irvine
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: INDEMP
+    number: '10'
+    value: '92618'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20051001'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1117.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F65196
+  expected_count: 27
+  input: '"F65","C00413674","CAN","Steven R. Young","101 Pacifica, Ste.240",,"Irvine","CA","92618","","","20051001","1117.00","",,"","","","",,,,,,,,F65196'
+  input_count: 28
+  record: <fec.version.v5_2.F65.Records instance at 0x5657518>
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F6N
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: F65196
+  - name: TEXT4000
+    number: '4'
+    value: This transaction is actually a disbursement made by the candidate from
+      personal funds for committee expenses. This was done in the weekend prior to
+      the election and was not reported to the Treasurer until after the Special General
+      Election on October 4
+  - name: AMENDED CD
+    number: '5'
+    value: ' 2005. Therefore'
+  - value: ' this transaction slipped through are normal compliance procedures. In
+      order to reimburse the candidate the transaction was entered as a loan received
+      even though no cash was received by the campaign. '
+  expected_count: 5
+  input: TEXT,F6N,F65196,"This transaction is actually a disbursement made by the
+    candidate from personal funds for committee expenses. This was done in the weekend
+    prior to the election and was not reported to the Treasurer until after the Special
+    General Election on October 4, 2005. Therefore, this transaction slipped through
+    are normal compliance procedures. In order to reimburse the candidate the transaction
+    was entered as a loan received even though no cash was received by the campaign.
+    "
+  input_count: 6
+  record: <fec.version.v5_2.TEXT.Records instance at 0x5657b00>
+  result: []
+sourceurl: !!python/unicode 20060104
+type: single
