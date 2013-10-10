@@ -1,0 +1,143 @@
+countraw: 4
+countrows: 2
+filename: 236839.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00165241
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Committee to Elect Gary L. Ackerman
+  - name: STREET 1
+    number: '4'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '5'
+    value: 100 Jericho Quadrangle
+  - name: CITY
+    number: '6'
+    value: ' # 233'
+  - name: STATE
+    number: '7'
+    value: ''
+  - name: ZIP
+    number: '8'
+    value: Jericho
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: NY
+  - name: CANDIDATE NAME
+    number: '10'
+    value: '11753'
+  - name: CAN/OFFICE
+    number: '11'
+    value: H4NY07011
+  - name: CAN/STATE
+    number: '12'
+    value: Gary L. Ackerman
+  - name: CAN/DIST
+    number: '13'
+    value: H
+  - name: Signed
+    number: 14-
+    value: NY
+  - value: '5'
+  - value: '20060905'
+  expected_count: 14
+  input: 'F6,"C00165241","Committee to Elect Gary L. Ackerman, Inc.","100 Jericho
+    Quadrangle, # 233","","Jericho","NY","11753","H4NY07011","Gary L. Ackerman","H","NY","5",20060905'
+  input_count: 16
+  record: fec.version.v5_3.F6
+  result: []
+- input: F65,"C00165241","IND","Pi^Jerry","135 E. 54th St.","Apt. 6K","New York","NY","100224510","Victoria
+    Cruises","Executive",20060905,"2100","","","","","","","","","","","","","","C21269"
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00165241
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Pi^Jerry
+  - name: STREET 1
+    number: '5'
+    value: 135 E. 54th St.
+  - name: STREET 2
+    number: '6'
+    value: Apt. 6K
+  - name: CITY
+    number: '7'
+    value: New York
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '100224510'
+  - name: INDEMP
+    number: '10'
+    value: Victoria Cruises
+  - name: INDOCC
+    number: '11'
+    value: Executive
+  - name: Of Contribution
+    number: 12-
+    value: '20060905'
+  - name: AMOUNT
+    number: '13'
+    value: '2100'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C21269
+sourceurl: !!python/unicode 20060905
+type: single
