@@ -1,0 +1,361 @@
+countraw: 6
+countrows: 4
+filename: 226545.fec
+header: {}
+rows:
+- input: F24,C00346536,CLUB FOR GROWTH INC PAC,2001 L St. NW,Suite 600,WASHINGTON,DC,20036,Toomey^Pat^^,20060713,48
+  record: fec.version.v5_3.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00346536
+  - name: COMMITTEE NAME
+    number: '3'
+    value: CLUB FOR GROWTH INC PAC
+  - name: STREET 1
+    number: '4'
+    value: 2001 L St. NW
+  - name: STREET 2
+    number: '5'
+    value: Suite 600
+  - name: CITY
+    number: '6'
+    value: WASHINGTON
+  - name: STATE
+    number: '7'
+    value: DC
+  - name: ZIP
+    number: '8'
+    value: '20036'
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: Toomey^Pat^^
+  - name: Signed
+    number: 10-
+    value: '20060713'
+  - name: REPORT TYPE
+    number: '11'
+    value: '48'
+- input: TEXT,F24,,"The FECFile software is not adding the transactions on the 24
+    hour report filed on 7/13/06 in to previously reported transactions in the 'Calender
+    Year To Date Per Election for Office Sought' section. The actual amount year to
+    date should be $11,569.02 after all of today's reported transactions."
+  record: fec.version.v5_3.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F24
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: The FECFile software is not adding the transactions on the 24 hour report
+      filed on 7/13/06 in to previously reported transactions in the 'Calender Year
+      To Date Per Election for Office Sought' section. The actual amount year to date
+      should be $11
+  - name: AMENDED CD
+    number: '5'
+    value: 569.02 after all of today's reported transactions.
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00346536
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Paul and Partners
+  - name: STREET 1
+    number: '5'
+    value: 43670 Trade Center Pl.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Dulles
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '20166'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: mail costs
+  - name: DATE
+    number: '11'
+    value: ' postage'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20060712'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '2748.98'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: H6CO05159
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: LAMBORN^DOUGLAS L^^
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: CO
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '05'
+  - name: Unused field
+    number: '20'
+    value: C00346536
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: '20060713'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24.64255
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: P2006
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '2748.98'
+  expected_count: 46
+  input: SE24,C00346536,ORG,Paul and Partners,43670 Trade Center Pl.,,Dulles,VA,20166,"mail
+    costs, postage",20060712,2748.98,S,H6CO05159,LAMBORN^DOUGLAS L^^,H,CO,05,C00346536,,,,,,,,,,,,,20060713,,,,,SE24.64255,,,,,P2006,,,,2748.98
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00346536
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: The Club for Growth
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 2001 L St.
+  - name: CITY
+    number: '7'
+    value: ' NW'
+  - name: STATE
+    number: '8'
+    value: Ste. 600
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: DATE
+    number: '11'
+    value: '20036'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: mail costs (pulled from advance line 21)
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20060712'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '556.74'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: S
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H6CO05159
+  - name: S/O STATE
+    number: '17'
+    value: LAMBORN^DOUGLAS L^^
+  - name: S/O CAN/DIST
+    number: '18'
+    value: H
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: CO
+  - name: Unused field
+    number: '20'
+    value: '05'
+  - name: Unused field
+    number: '21'
+    value: C00346536
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20060713'
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: SE24.64256
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: P2006
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: ''
+  - value: '3305.72'
+  expected_count: 46
+  input: SE24,C00346536,ORG,"The Club for Growth, Inc.","2001 L St., NW",Ste. 600,Washington,DC,20036,mail
+    costs (pulled from advance line 21),20060712,556.74,S,H6CO05159,LAMBORN^DOUGLAS
+    L^^,H,CO,05,C00346536,,,,,,,,,,,,,20060713,,,,,SE24.64256,,,,,P2006,,,,3305.72
+  input_count: 48
+  record: fec.version.v5_3.SE
+  result: []
+sourceurl: !!python/unicode 20060713
+type: single
