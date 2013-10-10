@@ -1,0 +1,337 @@
+countraw: 5
+countrows: 3
+filename: 236631.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00135368
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Sierra Club Political Committee
+  - name: STREET 1
+    number: '4'
+    value: 85 Second Street
+  - name: STREET 2
+    number: '5'
+    value: ' 2nd Flr.'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: San Francisco
+  - name: ZIP
+    number: '8'
+    value: CA
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: '94105'
+  - name: Signed
+    number: 10-
+    value: Duvall^Catherine^^
+  - name: REPORT TYPE
+    number: '11'
+    value: '20060901'
+  - value: '24'
+  expected_count: 11
+  input: F24,C00135368,Sierra Club Political Committee,"85 Second Street, 2nd Flr.",,San
+    Francisco,CA,94105,Duvall^Catherine^^,20060901,24
+  input_count: 12
+  record: fec.version.v5_3.F24
+  result: []
+- input: SE24,C00135368,IND,Kotchmar^Rich^^,408 C St NE,,Washington,DC,20002,Salaries
+    & Benefits,20060901,52.89,S,S8RI00102,CHAFEE^LINCOLN D^^,S,RI,00,C00135368,,,,,,,,,,,,,20060901,,,,,SE24.31182,,,,,P2006,,001,,10594.33
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00135368
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Kotchmar^Rich^^
+  - name: STREET 1
+    number: '5'
+    value: 408 C St NE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20002'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Salaries & Benefits
+  - name: DATE
+    number: '11'
+    value: '20060901'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '52.89'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S8RI00102
+  - name: S/O CAN/NAME
+    number: '15'
+    value: CHAFEE^LINCOLN D^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: S
+  - name: S/O STATE
+    number: '17'
+    value: RI
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00135368
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: '20060901'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.31182
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: P2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '001'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '10594.33'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00135368
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: NAME (Payee)
+    number: '4'
+    value: Stone's Phones Inc.
+  - name: STREET 1
+    number: '5'
+    value: Campaign Communications Inc.
+  - name: STREET 2
+    number: '6'
+    value: 121 S. Palm Canyon Dr
+  - name: CITY
+    number: '7'
+    value: ' Ste 205'
+  - name: STATE
+    number: '8'
+    value: Palm Springs
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '92262'
+  - name: DATE
+    number: '11'
+    value: Phoning Expenses
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20060831'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '10541.44'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: S8RI00102
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: CHAFEE^LINCOLN D^^
+  - name: S/O STATE
+    number: '17'
+    value: S
+  - name: S/O CAN/DIST
+    number: '18'
+    value: RI
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '00'
+  - name: Unused field
+    number: '20'
+    value: C00135368
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: '20060901'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24.31176
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: P2006
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '006'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '10541.44'
+  expected_count: 46
+  input: SE24,C00135368,CCM,Stone's Phones Inc.,Campaign Communications Inc.,"121
+    S. Palm Canyon Dr, Ste 205",Palm Springs,CA,92262,Phoning Expenses,20060831,10541.44,S,S8RI00102,CHAFEE^LINCOLN
+    D^^,S,RI,00,C00135368,,,,,,,,,,,,,20060901,,,,,SE24.31176,,,,,P2006,,006,,10541.44
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+sourceurl: !!python/unicode 20060901
+type: single
