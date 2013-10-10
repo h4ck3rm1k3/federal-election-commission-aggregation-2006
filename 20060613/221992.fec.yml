@@ -1,0 +1,190 @@
+countraw: 4
+countrows: 2
+filename: 221992.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1MN
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00412635
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Gibbons
+  - name: STREET 1
+    number: '4'
+    value: ' Del Deo'
+  - name: STREET 2
+    number: '5'
+    value: ' Dolan'
+  - name: CITY
+    number: '6'
+    value: ' Griffinger & Vecchione'
+  - name: STATE
+    number: '7'
+    value: ' P.C. PAC'
+  - name: ZIP
+    number: '8'
+    value: ' Inc.'
+  - name: COMMITTEE TYPE
+    number: '9'
+    value: 1 Riverfront Plaza
+  - name: Of Affiliation
+    number: 10-
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '11'
+    value: Newark
+  - name: COMMITTEE NAME
+    number: '12'
+    value: NJ
+  - name: FEC CANDIDATE ID NUMBER
+    number: '13'
+    value: 071025496
+  - name: CANDIDATE NAME
+    number: '14'
+    value: N
+  - name: CAN/OFFICE
+    number: '15'
+    value: ''
+  - name: CAN/STATE
+    number: '16'
+    value: ''
+  - name: CAN/DIST
+    number: '17'
+    value: '-'
+  - name: Of Contribution
+    number: 18-
+    value: H6NJ12144
+  - name: FEC CANDIDATE ID NUMBER
+    number: '19'
+    value: HOLT^RUSH^^
+  - name: CANDIDATE NAME
+    number: '20'
+    value: H
+  - name: CAN/OFFICE
+    number: '21'
+    value: NJ
+  - name: CAN/STATE
+    number: '22'
+    value: '12'
+  - name: CAN/DIST
+    number: '23'
+    value: '20060329'
+  - name: Of Contribution
+    number: 24-
+    value: H8NJ03073
+  - name: FEC CANDIDATE ID NUMBER
+    number: '25'
+    value: PALLONE^FRANK JR^^
+  - name: CANDIDATE NAME
+    number: '26'
+    value: H
+  - name: CAN/OFFICE
+    number: '27'
+    value: NJ
+  - name: CAN/STATE
+    number: '28'
+    value: '06'
+  - name: CAN/DIST
+    number: '29'
+    value: '20060329'
+  - name: Of Contribution
+    number: 30-
+    value: H6NJ09165
+  - name: FEC CANDIDATE ID NUMBER
+    number: '31'
+    value: ROTHMAN^STEVEN R^^
+  - name: CANDIDATE NAME
+    number: '32'
+    value: H
+  - name: CAN/OFFICE
+    number: '33'
+    value: NJ
+  - name: CAN/STATE
+    number: '34'
+    value: 09
+  - name: CAN/DIST
+    number: '35'
+    value: '20060329'
+  - name: Of Contribution
+    number: 36-
+    value: C00410365
+  - name: FEC CANDIDATE ID NUMBER
+    number: '37'
+    value: TOM KEAN FOR US SENATE INC^^^
+  - name: CANDIDATE NAME
+    number: '38'
+    value: S
+  - name: CAN/OFFICE
+    number: '39'
+    value: NJ
+  - name: CAN/STATE
+    number: '40'
+    value: '00'
+  - name: CAN/DIST
+    number: '41'
+    value: '20060505'
+  - name: Of Contribution
+    number: 42-
+    value: C00264564
+  - name: Of 51st Contributor
+    number: 43-
+    value: MENENDEZ FOR SENATE^^^
+  - name: Of Orig Registration
+    number: 44-
+    value: S
+  - name: Cmte Met Requirements
+    number: 45-
+    value: NJ
+  - name: NAME/TREASURER (as signed)
+    number: '46'
+    value: '13'
+  - name: Signed
+    number: 47-
+    value: '20060511'
+  - value: '20060526'
+  - value: '20050620'
+  - value: '20060526'
+  - value: Draikiwicz^John D.^^
+  - value: '20060613'
+  expected_count: 47
+  input: F1MN,C00412635,"Gibbons, Del Deo, Dolan, Griffinger & Vecchione, P.C. PAC,
+    Inc.",1 Riverfront Plaza,,Newark,NJ,071025496,N,,,-,H6NJ12144,HOLT^RUSH^^,H,NJ,12,20060329,H8NJ03073,PALLONE^FRANK
+    JR^^,H,NJ,06,20060329,H6NJ09165,ROTHMAN^STEVEN R^^,H,NJ,09,20060329,C00410365,TOM
+    KEAN FOR US SENATE INC^^^,S,NJ,00,20060505,C00264564,MENENDEZ FOR SENATE^^^,S,NJ,13,20060511,20060526,20050620,20060526,Draikiwicz^John
+    D.^^,20060613
+  input_count: 52
+  record: fec.version.v5_3.F1M
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F1MN
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: A hard copy of FEC Form 1 M was mailed in on 5/26/06.  We were subsequently
+      informed that we were required to submit this form electronically- which we
+      are doing now.  In the interim
+  - name: AMENDED CD
+    number: '5'
+    value: ' however'
+  - value: ' we have made political contributions at the higher multicandidate level.  '
+  expected_count: 5
+  input: TEXT,F1MN,,"A hard copy of FEC Form 1 M was mailed in on 5/26/06.  We were
+    subsequently informed that we were required to submit this form electronically-
+    which we are doing now.  In the interim, however, we have made political contributions
+    at the higher multicandidate level.  "
+  input_count: 6
+  record: fec.version.v5_3.TEXT
+  result: []
+sourceurl: !!python/unicode 20060613
+type: single
