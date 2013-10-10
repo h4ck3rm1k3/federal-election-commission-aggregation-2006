@@ -1,0 +1,2374 @@
+countraw: 30
+countrows: 28
+filename: 215651.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00019075
+  - name: COMMITTEE NAME
+    number: '3'
+    value: MURTHA FOR CONGRESS COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: Suite 220
+  - name: STREET 2
+    number: '5'
+    value: ' 551 Main Street'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: JOHNSTOWN
+  - name: ZIP
+    number: '8'
+    value: PA
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '15901'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H6PA12030
+  - name: CAN/OFFICE
+    number: '11'
+    value: MURTHA^JOHN P^Mr.^
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: PA
+  - name: Signed
+    number: 14-
+    value: '12'
+  - value: '20060504'
+  expected_count: 14
+  input: F6,C00019075,MURTHA FOR CONGRESS COMMITTEE,"Suite 220, 551 Main Street",,JOHNSTOWN,PA,15901,H6PA12030,MURTHA^JOHN
+    P^Mr.^,H,PA,12,20060504
+  input_count: 15
+  record: fec.version.v5_3.F6
+  result: []
+- input: F65,C00019075,IND,Andersen^G. Chris^^,1050 Fifth Avenue,Apt 8F,New York,NY,10028,Andersen
+    & Company LLC,Partner,20060503,1000.00,C00019075,H6PA12030,MURTHA^JOHN P^Mr.^,H,PA,12,,,,,,,,F6.26101
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00019075
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Andersen^G. Chris^^
+  - name: STREET 1
+    number: '5'
+    value: 1050 Fifth Avenue
+  - name: STREET 2
+    number: '6'
+    value: Apt 8F
+  - name: CITY
+    number: '7'
+    value: New York
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '10028'
+  - name: INDEMP
+    number: '10'
+    value: Andersen & Company LLC
+  - name: INDOCC
+    number: '11'
+    value: Partner
+  - name: Of Contribution
+    number: 12-
+    value: '20060503'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00019075
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6PA12030
+  - name: CANDIDATE NAME
+    number: '16'
+    value: MURTHA^JOHN P^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: PA
+  - name: CAN/DIST
+    number: '19'
+    value: '12'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.26101
+- input: F65,C00019075,IND,Awan^Rashid^Dr.^,947 St. Clair Road,,Johnstown,PA,15905,Onc./Hematology
+    Association,Physician,20060503,1000.00,C00019075,H6PA12030,MURTHA^JOHN P^Mr.^,H,PA,12,,,,,,,,F6.26173
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00019075
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Awan^Rashid^Dr.^
+  - name: STREET 1
+    number: '5'
+    value: 947 St. Clair Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Johnstown
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '15905'
+  - name: INDEMP
+    number: '10'
+    value: Onc./Hematology Association
+  - name: INDOCC
+    number: '11'
+    value: Physician
+  - name: Of Contribution
+    number: 12-
+    value: '20060503'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00019075
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6PA12030
+  - name: CANDIDATE NAME
+    number: '16'
+    value: MURTHA^JOHN P^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: PA
+  - name: CAN/DIST
+    number: '19'
+    value: '12'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.26173
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00019075
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: DeFusco^Andre^^
+  - name: STREET 1
+    number: '5'
+    value: 5018 Jacobs Ct.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Oak Park
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '91377'
+  - name: INDEMP
+    number: '10'
+    value: Sareus
+  - name: INDOCC
+    number: '11'
+    value: ' Inc'
+  - name: Of Contribution
+    number: 12-
+    value: CEO
+  - name: AMOUNT
+    number: '13'
+    value: '20060503'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '600.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00019075
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H6PA12030
+  - name: CAN/OFFICE
+    number: '17'
+    value: MURTHA^JOHN P^Mr.^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: PA
+  - name: CONDUIT NAME
+    number: '20'
+    value: '12'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.26171
+  expected_count: 27
+  input: F65,C00019075,IND,DeFusco^Andre^^,5018 Jacobs Ct.,,Oak Park,CA,91377,"Sareus,
+    Inc",CEO,20060503,600.00,C00019075,H6PA12030,MURTHA^JOHN P^Mr.^,H,PA,12,,,,,,,,F6.26171
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00019075
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: DeFusco^Andre^^
+  - name: STREET 1
+    number: '5'
+    value: 5018 Jacobs Ct.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Oak Park
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '91377'
+  - name: INDEMP
+    number: '10'
+    value: Sareus
+  - name: INDOCC
+    number: '11'
+    value: ' Inc'
+  - name: Of Contribution
+    number: 12-
+    value: CEO
+  - name: AMOUNT
+    number: '13'
+    value: '20060503'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '400.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00019075
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H6PA12030
+  - name: CAN/OFFICE
+    number: '17'
+    value: MURTHA^JOHN P^Mr.^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: PA
+  - name: CONDUIT NAME
+    number: '20'
+    value: '12'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.26172
+  expected_count: 27
+  input: F65,C00019075,IND,DeFusco^Andre^^,5018 Jacobs Ct.,,Oak Park,CA,91377,"Sareus,
+    Inc",CEO,20060503,400.00,C00019075,H6PA12030,MURTHA^JOHN P^Mr.^,H,PA,12,,,,,,,,F6.26172
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: F65,C00019075,IND,Feldmayer^Charles F.^^,4309 Southwood Dr,,Alexandria,VA,22309,Talley
+    Defense Systems,Dir. of Mkt & Govt Affairs,20060503,1000.00,C00019075,H6PA12030,MURTHA^JOHN
+    P^Mr.^,H,PA,12,,,,,,,,F6.26144
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00019075
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Feldmayer^Charles F.^^
+  - name: STREET 1
+    number: '5'
+    value: 4309 Southwood Dr
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Alexandria
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22309'
+  - name: INDEMP
+    number: '10'
+    value: Talley Defense Systems
+  - name: INDOCC
+    number: '11'
+    value: Dir. of Mkt & Govt Affairs
+  - name: Of Contribution
+    number: 12-
+    value: '20060503'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00019075
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6PA12030
+  - name: CANDIDATE NAME
+    number: '16'
+    value: MURTHA^JOHN P^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: PA
+  - name: CAN/DIST
+    number: '19'
+    value: '12'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.26144
+- input: F65,C00019075,IND,Guerreri^Andrea^^,78 Carter Drive,,Framingham,MA,01701,DSD
+    Labs Inc,President & Chairman,20060503,1000.00,C00019075,H6PA12030,MURTHA^JOHN
+    P^Mr.^,H,PA,12,,,,,,,,F6.26145
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00019075
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Guerreri^Andrea^^
+  - name: STREET 1
+    number: '5'
+    value: 78 Carter Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Framingham
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: '01701'
+  - name: INDEMP
+    number: '10'
+    value: DSD Labs Inc
+  - name: INDOCC
+    number: '11'
+    value: President & Chairman
+  - name: Of Contribution
+    number: 12-
+    value: '20060503'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00019075
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6PA12030
+  - name: CANDIDATE NAME
+    number: '16'
+    value: MURTHA^JOHN P^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: PA
+  - name: CAN/DIST
+    number: '19'
+    value: '12'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.26145
+- input: F65,C00019075,IND,Guerreri^Bart G.^^,75 Union Ave.,,Sudbury,MA,01776,DSD
+    Labs,President,20060503,1000.00,C00019075,H6PA12030,MURTHA^JOHN P^Mr.^,H,PA,12,,,,,,,,F6.26146
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00019075
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Guerreri^Bart G.^^
+  - name: STREET 1
+    number: '5'
+    value: 75 Union Ave.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Sudbury
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: '01776'
+  - name: INDEMP
+    number: '10'
+    value: DSD Labs
+  - name: INDOCC
+    number: '11'
+    value: President
+  - name: Of Contribution
+    number: 12-
+    value: '20060503'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00019075
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6PA12030
+  - name: CANDIDATE NAME
+    number: '16'
+    value: MURTHA^JOHN P^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: PA
+  - name: CAN/DIST
+    number: '19'
+    value: '12'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.26146
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00019075
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Guerreri^Carl^Mr.^
+  - name: STREET 1
+    number: '5'
+    value: 10102 Holland Ct.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Manassas
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '20110'
+  - name: INDEMP
+    number: '10'
+    value: EWA
+  - name: INDOCC
+    number: '11'
+    value: ' Inc.'
+  - name: Of Contribution
+    number: 12-
+    value: CEO
+  - name: AMOUNT
+    number: '13'
+    value: '20060503'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00019075
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H6PA12030
+  - name: CAN/OFFICE
+    number: '17'
+    value: MURTHA^JOHN P^Mr.^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: PA
+  - name: CONDUIT NAME
+    number: '20'
+    value: '12'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.26147
+  expected_count: 27
+  input: F65,C00019075,IND,Guerreri^Carl^Mr.^,10102 Holland Ct.,,Manassas,VA,20110,"EWA,
+    Inc.",CEO,20060503,1000.00,C00019075,H6PA12030,MURTHA^JOHN P^Mr.^,H,PA,12,,,,,,,,F6.26147
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: F65,C00019075,IND,Gurwitz^Michael^^,361 Central Avenue,,Needham,MA,02494,DSD
+    Labs,Sr. VP,20060503,1000.00,C00019075,H6PA12030,MURTHA^JOHN P^Mr.^,H,PA,12,,,,,,,,F6.26148
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00019075
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Gurwitz^Michael^^
+  - name: STREET 1
+    number: '5'
+    value: 361 Central Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Needham
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: 02494
+  - name: INDEMP
+    number: '10'
+    value: DSD Labs
+  - name: INDOCC
+    number: '11'
+    value: Sr. VP
+  - name: Of Contribution
+    number: 12-
+    value: '20060503'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00019075
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6PA12030
+  - name: CANDIDATE NAME
+    number: '16'
+    value: MURTHA^JOHN P^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: PA
+  - name: CAN/DIST
+    number: '19'
+    value: '12'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.26148
+- input: F65,C00019075,IND,Jackson^Kevin^^,9294 Sumner Lake Blvd,,Masassas,VA,201104681,,,20060503,1000.00,C00019075,H6PA12030,MURTHA^JOHN
+    P^Mr.^,H,PA,12,,,,,,,,F6.26149
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00019075
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Jackson^Kevin^^
+  - name: STREET 1
+    number: '5'
+    value: 9294 Sumner Lake Blvd
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Masassas
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '201104681'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20060503'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00019075
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6PA12030
+  - name: CANDIDATE NAME
+    number: '16'
+    value: MURTHA^JOHN P^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: PA
+  - name: CAN/DIST
+    number: '19'
+    value: '12'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.26149
+- input: F65,C00019075,IND,Kilmartin^Patrick^Mr.^,227 Fayette Street,,Johnstown,PA,15905,DRS
+    Technologies,,20060503,1000.00,C00019075,H6PA12030,MURTHA^JOHN P^Mr.^,H,PA,12,,,,,,,,F6.26150
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00019075
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Kilmartin^Patrick^Mr.^
+  - name: STREET 1
+    number: '5'
+    value: 227 Fayette Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Johnstown
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '15905'
+  - name: INDEMP
+    number: '10'
+    value: DRS Technologies
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20060503'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00019075
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6PA12030
+  - name: CANDIDATE NAME
+    number: '16'
+    value: MURTHA^JOHN P^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: PA
+  - name: CAN/DIST
+    number: '19'
+    value: '12'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.26150
+- input: F65,C00019075,IND,Kimball^L. Robert^Mr.^,619 West Horner Street,,Ebensburg,PA,15931,L.
+    Robert Kimball & Assoc.,Chairman & CEO,20060503,1000.00,C00019075,H6PA12030,MURTHA^JOHN
+    P^Mr.^,H,PA,12,,,,,,,,F6.26151
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00019075
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Kimball^L. Robert^Mr.^
+  - name: STREET 1
+    number: '5'
+    value: 619 West Horner Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Ebensburg
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '15931'
+  - name: INDEMP
+    number: '10'
+    value: L. Robert Kimball & Assoc.
+  - name: INDOCC
+    number: '11'
+    value: Chairman & CEO
+  - name: Of Contribution
+    number: 12-
+    value: '20060503'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00019075
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6PA12030
+  - name: CANDIDATE NAME
+    number: '16'
+    value: MURTHA^JOHN P^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: PA
+  - name: CAN/DIST
+    number: '19'
+    value: '12'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.26151
+- input: F65,C00019075,IND,Krebs^William^^,6528 Rockland Drive,,Clifton,VA,22024,DSD
+    Labs Inc,Senior VP,20060503,1000.00,C00019075,H6PA12030,MURTHA^JOHN P^Mr.^,H,PA,12,,,,,,,,F6.26152
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00019075
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Krebs^William^^
+  - name: STREET 1
+    number: '5'
+    value: 6528 Rockland Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Clifton
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22024'
+  - name: INDEMP
+    number: '10'
+    value: DSD Labs Inc
+  - name: INDOCC
+    number: '11'
+    value: Senior VP
+  - name: Of Contribution
+    number: 12-
+    value: '20060503'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00019075
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6PA12030
+  - name: CANDIDATE NAME
+    number: '16'
+    value: MURTHA^JOHN P^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: PA
+  - name: CAN/DIST
+    number: '19'
+    value: '12'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.26152
+- input: F65,C00019075,IND,Kunkle^Charles^Mr.^,122 Boulder Drive,,Johnstown,PA,15905,,Retired,20060503,1000.00,C00019075,H6PA12030,MURTHA^JOHN
+    P^Mr.^,H,PA,12,,,,,,,,F6.26153
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00019075
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Kunkle^Charles^Mr.^
+  - name: STREET 1
+    number: '5'
+    value: 122 Boulder Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Johnstown
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '15905'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: Retired
+  - name: Of Contribution
+    number: 12-
+    value: '20060503'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00019075
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6PA12030
+  - name: CANDIDATE NAME
+    number: '16'
+    value: MURTHA^JOHN P^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: PA
+  - name: CAN/DIST
+    number: '19'
+    value: '12'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.26153
+- input: F65,C00019075,IND,Ladd^Richard^Mr.^,1537 Shipsview Road,,Annapolis,MD,21401,Robison
+    International,President,20060503,1000.00,C00019075,H6PA12030,MURTHA^JOHN P^Mr.^,H,PA,12,,,,,,,,F6.26154
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00019075
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Ladd^Richard^Mr.^
+  - name: STREET 1
+    number: '5'
+    value: 1537 Shipsview Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Annapolis
+  - name: STATE
+    number: '8'
+    value: MD
+  - name: ZIP
+    number: '9'
+    value: '21401'
+  - name: INDEMP
+    number: '10'
+    value: Robison International
+  - name: INDOCC
+    number: '11'
+    value: President
+  - name: Of Contribution
+    number: 12-
+    value: '20060503'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00019075
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6PA12030
+  - name: CANDIDATE NAME
+    number: '16'
+    value: MURTHA^JOHN P^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: PA
+  - name: CAN/DIST
+    number: '19'
+    value: '12'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.26154
+- input: F65,C00019075,IND,Skiavo^John A.^^,32 Timber Trail Dr.,,Greensburg,PA,15601,Economic
+    Growth Connection,,20060503,500.00,C00019075,H6PA12030,MURTHA^JOHN P^Mr.^,H,PA,12,,,,,,,,F6.26163
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00019075
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Skiavo^John A.^^
+  - name: STREET 1
+    number: '5'
+    value: 32 Timber Trail Dr.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Greensburg
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '15601'
+  - name: INDEMP
+    number: '10'
+    value: Economic Growth Connection
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20060503'
+  - name: AMOUNT
+    number: '13'
+    value: '500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00019075
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6PA12030
+  - name: CANDIDATE NAME
+    number: '16'
+    value: MURTHA^JOHN P^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: PA
+  - name: CAN/DIST
+    number: '19'
+    value: '12'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.26163
+- input: F65,C00019075,IND,Skiavo^John A.^^,32 Timber Trail Dr.,,Greensburg,PA,15601,Economic
+    Growth Connection,,20060503,500.00,C00019075,H6PA12030,MURTHA^JOHN P^Mr.^,H,PA,12,,,,,,,,F6.26164
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00019075
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Skiavo^John A.^^
+  - name: STREET 1
+    number: '5'
+    value: 32 Timber Trail Dr.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Greensburg
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '15601'
+  - name: INDEMP
+    number: '10'
+    value: Economic Growth Connection
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20060503'
+  - name: AMOUNT
+    number: '13'
+    value: '500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00019075
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6PA12030
+  - name: CANDIDATE NAME
+    number: '16'
+    value: MURTHA^JOHN P^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: PA
+  - name: CAN/DIST
+    number: '19'
+    value: '12'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.26164
+- input: F65,C00019075,IND,Thomasmeyer^William^^,218 Timberridge Rd,,Pittsburgh,PA,15238,The
+    Robottcs Foundry,President,20060503,1000.00,C00019075,H6PA12030,MURTHA^JOHN P^Mr.^,H,PA,12,,,,,,,,F6.26155
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00019075
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Thomasmeyer^William^^
+  - name: STREET 1
+    number: '5'
+    value: 218 Timberridge Rd
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Pittsburgh
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '15238'
+  - name: INDEMP
+    number: '10'
+    value: The Robottcs Foundry
+  - name: INDOCC
+    number: '11'
+    value: President
+  - name: Of Contribution
+    number: 12-
+    value: '20060503'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00019075
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6PA12030
+  - name: CANDIDATE NAME
+    number: '16'
+    value: MURTHA^JOHN P^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: PA
+  - name: CAN/DIST
+    number: '19'
+    value: '12'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.26155
+- input: F65,C00019075,IND,Thomasmeyer^William^^,218 Timberridge Rd,,Pittsburgh,PA,15238,The
+    Robottcs Foundry,President,20060503,1000.00,C00019075,H6PA12030,MURTHA^JOHN P^Mr.^,H,PA,12,,,,,,,,F6.26156
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00019075
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Thomasmeyer^William^^
+  - name: STREET 1
+    number: '5'
+    value: 218 Timberridge Rd
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Pittsburgh
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '15238'
+  - name: INDEMP
+    number: '10'
+    value: The Robottcs Foundry
+  - name: INDOCC
+    number: '11'
+    value: President
+  - name: Of Contribution
+    number: 12-
+    value: '20060503'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00019075
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6PA12030
+  - name: CANDIDATE NAME
+    number: '16'
+    value: MURTHA^JOHN P^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: PA
+  - name: CAN/DIST
+    number: '19'
+    value: '12'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.26156
+- input: F65,C00019075,IND,Troiano^Richard^^,P.O. Box 307,,Vandergrift,PA,15690,,Businessman,20060503,1000.00,C00019075,H6PA12030,MURTHA^JOHN
+    P^Mr.^,H,PA,12,,,,,,,,F6.26157
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00019075
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Troiano^Richard^^
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 307
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Vandergrift
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '15690'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: Businessman
+  - name: Of Contribution
+    number: 12-
+    value: '20060503'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00019075
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6PA12030
+  - name: CANDIDATE NAME
+    number: '16'
+    value: MURTHA^JOHN P^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: PA
+  - name: CAN/DIST
+    number: '19'
+    value: '12'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.26157
+- input: F65,C00019075,IND,Versage^Vincent M.^^,211 Duke St.,,Alexandria,VA,22314,Cassidy
+    & Assoc.,Dir. & Sr. Vice President,20060503,1000.00,C00019075,H6PA12030,MURTHA^JOHN
+    P^Mr.^,H,PA,12,,,,,,,,F6.26159
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00019075
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Versage^Vincent M.^^
+  - name: STREET 1
+    number: '5'
+    value: 211 Duke St.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Alexandria
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22314'
+  - name: INDEMP
+    number: '10'
+    value: Cassidy & Assoc.
+  - name: INDOCC
+    number: '11'
+    value: Dir. & Sr. Vice President
+  - name: Of Contribution
+    number: 12-
+    value: '20060503'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00019075
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6PA12030
+  - name: CANDIDATE NAME
+    number: '16'
+    value: MURTHA^JOHN P^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: PA
+  - name: CAN/DIST
+    number: '19'
+    value: '12'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.26159
+- input: 'F65,C00019075,IND,Wilson^Charles^Mr.^,1401 North Oak Street #909,,Arlington,VA,22209,Hooper
+    Hooper Owen & Gould,Consultant,20060503,2000.00,C00019075,H6PA12030,MURTHA^JOHN
+    P^Mr.^,H,PA,12,,,,,,,,F6.26160'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00019075
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Wilson^Charles^Mr.^
+  - name: STREET 1
+    number: '5'
+    value: '1401 North Oak Street #909'
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Arlington
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22209'
+  - name: INDEMP
+    number: '10'
+    value: Hooper Hooper Owen & Gould
+  - name: INDOCC
+    number: '11'
+    value: Consultant
+  - name: Of Contribution
+    number: 12-
+    value: '20060503'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00019075
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6PA12030
+  - name: CANDIDATE NAME
+    number: '16'
+    value: MURTHA^JOHN P^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: PA
+  - name: CAN/DIST
+    number: '19'
+    value: '12'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.26160
+- input: 'F65,C00019075,IND,Wilson^Charles^Mr.^,1401 North Oak Street #909,,Arlington,VA,22209,Hooper
+    Hooper Owen & Gould,Consultant,20060503,2000.00,C00019075,H6PA12030,MURTHA^JOHN
+    P^Mr.^,H,PA,12,,,,,,,,F6.26161'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00019075
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Wilson^Charles^Mr.^
+  - name: STREET 1
+    number: '5'
+    value: '1401 North Oak Street #909'
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Arlington
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22209'
+  - name: INDEMP
+    number: '10'
+    value: Hooper Hooper Owen & Gould
+  - name: INDOCC
+    number: '11'
+    value: Consultant
+  - name: Of Contribution
+    number: 12-
+    value: '20060503'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00019075
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6PA12030
+  - name: CANDIDATE NAME
+    number: '16'
+    value: MURTHA^JOHN P^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: PA
+  - name: CAN/DIST
+    number: '19'
+    value: '12'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.26161
+- input: 'F65,C00019075,PAC,BOILERMAKERS-BLACKSMITHS LEGISL. EDUC. PROGRAM CAF,753
+    STATE AVENUE #565,,KANSAS CITY,KS,661012511,,,20060503,2000.00,C00019075,H6PA12030,MURTHA^JOHN
+    P^Mr.^,H,PA,12,,,,,,,,F6.26165'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00019075
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: BOILERMAKERS-BLACKSMITHS LEGISL. EDUC. PROGRAM CAF
+  - name: STREET 1
+    number: '5'
+    value: '753 STATE AVENUE #565'
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: KANSAS CITY
+  - name: STATE
+    number: '8'
+    value: KS
+  - name: ZIP
+    number: '9'
+    value: '661012511'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20060503'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00019075
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6PA12030
+  - name: CANDIDATE NAME
+    number: '16'
+    value: MURTHA^JOHN P^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: PA
+  - name: CAN/DIST
+    number: '19'
+    value: '12'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.26165
+- input: F65,C00019075,PAC,L-3 COMMUNICATIONS CORPORATION PAC,600 THIRD AVENUE,,NEW
+    YORK,NY,10016,,,20060503,5000.00,C00019075,H6PA12030,MURTHA^JOHN P^Mr.^,H,PA,12,,,,,,,,F6.26166
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00019075
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: L-3 COMMUNICATIONS CORPORATION PAC
+  - name: STREET 1
+    number: '5'
+    value: 600 THIRD AVENUE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: NEW YORK
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '10016'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20060503'
+  - name: AMOUNT
+    number: '13'
+    value: '5000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00019075
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6PA12030
+  - name: CANDIDATE NAME
+    number: '16'
+    value: MURTHA^JOHN P^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: PA
+  - name: CAN/DIST
+    number: '19'
+    value: '12'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.26166
+- input: F65,C00019075,PAC,OSHKOSH TRUCK CORP EMPLOYEES POLITICAL ACTION COMMITTEE
+    (OTCEPAC),2307 OREGON ST,PO BOX 2566,OSHKOSH,WI,54901,,,20060503,2500.00,C00019075,H6PA12030,MURTHA^JOHN
+    P^Mr.^,H,PA,12,,,,,,,,F6.26167
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00019075
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: OSHKOSH TRUCK CORP EMPLOYEES POLITICAL ACTION COMMITTEE (OTCEPAC)
+  - name: STREET 1
+    number: '5'
+    value: 2307 OREGON ST
+  - name: STREET 2
+    number: '6'
+    value: PO BOX 2566
+  - name: CITY
+    number: '7'
+    value: OSHKOSH
+  - name: STATE
+    number: '8'
+    value: WI
+  - name: ZIP
+    number: '9'
+    value: '54901'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20060503'
+  - name: AMOUNT
+    number: '13'
+    value: '2500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00019075
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6PA12030
+  - name: CANDIDATE NAME
+    number: '16'
+    value: MURTHA^JOHN P^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: PA
+  - name: CAN/DIST
+    number: '19'
+    value: '12'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.26167
+- input: F65,C00019075,PAC,SHEET METAL WORKER'S INTERNATIONAL ASSOCIATION POLITICAL
+    ACTION LEAGUE PAL,1750 NEW YORK AVE NW,,WASHINGTON,DC,20006,,,20060503,2500.00,C00019075,H6PA12030,MURTHA^JOHN
+    P^Mr.^,H,PA,12,,,,,,,,F6.26168
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00019075
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: SHEET METAL WORKER'S INTERNATIONAL ASSOCIATION POLITICAL ACTION LEAGUE
+      PAL
+  - name: STREET 1
+    number: '5'
+    value: 1750 NEW YORK AVE NW
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: WASHINGTON
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20006'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20060503'
+  - name: AMOUNT
+    number: '13'
+    value: '2500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00019075
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6PA12030
+  - name: CANDIDATE NAME
+    number: '16'
+    value: MURTHA^JOHN P^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: PA
+  - name: CAN/DIST
+    number: '19'
+    value: '12'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.26168
+sourceurl: !!python/unicode 20060504
+type: single
