@@ -1,0 +1,397 @@
+countraw: 7
+countrows: 5
+filename: 236316.fec
+header: {}
+rows:
+- input: '"F6","C00413492","Paula Hollinger for Congress","P.O. Box 5861 ","","Baltimore","MD","21282","H6MD03284","Paula
+    C. Hollinger","H","MD","3","20060831"'
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00413492
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Paula Hollinger for Congress
+  - name: STREET 1
+    number: '4'
+    value: 'P.O. Box 5861 '
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Baltimore
+  - name: STATE
+    number: '7'
+    value: MD
+  - name: ZIP
+    number: '8'
+    value: '21282'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H6MD03284
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Paula C. Hollinger
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: MD
+  - name: CAN/DIST
+    number: '13'
+    value: '3'
+  - name: Signed
+    number: 14-
+    value: '20060831'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00413492
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Rosenberg^Henry A.^^Jr.
+  - name: STREET 1
+    number: '5'
+    value: 5 High Green Lane
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Stevenson
+  - name: STATE
+    number: '8'
+    value: MD
+  - name: ZIP
+    number: '9'
+    value: '21153'
+  - name: INDEMP
+    number: '10'
+    value: Rosemore
+  - name: INDOCC
+    number: '11'
+    value: ' Inc'
+  - name: Of Contribution
+    number: 12-
+    value: CEO
+  - name: AMOUNT
+    number: '13'
+    value: '20060830'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1600.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: C851521
+  expected_count: 27
+  input: '"F65","C00413492","IND","Rosenberg^Henry A.^^Jr.","5 High Green Lane","","Stevenson","MD","21153","Rosemore,
+    Inc","CEO","20060830","1600.00","","","","","","","","","","","","","","C851521"'
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: '"F65","C00413492","IND","Rosenberg^Dorothy L.","5 High Green Lane","","Stevenson","MD","21153","Not
+    Employed","Not Employed","20060830","1100.00","","","","","","","","","","","","","","C851529"'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00413492
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Rosenberg^Dorothy L.
+  - name: STREET 1
+    number: '5'
+    value: 5 High Green Lane
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Stevenson
+  - name: STATE
+    number: '8'
+    value: MD
+  - name: ZIP
+    number: '9'
+    value: '21153'
+  - name: INDEMP
+    number: '10'
+    value: Not Employed
+  - name: INDOCC
+    number: '11'
+    value: Not Employed
+  - name: Of Contribution
+    number: 12-
+    value: '20060830'
+  - name: AMOUNT
+    number: '13'
+    value: '1100.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C851529
+- input: '"F65","C00413492","IND","Clark^Pamela I","905 Hammershire Road","","Owings
+    Mills","MD","21117","Battelle Centers for Public Health Res","Epidemiologist","20060831","1000.00","","","","","","","","","","","","","","C853111"'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00413492
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Clark^Pamela I
+  - name: STREET 1
+    number: '5'
+    value: 905 Hammershire Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Owings Mills
+  - name: STATE
+    number: '8'
+    value: MD
+  - name: ZIP
+    number: '9'
+    value: '21117'
+  - name: INDEMP
+    number: '10'
+    value: Battelle Centers for Public Health Res
+  - name: INDOCC
+    number: '11'
+    value: Epidemiologist
+  - name: Of Contribution
+    number: 12-
+    value: '20060831'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C853111
+- input: '"F65","C00413492","PAC","Transport Workers Union","Political Contributions
+    Committee","1700 Broadway","New York","NY","10019","","","20060831","1000.00","C00008268","","","","","","","","","","","","","C853232"'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00413492
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Transport Workers Union
+  - name: STREET 1
+    number: '5'
+    value: Political Contributions Committee
+  - name: STREET 2
+    number: '6'
+    value: 1700 Broadway
+  - name: CITY
+    number: '7'
+    value: New York
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '10019'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20060831'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00008268
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C853232
+sourceurl: !!python/unicode 20060831
+type: single
