@@ -1,0 +1,229 @@
+countraw: 5
+countrows: 3
+filename: 230833.fec
+header: {}
+rows:
+- input: '"F6","C00422980","Cohen for Congress","349 Kenilworth Place","","Memphis","TN","38112","","Steve
+    Cohen","H","TN","9","20060718"'
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00422980
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Cohen for Congress
+  - name: STREET 1
+    number: '4'
+    value: 349 Kenilworth Place
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Memphis
+  - name: STATE
+    number: '7'
+    value: TN
+  - name: ZIP
+    number: '8'
+    value: '38112'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Steve Cohen
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: TN
+  - name: CAN/DIST
+    number: '13'
+    value: '9'
+  - name: Signed
+    number: 14-
+    value: '20060718'
+- input: '"F65","C00422980","PAC","Realtors Political Action Committee","430 N. Michigan
+    Avenue","","Chicago","IL","60611","Realtors Political Action Committee","","20060727","5000.00","","","","","","","","","","","","","","C415747"'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00422980
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Realtors Political Action Committee
+  - name: STREET 1
+    number: '5'
+    value: 430 N. Michigan Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Chicago
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60611'
+  - name: INDEMP
+    number: '10'
+    value: Realtors Political Action Committee
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20060727'
+  - name: AMOUNT
+    number: '13'
+    value: '5000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C415747
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00422980
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: The Doubles
+  - name: STREET 1
+    number: '5'
+    value: ' LP'
+  - name: STREET 2
+    number: '6'
+    value: 601 E. Pratt Street
+  - name: CITY
+    number: '7'
+    value: ' 6th Floor'
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: Baltimore
+  - name: INDEMP
+    number: '10'
+    value: MD
+  - name: INDOCC
+    number: '11'
+    value: '21202'
+  - name: Of Contribution
+    number: 12-
+    value: The Doubles
+  - name: AMOUNT
+    number: '13'
+    value: ' LP'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: Real Estate
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '20060727'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: '1000.00'
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: ''
+  - value: C415607
+  expected_count: 27
+  input: '"F65","C00422980","ORG","The Doubles, LP","601 E. Pratt Street, 6th Floor","","Baltimore","MD","21202","The
+    Doubles, LP","Real Estate","20060727","1000.00","","","","","","","","","","","","","","C415607"'
+  input_count: 30
+  record: fec.version.v5_3.F65
+  result: []
+sourceurl: !!python/unicode 20060728
+type: single
