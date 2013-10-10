@@ -1,0 +1,882 @@
+countraw: 9
+countrows: 7
+filename: 230533.fec
+header: {}
+rows:
+- input: F6,C00386276,"Carnahan in Congress","7370 Manchester Rd STE 20","","St. Louis","MO","63143",H0MO00019,"Russ
+    Carnahan","H","MO","03","20060725"
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386276
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Carnahan in Congress
+  - name: STREET 1
+    number: '4'
+    value: 7370 Manchester Rd STE 20
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: St. Louis
+  - name: STATE
+    number: '7'
+    value: MO
+  - name: ZIP
+    number: '8'
+    value: '63143'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H0MO00019
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Russ Carnahan
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: MO
+  - name: CAN/DIST
+    number: '13'
+    value: '03'
+  - name: Signed
+    number: 14-
+    value: '20060725'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386276
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: 625 S. Skinker Blvd
+  - name: STREET 2
+    number: '6'
+    value: ' #1503'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: St. Louis
+  - name: ZIP
+    number: '9'
+    value: MO
+  - name: ITEM ELECT CD
+    number: '10'
+    value: '63105'
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: P2006
+  - name: INDEMP
+    number: '12'
+    value: ''
+  - name: INDOCC
+    number: '13'
+    value: Westmoreland Associates
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: ' L.L.C.'
+  - name: DATE RECEIVED
+    number: '15'
+    value: Consultant
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '1000'
+  - name: TRANS CODE
+    number: '17'
+    value: '20060724'
+  - name: TRANS DESCRIP
+    number: '18'
+    value: '1000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '15'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: SA115831-063
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '37'
+    value: ''
+  - name: INCREASED LIMIT
+    number: '38'
+    value: ''
+  - name: CONTRIB ORGANIZATION NAME
+    number: '39'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '40'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '41'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '42'
+    value: Dubinsky
+  - name: CONTRIBUTOR PREFIX
+    number: '43'
+    value: John
+  - name: CONTRIBUTOR SUFFIX
+    number: '44'
+    value: Paul
+  - value: Mr.
+  - value: ''
+  expected_count: 44
+  input: 'SA11AI,C00386276,IND,"","625 S. Skinker Blvd, #1503","","St. Louis",MO,63105,P2006,,"Westmoreland
+    Associates, L.L.C.","Consultant",1000,20060724,1000,15,"",,,"",,,,"","","",,,,,"",,SA115831-063,,,,,"","Dubinsky","John","Paul","Mr.",""'
+  input_count: 46
+  record: fec.version.v5_3.SA
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386276
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: Raeder Place
+  - name: STREET 2
+    number: '6'
+    value: ' Suite 230'
+  - name: CITY
+    number: '7'
+    value: 727 North First Street
+  - name: STATE
+    number: '8'
+    value: St. Louis
+  - name: ZIP
+    number: '9'
+    value: MO
+  - name: ITEM ELECT CD
+    number: '10'
+    value: '63102'
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: G2006
+  - name: INDEMP
+    number: '12'
+    value: ''
+  - name: INDOCC
+    number: '13'
+    value: Glick Finley LLC
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: Attorney
+  - name: DATE RECEIVED
+    number: '15'
+    value: '4200'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '20060724'
+  - name: TRANS CODE
+    number: '17'
+    value: '1850'
+  - name: TRANS DESCRIP
+    number: '18'
+    value: '15'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: SA228443-030
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '37'
+    value: ''
+  - name: INCREASED LIMIT
+    number: '38'
+    value: ''
+  - name: CONTRIB ORGANIZATION NAME
+    number: '39'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '40'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '41'
+    value: Glick
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '42'
+    value: Thomas
+  - name: CONTRIBUTOR PREFIX
+    number: '43'
+    value: G.
+  - name: CONTRIBUTOR SUFFIX
+    number: '44'
+    value: Mr.
+  - value: ''
+  expected_count: 44
+  input: SA11AI,C00386276,IND,"","Raeder Place, Suite 230","727 North First Street","St.
+    Louis",MO,63102,G2006,,"Glick Finley LLC","Attorney",4200,20060724,1850,15,"",,,"",,,,"","","",,,,,"",,SA228443-030,,,,,"","Glick","Thomas","G.","Mr.",""
+  input_count: 45
+  record: fec.version.v5_3.SA
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386276
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: Raeder Place
+  - name: STREET 2
+    number: '6'
+    value: ' Suite 230'
+  - name: CITY
+    number: '7'
+    value: 727 North First Street
+  - name: STATE
+    number: '8'
+    value: St. Louis
+  - name: ZIP
+    number: '9'
+    value: MO
+  - name: ITEM ELECT CD
+    number: '10'
+    value: '63102'
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: G2006
+  - name: INDEMP
+    number: '12'
+    value: ''
+  - name: INDOCC
+    number: '13'
+    value: Notre Dame High School
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: Teacher
+  - name: DATE RECEIVED
+    number: '15'
+    value: '2350'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '20060724'
+  - name: TRANS CODE
+    number: '17'
+    value: '2100'
+  - name: TRANS DESCRIP
+    number: '18'
+    value: '15'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: SA228443-029
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '37'
+    value: ''
+  - name: INCREASED LIMIT
+    number: '38'
+    value: ''
+  - name: CONTRIB ORGANIZATION NAME
+    number: '39'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '40'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '41'
+    value: Guynes
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '42'
+    value: Brenda
+  - name: CONTRIBUTOR PREFIX
+    number: '43'
+    value: A.
+  - name: CONTRIBUTOR SUFFIX
+    number: '44'
+    value: Mrs.
+  - value: ''
+  expected_count: 44
+  input: SA11AI,C00386276,IND,"","Raeder Place, Suite 230","727 North First Street","St.
+    Louis",MO,63102,G2006,,"Notre Dame High School","Teacher",2350,20060724,2100,15,"",,,"",,,,"","","",,,,,"",,SA228443-029,,,,,"","Guynes","Brenda","A.","Mrs.",""
+  input_count: 45
+  record: fec.version.v5_3.SA
+  result: []
+- input: SA11AI,C00386276,IND,"","241 Central Park West","","New York",NY,10024,P2006,,"Rudin
+    Management Company","Builder",5000,20060724,1000,15,"",,,"",,,,"","","",,,,,"",,SA195713-023,,,,,"","Rudin","Jack","","Mr.",""
+  record: fec.version.v5_3.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386276
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: 241 Central Park West
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: New York
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '10024'
+  - name: ITEM ELECT CD
+    number: '10'
+    value: P2006
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: ''
+  - name: INDEMP
+    number: '12'
+    value: Rudin Management Company
+  - name: INDOCC
+    number: '13'
+    value: Builder
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: '5000'
+  - name: DATE RECEIVED
+    number: '15'
+    value: '20060724'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '1000'
+  - name: TRANS CODE
+    number: '17'
+    value: '15'
+  - name: TRANS DESCRIP
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: SA195713-023
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '37'
+    value: ''
+  - name: INCREASED LIMIT
+    number: '38'
+    value: ''
+  - name: CONTRIB ORGANIZATION NAME
+    number: '39'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '40'
+    value: Rudin
+  - name: CONTRIBUTOR FIRST NAME
+    number: '41'
+    value: Jack
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '42'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '43'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '44'
+    value: ''
+- input: SA11C,C00386276,PAC,"","430 First St SE","","Washington",DC,20003,P2006,,"","",1000,20060724,1000,15,"",C00002881,,"",,,,"","","",,,,,"",,SA522762-004,,,,,"Trucking
+    PAC of The American Trucking Associa","","","","",""
+  record: fec.version.v5_3.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11C
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386276
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: 430 First St SE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20003'
+  - name: ITEM ELECT CD
+    number: '10'
+    value: P2006
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: ''
+  - name: INDEMP
+    number: '12'
+    value: ''
+  - name: INDOCC
+    number: '13'
+    value: ''
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: '1000'
+  - name: DATE RECEIVED
+    number: '15'
+    value: '20060724'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '1000'
+  - name: TRANS CODE
+    number: '17'
+    value: '15'
+  - name: TRANS DESCRIP
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00002881
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: SA522762-004
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '37'
+    value: ''
+  - name: INCREASED LIMIT
+    number: '38'
+    value: ''
+  - name: CONTRIB ORGANIZATION NAME
+    number: '39'
+    value: Trucking PAC of The American Trucking Associa
+  - name: CONTRIBUTOR LAST NAME
+    number: '40'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '41'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '42'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '43'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '44'
+    value: ''
+- input: SA11AI,C00386276,IND,"","836 W 51st Street","","Kansas City",MO,64112,P2006,,"Wheat
+    Government Relations","Consultant",2000,20060724,1000,15,"",,,"",,,,"","","",,,,,"",,SA108623-056,,,,,"","Wheat","Alan","","Hon.",""
+  record: fec.version.v5_3.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386276
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: 836 W 51st Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Kansas City
+  - name: STATE
+    number: '8'
+    value: MO
+  - name: ZIP
+    number: '9'
+    value: '64112'
+  - name: ITEM ELECT CD
+    number: '10'
+    value: P2006
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: ''
+  - name: INDEMP
+    number: '12'
+    value: Wheat Government Relations
+  - name: INDOCC
+    number: '13'
+    value: Consultant
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: '2000'
+  - name: DATE RECEIVED
+    number: '15'
+    value: '20060724'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '1000'
+  - name: TRANS CODE
+    number: '17'
+    value: '15'
+  - name: TRANS DESCRIP
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: SA108623-056
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '37'
+    value: ''
+  - name: INCREASED LIMIT
+    number: '38'
+    value: ''
+  - name: CONTRIB ORGANIZATION NAME
+    number: '39'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '40'
+    value: Wheat
+  - name: CONTRIBUTOR FIRST NAME
+    number: '41'
+    value: Alan
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '42'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '43'
+    value: Hon.
+  - name: CONTRIBUTOR SUFFIX
+    number: '44'
+    value: ''
+sourceurl: !!python/unicode 20060725
+type: single
