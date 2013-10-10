@@ -1,0 +1,318 @@
+countraw: 6
+countrows: 4
+filename: 220954.fec
+header: {}
+rows:
+- input: F6,C00409573,Whalen for Congress,P. O. Box 750,,Bettendorf,IA,52722,H6IA01106,WHALEN^MICHAEL
+    LOUIS^^,H,IA,1,20060602
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00409573
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Whalen for Congress
+  - name: STREET 1
+    number: '4'
+    value: P. O. Box 750
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Bettendorf
+  - name: STATE
+    number: '7'
+    value: IA
+  - name: ZIP
+    number: '8'
+    value: '52722'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H6IA01106
+  - name: CANDIDATE NAME
+    number: '10'
+    value: WHALEN^MICHAEL LOUIS^^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: IA
+  - name: CAN/DIST
+    number: '13'
+    value: '1'
+  - name: Signed
+    number: 14-
+    value: '20060602'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00409573
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Hunt^Ray L^^
+  - name: STREET 1
+    number: '5'
+    value: 1445 Ross Avenue
+  - name: STREET 2
+    number: '6'
+    value: Suite 1500
+  - name: CITY
+    number: '7'
+    value: Dallas
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '75202'
+  - name: INDEMP
+    number: '10'
+    value: Hunt Consolidated
+  - name: INDOCC
+    number: '11'
+    value: ' Inc.'
+  - name: Of Contribution
+    number: 12-
+    value: Chairman
+  - name: AMOUNT
+    number: '13'
+    value: ' President & CEO'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20060531'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '1000.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: C00409573
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: WHALEN^MICHAEL LOUIS^^
+  - name: CAN/DIST
+    number: '19'
+    value: H
+  - name: CONDUIT NAME
+    number: '20'
+    value: IA
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: '1'
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: F6.8256
+  expected_count: 27
+  input: F65,C00409573,IND,Hunt^Ray L^^,1445 Ross Avenue,Suite 1500,Dallas,TX,75202,"Hunt
+    Consolidated, Inc.","Chairman, President & CEO",20060531,1000.00,C00409573,,WHALEN^MICHAEL
+    LOUIS^^,H,IA,1,,,,,,,,F6.8256
+  input_count: 29
+  record: fec.version.v5_3.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00409573
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Ruppel^Judy^^
+  - name: STREET 1
+    number: '5'
+    value: 1167 Hunters Ridge
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Dubuque
+  - name: STATE
+    number: '8'
+    value: IA
+  - name: ZIP
+    number: '9'
+    value: '52003'
+  - name: INDEMP
+    number: '10'
+    value: Parco
+  - name: INDOCC
+    number: '11'
+    value: ' Ltd.'
+  - name: Of Contribution
+    number: 12-
+    value: Owner
+  - name: AMOUNT
+    number: '13'
+    value: '20060531'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2100.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00409573
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: WHALEN^MICHAEL LOUIS^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: IA
+  - name: CONDUIT NAME
+    number: '20'
+    value: '1'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.8253
+  expected_count: 27
+  input: F65,C00409573,IND,Ruppel^Judy^^,1167 Hunters Ridge,,Dubuque,IA,52003,"Parco,
+    Ltd.",Owner,20060531,2100.00,C00409573,,WHALEN^MICHAEL LOUIS^^,H,IA,1,,,,,,,,F6.8253
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: F65,C00409573,PAC,National Franchisee Association,1201 Roberts Blvd,Suite
+    100,Kennesaw,GA,30144,,,20060531,2000.00,C00409573,,WHALEN^MICHAEL LOUIS^^,H,IA,1,,,,,,,,F6.8250
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00409573
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: National Franchisee Association
+  - name: STREET 1
+    number: '5'
+    value: 1201 Roberts Blvd
+  - name: STREET 2
+    number: '6'
+    value: Suite 100
+  - name: CITY
+    number: '7'
+    value: Kennesaw
+  - name: STATE
+    number: '8'
+    value: GA
+  - name: ZIP
+    number: '9'
+    value: '30144'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20060531'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00409573
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: WHALEN^MICHAEL LOUIS^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: IA
+  - name: CAN/DIST
+    number: '19'
+    value: '1'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.8250
+sourceurl: !!python/unicode 20060602
+type: single
