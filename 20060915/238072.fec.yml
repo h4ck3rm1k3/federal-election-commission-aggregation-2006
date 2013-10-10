@@ -1,0 +1,192 @@
+countraw: 4
+countrows: 2
+filename: 238072.fec
+header: {}
+rows:
+- input: '"F24N","C00001016","Carpenters Legislative Improvement Committee United
+    Brotherhood Of Carpenters And Joiners","101 Constitution Ave NW","Tenth Floor
+    West","Washington","DC","20001","Byers^Monte^^","20060915","24"'
+  record: fec.version.v5_3.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00001016
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Carpenters Legislative Improvement Committee United Brotherhood Of Carpenters
+      And Joiners
+  - name: STREET 1
+    number: '4'
+    value: 101 Constitution Ave NW
+  - name: STREET 2
+    number: '5'
+    value: Tenth Floor West
+  - name: CITY
+    number: '6'
+    value: Washington
+  - name: STATE
+    number: '7'
+    value: DC
+  - name: ZIP
+    number: '8'
+    value: '20001'
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: Byers^Monte^^
+  - name: Signed
+    number: 10-
+    value: '20060915'
+  - name: REPORT TYPE
+    number: '11'
+    value: '24'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00001016
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: Chun & Yonamine Advertising
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: PO Box 240576
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Honolulu
+  - name: ZIP
+    number: '9'
+    value: HI
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '968240576'
+  - name: DATE
+    number: '11'
+    value: Television Advertising
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20060915'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '25000.00'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: SUP
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: Akaka^Daniel^^
+  - name: S/O STATE
+    number: '17'
+    value: S
+  - name: S/O CAN/DIST
+    number: '18'
+    value: HI
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: C00368134
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: Byers^Monte^^
+  - name: Notarized
+    number: 33-
+    value: '20060915'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: '24623221'
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: P2006
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '004'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '25000.00'
+  expected_count: 46
+  input: '"SE24","C00001016","","Chun & Yonamine Advertising, Inc.","PO Box 240576","","Honolulu","HI","968240576","Television
+    Advertising","20060915",25000.00,"SUP","","Akaka^Daniel^^","S","HI","","C00368134","","","","","","","","","","","","Byers^Monte^^","20060915","","","","","24623221","","","","","P2006","","004","",25000.00'
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+sourceurl: !!python/unicode 20060915
+type: single
