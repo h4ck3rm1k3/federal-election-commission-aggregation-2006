@@ -1,0 +1,143 @@
+countraw: 4
+countrows: 2
+filename: 231286.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00417071
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Lee Harris for Memphis
+  - name: STREET 1
+    number: '4'
+    value: 165 Madison Avenue
+  - name: STREET 2
+    number: '5'
+    value: ' Suite 2000'
+  - name: CITY
+    number: '6'
+    value: c/o Jason Strain
+  - name: STATE
+    number: '7'
+    value: ' Esq.'
+  - name: ZIP
+    number: '8'
+    value: Memphis
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: TN
+  - name: CANDIDATE NAME
+    number: '10'
+    value: '38103'
+  - name: CAN/OFFICE
+    number: '11'
+    value: H6TN09233
+  - name: CAN/STATE
+    number: '12'
+    value: Harris^Lee A^Mr.^
+  - name: CAN/DIST
+    number: '13'
+    value: H
+  - name: Signed
+    number: 14-
+    value: TN
+  - value: 09
+  - value: '20060801'
+  expected_count: 14
+  input: F6,C00417071,Lee Harris for Memphis,"165 Madison Avenue, Suite 2000","c/o
+    Jason Strain, Esq.",Memphis,TN,38103,H6TN09233,Harris^Lee A^Mr.^,H,TN,09,20060801
+  input_count: 16
+  record: fec.version.v5_3.F6
+  result: []
+- input: F65,C00417071,CAN,Harris^Lee A.^Mr.^,1367 Peabody,,Memphis,TN,38104,University
+    of Memphis,Associate Professor,20060730,2400.00,C00417071,,Harris^Lee A^Mr.^,H,TN,09,,,,,,,,F6.5155
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00417071
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Harris^Lee A.^Mr.^
+  - name: STREET 1
+    number: '5'
+    value: 1367 Peabody
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Memphis
+  - name: STATE
+    number: '8'
+    value: TN
+  - name: ZIP
+    number: '9'
+    value: '38104'
+  - name: INDEMP
+    number: '10'
+    value: University of Memphis
+  - name: INDOCC
+    number: '11'
+    value: Associate Professor
+  - name: Of Contribution
+    number: 12-
+    value: '20060730'
+  - name: AMOUNT
+    number: '13'
+    value: '2400.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00417071
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Harris^Lee A^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: TN
+  - name: CAN/DIST
+    number: '19'
+    value: 09
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5155
+sourceurl: !!python/unicode 20060801
+type: single
