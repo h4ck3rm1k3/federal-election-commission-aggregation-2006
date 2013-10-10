@@ -1,0 +1,569 @@
+countraw: 9
+countrows: 7
+filename: 206722.fec
+header: {}
+rows:
+- input: F6,C00369710,MELISSA BEAN FOR CONGRESS,POST OFFICE BOX 3068,,BARRINGTON,IL,60010,H2IL08088,BEAN^MELISSA
+    L.^^,H,IL,08,20060316
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00369710
+  - name: COMMITTEE NAME
+    number: '3'
+    value: MELISSA BEAN FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: POST OFFICE BOX 3068
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: BARRINGTON
+  - name: STATE
+    number: '7'
+    value: IL
+  - name: ZIP
+    number: '8'
+    value: '60010'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2IL08088
+  - name: CANDIDATE NAME
+    number: '10'
+    value: BEAN^MELISSA L.^^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: IL
+  - name: CAN/DIST
+    number: '13'
+    value: 08
+  - name: Signed
+    number: 14-
+    value: '20060316'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00369710
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Bloch^Nancy^^
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 2569
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Rancho Santa Fe
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '92067'
+  - name: INDEMP
+    number: '10'
+    value: Lemon Tree Press
+  - name: INDOCC
+    number: '11'
+    value: Weaver
+  - name: Of Contribution
+    number: 12-
+    value: ' Designer & Bookbinder'
+  - name: AMOUNT
+    number: '13'
+    value: '20060314'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1100.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00369710
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H2IL08088
+  - name: CAN/OFFICE
+    number: '17'
+    value: BEAN^MELISSA L.^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: IL
+  - name: CONDUIT NAME
+    number: '20'
+    value: 08
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.4267
+  expected_count: 27
+  input: F65,C00369710,IND,Bloch^Nancy^^,P.O. Box 2569,,Rancho Santa Fe,CA,92067,Lemon
+    Tree Press,"Weaver, Designer & Bookbinder",20060314,1100.00,C00369710,H2IL08088,BEAN^MELISSA
+    L.^^,H,IL,08,,,,,,,,F6.4267
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: F65,C00369710,PAC,AFLAC INCORPORATED PAC -- AFLACPAC,1932 WYNNTON ROAD,.,COLUMBUS,GA,31999,,,20060314,1000.00,C00369710,H2IL08088,BEAN^MELISSA
+    L.^^,H,IL,08,,,,,,,,F6.4264
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00369710
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: AFLAC INCORPORATED PAC -- AFLACPAC
+  - name: STREET 1
+    number: '5'
+    value: 1932 WYNNTON ROAD
+  - name: STREET 2
+    number: '6'
+    value: .
+  - name: CITY
+    number: '7'
+    value: COLUMBUS
+  - name: STATE
+    number: '8'
+    value: GA
+  - name: ZIP
+    number: '9'
+    value: '31999'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20060314'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00369710
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H2IL08088
+  - name: CANDIDATE NAME
+    number: '16'
+    value: BEAN^MELISSA L.^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: IL
+  - name: CAN/DIST
+    number: '19'
+    value: 08
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.4264
+- input: F65,C00369710,PAC,ALLSTATE INSURANCE COMPANY PAC,2775 Sanders Road,Suite
+    A5,Northbrook,IL,60062,,,20060314,1000.00,C00369710,H2IL08088,BEAN^MELISSA L.^^,H,IL,08,,,,,,,,F6.4270
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00369710
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: ALLSTATE INSURANCE COMPANY PAC
+  - name: STREET 1
+    number: '5'
+    value: 2775 Sanders Road
+  - name: STREET 2
+    number: '6'
+    value: Suite A5
+  - name: CITY
+    number: '7'
+    value: Northbrook
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60062'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20060314'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00369710
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H2IL08088
+  - name: CANDIDATE NAME
+    number: '16'
+    value: BEAN^MELISSA L.^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: IL
+  - name: CAN/DIST
+    number: '19'
+    value: 08
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.4270
+- input: F65,C00369710,PAC,GENERAL DYNAMICS VOLUNTARY POLITICAL CONTRIBUTION PLAN
+    (GDVPCP),2941 Fairview Park Drive,Suite 100,Falls Church,VA,22042,,,20060314,1000.00,C00369710,H2IL08088,BEAN^MELISSA
+    L.^^,H,IL,08,,,,,,,,F6.4273
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00369710
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: GENERAL DYNAMICS VOLUNTARY POLITICAL CONTRIBUTION PLAN (GDVPCP)
+  - name: STREET 1
+    number: '5'
+    value: 2941 Fairview Park Drive
+  - name: STREET 2
+    number: '6'
+    value: Suite 100
+  - name: CITY
+    number: '7'
+    value: Falls Church
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22042'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20060314'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00369710
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H2IL08088
+  - name: CANDIDATE NAME
+    number: '16'
+    value: BEAN^MELISSA L.^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: IL
+  - name: CAN/DIST
+    number: '19'
+    value: 08
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.4273
+- input: F65,C00369710,CCM,MURTHA FOR CONGRESS COMMITTEE,551 Main Street Suite 220
+    ,,JOHNSTOWN,PA,15901,,,20060314,2000.00,C00369710,H2IL08088,BEAN^MELISSA L.^^,H,IL,08,,,,,,,,F6.4276
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00369710
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: MURTHA FOR CONGRESS COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: '551 Main Street Suite 220 '
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: JOHNSTOWN
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '15901'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20060314'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00369710
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H2IL08088
+  - name: CANDIDATE NAME
+    number: '16'
+    value: BEAN^MELISSA L.^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: IL
+  - name: CAN/DIST
+    number: '19'
+    value: 08
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.4276
+- input: F65,C00369710,PAC,US CHAMBER OF COMMERCE PAC (NCAP),1615 H Street NW,.,Washington,DC,20062,,,20060314,3000.00,C00369710,H2IL08088,BEAN^MELISSA
+    L.^^,H,IL,08,,,,,,,,F6.4279
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00369710
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: US CHAMBER OF COMMERCE PAC (NCAP)
+  - name: STREET 1
+    number: '5'
+    value: 1615 H Street NW
+  - name: STREET 2
+    number: '6'
+    value: .
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20062'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20060314'
+  - name: AMOUNT
+    number: '13'
+    value: '3000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00369710
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H2IL08088
+  - name: CANDIDATE NAME
+    number: '16'
+    value: BEAN^MELISSA L.^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: IL
+  - name: CAN/DIST
+    number: '19'
+    value: 08
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.4279
+sourceurl: !!python/unicode 20060317
+type: single
