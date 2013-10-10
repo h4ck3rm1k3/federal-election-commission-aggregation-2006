@@ -1,0 +1,231 @@
+countraw: 5
+countrows: 3
+filename: 237269.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00413450
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Aydelott for Congress
+  - name: STREET 1
+    number: '4'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '5'
+    value: 100 Maple Ave.
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Katonah
+  - name: ZIP
+    number: '8'
+    value: NY
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '10536'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H6NY19102
+  - name: CAN/OFFICE
+    number: '11'
+    value: Judith A. Aydelott
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: NY
+  - name: Signed
+    number: 14-
+    value: '19'
+  - value: '20060908'
+  expected_count: 14
+  input: '"F6","C00413450","Aydelott for Congress, Inc.","100 Maple Ave.","","Katonah","NY","10536","H6NY19102","Judith
+    A. Aydelott","H","NY","19","20060908"'
+  input_count: 15
+  record: fec.version.v5_3.F6
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00413450
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Brooks^Michael C.
+  - name: STREET 1
+    number: '5'
+    value: 151 E. 79th Street
+  - name: STREET 2
+    number: '6'
+    value: ' Apt. 10'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: New York
+  - name: ZIP
+    number: '9'
+    value: NY
+  - name: INDEMP
+    number: '10'
+    value: '10021'
+  - name: INDOCC
+    number: '11'
+    value: Venrock Associates
+  - name: Of Contribution
+    number: 12-
+    value: Venture Capital Investor
+  - name: AMOUNT
+    number: '13'
+    value: '20060908'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: C855357
+  expected_count: 27
+  input: '"F65","C00413450","IND","Brooks^Michael C.","151 E. 79th Street, Apt. 10","","New
+    York","NY","10021","Venrock Associates","Venture Capital Investor","20060908","1000.00","","","","","","","","","","","","","","C855357"'
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: '"F65","C00413450","IND","Spain^Michael H.","625 Route 6","","Mahopac","NY","10541","Spain
+    Agency Inc.","Insurance Agent","20060908","1000.00","","","","","","","","","","","","","","C856029"'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00413450
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Spain^Michael H.
+  - name: STREET 1
+    number: '5'
+    value: 625 Route 6
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Mahopac
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '10541'
+  - name: INDEMP
+    number: '10'
+    value: Spain Agency Inc.
+  - name: INDOCC
+    number: '11'
+    value: Insurance Agent
+  - name: Of Contribution
+    number: 12-
+    value: '20060908'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C856029
+sourceurl: !!python/unicode 20060908
+type: single
