@@ -1,0 +1,312 @@
+countraw: 6
+countrows: 4
+filename: 236173.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00326629
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Kline for Congress
+  - name: STREET 1
+    number: '4'
+    value: 101 W Burnsville Pkwy
+  - name: STREET 2
+    number: '5'
+    value: ' Suite 104'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Burnsville
+  - name: ZIP
+    number: '8'
+    value: MN
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '55337   '
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H8MN06047
+  - name: CAN/OFFICE
+    number: '11'
+    value: John P. Kline
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: MN
+  - name: Signed
+    number: 14-
+    value: '02'
+  - value: '20060830'
+  expected_count: 14
+  input: '"F6","C00326629","Kline for Congress","101 W Burnsville Pkwy, Suite 104","","Burnsville","MN","55337   ","H8MN06047","John
+    P. Kline","H","MN","02",20060830'
+  input_count: 15
+  record: fec.version.v5_3.F6
+  result: []
+- input: '"F65","C00326629","IND","Egan^Mike","10220 170th St W","","Lakeville","MN","550445532","Hays
+    Companies","Insurance Brokerage",20060830,1000.00,"","","","","",,"","","","","","","","60830.C29606"'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00326629
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Egan^Mike
+  - name: STREET 1
+    number: '5'
+    value: 10220 170th St W
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Lakeville
+  - name: STATE
+    number: '8'
+    value: MN
+  - name: ZIP
+    number: '9'
+    value: '550445532'
+  - name: INDEMP
+    number: '10'
+    value: Hays Companies
+  - name: INDOCC
+    number: '11'
+    value: Insurance Brokerage
+  - name: Of Contribution
+    number: 12-
+    value: '20060830'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 60830.C29606
+- input: '"F65","C00326629","IND","Hays^James","1672 Medina Rd","","Long Lake","MN","553569637","The
+    Hays Company","President",20060830,1000.00,"","","","","",,"","","","","","","","60830.C29607"'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00326629
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Hays^James
+  - name: STREET 1
+    number: '5'
+    value: 1672 Medina Rd
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Long Lake
+  - name: STATE
+    number: '8'
+    value: MN
+  - name: ZIP
+    number: '9'
+    value: '553569637'
+  - name: INDEMP
+    number: '10'
+    value: The Hays Company
+  - name: INDOCC
+    number: '11'
+    value: President
+  - name: Of Contribution
+    number: 12-
+    value: '20060830'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 60830.C29607
+- input: '"F65","C00326629","IND","Lejeune^Laurence","2820 County Road 24","","Long
+    Lake","MN","553569538","Lejeune Investment Inc","Owner & CEO",20060830,2200.00,"","","","","",,"","","","","","","","60830.C29608"'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00326629
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Lejeune^Laurence
+  - name: STREET 1
+    number: '5'
+    value: 2820 County Road 24
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Long Lake
+  - name: STATE
+    number: '8'
+    value: MN
+  - name: ZIP
+    number: '9'
+    value: '553569538'
+  - name: INDEMP
+    number: '10'
+    value: Lejeune Investment Inc
+  - name: INDOCC
+    number: '11'
+    value: Owner & CEO
+  - name: Of Contribution
+    number: 12-
+    value: '20060830'
+  - name: AMOUNT
+    number: '13'
+    value: '2200.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 60830.C29608
+sourceurl: !!python/unicode 20060830
+type: single
