@@ -1,0 +1,312 @@
+countraw: 6
+countrows: 4
+filename: 235565.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00117119
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Friends of Clay Shaw
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 2188
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Fort Lauderdale
+  - name: STATE
+    number: '7'
+    value: FL
+  - name: ZIP
+    number: '8'
+    value: '33303   '
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H0FL12010
+  - name: CANDIDATE NAME
+    number: '10'
+    value: E. Clay Shaw
+  - name: CAN/OFFICE
+    number: '11'
+    value: ' Jr.'
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: FL
+  - name: Signed
+    number: 14-
+    value: '22'
+  - value: '20060824'
+  expected_count: 14
+  input: '"F6","C00117119","Friends of Clay Shaw","P.O. Box 2188","","Fort Lauderdale","FL","33303   ","H0FL12010","E.
+    Clay Shaw, Jr.","H","FL","22",20060824'
+  input_count: 15
+  record: fec.version.v5_3.F6
+  result: []
+- input: '"F65","C00117119","PAC","National Action Comm. PAC","3389 Sheridan Street","Suite
+    424 ","Hollywood","FL","33021","National Action Comm.","PAC",20060824,5000.00,"","","","","",,"","","","","","","","60824.C38894"'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00117119
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: National Action Comm. PAC
+  - name: STREET 1
+    number: '5'
+    value: 3389 Sheridan Street
+  - name: STREET 2
+    number: '6'
+    value: 'Suite 424 '
+  - name: CITY
+    number: '7'
+    value: Hollywood
+  - name: STATE
+    number: '8'
+    value: FL
+  - name: ZIP
+    number: '9'
+    value: '33021'
+  - name: INDEMP
+    number: '10'
+    value: National Action Comm.
+  - name: INDOCC
+    number: '11'
+    value: PAC
+  - name: Of Contribution
+    number: 12-
+    value: '20060824'
+  - name: AMOUNT
+    number: '13'
+    value: '5000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 60824.C38894
+- input: '"F65","C00117119","IND","Singer^Marc","800 S Douglas Rd","Suite 750 ","Coral
+    Gables","FL","331343170","Singer Zenos","Investment Advisor",20060824,2000.00,"","","","","",,"","","","","","","","60824.C38893"'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00117119
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Singer^Marc
+  - name: STREET 1
+    number: '5'
+    value: 800 S Douglas Rd
+  - name: STREET 2
+    number: '6'
+    value: 'Suite 750 '
+  - name: CITY
+    number: '7'
+    value: Coral Gables
+  - name: STATE
+    number: '8'
+    value: FL
+  - name: ZIP
+    number: '9'
+    value: '331343170'
+  - name: INDEMP
+    number: '10'
+    value: Singer Zenos
+  - name: INDOCC
+    number: '11'
+    value: Investment Advisor
+  - name: Of Contribution
+    number: 12-
+    value: '20060824'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 60824.C38893
+- input: '"F65","C00117119","IND","Vogel^Mark","3369  Sheridan Street","#424 ","Hollywood","FL","330213606","Law
+    Offices of Mark Vogel","Attorney",20060824,1000.00,"","","","","",,"","","","","","","","60824.C38892"'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00117119
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Vogel^Mark
+  - name: STREET 1
+    number: '5'
+    value: 3369  Sheridan Street
+  - name: STREET 2
+    number: '6'
+    value: '#424 '
+  - name: CITY
+    number: '7'
+    value: Hollywood
+  - name: STATE
+    number: '8'
+    value: FL
+  - name: ZIP
+    number: '9'
+    value: '330213606'
+  - name: INDEMP
+    number: '10'
+    value: Law Offices of Mark Vogel
+  - name: INDOCC
+    number: '11'
+    value: Attorney
+  - name: Of Contribution
+    number: 12-
+    value: '20060824'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 60824.C38892
+sourceurl: !!python/unicode 20060824
+type: single
