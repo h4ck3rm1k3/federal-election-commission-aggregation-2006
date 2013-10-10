@@ -1,0 +1,232 @@
+countraw: 5
+countrows: 3
+filename: 219465.fec
+header: {}
+rows:
+- input: F6N,C00351379,MIKE HONDA FOR CONGRESS,50 W. San Fernando St. Ste. 350,,San
+    Jose,CA,95113,H0CA15148,Honda^Mike^^,H,CA,15,20060524
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00351379
+  - name: COMMITTEE NAME
+    number: '3'
+    value: MIKE HONDA FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 50 W. San Fernando St. Ste. 350
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: San Jose
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '95113'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H0CA15148
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Honda^Mike^^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: CA
+  - name: CAN/DIST
+    number: '13'
+    value: '15'
+  - name: Signed
+    number: 14-
+    value: '20060524'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00351379
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Hudson^Robert
+  - name: STREET 1
+    number: '5'
+    value: 1451 Fruitdale Ave.
+  - name: STREET 2
+    number: '6'
+    value: ' #100'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: San Jose
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: INDEMP
+    number: '10'
+    value: '95128'
+  - name: INDOCC
+    number: '11'
+    value: The Hudson Companies
+  - name: Of Contribution
+    number: 12-
+    value: Self
+  - name: AMOUNT
+    number: '13'
+    value: ' Real Estate'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20060522'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '1000.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: F65.00000
+  expected_count: 27
+  input: 'F65,C00351379,IND,Hudson^Robert,"1451 Fruitdale Ave., #100",,San Jose,CA,95128,The
+    Hudson Companies,"Self, Real Estate",20060522,1000.00,,,,,,,,,,,,,,F65.00000'
+  input_count: 29
+  record: fec.version.v5_3.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00351379
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Whitlock^Phyllis Kay
+  - name: STREET 1
+    number: '5'
+    value: 3470 N. Lake Shore Dr.
+  - name: STREET 2
+    number: '6'
+    value: ' #7C'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Chicago
+  - name: ZIP
+    number: '9'
+    value: IL
+  - name: INDEMP
+    number: '10'
+    value: '60657'
+  - name: INDOCC
+    number: '11'
+    value: Christopher B. Burke Engineering
+  - name: Of Contribution
+    number: 12-
+    value: Engineer
+  - name: AMOUNT
+    number: '13'
+    value: '20060523'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F65.00001
+  expected_count: 27
+  input: 'F65,C00351379,IND,Whitlock^Phyllis Kay,"3470 N. Lake Shore Dr., #7C",,Chicago,IL,60657,Christopher
+    B. Burke Engineering,Engineer,20060523,1000.00,,,,,,,,,,,,,,F65.00001'
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+sourceurl: !!python/unicode 20060524
+type: single
