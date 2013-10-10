@@ -1,0 +1,126 @@
+countraw: 3
+countrows: 1
+filename: 229544.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H4AZ06052
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: 6716 E. Duane Lane
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Scottsdale
+  - name: STATE
+    number: '7'
+    value: AZ
+  - name: ZIP
+    number: '8'
+    value: '85262   '
+  - name: PTY/CODE
+    number: '9'
+    value: REP
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: AZ
+  - name: CAN/DIST
+    number: '12'
+    value: '5 '
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '2006'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: ''
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: JD Hayworth For Congress
+  - name: STREET 1
+    number: '16'
+    value: 14300 N. Northsight Blvd.
+  - name: STREET 2
+    number: '17'
+    value: ' #105'
+  - name: CITY
+    number: '18'
+    value: ''
+  - name: STATE
+    number: '19'
+    value: Scottsdale
+  - name: ZIP
+    number: '20'
+    value: AZ
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: '85260   '
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: C00426239
+  - name: STREET 1
+    number: '23'
+    value: ROMP IV 2006
+  - name: STREET 2
+    number: '24'
+    value: 228 S. Washington Street
+  - name: CITY
+    number: '25'
+    value: ' Suite 11'
+  - name: STATE
+    number: '26'
+    value: ''
+  - name: ZIP
+    number: '27'
+    value: Alexandria
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: VA
+  - name: Signed
+    number: 29-
+    value: '22314   '
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: JD Hayworth
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '20060720'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: '0.00'
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: '0.00'
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: Hayworth
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: JD
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 36
+  input: '"F2","H4AZ06052","","6716 E. Duane Lane","","Scottsdale","AZ","85262   ","REP","H","AZ",5
+    ,2006,"","JD Hayworth For Congress","14300 N. Northsight Blvd., #105","","Scottsdale","AZ","85260   ","C00426239","ROMP
+    IV 2006","228 S. Washington Street, Suite 11","","Alexandria","VA","22314   ","JD
+    Hayworth",20060720,0.00,0.00,"Hayworth","JD","","",""'
+  input_count: 38
+  record: fec.version.v5_3.F2
+  result: []
+sourceurl: !!python/unicode 20060720
+type: single
