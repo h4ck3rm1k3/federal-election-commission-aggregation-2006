@@ -1,0 +1,183 @@
+countraw: 4
+countrows: 2
+filename: 203121.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1MN
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00369058
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Van Scoyoc Associates
+  - name: STREET 1
+    number: '4'
+    value: ' Inc. PAC'
+  - name: STREET 2
+    number: '5'
+    value: 101 Constitution Avenue
+  - name: CITY
+    number: '6'
+    value: Suite 600 West
+  - name: STATE
+    number: '7'
+    value: Washington
+  - name: ZIP
+    number: '8'
+    value: DC
+  - name: COMMITTEE TYPE
+    number: '9'
+    value: '20001'
+  - name: Of Affiliation
+    number: 10-
+    value: N
+  - name: FEC COMMITTEE ID NUMBER
+    number: '11'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '12'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '13'
+    value: '-'
+  - name: CANDIDATE NAME
+    number: '14'
+    value: H0AL07060
+  - name: CAN/OFFICE
+    number: '15'
+    value: DAVIS
+  - name: CAN/STATE
+    number: '16'
+    value: ' ARTUR GENESTRE^^^'
+  - name: CAN/DIST
+    number: '17'
+    value: H
+  - name: Of Contribution
+    number: 18-
+    value: AL
+  - name: FEC CANDIDATE ID NUMBER
+    number: '19'
+    value: '07'
+  - name: CANDIDATE NAME
+    number: '20'
+    value: '20020723'
+  - name: CAN/OFFICE
+    number: '21'
+    value: H6AL04098
+  - name: CAN/STATE
+    number: '22'
+    value: ADERHOLT^ROBERT BROWN^^
+  - name: CAN/DIST
+    number: '23'
+    value: H
+  - name: Of Contribution
+    number: 24-
+    value: AL
+  - name: FEC CANDIDATE ID NUMBER
+    number: '25'
+    value: '04'
+  - name: CANDIDATE NAME
+    number: '26'
+    value: '20020724'
+  - name: CAN/OFFICE
+    number: '27'
+    value: H0MN00013
+  - name: CAN/STATE
+    number: '28'
+    value: RAMSTAD^JAMES M^^
+  - name: CAN/DIST
+    number: '29'
+    value: H
+  - name: Of Contribution
+    number: 30-
+    value: MN
+  - name: FEC CANDIDATE ID NUMBER
+    number: '31'
+    value: '03'
+  - name: CANDIDATE NAME
+    number: '32'
+    value: '20020718'
+  - name: CAN/OFFICE
+    number: '33'
+    value: H2NY25017
+  - name: CAN/STATE
+    number: '34'
+    value: BOEHLERT^SHERWOOD^^
+  - name: CAN/DIST
+    number: '35'
+    value: H
+  - name: Of Contribution
+    number: 36-
+    value: NY
+  - name: FEC CANDIDATE ID NUMBER
+    number: '37'
+    value: '24'
+  - name: CANDIDATE NAME
+    number: '38'
+    value: '20021007'
+  - name: CAN/OFFICE
+    number: '39'
+    value: H0AL05049
+  - name: CAN/STATE
+    number: '40'
+    value: CRAMER^ROBERT E 'BUD' JR^^
+  - name: CAN/DIST
+    number: '41'
+    value: H
+  - name: Of Contribution
+    number: 42-
+    value: AL
+  - name: Of 51st Contributor
+    number: 43-
+    value: '05'
+  - name: Of Orig Registration
+    number: 44-
+    value: '20030626'
+  - name: Cmte Met Requirements
+    number: 45-
+    value: '20030731'
+  - name: NAME/TREASURER (as signed)
+    number: '46'
+    value: '20010920'
+  - name: Signed
+    number: 47-
+    value: '20030731'
+  - value: Hicks^Vicki^^
+  - value: '20060217'
+  expected_count: 47
+  input: F1MN,C00369058,"Van Scoyoc Associates, Inc. PAC",101 Constitution Avenue,Suite
+    600 West,Washington,DC,20001,N,,,-,H0AL07060,"DAVIS, ARTUR GENESTRE^^^",H,AL,07,20020723,H6AL04098,ADERHOLT^ROBERT
+    BROWN^^,H,AL,04,20020724,H0MN00013,RAMSTAD^JAMES M^^,H,MN,03,20020718,H2NY25017,BOEHLERT^SHERWOOD^^,H,NY,24,20021007,H0AL05049,CRAMER^ROBERT
+    E 'BUD' JR^^,H,AL,05,20030626,20030731,20010920,20030731,Hicks^Vicki^^,20060217
+  input_count: 49
+  record: fec.version.v5_3.F1M
+  result: []
+- input: TEXT,F1MN,,"VSAPAC was unaware of the fact that the qualification of the
+    51st contributor was cummulative, as opposed to 51 current contributors.  We have
+    just learned of this fact and are now filing for Multicandidate Status in order
+    to comply with FEC regulations.  "
+  record: fec.version.v5_3.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F1MN
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: VSAPAC was unaware of the fact that the qualification of the 51st contributor
+      was cummulative
+  - name: AMENDED CD
+    number: '5'
+    value: ' as opposed to 51 current contributors.  We have just learned of this
+      fact and are now filing for Multicandidate Status in order to comply with FEC
+      regulations.  '
+sourceurl: !!python/unicode 20060217
+type: single
