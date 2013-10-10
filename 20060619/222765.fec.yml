@@ -1,0 +1,231 @@
+countraw: 5
+countrows: 3
+filename: 222765.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00415414
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Committee to Elect John Jacob
+  - name: STREET 1
+    number: '4'
+    value: 175 South West Temple
+  - name: STREET 2
+    number: '5'
+    value: ' Suite 650'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Salt Lake City
+  - name: ZIP
+    number: '8'
+    value: UT
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '84101   '
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H6UT03109
+  - name: CAN/OFFICE
+    number: '11'
+    value: John Jacob
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: UT
+  - name: Signed
+    number: 14-
+    value: '03'
+  - value: '20060619'
+  expected_count: 14
+  input: '"F6","C00415414","Committee to Elect John Jacob","175 South West Temple,
+    Suite 650","","Salt Lake City","UT","84101   ","H6UT03109","John Jacob","H","UT","03",20060619'
+  input_count: 15
+  record: fec.version.v5_3.F6
+  result: []
+- input: '"F65","C00415414","IND","Brooks^Les","325 East 100 North","","Lehi","UT","84043","Timpanogos
+    Dental Group","Dentist",20060619,1000.00,"","","","","",,"","","","","","","","60619.C192"'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00415414
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Brooks^Les
+  - name: STREET 1
+    number: '5'
+    value: 325 East 100 North
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Lehi
+  - name: STATE
+    number: '8'
+    value: UT
+  - name: ZIP
+    number: '9'
+    value: '84043'
+  - name: INDEMP
+    number: '10'
+    value: Timpanogos Dental Group
+  - name: INDOCC
+    number: '11'
+    value: Dentist
+  - name: Of Contribution
+    number: 12-
+    value: '20060619'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 60619.C192
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00415414
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Zions Bancorporation PAC
+  - name: STREET 1
+    number: '5'
+    value: H/Q Office
+  - name: STREET 2
+    number: '6'
+    value: ' One main Street'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Salt Lake City
+  - name: ZIP
+    number: '9'
+    value: UT
+  - name: INDEMP
+    number: '10'
+    value: '84111'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20060619'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00275230
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 60619.C191
+  expected_count: 27
+  input: '"F65","C00415414","PAC","Zions Bancorporation PAC","H/Q Office, One main
+    Street","","Salt Lake City","UT","84111","","",20060619,1000.00,"C00275230","","","","",,"","","","","","","","60619.C191"'
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+sourceurl: !!python/unicode 20060619
+type: single
