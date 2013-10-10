@@ -1,0 +1,143 @@
+countraw: 4
+countrows: 2
+filename: 236674.fec
+header: {}
+rows:
+- input: F6,C00283051,MICA FOR CONGRESS,P. O. Box 181546,,Casselberry,FL,32718,H2FL08055,Mica^John
+    L^Mr.^,O,FL,07,20060902
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00283051
+  - name: COMMITTEE NAME
+    number: '3'
+    value: MICA FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: P. O. Box 181546
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Casselberry
+  - name: STATE
+    number: '7'
+    value: FL
+  - name: ZIP
+    number: '8'
+    value: '32718'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2FL08055
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Mica^John L^Mr.^
+  - name: CAN/OFFICE
+    number: '11'
+    value: O
+  - name: CAN/STATE
+    number: '12'
+    value: FL
+  - name: CAN/DIST
+    number: '13'
+    value: '07'
+  - name: Signed
+    number: 14-
+    value: '20060902'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00283051
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Associated General Contractors PAC
+  - name: STREET 1
+    number: '5'
+    value: 333 John Carlyle St
+  - name: STREET 2
+    number: '6'
+    value: ' Ste 2231'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Alexandria
+  - name: ZIP
+    number: '9'
+    value: VA
+  - name: INDEMP
+    number: '10'
+    value: '22314'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20060902'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2500.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: '0021563'
+  - value: ''
+  expected_count: 27
+  input: F65,C00283051,PAC,Associated General Contractors PAC,"333 John Carlyle St,
+    Ste 2231",,Alexandria,VA,22314,,,20060902,2500.00,,,,,,,,,,,,,,0021563,
+  input_count: 29
+  record: fec.version.v5_3.F65
+  result: []
+sourceurl: !!python/unicode 20060902
+type: single
