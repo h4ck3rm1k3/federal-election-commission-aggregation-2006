@@ -1,0 +1,142 @@
+countraw: 4
+countrows: 2
+filename: 236659.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00337428
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Sweeney for Congress
+  - name: STREET 1
+    number: '4'
+    value: ' Inc'
+  - name: STREET 2
+    number: '5'
+    value: Post Office Box 1465
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Clifton Park
+  - name: ZIP
+    number: '8'
+    value: NY
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '12065   '
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H8NY22045
+  - name: CAN/OFFICE
+    number: '11'
+    value: John E. Sweeney
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: NY
+  - name: Signed
+    number: 14-
+    value: '20'
+  - value: '20060902'
+  expected_count: 14
+  input: '"F6","C00337428","Sweeney for Congress, Inc","Post Office Box 1465","","Clifton
+    Park","NY","12065   ","H8NY22045","John E. Sweeney","H","NY","20",20060902'
+  input_count: 15
+  record: fec.version.v5_3.F6
+  result: []
+- input: '"F65","C00337428","PAC","Lockheed Martin Employees PAC","1725 Jefferson
+    Davis Hwy","Crystal Square Two Suite 300 ","Arlington","VA","222024102","","",20060902,1000.00,"C00303024","","","","",,"","","","","","","","60902.C8417"'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00337428
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Lockheed Martin Employees PAC
+  - name: STREET 1
+    number: '5'
+    value: 1725 Jefferson Davis Hwy
+  - name: STREET 2
+    number: '6'
+    value: 'Crystal Square Two Suite 300 '
+  - name: CITY
+    number: '7'
+    value: Arlington
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '222024102'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20060902'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00303024
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 60902.C8417
+sourceurl: !!python/unicode 20060902
+type: single
