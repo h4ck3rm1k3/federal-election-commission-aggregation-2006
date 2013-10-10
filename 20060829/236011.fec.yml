@@ -1,0 +1,448 @@
+countraw: 6
+countrows: 4
+filename: 236011.fec
+header: {}
+rows:
+- input: F5N,C00027466,NATIONAL REPUBLICAN SENATORIAL COMMITTEE,425 SECOND STREET
+    NE,.,WASHINGTON,DC,20002,,,,,,,,,,,.00,656054.58,Douglas W. Robinson,20060829,,,,48
+  record: fec.version.v5_3.F5
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F5N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00027466
+  - name: COMMITTEE NAME
+    number: '3'
+    value: NATIONAL REPUBLICAN SENATORIAL COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: 425 SECOND STREET NE
+  - name: STREET 2
+    number: '5'
+    value: .
+  - name: CITY
+    number: '6'
+    value: WASHINGTON
+  - name: STATE
+    number: '7'
+    value: DC
+  - name: ZIP
+    number: '8'
+    value: '20002'
+  - name: CHG OF ADDRESS
+    number: '9'
+    value: ''
+  - name: Qual/Non Q
+    number: 10-
+    value: ''
+  - name: INDEMP
+    number: '11'
+    value: ''
+  - name: INDOCC
+    number: '12'
+    value: ''
+  - name: RPTCODE
+    number: '13'
+    value: ''
+  - name: SPACE HOLDER
+    number: '14'
+    value: ''
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: SPACE HOLDER
+    number: '16'
+    value: ''
+  - name: Coverage From
+    number: 17-
+    value: ''
+  - name: Coverage To
+    number: 18-
+    value: ''
+  - name: TOTAL CONTRIBUTION
+    number: '19'
+    value: '.00'
+  - name: TOTAL INDEP. EXPEND
+    number: '20'
+    value: '656054.58'
+  - name: Person Completing Form
+    number: 21-
+    value: Douglas W. Robinson
+  - name: Signed
+    number: 22-
+    value: '20060829'
+  - name: SPACE HOLDER
+    number: '23'
+    value: ''
+  - name: SPACE HOLDER
+    number: '24'
+    value: ''
+  - name: SPACE HOLDER
+    number: '25'
+    value: ''
+  - name: HOUR 48HOUR CODE
+    number: 26-24
+    value: '48'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00027466
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: National Media
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 211 North Union Street
+  - name: CITY
+    number: '7'
+    value: Ste. 200
+  - name: STATE
+    number: '8'
+    value: Alexandria
+  - name: ZIP
+    number: '9'
+    value: VA
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '22314'
+  - name: Of Expenditure
+    number: 11-
+    value: Media Placement
+  - name: AMOUNT
+    number: '12'
+    value: '20060829'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '607200.00'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: O
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: Sherrod Brown
+  - name: S/O CAN/STATE
+    number: '17'
+    value: S
+  - name: S/O CAN/DIST
+    number: '18'
+    value: OH
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '00'
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: ''
+  - name: CATEGORY CODE
+    number: '33'
+    value: F57.000001
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: '004'
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '36'
+    value: '656054.58'
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 37
+  input: F57,C00027466,ORG,"National Media, Inc.",211 North Union Street,Ste. 200,Alexandria,VA,22314,Media
+    Placement,20060829,607200.00,O,,Sherrod Brown,S,OH,00,,,,,,,,,,,,,,F57.000001,004,,656054.58,,,
+  input_count: 39
+  record: fec.version.v5_3.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00027466
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: McLaughlin & Associates
+  - name: STREET 1
+    number: '5'
+    value: 566 S. Route 303
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Blauvelt
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '10913'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Survey Research
+  - name: Of Expenditure
+    number: 11-
+    value: '20060829'
+  - name: AMOUNT
+    number: '12'
+    value: '16530.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Mike Dewine
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: S
+  - name: S/O CAN/STATE
+    number: '17'
+    value: OH
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: F57.000002
+  - name: CATEGORY CODE
+    number: '33'
+    value: '005'
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: ''
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '656054.58'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+  - value: ''
+  expected_count: 37
+  input: F57,C00027466,ORG,McLaughlin & Associates,566 S. Route 303,,Blauvelt,NY,10913,Survey
+    Research,20060829,16530.00,S,,Mike Dewine,S,OH,00,,,,,,,,,,,,,,F57.000002,005,,656054.58,,,
+  input_count: 38
+  record: fec.version.v5_3.F57
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00027466
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: National Media
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 211 North Union Street
+  - name: CITY
+    number: '7'
+    value: Ste. 200
+  - name: STATE
+    number: '8'
+    value: Alexandria
+  - name: ZIP
+    number: '9'
+    value: VA
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '22314'
+  - name: Of Expenditure
+    number: 11-
+    value: Media Production
+  - name: AMOUNT
+    number: '12'
+    value: '20060829'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '32324.58'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: O
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: Sherrod Brown
+  - name: S/O CAN/STATE
+    number: '17'
+    value: S
+  - name: S/O CAN/DIST
+    number: '18'
+    value: OH
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '00'
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: ''
+  - name: CATEGORY CODE
+    number: '33'
+    value: F57.000003
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: '004'
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '36'
+    value: '656054.58'
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 37
+  input: F57,C00027466,ORG,"National Media, Inc.",211 North Union Street,Ste. 200,Alexandria,VA,22314,Media
+    Production,20060829,32324.58,O,,Sherrod Brown,S,OH,00,,,,,,,,,,,,,,F57.000003,004,,656054.58,,,
+  input_count: 39
+  record: fec.version.v5_3.F57
+  result: []
+sourceurl: !!python/unicode 20060829
+type: single
