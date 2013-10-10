@@ -1,0 +1,485 @@
+countraw: 6
+countrows: 4
+filename: 234391.fec
+header: {}
+rows:
+- input: '"F24","C00041160","Michigan Republican Party","520 Seymour St.","","Lansing","MI","48933   ","Carl
+    Meyers",20060818,"48"'
+  record: fec.version.v5_3.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00041160
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Michigan Republican Party
+  - name: STREET 1
+    number: '4'
+    value: 520 Seymour St.
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Lansing
+  - name: STATE
+    number: '7'
+    value: MI
+  - name: ZIP
+    number: '8'
+    value: '48933   '
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: Carl Meyers
+  - name: Signed
+    number: 10-
+    value: '20060818'
+  - name: REPORT TYPE
+    number: '11'
+    value: '48'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00041160
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Capital Insurance Services Corporation
+  - name: STREET 1
+    number: '5'
+    value: 810 West Saginaw Street
+  - name: STREET 2
+    number: '6'
+    value: 'PO Box 14150 '
+  - name: CITY
+    number: '7'
+    value: Lansing
+  - name: STATE
+    number: '8'
+    value: MI
+  - name: ZIP
+    number: '9'
+    value: '489151963'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Truck Insurance
+  - name: DATE
+    number: '11'
+    value: '20060817'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '277.84'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: O
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S8MI00281
+  - name: S/O CAN/NAME
+    number: '15'
+    value: STABENOW
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ' DEBBIE'
+  - name: S/O STATE
+    number: '17'
+    value: S
+  - name: S/O CAN/DIST
+    number: '18'
+    value: MI
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '00'
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: Carl Meyers
+  - name: Notarized
+    number: 33-
+    value: '20060818'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: 60817.E28395
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: P2006
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: 24A
+  - value: '42292.13'
+  expected_count: 46
+  input: '"SE24","C00041160","ORG","Capital Insurance Services Corporation","810 West
+    Saginaw Street","PO Box 14150 ","Lansing","MI","489151963","Truck Insurance",20060817,277.84,"O","S8MI00281","STABENOW,
+    DEBBIE","S","MI",00,"","","","","","","","","","","","","Carl Meyers",20060818,,,"","","60817.E28395","","","","","P2006","","","24A",42292.13'
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00041160
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Comerica
+  - name: STREET 1
+    number: '5'
+    value: 500 Woodward Ave. Box 55000
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Detroit
+  - name: STATE
+    number: '8'
+    value: MI
+  - name: ZIP
+    number: '9'
+    value: '48255    '
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Glass for Sign
+  - name: DATE
+    number: '11'
+    value: '20060817'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '183.17'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: O
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S8MI00281
+  - name: S/O CAN/NAME
+    number: '15'
+    value: STABENOW
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ' DEBBIE'
+  - name: S/O STATE
+    number: '17'
+    value: S
+  - name: S/O CAN/DIST
+    number: '18'
+    value: MI
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '00'
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: Carl Meyers
+  - name: Notarized
+    number: 33-
+    value: '20060818'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: 60817.E28397
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: P2006
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: 24A
+  - value: '42292.13'
+  expected_count: 46
+  input: '"SE24","C00041160","ORG","Comerica","500 Woodward Ave. Box 55000","","Detroit","MI","48255    ","Glass
+    for Sign",20060817,183.17,"O","S8MI00281","STABENOW, DEBBIE","S","MI",00,"","","","","","","","","","","","","Carl
+    Meyers",20060818,,,"","","60817.E28397","","","","","P2006","","","24A",42292.13'
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00041160
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: The Sterling Corporation
+  - name: STREET 1
+    number: '5'
+    value: 18 West Ottawa Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Little Lake
+  - name: STATE
+    number: '8'
+    value: MI
+  - name: ZIP
+    number: '9'
+    value: '49833    '
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Production Layout
+  - name: DATE
+    number: '11'
+    value: '20060817'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '2123.44'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: O
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S8MI00281
+  - name: S/O CAN/NAME
+    number: '15'
+    value: STABENOW
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ' DEBBIE'
+  - name: S/O STATE
+    number: '17'
+    value: S
+  - name: S/O CAN/DIST
+    number: '18'
+    value: MI
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '00'
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: Carl Meyers
+  - name: Notarized
+    number: 33-
+    value: '20060818'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: 60817.E28396
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: P2006
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: 24A
+  - value: '42292.13'
+  expected_count: 46
+  input: '"SE24","C00041160","ORG","The Sterling Corporation","18 West Ottawa Street","","Little
+    Lake","MI","49833    ","Production Layout",20060817,2123.44,"O","S8MI00281","STABENOW,
+    DEBBIE","S","MI",00,"","","","","","","","","","","","","Carl Meyers",20060818,,,"","","60817.E28396","","","","","P2006","","","24A",42292.13'
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+sourceurl: !!python/unicode 20060817
+type: single
