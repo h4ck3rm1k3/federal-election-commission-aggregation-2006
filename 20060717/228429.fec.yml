@@ -1,0 +1,228 @@
+countraw: 5
+countrows: 3
+filename: 228429.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00266940
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Sanford D. Bishop
+  - name: STREET 1
+    number: '4'
+    value: ' Jr. for Congress'
+  - name: STREET 2
+    number: '5'
+    value: P. O. Box 909
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Columbus
+  - name: ZIP
+    number: '8'
+    value: GA
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '31902   '
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H2GA02031
+  - name: CAN/OFFICE
+    number: '11'
+    value: Sanford D Bishop
+  - name: CAN/STATE
+    number: '12'
+    value: ' Jr.'
+  - name: CAN/DIST
+    number: '13'
+    value: H
+  - name: Signed
+    number: 14-
+    value: GA
+  - value: '02'
+  - value: '20060716'
+  expected_count: 14
+  input: '"F6","C00266940","Sanford D. Bishop, Jr. for Congress","P. O. Box 909","","Columbus","GA","31902   ","H2GA02031","Sanford
+    D Bishop, Jr.","H","GA","02",20060716'
+  input_count: 16
+  record: fec.version.v5_3.F6
+  result: []
+- input: '"F65","C00266940","PAC","Build PAC","Ms. Suzanne Williams","1201 15th St  NW
+    ","Washington","DC","200052800","PAC","pac",20060715,2500.00,"","","","","",,"","","","","","","","60716.C7486"'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00266940
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Build PAC
+  - name: STREET 1
+    number: '5'
+    value: Ms. Suzanne Williams
+  - name: STREET 2
+    number: '6'
+    value: '1201 15th St  NW '
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '200052800'
+  - name: INDEMP
+    number: '10'
+    value: PAC
+  - name: INDOCC
+    number: '11'
+    value: pac
+  - name: Of Contribution
+    number: 12-
+    value: '20060715'
+  - name: AMOUNT
+    number: '13'
+    value: '2500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 60716.C7486
+- input: '"F65","C00266940","PAC","Build PAC","Ms. Suzanne Williams","1201 15th St  NW
+    ","Washington","DC","200052800","PAC","pac",20060715,2500.00,"","","","","",,"","","","","","","","60716.C7485"'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00266940
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Build PAC
+  - name: STREET 1
+    number: '5'
+    value: Ms. Suzanne Williams
+  - name: STREET 2
+    number: '6'
+    value: '1201 15th St  NW '
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '200052800'
+  - name: INDEMP
+    number: '10'
+    value: PAC
+  - name: INDOCC
+    number: '11'
+    value: pac
+  - name: Of Contribution
+    number: 12-
+    value: '20060715'
+  - name: AMOUNT
+    number: '13'
+    value: '2500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 60716.C7485
+sourceurl: !!python/unicode 20060717
+type: single
