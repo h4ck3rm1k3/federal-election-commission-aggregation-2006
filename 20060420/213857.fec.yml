@@ -1,0 +1,763 @@
+countraw: 11
+countrows: 9
+filename: 213857.fec
+header: {}
+rows:
+- input: '"F6N","C00239905","Hobson For Congress","82 W. Columbia","","Springfield","OH","45503","","","","OH",7,"20060420"'
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00239905
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Hobson For Congress
+  - name: STREET 1
+    number: '4'
+    value: 82 W. Columbia
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Springfield
+  - name: STATE
+    number: '7'
+    value: OH
+  - name: ZIP
+    number: '8'
+    value: '45503'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ''
+  - name: CAN/OFFICE
+    number: '11'
+    value: ''
+  - name: CAN/STATE
+    number: '12'
+    value: OH
+  - name: CAN/DIST
+    number: '13'
+    value: '7'
+  - name: Signed
+    number: 14-
+    value: '20060420'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00239905
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Miller
+  - name: STREET 1
+    number: '5'
+    value: ' Sam'
+  - name: STREET 2
+    number: '6'
+    value: Forest City Enterprises
+  - name: CITY
+    number: '7'
+    value: Terminal Tower
+  - name: STATE
+    number: '8'
+    value: Cleveland
+  - name: ZIP
+    number: '9'
+    value: OH
+  - name: INDEMP
+    number: '10'
+    value: '44113'
+  - name: INDOCC
+    number: '11'
+    value: Forest City Enterprises
+  - name: Of Contribution
+    number: 12-
+    value: Executive
+  - name: AMOUNT
+    number: '13'
+    value: '20060420'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 'C04ZV01             '
+  expected_count: 27
+  input: '"F65","C00239905","IND","Miller, Sam","Forest City Enterprises","Terminal
+    Tower","Cleveland","OH","44113","Forest City Enterprises","Executive",20060420,1000.00,"","","","","",,"","","","","","","","C04ZV01             "'
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00239905
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Ratner
+  - name: STREET 1
+    number: '5'
+    value: ' Albert'
+  - name: STREET 2
+    number: '6'
+    value: Rms Management
+  - name: CITY
+    number: '7'
+    value: 50 Public Square Ste 200
+  - name: STATE
+    number: '8'
+    value: Cleveland
+  - name: ZIP
+    number: '9'
+    value: OH
+  - name: INDEMP
+    number: '10'
+    value: '44113'
+  - name: INDOCC
+    number: '11'
+    value: Four City Enterprises
+  - name: Of Contribution
+    number: 12-
+    value: Exec. Realtor
+  - name: AMOUNT
+    number: '13'
+    value: '20060420'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 'C03jJ02             '
+  expected_count: 27
+  input: '"F65","C00239905","IND","Ratner, Albert","Rms Management","50 Public Square
+    Ste 200","Cleveland","OH","44113","Four City Enterprises","Exec. Realtor",20060420,2000.00,"","","","","",,"","","","","","","","C03jJ02             "'
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00239905
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Ratner
+  - name: STREET 1
+    number: '5'
+    value: ' Audrey'
+  - name: STREET 2
+    number: '6'
+    value: 5150 Three Village Dr.
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Lyndhurst
+  - name: ZIP
+    number: '9'
+    value: OH
+  - name: INDEMP
+    number: '10'
+    value: '44124'
+  - name: INDOCC
+    number: '11'
+    value: Homemaker
+  - name: Of Contribution
+    number: 12-
+    value: Executive
+  - name: AMOUNT
+    number: '13'
+    value: '20060420'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 'C04Zb01             '
+  expected_count: 27
+  input: '"F65","C00239905","IND","Ratner, Audrey","5150 Three Village Dr.","","Lyndhurst","OH","44124","Homemaker","Executive",20060420,2000.00,"","","","","",,"","","","","","","","C04Zb01             "'
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00239905
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Ratner
+  - name: STREET 1
+    number: '5'
+    value: ' Brian'
+  - name: STREET 2
+    number: '6'
+    value: 2626 Courtland Blvd
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Shaker Heights
+  - name: ZIP
+    number: '9'
+    value: OH
+  - name: INDEMP
+    number: '10'
+    value: '44118'
+  - name: INDOCC
+    number: '11'
+    value: Forest City Enterprises
+  - name: Of Contribution
+    number: 12-
+    value: Executive
+  - name: AMOUNT
+    number: '13'
+    value: '20060420'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 'C04ZZ01             '
+  expected_count: 27
+  input: '"F65","C00239905","IND","Ratner, Brian","2626 Courtland Blvd","","Shaker
+    Heights","OH","44118","Forest City Enterprises","Executive",20060420,2000.00,"","","","","",,"","","","","","","","C04ZZ01             "'
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00239905
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Ratner
+  - name: STREET 1
+    number: '5'
+    value: ' Charles'
+  - name: STREET 2
+    number: '6'
+    value: 16980 South Park Blvd
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Shaker Heights
+  - name: ZIP
+    number: '9'
+    value: OH
+  - name: INDEMP
+    number: '10'
+    value: '44120'
+  - name: INDOCC
+    number: '11'
+    value: Forest City Enterprises
+  - name: Of Contribution
+    number: 12-
+    value: Executive
+  - name: AMOUNT
+    number: '13'
+    value: '20060420'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 'C04Za01             '
+  expected_count: 27
+  input: '"F65","C00239905","IND","Ratner, Charles","16980 South Park Blvd","","Shaker
+    Heights","OH","44120","Forest City Enterprises","Executive",20060420,2000.00,"","","","","",,"","","","","","","","C04Za01             "'
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00239905
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Ratner
+  - name: STREET 1
+    number: '5'
+    value: ' James'
+  - name: STREET 2
+    number: '6'
+    value: 19750 Shaker Blvd
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Shaker Heights
+  - name: ZIP
+    number: '9'
+    value: OH
+  - name: INDEMP
+    number: '10'
+    value: '44122'
+  - name: INDOCC
+    number: '11'
+    value: Forest City Enterprises
+  - name: Of Contribution
+    number: 12-
+    value: Executive
+  - name: AMOUNT
+    number: '13'
+    value: '20060420'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 'C04ZY01             '
+  expected_count: 27
+  input: '"F65","C00239905","IND","Ratner, James","19750 Shaker Blvd","","Shaker Heights","OH","44122","Forest
+    City Enterprises","Executive",20060420,2000.00,"","","","","",,"","","","","","","","C04ZY01             "'
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00239905
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Ratner-Salzberg
+  - name: STREET 1
+    number: '5'
+    value: ' Deborah'
+  - name: STREET 2
+    number: '6'
+    value: 7500 Hampden Ln
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Bethesda
+  - name: ZIP
+    number: '9'
+    value: MD
+  - name: INDEMP
+    number: '10'
+    value: '20814'
+  - name: INDOCC
+    number: '11'
+    value: Salco Mechanical Contractors
+  - name: Of Contribution
+    number: 12-
+    value: Executive
+  - name: AMOUNT
+    number: '13'
+    value: '20060420'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 'C04ZX01             '
+  expected_count: 27
+  input: '"F65","C00239905","IND","Ratner-Salzberg, Deborah","7500 Hampden Ln","","Bethesda","MD","20814","Salco
+    Mechanical Contractors","Executive",20060420,2000.00,"","","","","",,"","","","","","","","C04ZX01             "'
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00239905
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Salzberg
+  - name: STREET 1
+    number: '5'
+    value: ' Michael'
+  - name: STREET 2
+    number: '6'
+    value: 7500 Hampden Ln
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Bethesda
+  - name: ZIP
+    number: '9'
+    value: MD
+  - name: INDEMP
+    number: '10'
+    value: '20814'
+  - name: INDOCC
+    number: '11'
+    value: Salco Mechanical Contractors
+  - name: Of Contribution
+    number: 12-
+    value: Executive
+  - name: AMOUNT
+    number: '13'
+    value: '20060420'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 'C04ZW01             '
+  expected_count: 27
+  input: '"F65","C00239905","IND","Salzberg, Michael","7500 Hampden Ln","","Bethesda","MD","20814","Salco
+    Mechanical Contractors","Executive",20060420,2000.00,"","","","","",,"","","","","","","","C04ZW01             "'
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+sourceurl: !!python/unicode 20060420
+type: single
