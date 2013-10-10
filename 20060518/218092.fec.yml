@@ -1,0 +1,235 @@
+countraw: 5
+countrows: 3
+filename: 218092.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00308577
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Pickering For Congress
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 4297
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Brandon
+  - name: STATE
+    number: '7'
+    value: MS
+  - name: ZIP
+    number: '8'
+    value: '39047   '
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H6MS03046
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Charles W. Chip Pickering
+  - name: CAN/OFFICE
+    number: '11'
+    value: ' Jr.'
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: MS
+  - name: Signed
+    number: 14-
+    value: '3 '
+  - value: '20060518'
+  expected_count: 14
+  input: '"F6","C00308577","Pickering For Congress","P.O. Box 4297","","Brandon","MS","39047   ","H6MS03046","Charles
+    W. Chip Pickering, Jr.","H","MS","3 ",20060518'
+  input_count: 15
+  record: fec.version.v5_3.F6
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00308577
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: ENPAC-Mississippi
+  - name: STREET 1
+    number: '5'
+    value: 'ATT: Mr. B.R. Howell'
+  - name: STREET 2
+    number: '6'
+    value: ' Jr.'
+  - name: CITY
+    number: '7'
+    value: 'P.O. Box 1640 '
+  - name: STATE
+    number: '8'
+    value: Jackson
+  - name: ZIP
+    number: '9'
+    value: MS
+  - name: INDEMP
+    number: '10'
+    value: '392151640'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20060518'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 60518.C15291
+  expected_count: 27
+  input: '"F65","C00308577","PAC","ENPAC-Mississippi","ATT: Mr. B.R. Howell, Jr.","P.O.
+    Box 1640 ","Jackson","MS","392151640","","",20060518,2000.00,"","","","","",,"","","","","","","","60518.C15291"'
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00308577
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: ConocoPhillips Spirit PAC
+  - name: STREET 1
+    number: '5'
+    value: 1776 I Street
+  - name: STREET 2
+    number: '6'
+    value: ' NW  Suite 700'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20006'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20060518'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 60518.C15292
+  expected_count: 27
+  input: '"F65","C00308577","PAC","ConocoPhillips Spirit PAC","1776 I Street, NW  Suite
+    700","","Washington","DC","20006","","",20060518,1000.00,"","","","","",,"","","","","","","","60518.C15292"'
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+sourceurl: !!python/unicode 20060518
+type: single
