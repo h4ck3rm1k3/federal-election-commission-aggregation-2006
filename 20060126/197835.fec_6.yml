@@ -1,0 +1,895 @@
+countraw: 10012
+countrows: 10010
+filename: 197835.fec
+header: {}
+rows:
+- input: '"SD10","C00309567","","WorldComp","45685 OAKBROOK CT","","STERLING","VA","201669298","TYPESET
+    PAMPHLET SOCIAL SECURITY (SPANIS","0.00","1905.75","0.00","1905.75","","","","P","","","","","","","","","","INV6190010013072"'
+  record: <fec.version.v5_2.SD.Records instance at 0xc662fc8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00309567
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: WorldComp
+  - name: STREET 1
+    number: '5'
+    value: 45685 OAKBROOK CT
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: STERLING
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '201669298'
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: TYPESET PAMPHLET SOCIAL SECURITY (SPANIS
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: '0.00'
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '1905.75'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '0.00'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '1905.75'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: P
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: INV6190010013072
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00309567
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: WorldComp
+  - name: STREET 1
+    number: '5'
+    value: 45685 OAKBROOK CT
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: STERLING
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '201669298'
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: TYPESET PAMPHLET
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: ' SOCIAL SECURITY (REVIS'
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '0.00'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '3009.56'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '0.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: '3009.56'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: ''
+  - name: CAN/STATE
+    number: '19'
+    value: P
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: ''
+  - value: INV6190010013393
+  expected_count: 28
+  input: '"SD10","C00309567","","WorldComp","45685 OAKBROOK CT","","STERLING","VA","201669298","TYPESET
+    PAMPHLET, SOCIAL SECURITY (REVIS","0.00","3009.56","0.00","3009.56","","","","P","","","","","","","","","","INV6190010013393"'
+  input_count: 29
+  record: <fec.version.v5_2.SD.Records instance at 0xc66b098>
+  result: []
+- input: '"SD10","C00309567","","WorldComp","45685 OAKBROOK CT","","STERLING","VA","201669298","TYPESET
+    BOOK NEXT 50 YEARS","0.00","2276.53","0.00","2276.53","","","","P","","","","","","","","","","INV6190010014114"'
+  record: <fec.version.v5_2.SD.Records instance at 0xc66b1b8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00309567
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: WorldComp
+  - name: STREET 1
+    number: '5'
+    value: 45685 OAKBROOK CT
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: STERLING
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '201669298'
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: TYPESET BOOK NEXT 50 YEARS
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: '0.00'
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '2276.53'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '0.00'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '2276.53'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: P
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: INV6190010014114
+- input: '"SD10","C00309567","","WorldComp","45685 OAKBROOK CT","","STERLING","VA","201669298","TYPESET
+    PAMPHLET RECREATE ECONOMY","0.00","1775.81","0.00","1775.81","","","","P","","","","","","","","","","INV6190010015405"'
+  record: <fec.version.v5_2.SD.Records instance at 0xc66b248>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00309567
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: WorldComp
+  - name: STREET 1
+    number: '5'
+    value: 45685 OAKBROOK CT
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: STERLING
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '201669298'
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: TYPESET PAMPHLET RECREATE ECONOMY
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: '0.00'
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '1775.81'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '0.00'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '1775.81'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: P
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: INV6190010015405
+- input: '"SD10","C00309567","","WorldComp","45685 OAKBROOK CT","","STERLING","VA","201669298","TYPESET
+    BROADSIDE SENATE EMERGENCY ACTIO","0.00","281.53","0.00","281.53","","","","P","","","","","","","","","","INV6190010015406"'
+  record: <fec.version.v5_2.SD.Records instance at 0xc66b170>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00309567
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: WorldComp
+  - name: STREET 1
+    number: '5'
+    value: 45685 OAKBROOK CT
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: STERLING
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '201669298'
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: TYPESET BROADSIDE SENATE EMERGENCY ACTIO
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: '0.00'
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '281.53'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '0.00'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '281.53'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: P
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: INV6190010015406
+- input: '"SD10","C00309567","","WorldComp","45685 OAKBROOK CT","","STERLING","VA","201669298","TYPESET
+    LEAFLET GUTS & GOVERNMENT","0.00","454.78","0.00","454.78","","","","P","","","","","","","","","","INV6190010016376"'
+  record: <fec.version.v5_2.SD.Records instance at 0xc66b320>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00309567
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: WorldComp
+  - name: STREET 1
+    number: '5'
+    value: 45685 OAKBROOK CT
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: STERLING
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '201669298'
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: TYPESET LEAFLET GUTS & GOVERNMENT
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: '0.00'
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '454.78'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '0.00'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '454.78'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: P
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: INV6190010016376
+- input: '"SD10","C00309567","","WorldComp","45685 OAKBROOK CT","","STERLING","VA","201669298","TYPESET
+    LEAFLET STRATEGIC BANKRUPTCIES","0.00","86.63","0.00","86.63","","","","P","","","","","","","","","","INV6190010016377"'
+  record: <fec.version.v5_2.SD.Records instance at 0xc66b248>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00309567
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: WorldComp
+  - name: STREET 1
+    number: '5'
+    value: 45685 OAKBROOK CT
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: STERLING
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '201669298'
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: TYPESET LEAFLET STRATEGIC BANKRUPTCIES
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: '0.00'
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '86.63'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '0.00'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '86.63'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: P
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: INV6190010016377
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00309567
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: WorldComp
+  - name: STREET 1
+    number: '5'
+    value: 45685 OAKBROOK CT
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: STERLING
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '201669298'
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: TYPE REVISIONS
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: ' RECREATE ECONOMY PAMPHLE'
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '0.00'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '303.19'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '0.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: '303.19'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: ''
+  - name: CAN/STATE
+    number: '19'
+    value: P
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: ''
+  - value: INV6190010016378
+  expected_count: 28
+  input: '"SD10","C00309567","","WorldComp","45685 OAKBROOK CT","","STERLING","VA","201669298","TYPE
+    REVISIONS, RECREATE ECONOMY PAMPHLE","0.00","303.19","0.00","303.19","","","","P","","","","","","","","","","INV6190010016378"'
+  input_count: 29
+  record: <fec.version.v5_2.SD.Records instance at 0xc66b320>
+  result: []
+- input: '"SD10","C00309567","","WorldComp","45685 OAKBROOK CT","","STERLING","VA","201669298","TYPESET
+    LEAFLET SAVE OUR US CONSTITUTION","0.00","86.63","0.00","86.63","","","","P","","","","","","","","","","INV6190010016379"'
+  record: <fec.version.v5_2.SD.Records instance at 0xc66b3f8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00309567
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: WorldComp
+  - name: STREET 1
+    number: '5'
+    value: 45685 OAKBROOK CT
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: STERLING
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '201669298'
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: TYPESET LEAFLET SAVE OUR US CONSTITUTION
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: '0.00'
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '86.63'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '0.00'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '86.63'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: P
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: INV6190010016379
+- input: '"SD10","C00309567","","WorldComp","45685 OAKBROOK CT","","STERLING","VA","201669298","TYPESET
+    PAMPHLET LAROUCHE HISTORIC WEBCA","0.00","2075.06","0.00","2075.06","","","","P","","","","","","","","","","INV6190010017182"'
+  record: <fec.version.v5_2.SD.Records instance at 0xc66b320>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00309567
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: WorldComp
+  - name: STREET 1
+    number: '5'
+    value: 45685 OAKBROOK CT
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: STERLING
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '201669298'
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: TYPESET PAMPHLET LAROUCHE HISTORIC WEBCA
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: '0.00'
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '2075.06'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '0.00'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '2075.06'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: P
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: INV6190010017182
+sourceurl: !!python/unicode 20060126
+type: chunk
