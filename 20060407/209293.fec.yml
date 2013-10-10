@@ -1,0 +1,127 @@
+countraw: 3
+countrows: 1
+filename: 209293.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H2IN09084
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: 3008 E. Lobo Ridge
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: New Albany
+  - name: STATE
+    number: '7'
+    value: ''
+  - name: ZIP
+    number: '8'
+    value: IN
+  - name: PTY/CODE
+    number: '9'
+    value: '47150'
+  - name: CAN/OFFICE
+    number: '10'
+    value: REP
+  - name: CAN/STATE
+    number: '11'
+    value: H
+  - name: CAN/DIST
+    number: '12'
+    value: IN
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '9'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: '2006'
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: C00387399
+  - name: STREET 1
+    number: '16'
+    value: Friends of Mike Sodrel
+  - name: STREET 2
+    number: '17'
+    value: 702 North Shore Drive
+  - name: CITY
+    number: '18'
+    value: ' Suite 500'
+  - name: STATE
+    number: '19'
+    value: ''
+  - name: ZIP
+    number: '20'
+    value: Jeffersonville
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: IN
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: '47130'
+  - name: STREET 1
+    number: '23'
+    value: ''
+  - name: STREET 2
+    number: '24'
+    value: Midwest Romp
+  - name: CITY
+    number: '25'
+    value: 228 S. Washington Street
+  - name: STATE
+    number: '26'
+    value: ' Ste 115'
+  - name: ZIP
+    number: '27'
+    value: ''
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: Alexandria
+  - name: Signed
+    number: 29-
+    value: VA
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: '22314'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: Sodrel^Michael E.^^
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: '20060407'
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: '0.00'
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: '0.00'
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: Sodrel
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: Michael E.
+  - value: ''
+  - value: ''
+  - value: ''
+  expected_count: 36
+  input: F2A,H2IN09084,,3008 E. Lobo Ridge,,"New Albany,",IN,47150,REP,H,IN,9,2006,C00387399,Friends
+    of Mike Sodrel,"702 North Shore Drive, Suite 500",,Jeffersonville,IN,47130,,Midwest
+    Romp,"228 S. Washington Street, Ste 115",,Alexandria,VA,22314,Sodrel^Michael E.^^,20060407,0.00,0.00,Sodrel,Michael
+    E.,,,
+  input_count: 39
+  record: fec.version.v5_3.F2
+  result: []
+sourceurl: !!python/unicode 20060407
+type: single
