@@ -1,0 +1,311 @@
+countraw: 6
+countrows: 4
+filename: 256498.fec
+header: {}
+rows:
+- input: F6,C00350520,ISSA FOR CONGRESS,P O BOX 760,,VISTA,CA,92085,H0CA48024,ISSA^DARRELL^^,H,CA,49,20061102
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00350520
+  - name: COMMITTEE NAME
+    number: '3'
+    value: ISSA FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: P O BOX 760
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: VISTA
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '92085'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H0CA48024
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ISSA^DARRELL^^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: CA
+  - name: CAN/DIST
+    number: '13'
+    value: '49'
+  - name: Signed
+    number: 14-
+    value: '20061102'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00350520
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: BERKE^GERALD S^^
+  - name: STREET 1
+    number: '5'
+    value: 14915 RAMOS PLACE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: PACIFIC PALISADES
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '90272'
+  - name: INDEMP
+    number: '10'
+    value: UCLA CENTER HEALTH SCIENCES
+  - name: INDOCC
+    number: '11'
+    value: CHIEF
+  - name: Of Contribution
+    number: 12-
+    value: ' HEAD & NECK SURGERY'
+  - name: AMOUNT
+    number: '13'
+    value: '20061031'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00350520
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ISSA^DARRELL^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: CA
+  - name: CONDUIT NAME
+    number: '20'
+    value: '49'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.20376
+  expected_count: 27
+  input: F65,C00350520,IND,BERKE^GERALD S^^,14915 RAMOS PLACE,,PACIFIC PALISADES,CA,90272,UCLA
+    CENTER HEALTH SCIENCES,"CHIEF, HEAD & NECK SURGERY",20061031,1000.00,C00350520,,ISSA^DARRELL^^,H,CA,49,,,,,,,,F6.20376
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: F65,C00350520,IND,ECKE^MAUREEN M^^,1475 RAVEAN COURT,,ENCINITAS,CA,92024,SELF
+    EMPLOYED,ATTORNEY,20061031,1000.00,C00350520,,ISSA^DARRELL^^,H,CA,49,,,,,,,,F6.20375
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00350520
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: ECKE^MAUREEN M^^
+  - name: STREET 1
+    number: '5'
+    value: 1475 RAVEAN COURT
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: ENCINITAS
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '92024'
+  - name: INDEMP
+    number: '10'
+    value: SELF EMPLOYED
+  - name: INDOCC
+    number: '11'
+    value: ATTORNEY
+  - name: Of Contribution
+    number: 12-
+    value: '20061031'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00350520
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ISSA^DARRELL^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: CA
+  - name: CAN/DIST
+    number: '19'
+    value: '49'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.20375
+- input: F65,C00350520,IND,PALICKA^RICHARD^^,991 PARK CENTER DR,,VISTA,CA,92081,BAE
+    SYSTEMS ,MANAGER,20061031,2100.00,C00350520,,ISSA^DARRELL^^,H,CA,49,,,,,,,,F6.20377
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00350520
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: PALICKA^RICHARD^^
+  - name: STREET 1
+    number: '5'
+    value: 991 PARK CENTER DR
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: VISTA
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '92081'
+  - name: INDEMP
+    number: '10'
+    value: 'BAE SYSTEMS '
+  - name: INDOCC
+    number: '11'
+    value: MANAGER
+  - name: Of Contribution
+    number: 12-
+    value: '20061031'
+  - name: AMOUNT
+    number: '13'
+    value: '2100.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00350520
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ISSA^DARRELL^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: CA
+  - name: CAN/DIST
+    number: '19'
+    value: '49'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.20377
+sourceurl: !!python/unicode 20061102
+type: single
