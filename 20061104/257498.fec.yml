@@ -1,0 +1,311 @@
+countraw: 6
+countrows: 4
+filename: 257498.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00392688
+  - name: COMMITTEE NAME
+    number: '3'
+    value: MCCAUL FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: INC
+  - name: STREET 2
+    number: '5'
+    value: 5127 Nebraska Avenue NW
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Washington
+  - name: ZIP
+    number: '8'
+    value: DC
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '20008'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H4TX10093
+  - name: CAN/OFFICE
+    number: '11'
+    value: McCaul^Michael^^
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: TX
+  - name: Signed
+    number: 14-
+    value: '10'
+  - value: '20061104'
+  expected_count: 14
+  input: F6,C00392688,"MCCAUL FOR CONGRESS,INC",5127 Nebraska Avenue NW,,Washington,DC,20008,H4TX10093,McCaul^Michael^^,H,TX,10,20061104
+  input_count: 15
+  record: fec.version.v5_3.F6
+  result: []
+- input: F65,C00392688,IND,LaBoon^R. Bruce ^^,600 Travis ,Ste. 3500,Houston,TX,77002,,,20061103,1000.00,C00392688,H4TX10093,McCaul^Michael^^,H,TX,10,,,,,,,,F6.12547
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00392688
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: LaBoon^R. Bruce ^^
+  - name: STREET 1
+    number: '5'
+    value: '600 Travis '
+  - name: STREET 2
+    number: '6'
+    value: Ste. 3500
+  - name: CITY
+    number: '7'
+    value: Houston
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '77002'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061103'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00392688
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H4TX10093
+  - name: CANDIDATE NAME
+    number: '16'
+    value: McCaul^Michael^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: TX
+  - name: CAN/DIST
+    number: '19'
+    value: '10'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.12547
+- input: F65,C00392688,PAC,BP CORPORATION NORTH AMERICA INC. POLITICAL ACTION COMMITTEE,4101
+    Winfield Road - 106D,Mail Code 5N,Warrenville,IL,60555,,,20061103,1000.00,C00392688,H4TX10093,McCaul^Michael^^,H,TX,10,,,,,,,,F6.12546
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00392688
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: BP CORPORATION NORTH AMERICA INC. POLITICAL ACTION COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: 4101 Winfield Road - 106D
+  - name: STREET 2
+    number: '6'
+    value: Mail Code 5N
+  - name: CITY
+    number: '7'
+    value: Warrenville
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60555'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061103'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00392688
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H4TX10093
+  - name: CANDIDATE NAME
+    number: '16'
+    value: McCaul^Michael^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: TX
+  - name: CAN/DIST
+    number: '19'
+    value: '10'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.12546
+- input: F65,C00392688,PAC,CONTINENTAL AIRLINES INC EMPLOYEE FUND FOR A BETTER AMERICA
+    (FKA CONTINENTAL HOLDINGS PAC),1600 SMITH STREET,SUITE HQSGV-18th FLOOR,HOUSTON,TX,77002,,,20061103,1000.00,C00392688,H4TX10093,McCaul^Michael^^,H,TX,10,,,,,,,,F6.12545
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00392688
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: CONTINENTAL AIRLINES INC EMPLOYEE FUND FOR A BETTER AMERICA (FKA CONTINENTAL
+      HOLDINGS PAC)
+  - name: STREET 1
+    number: '5'
+    value: 1600 SMITH STREET
+  - name: STREET 2
+    number: '6'
+    value: SUITE HQSGV-18th FLOOR
+  - name: CITY
+    number: '7'
+    value: HOUSTON
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '77002'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061103'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00392688
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H4TX10093
+  - name: CANDIDATE NAME
+    number: '16'
+    value: McCaul^Michael^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: TX
+  - name: CAN/DIST
+    number: '19'
+    value: '10'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.12545
+sourceurl: !!python/unicode 20061104
+type: single
