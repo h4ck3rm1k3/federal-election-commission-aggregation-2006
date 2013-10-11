@@ -1,0 +1,338 @@
+countraw: 5
+countrows: 3
+filename: 254670.fec
+header: {}
+rows:
+- input: '"F24","C00041160","Michigan Republican Party","520 Seymour St.","","Lansing","MI","48933   ","Henrietta
+    Tow",20061030,"24"'
+  record: fec.version.v5_3.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00041160
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Michigan Republican Party
+  - name: STREET 1
+    number: '4'
+    value: 520 Seymour St.
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Lansing
+  - name: STATE
+    number: '7'
+    value: MI
+  - name: ZIP
+    number: '8'
+    value: '48933   '
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: Henrietta Tow
+  - name: Signed
+    number: 10-
+    value: '20061030'
+  - name: REPORT TYPE
+    number: '11'
+    value: '24'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00041160
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Centennial Wireless
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 900
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Louisville
+  - name: STATE
+    number: '8'
+    value: KY
+  - name: ZIP
+    number: '9'
+    value: '40290    '
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Voter ID Calls
+  - name: DATE
+    number: '11'
+    value: '20061030'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '144.28'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S6MI00335
+  - name: S/O CAN/NAME
+    number: '15'
+    value: BOUCHARD
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ' MICHAEL J'
+  - name: S/O STATE
+    number: '17'
+    value: S
+  - name: S/O CAN/DIST
+    number: '18'
+    value: MI
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '00'
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: Henrietta Tow
+  - name: Notarized
+    number: 33-
+    value: '20061030'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: 60922.E29386
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2006
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: 24E
+  - value: '59758.77'
+  expected_count: 46
+  input: '"SE24","C00041160","ORG","Centennial Wireless","P.O. Box 900","","Louisville","KY","40290    ","Voter
+    ID Calls",20061030,144.28,"S","S6MI00335","BOUCHARD, MICHAEL J","S","MI",00,"","","","","","","","","","","","","Henrietta
+    Tow",20061030,,,"","","60922.E29386","","","","","G2006","","","24E",59758.77'
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00041160
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Alltell
+  - name: STREET 1
+    number: '5'
+    value: PO Box 994255
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Palatine
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60094    '
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Voter ID Calls
+  - name: DATE
+    number: '11'
+    value: '20061030'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '612.58'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S6MI00335
+  - name: S/O CAN/NAME
+    number: '15'
+    value: BOUCHARD
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ' MICHAEL J'
+  - name: S/O STATE
+    number: '17'
+    value: S
+  - name: S/O CAN/DIST
+    number: '18'
+    value: MI
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '00'
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: Henrietta Tow
+  - name: Notarized
+    number: 33-
+    value: '20061030'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: 60925.E29412
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2006
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: 24E
+  - value: '59758.77'
+  expected_count: 46
+  input: '"SE24","C00041160","ORG","Alltell","PO Box 994255","","Palatine","IL","60094    ","Voter
+    ID Calls",20061030,612.58,"S","S6MI00335","BOUCHARD, MICHAEL J","S","MI",00,"","","","","","","","","","","","","Henrietta
+    Tow",20061030,,,"","","60925.E29412","","","","","G2006","","","24E",59758.77'
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+sourceurl: !!python/unicode 20061030
+type: single
