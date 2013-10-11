@@ -1,0 +1,314 @@
+countraw: 6
+countrows: 4
+filename: 257192.fec
+header: {}
+rows:
+- input: F6,C00411009,ROULSTONE FOR CONGRESS,2932 139TH AVENUE SE,,SNOHOMISH,WA,98290,H6WA02145,ROULSTONE^DOUGLAS
+    R^^,H,WA,02,20061103
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00411009
+  - name: COMMITTEE NAME
+    number: '3'
+    value: ROULSTONE FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 2932 139TH AVENUE SE
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: SNOHOMISH
+  - name: STATE
+    number: '7'
+    value: WA
+  - name: ZIP
+    number: '8'
+    value: '98290'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H6WA02145
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ROULSTONE^DOUGLAS R^^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: WA
+  - name: CAN/DIST
+    number: '13'
+    value: '02'
+  - name: Signed
+    number: 14-
+    value: '20061103'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00411009
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Clark^Charles S.^^Jr.
+  - name: STREET 1
+    number: '5'
+    value: 13240 NE 20th
+  - name: STREET 2
+    number: '6'
+    value: ' Suite 25'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Bellevue
+  - name: ZIP
+    number: '9'
+    value: WA
+  - name: INDEMP
+    number: '10'
+    value: '98005'
+  - name: INDOCC
+    number: '11'
+    value: Aviation Partners
+  - name: Of Contribution
+    number: 12-
+    value: Director
+  - name: AMOUNT
+    number: '13'
+    value: '20061103'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2100.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00411009
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H6WA02145
+  - name: CAN/OFFICE
+    number: '17'
+    value: ROULSTONE^DOUGLAS R^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: WA
+  - name: CONDUIT NAME
+    number: '20'
+    value: '02'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.8993
+  expected_count: 27
+  input: F65,C00411009,IND,Clark^Charles S.^^Jr.,"13240 NE 20th, Suite 25",,Bellevue,WA,98005,Aviation
+    Partners,Director,20061103,2100.00,C00411009,H6WA02145,ROULSTONE^DOUGLAS R^^,H,WA,02,,,,,,,,F6.8993
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: F65,C00411009,IND,Stiles^Edwin^^,16914 28th Avenue SW,,Seattle,WA,98166,Vertical
+    Pathway Recruiting,President,20061103,1000.00,C00411009,H6WA02145,ROULSTONE^DOUGLAS
+    R^^,H,WA,02,,,,,,,,F6.8992
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00411009
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Stiles^Edwin^^
+  - name: STREET 1
+    number: '5'
+    value: 16914 28th Avenue SW
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Seattle
+  - name: STATE
+    number: '8'
+    value: WA
+  - name: ZIP
+    number: '9'
+    value: '98166'
+  - name: INDEMP
+    number: '10'
+    value: Vertical Pathway Recruiting
+  - name: INDOCC
+    number: '11'
+    value: President
+  - name: Of Contribution
+    number: 12-
+    value: '20061103'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00411009
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6WA02145
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ROULSTONE^DOUGLAS R^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: WA
+  - name: CAN/DIST
+    number: '19'
+    value: '02'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.8992
+- input: F65,C00411009,IND,Welch^John K^^,1328 Skipwith Road,,McLean,VA,22101,USEC
+    Inc,President/Engineer,20061103,1000.00,C00411009,H6WA02145,ROULSTONE^DOUGLAS
+    R^^,H,WA,02,,,,,,,,F6.8991
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00411009
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Welch^John K^^
+  - name: STREET 1
+    number: '5'
+    value: 1328 Skipwith Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: McLean
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22101'
+  - name: INDEMP
+    number: '10'
+    value: USEC Inc
+  - name: INDOCC
+    number: '11'
+    value: President/Engineer
+  - name: Of Contribution
+    number: 12-
+    value: '20061103'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00411009
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6WA02145
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ROULSTONE^DOUGLAS R^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: WA
+  - name: CAN/DIST
+    number: '19'
+    value: '02'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.8991
+sourceurl: !!python/unicode 20061103
+type: single
