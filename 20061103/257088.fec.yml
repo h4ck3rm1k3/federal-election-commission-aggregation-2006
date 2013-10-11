@@ -1,0 +1,195 @@
+countraw: 4
+countrows: 2
+filename: 257088.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00346635
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Republican Majority for Choice PAC
+  - name: STREET 1
+    number: '4'
+    value: 1660 L Street NW
+  - name: STREET 2
+    number: '5'
+    value: ' Suite 609'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Washington
+  - name: ZIP
+    number: '8'
+    value: DC
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: '20036   '
+  - name: Signed
+    number: 10-
+    value: Susan B. Walrich
+  - name: REPORT TYPE
+    number: '11'
+    value: '20061103'
+  - value: '24'
+  expected_count: 11
+  input: '"F24","C00346635","Republican Majority for Choice PAC","1660 L Street NW,
+    Suite 609","","Washington","DC","20036   ","Susan B. Walrich",20061103,"24"'
+  input_count: 12
+  record: fec.version.v5_3.F24
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00346635
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Republican Majority for Choice
+  - name: STREET 1
+    number: '5'
+    value: 342 East Jericho Tpk
+  - name: STREET 2
+    number: '6'
+    value: 'Suite 338 '
+  - name: CITY
+    number: '7'
+    value: Mineola
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '11501    '
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '- GOTV letter'
+  - name: DATE
+    number: '11'
+    value: '20061103'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '1282.17'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S8RI00102
+  - name: S/O CAN/NAME
+    number: '15'
+    value: CHAFEE
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ' LINCOLN D'
+  - name: S/O STATE
+    number: '17'
+    value: S
+  - name: S/O CAN/DIST
+    number: '18'
+    value: RI
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '00'
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: Susan B. Walrich
+  - name: Notarized
+    number: 33-
+    value: '20061103'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: 61103.E464
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2006
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: 24E
+  - value: '6242.72'
+  expected_count: 46
+  input: '"SE24","C00346635","ORG","Republican Majority for Choice","342 East Jericho
+    Tpk","Suite 338 ","Mineola","NY","11501    ","- GOTV letter",20061103,1282.17,"S","S8RI00102","CHAFEE,
+    LINCOLN D","S","RI",00,"","","","","","","","","","","","","Susan B. Walrich",20061103,,,"","","61103.E464","","","","","G2006","","","24E",6242.72'
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+sourceurl: !!python/unicode 20061103
+type: single
