@@ -1,0 +1,312 @@
+countraw: 6
+countrows: 4
+filename: 255069.fec
+header: {}
+rows:
+- input: '"F6","C00421677","Joe Lavigne for Congress","607 St. Charles Avenue","Suite
+    300","New Orleans","LA","70130","H6LA02108","Joseph Lavigne","H","LA","2",20061031'
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00421677
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Joe Lavigne for Congress
+  - name: STREET 1
+    number: '4'
+    value: 607 St. Charles Avenue
+  - name: STREET 2
+    number: '5'
+    value: Suite 300
+  - name: CITY
+    number: '6'
+    value: New Orleans
+  - name: STATE
+    number: '7'
+    value: LA
+  - name: ZIP
+    number: '8'
+    value: '70130'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H6LA02108
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Joseph Lavigne
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: LA
+  - name: CAN/DIST
+    number: '13'
+    value: '2'
+  - name: Signed
+    number: 14-
+    value: '20061031'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00421677
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: DeSalvo^Frank ^Mr.^
+  - name: STREET 1
+    number: '5'
+    value: 725 Girod Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: New Orleans
+  - name: STATE
+    number: '8'
+    value: LA
+  - name: ZIP
+    number: '9'
+    value: '70130'
+  - name: INDEMP
+    number: '10'
+    value: DeSalvo
+  - name: INDOCC
+    number: '11'
+    value: ' DeSalvo & Blackburn'
+  - name: Of Contribution
+    number: 12-
+    value: Attorney
+  - name: AMOUNT
+    number: '13'
+    value: '20061030'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2100.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 6C8ABBB15D9B8437780C
+  expected_count: 27
+  input: '"F65","C00421677","IND","DeSalvo^Frank ^Mr.^","725 Girod Street","","New
+    Orleans","LA","70130","DeSalvo, DeSalvo & Blackburn","Attorney",20061030,2100.00,"","","","","","","","","","","","",,"6C8ABBB15D9B8437780C"'
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: '"F65","C00421677","IND","Monroe^Robert J.^Mr.^","700 S. Peters","","New
+    Orleans","LA","70130","J. Edgar Monroe Foundation","Officer",20061031,2100.00,"","","","","","","","","","","","",,"60B2A0362136F4866881"'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00421677
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Monroe^Robert J.^Mr.^
+  - name: STREET 1
+    number: '5'
+    value: 700 S. Peters
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: New Orleans
+  - name: STATE
+    number: '8'
+    value: LA
+  - name: ZIP
+    number: '9'
+    value: '70130'
+  - name: INDEMP
+    number: '10'
+    value: J. Edgar Monroe Foundation
+  - name: INDOCC
+    number: '11'
+    value: Officer
+  - name: Of Contribution
+    number: 12-
+    value: '20061031'
+  - name: AMOUNT
+    number: '13'
+    value: '2100.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 60B2A0362136F4866881
+- input: '"F65","C00421677","IND","Monroe^Robert J.^Mr.^","700 S. Peters","","New
+    Orleans","LA","70130","J. Edgar Monroe Foundation","Officer",20061031,2100.00,"","","","","","","","","","","","",,"694ACD541441E488493D"'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00421677
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Monroe^Robert J.^Mr.^
+  - name: STREET 1
+    number: '5'
+    value: 700 S. Peters
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: New Orleans
+  - name: STATE
+    number: '8'
+    value: LA
+  - name: ZIP
+    number: '9'
+    value: '70130'
+  - name: INDEMP
+    number: '10'
+    value: J. Edgar Monroe Foundation
+  - name: INDOCC
+    number: '11'
+    value: Officer
+  - name: Of Contribution
+    number: 12-
+    value: '20061031'
+  - name: AMOUNT
+    number: '13'
+    value: '2100.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 694ACD541441E488493D
+sourceurl: !!python/unicode 20061031
+type: single
