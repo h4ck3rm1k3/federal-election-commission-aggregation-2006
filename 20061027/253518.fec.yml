@@ -1,0 +1,841 @@
+countraw: 12
+countrows: 10
+filename: 253518.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00167585
+  - name: COMMITTEE NAME
+    number: '3'
+    value: CITIZENS FOR WATERS
+  - name: STREET 1
+    number: '4'
+    value: 555 South Flower St.
+  - name: STREET 2
+    number: '5'
+    value: ' #4210'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Los Angeles
+  - name: ZIP
+    number: '8'
+    value: CA
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '90071'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H4CA23011
+  - name: CAN/OFFICE
+    number: '11'
+    value: Waters^Maxine
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: CA
+  - name: Signed
+    number: 14-
+    value: '35'
+  - value: '20061027'
+  expected_count: 14
+  input: '"F6N","C00167585","CITIZENS FOR WATERS","555 South Flower St., #4210",,"Los
+    Angeles","CA","90071","H4CA23011","Waters^Maxine","H","CA","35","20061027"'
+  input_count: 15
+  record: fec.version.v5_3.F6
+  result: []
+- input: '"F65","C00167585","IND","Kenneth W. Bentley","6642 Shenandoah Ave.",,"Los
+    Angeles","CA","90056","Nestle USA","V.P.Public Affairs","20061027","1000.00","",,"","","","",,,,,,,,F653208'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00167585
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Kenneth W. Bentley
+  - name: STREET 1
+    number: '5'
+    value: 6642 Shenandoah Ave.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Los Angeles
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '90056'
+  - name: INDEMP
+    number: '10'
+    value: Nestle USA
+  - name: INDOCC
+    number: '11'
+    value: V.P.Public Affairs
+  - name: Of Contribution
+    number: 12-
+    value: '20061027'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F653208
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00167585
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Andy M. Camacho
+  - name: STREET 1
+    number: '5'
+    value: 18034 Ventura Blvd.
+  - name: STREET 2
+    number: '6'
+    value: ' #478'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Encino
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: INDEMP
+    number: '10'
+    value: '91316'
+  - name: INDOCC
+    number: '11'
+    value: Self Employed
+  - name: Of Contribution
+    number: 12-
+    value: Attorney
+  - name: AMOUNT
+    number: '13'
+    value: '20061027'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F653206
+  expected_count: 27
+  input: '"F65","C00167585","IND","Andy M. Camacho","18034 Ventura Blvd., #478",,"Encino","CA","91316","Self
+    Employed","Attorney","20061027","1000.00","",,"","","","",,,,,,,,F653206'
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: '"F65","C00167585","IND","Felix L. Cook","9303 Bertwood St.",,"Houston","TX","77016","","","20061027","2000.00","",,"","","","",,,,,,,,F653211'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00167585
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Felix L. Cook
+  - name: STREET 1
+    number: '5'
+    value: 9303 Bertwood St.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Houston
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '77016'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061027'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F653211
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00167585
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Donald R. Henderson
+  - name: STREET 1
+    number: '5'
+    value: 8631 W. 3rd St.
+  - name: STREET 2
+    number: '6'
+    value: '#1135-E'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Los Angeles
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: INDEMP
+    number: '10'
+    value: '90048'
+  - name: INDOCC
+    number: '11'
+    value: Self-Employed
+  - name: Of Contribution
+    number: 12-
+    value: Medical Doctor
+  - name: AMOUNT
+    number: '13'
+    value: '20061027'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F653209
+  expected_count: 27
+  input: '"F65","C00167585","IND","Donald R. Henderson","8631 W. 3rd St.,#1135-E",,"Los
+    Angeles","CA","90048","Self-Employed","Medical Doctor","20061027","1000.00","",,"","","","",,,,,,,,F653209'
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: '"F65","C00167585","IND","James A. Mays","8915 S. Broadway",,"Los Angeles","CA","90003","Self-Employed","Medical
+    Doctor","20061027","1100.00","",,"","","","",,,,,,,,F653201'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00167585
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: James A. Mays
+  - name: STREET 1
+    number: '5'
+    value: 8915 S. Broadway
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Los Angeles
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '90003'
+  - name: INDEMP
+    number: '10'
+    value: Self-Employed
+  - name: INDOCC
+    number: '11'
+    value: Medical Doctor
+  - name: Of Contribution
+    number: 12-
+    value: '20061027'
+  - name: AMOUNT
+    number: '13'
+    value: '1100.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F653201
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00167585
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Alexander Moradi
+  - name: STREET 1
+    number: '5'
+    value: 9301 Wilshire Blvd.
+  - name: STREET 2
+    number: '6'
+    value: ' #315'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Beverly Hills
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: INDEMP
+    number: '10'
+    value: '90210'
+  - name: INDOCC
+    number: '11'
+    value: ICO Investment Group
+  - name: Of Contribution
+    number: 12-
+    value: President
+  - name: AMOUNT
+    number: '13'
+    value: '20061027'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1500.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F653210
+  expected_count: 27
+  input: '"F65","C00167585","IND","Alexander Moradi","9301 Wilshire Blvd., #315",,"Beverly
+    Hills","CA","90210","ICO Investment Group","President","20061027","1500.00","",,"","","","",,,,,,,,F653210'
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00167585
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Michael Y. Roos
+  - name: STREET 1
+    number: '5'
+    value: 515 S. Flower St.
+  - name: STREET 2
+    number: '6'
+    value: ' #3500'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Los Angeles
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: INDEMP
+    number: '10'
+    value: '90071'
+  - name: INDOCC
+    number: '11'
+    value: Self-Employed
+  - name: Of Contribution
+    number: 12-
+    value: Consulting
+  - name: AMOUNT
+    number: '13'
+    value: '20061027'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F653207
+  expected_count: 27
+  input: '"F65","C00167585","IND","Michael Y. Roos","515 S. Flower St., #3500",,"Los
+    Angeles","CA","90071","Self-Employed","Consulting","20061027","1000.00","",,"","","","",,,,,,,,F653207'
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00167585
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Alan F. Setlin
+  - name: STREET 1
+    number: '5'
+    value: 12711 Ventura Blvd.
+  - name: STREET 2
+    number: '6'
+    value: ' #480'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Studio City
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: INDEMP
+    number: '10'
+    value: '91604'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20061027'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F653213
+  expected_count: 27
+  input: '"F65","C00167585","IND","Alan F. Setlin","12711 Ventura Blvd., #480",,"Studio
+    City","CA","91604","","","20061027","1000.00","",,"","","","",,,,,,,,F653213'
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: '"F65","C00167585","IND","K.C. Thomas","1349 Sierra Alta Way",,"Los Angeles","CA","90069","Self-Employed","Medical
+    Doctor","20061027","2100.00","",,"","","","",,,,,,,,F653204'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00167585
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: K.C. Thomas
+  - name: STREET 1
+    number: '5'
+    value: 1349 Sierra Alta Way
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Los Angeles
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '90069'
+  - name: INDEMP
+    number: '10'
+    value: Self-Employed
+  - name: INDOCC
+    number: '11'
+    value: Medical Doctor
+  - name: Of Contribution
+    number: 12-
+    value: '20061027'
+  - name: AMOUNT
+    number: '13'
+    value: '2100.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F653204
+sourceurl: !!python/unicode 20061027
+type: single
