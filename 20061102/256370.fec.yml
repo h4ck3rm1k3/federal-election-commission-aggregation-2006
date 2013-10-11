@@ -1,0 +1,214 @@
+countraw: 4
+countrows: 2
+filename: 256370.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F5N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90009341
+  - name: COMMITTEE NAME
+    number: '3'
+    value: MONTANA LEAGUE OF RURAL VOTERS
+  - name: STREET 1
+    number: '4'
+    value: POST OFFICE BOX 522
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: BILLINGS
+  - name: STATE
+    number: '7'
+    value: MT
+  - name: ZIP
+    number: '8'
+    value: '59103'
+  - name: CHG OF ADDRESS
+    number: '9'
+    value: ''
+  - name: Qual/Non Q
+    number: 10-
+    value: Y
+  - name: INDEMP
+    number: '11'
+    value: ''
+  - name: INDOCC
+    number: '12'
+    value: ''
+  - name: RPTCODE
+    number: '13'
+    value: ''
+  - name: SPACE HOLDER
+    number: '14'
+    value: ''
+  - name: SPACE HOLDER
+    number: '15'
+    value: ''
+  - name: SPACE HOLDER
+    number: '16'
+    value: ''
+  - name: Coverage From
+    number: 17-
+    value: '20061102'
+  - name: Coverage To
+    number: 18-
+    value: '20061102'
+  - name: TOTAL CONTRIBUTION
+    number: '19'
+    value: '.00'
+  - name: TOTAL INDEP. EXPEND
+    number: '20'
+    value: '5313.86'
+  - name: Person Completing Form
+    number: 21-
+    value: Dena Hoff
+  - name: Signed
+    number: 22-
+    value: ' Secretary/Treasurer'
+  - name: SPACE HOLDER
+    number: '23'
+    value: '20061102'
+  - name: SPACE HOLDER
+    number: '24'
+    value: ''
+  - name: SPACE HOLDER
+    number: '25'
+    value: ''
+  - name: HOUR 48HOUR CODE
+    number: 26-24
+    value: ''
+  - value: '24'
+  expected_count: 26
+  input: F5N,C90009341,MONTANA LEAGUE OF RURAL VOTERS,POST OFFICE BOX 522,,BILLINGS,MT,59103,,Y,,,,,,,20061102,20061102,.00,5313.86,"Dena
+    Hoff, Secretary/Treasurer",20061102,,,,24
+  input_count: 27
+  record: fec.version.v5_3.F5
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90009341
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Winning Connections
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 317 Pennsylvania Avenue
+  - name: CITY
+    number: '7'
+    value: ' SE'
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: Of Expenditure
+    number: 11-
+    value: '20003'
+  - name: AMOUNT
+    number: '12'
+    value: Voter Persuasion Phone Calls for Tester
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20061102'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '5313.86'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: S
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O CAN/STATE
+    number: '17'
+    value: Jon Tester
+  - name: S/O CAN/DIST
+    number: '18'
+    value: S
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: MT
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: ''
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: F57.000001
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '004'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: '39214.14'
+  - value: ''
+  - value: ''
+  - value: ''
+  expected_count: 37
+  input: F57,C90009341,ORG,"Winning Connections, Inc.","317 Pennsylvania Avenue, SE",,Washington,DC,20003,Voter
+    Persuasion Phone Calls for Tester,20061102,5313.86,S,,Jon Tester,S,MT,,,,,,,,,,,,,,,F57.000001,004,,39214.14,,,
+  input_count: 40
+  record: fec.version.v5_3.F57
+  result: []
+sourceurl: !!python/unicode 20061102
+type: single
