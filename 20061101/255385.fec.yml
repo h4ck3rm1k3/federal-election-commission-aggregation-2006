@@ -1,0 +1,141 @@
+countraw: 4
+countrows: 2
+filename: 255385.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00331496
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Gary Miller for Congress
+  - name: STREET 1
+    number: '4'
+    value: 721 S. Brea Canyon Road
+  - name: STREET 2
+    number: '5'
+    value: ' Suite 7'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Diamond Bar
+  - name: ZIP
+    number: '8'
+    value: CA
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '91789'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H8CA41063
+  - name: CAN/OFFICE
+    number: '11'
+    value: Miller^Gary G.
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: CA
+  - name: Signed
+    number: 14-
+    value: '42'
+  - value: '20061031'
+  expected_count: 14
+  input: '"F6N","C00331496","Gary Miller for Congress","721 S. Brea Canyon Road, Suite
+    7",,"Diamond Bar","CA","91789","H8CA41063","Miller^Gary G.","H","CA","42","20061031"'
+  input_count: 15
+  record: fec.version.v5_3.F6
+  result: []
+- input: '"F65","C00331496","COM","KPMG PAC aka Peat Marwick/PAC","P.O. Box 18254",,"Washington","DC","200369998","","","20061031","3500.00","C00280222",,"","","","",,,,,,,,F653912'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00331496
+  - name: ENTITY TYPE
+    number: '3'
+    value: COM
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: KPMG PAC aka Peat Marwick/PAC
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 18254
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '200369998'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061031'
+  - name: AMOUNT
+    number: '13'
+    value: '3500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00280222
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F653912
+sourceurl: !!python/unicode 20061101
+type: single
