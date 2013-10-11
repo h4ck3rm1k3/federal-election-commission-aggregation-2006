@@ -1,0 +1,569 @@
+countraw: 9
+countrows: 7
+filename: 252525.fec
+header: {}
+rows:
+- input: F6,C00423384,SHELLEY SEKULA-GIBBS FOR CONGRESS CAMPAIGN COMMITTEE,PO BOX
+    890954,,HOUSTON,TX,77289,H6TX22184,SEKULA-GIBBS^SHELLEY MD^^M.D.,H,TX,22,20061026
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00423384
+  - name: COMMITTEE NAME
+    number: '3'
+    value: SHELLEY SEKULA-GIBBS FOR CONGRESS CAMPAIGN COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 890954
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: HOUSTON
+  - name: STATE
+    number: '7'
+    value: TX
+  - name: ZIP
+    number: '8'
+    value: '77289'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H6TX22184
+  - name: CANDIDATE NAME
+    number: '10'
+    value: SEKULA-GIBBS^SHELLEY MD^^M.D.
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: TX
+  - name: CAN/DIST
+    number: '13'
+    value: '22'
+  - name: Signed
+    number: 14-
+    value: '20061026'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00423384
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: BYSTRY^MARK J^^
+  - name: STREET 1
+    number: '5'
+    value: 1007 VALLEY ACRES ROAD
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: HOUSTON
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '77062'
+  - name: INDEMP
+    number: '10'
+    value: JAN-MAR
+  - name: INDOCC
+    number: '11'
+    value: ' INC.'
+  - name: Of Contribution
+    number: 12-
+    value: RESTAURANT OWNER/OPERATOR
+  - name: AMOUNT
+    number: '13'
+    value: '20061025'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00423384
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H6TX22184
+  - name: CAN/OFFICE
+    number: '17'
+    value: SEKULA-GIBBS^SHELLEY MD^^M.D.
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: TX
+  - name: CONDUIT NAME
+    number: '20'
+    value: '22'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.7302
+  expected_count: 27
+  input: F65,C00423384,IND,BYSTRY^MARK J^^,1007 VALLEY ACRES ROAD,,HOUSTON,TX,77062,"JAN-MAR,
+    INC.",RESTAURANT OWNER/OPERATOR,20061025,1000.00,C00423384,H6TX22184,SEKULA-GIBBS^SHELLEY
+    MD^^M.D.,H,TX,22,,,,,,,,F6.7302
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: F65,C00423384,IND,HURLEY^MARY^^,4938 BROOKVIEW DRIVE,,DALLAS,TX,75220,SELF
+    EMPLOYED,PHYSICIAN,20061025,1000.00,C00423384,H6TX22184,SEKULA-GIBBS^SHELLEY MD^^M.D.,H,TX,22,,,,,,,,F6.7304
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00423384
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: HURLEY^MARY^^
+  - name: STREET 1
+    number: '5'
+    value: 4938 BROOKVIEW DRIVE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: DALLAS
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '75220'
+  - name: INDEMP
+    number: '10'
+    value: SELF EMPLOYED
+  - name: INDOCC
+    number: '11'
+    value: PHYSICIAN
+  - name: Of Contribution
+    number: 12-
+    value: '20061025'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00423384
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6TX22184
+  - name: CANDIDATE NAME
+    number: '16'
+    value: SEKULA-GIBBS^SHELLEY MD^^M.D.
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: TX
+  - name: CAN/DIST
+    number: '19'
+    value: '22'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.7304
+- input: F65,C00423384,IND,ODEN^SANDY^^,2319 OAK LINKS COURT,,HOUSTON,TX,77059,HOMEMAKER,HOMEMAKER,20061025,1000.00,C00423384,H6TX22184,SEKULA-GIBBS^SHELLEY
+    MD^^M.D.,H,TX,22,,,,,,,,F6.7301
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00423384
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: ODEN^SANDY^^
+  - name: STREET 1
+    number: '5'
+    value: 2319 OAK LINKS COURT
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: HOUSTON
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '77059'
+  - name: INDEMP
+    number: '10'
+    value: HOMEMAKER
+  - name: INDOCC
+    number: '11'
+    value: HOMEMAKER
+  - name: Of Contribution
+    number: 12-
+    value: '20061025'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00423384
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6TX22184
+  - name: CANDIDATE NAME
+    number: '16'
+    value: SEKULA-GIBBS^SHELLEY MD^^M.D.
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: TX
+  - name: CAN/DIST
+    number: '19'
+    value: '22'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.7301
+- input: F65,C00423384,IND,PARR^THOMAS^^,1415 SUGAR CREEK BLVD,,SUGAR LAND,TX,77478,SELF
+    EMPLOYED,PHYSICIAN,20061025,1000.00,C00423384,H6TX22184,SEKULA-GIBBS^SHELLEY MD^^M.D.,H,TX,22,,,,,,,,F6.7300
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00423384
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: PARR^THOMAS^^
+  - name: STREET 1
+    number: '5'
+    value: 1415 SUGAR CREEK BLVD
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: SUGAR LAND
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '77478'
+  - name: INDEMP
+    number: '10'
+    value: SELF EMPLOYED
+  - name: INDOCC
+    number: '11'
+    value: PHYSICIAN
+  - name: Of Contribution
+    number: 12-
+    value: '20061025'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00423384
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6TX22184
+  - name: CANDIDATE NAME
+    number: '16'
+    value: SEKULA-GIBBS^SHELLEY MD^^M.D.
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: TX
+  - name: CAN/DIST
+    number: '19'
+    value: '22'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.7300
+- input: F65,C00423384,IND,YOUNG^SAM^^,4611 S HAMPTON,,SUGAR LAND,TX,77479,LIBERTY
+    OFFICE PRODUCTS,SALES,20061025,2100.00,C00423384,H6TX22184,SEKULA-GIBBS^SHELLEY
+    MD^^M.D.,H,TX,22,,,,,,,,F6.7303
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00423384
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: YOUNG^SAM^^
+  - name: STREET 1
+    number: '5'
+    value: 4611 S HAMPTON
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: SUGAR LAND
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '77479'
+  - name: INDEMP
+    number: '10'
+    value: LIBERTY OFFICE PRODUCTS
+  - name: INDOCC
+    number: '11'
+    value: SALES
+  - name: Of Contribution
+    number: 12-
+    value: '20061025'
+  - name: AMOUNT
+    number: '13'
+    value: '2100.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00423384
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6TX22184
+  - name: CANDIDATE NAME
+    number: '16'
+    value: SEKULA-GIBBS^SHELLEY MD^^M.D.
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: TX
+  - name: CAN/DIST
+    number: '19'
+    value: '22'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.7303
+- input: F65,C00423384,PAC,THE ORTHOPAEDIC PAC,317 MASSACHUSSETTS AVE.,NE,WASHINGTON,DC,20002,,,20061025,1000.00,C00423384,H6TX22184,SEKULA-GIBBS^SHELLEY
+    MD^^M.D.,H,TX,22,,,,,,,,F6.7305
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00423384
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: THE ORTHOPAEDIC PAC
+  - name: STREET 1
+    number: '5'
+    value: 317 MASSACHUSSETTS AVE.
+  - name: STREET 2
+    number: '6'
+    value: NE
+  - name: CITY
+    number: '7'
+    value: WASHINGTON
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20002'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061025'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00423384
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6TX22184
+  - name: CANDIDATE NAME
+    number: '16'
+    value: SEKULA-GIBBS^SHELLEY MD^^M.D.
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: TX
+  - name: CAN/DIST
+    number: '19'
+    value: '22'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.7305
+sourceurl: !!python/unicode 20061026
+type: single
