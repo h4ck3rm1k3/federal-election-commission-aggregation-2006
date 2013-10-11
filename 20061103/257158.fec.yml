@@ -1,0 +1,314 @@
+countraw: 6
+countrows: 4
+filename: 257158.fec
+header: {}
+rows:
+- input: '"F6","C00411603","Charlie Stuart for Congress","PO Box 560908 ","","Orlando","FL","32856","","Charlie
+    Stuart","H","FL","8","20061103"'
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00411603
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Charlie Stuart for Congress
+  - name: STREET 1
+    number: '4'
+    value: 'PO Box 560908 '
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Orlando
+  - name: STATE
+    number: '7'
+    value: FL
+  - name: ZIP
+    number: '8'
+    value: '32856'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Charlie Stuart
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: FL
+  - name: CAN/DIST
+    number: '13'
+    value: '8'
+  - name: Signed
+    number: 14-
+    value: '20061103'
+- input: '"F65","C00411603","PAC","Air Line Pilots Assoc. Int''l PAC","1625 Massachusetts
+    Ave. NW","","Washington","DC","20036","","","20061103","2500.00","","","","","","","","","","","","","","C4114921"'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00411603
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Air Line Pilots Assoc. Int'l PAC
+  - name: STREET 1
+    number: '5'
+    value: 1625 Massachusetts Ave. NW
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20036'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061103'
+  - name: AMOUNT
+    number: '13'
+    value: '2500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C4114921
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00411603
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: James^Johnnie
+  - name: STREET 1
+    number: '5'
+    value: 800 North Magnolia Avenue
+  - name: STREET 2
+    number: '6'
+    value: ' Suite 1'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Orlando
+  - name: ZIP
+    number: '9'
+    value: FL
+  - name: INDEMP
+    number: '10'
+    value: '328033270'
+  - name: INDOCC
+    number: '11'
+    value: Tedder
+  - name: Of Contribution
+    number: 12-
+    value: ' James'
+  - name: AMOUNT
+    number: '13'
+    value: ' Worden & Associates'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ' PA'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: Accountant
+  - name: CANDIDATE NAME
+    number: '16'
+    value: '20061103'
+  - name: CAN/OFFICE
+    number: '17'
+    value: '1000.00'
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: ''
+  - value: ''
+  - value: C4114875
+  expected_count: 27
+  input: '"F65","C00411603","IND","James^Johnnie","800 North Magnolia Avenue, Suite
+    1","","Orlando","FL","328033270","Tedder, James, Worden & Associates, PA","Accountant","20061103","1000.00","","","","","","","","","","","","","","C4114875"'
+  input_count: 31
+  record: fec.version.v5_3.F65
+  result: []
+- input: '"F65","C00411603","IND","Mixner^Al","3700 34th St.","Suite 230","Orlando","FL","32805","Self","CPA","20061103","1000.00","","","","","","","","","","","","","","C4114886"'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00411603
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Mixner^Al
+  - name: STREET 1
+    number: '5'
+    value: 3700 34th St.
+  - name: STREET 2
+    number: '6'
+    value: Suite 230
+  - name: CITY
+    number: '7'
+    value: Orlando
+  - name: STATE
+    number: '8'
+    value: FL
+  - name: ZIP
+    number: '9'
+    value: '32805'
+  - name: INDEMP
+    number: '10'
+    value: Self
+  - name: INDOCC
+    number: '11'
+    value: CPA
+  - name: Of Contribution
+    number: 12-
+    value: '20061103'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C4114886
+sourceurl: !!python/unicode 20061103
+type: single
