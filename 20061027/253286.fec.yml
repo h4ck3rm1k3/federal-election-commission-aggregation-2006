@@ -1,0 +1,656 @@
+countraw: 10
+countrows: 8
+filename: 253286.fec
+header: {}
+rows:
+- input: F6,C00427732,Chema for Congress,102 Beverly Place,,Dayton,OH,45419,H6OH03159,Chema^John
+    R^Mr.^,H,OH,03,20061027
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00427732
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Chema for Congress
+  - name: STREET 1
+    number: '4'
+    value: 102 Beverly Place
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Dayton
+  - name: STATE
+    number: '7'
+    value: OH
+  - name: ZIP
+    number: '8'
+    value: '45419'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H6OH03159
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Chema^John R^Mr.^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: OH
+  - name: CAN/DIST
+    number: '13'
+    value: '03'
+  - name: Signed
+    number: 14-
+    value: '20061027'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00427732
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Acosta-Grubb^Jose A^^
+  - name: STREET 1
+    number: '5'
+    value: Punta Las Marias - Calle Emajaqua
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: San Juan
+  - name: STATE
+    number: '8'
+    value: PR
+  - name: ZIP
+    number: '9'
+    value: 00913
+  - name: INDEMP
+    number: '10'
+    value: Fiddler
+  - name: INDOCC
+    number: '11'
+    value: ' Gonzales'
+  - name: Of Contribution
+    number: 12-
+    value: ' & Rodriquez'
+  - name: AMOUNT
+    number: '13'
+    value: Attorney
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20061026'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '1000.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: C00427732
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: Chema^John R^Mr.^
+  - name: CAN/DIST
+    number: '19'
+    value: H
+  - name: CONDUIT NAME
+    number: '20'
+    value: OH
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: '03'
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: F6.5793
+  expected_count: 27
+  input: F65,C00427732,IND,Acosta-Grubb^Jose A^^,Punta Las Marias - Calle Emajaqua,,San
+    Juan,PR,00913,"Fiddler, Gonzales, & Rodriquez",Attorney,20061026,1000.00,C00427732,,Chema^John
+    R^Mr.^,H,OH,03,,,,,,,,F6.5793
+  input_count: 29
+  record: fec.version.v5_3.F65
+  result: []
+- input: F65,C00427732,IND,Goyal^Lalit^^,1720 W Alex-Bell Road,,Dayton,OH,45459,Self,Physician,20061026,1500.00,C00427732,,Chema^John
+    R^Mr.^,H,OH,03,,,,,,,,F6.5796
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00427732
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Goyal^Lalit^^
+  - name: STREET 1
+    number: '5'
+    value: 1720 W Alex-Bell Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Dayton
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '45459'
+  - name: INDEMP
+    number: '10'
+    value: Self
+  - name: INDOCC
+    number: '11'
+    value: Physician
+  - name: Of Contribution
+    number: 12-
+    value: '20061026'
+  - name: AMOUNT
+    number: '13'
+    value: '1500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00427732
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Chema^John R^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: OH
+  - name: CAN/DIST
+    number: '19'
+    value: '03'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5796
+- input: F65,C00427732,IND,Lachey^Steven J^^,454 Timberlea Drive,,Dayton,OH,45429,Optica
+    Technologies,Owner,20061025,1000.00,C00427732,,Chema^John R^Mr.^,H,OH,03,,,,,,,,F6.5792
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00427732
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Lachey^Steven J^^
+  - name: STREET 1
+    number: '5'
+    value: 454 Timberlea Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Dayton
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '45429'
+  - name: INDEMP
+    number: '10'
+    value: Optica Technologies
+  - name: INDOCC
+    number: '11'
+    value: Owner
+  - name: Of Contribution
+    number: 12-
+    value: '20061025'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00427732
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Chema^John R^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: OH
+  - name: CAN/DIST
+    number: '19'
+    value: '03'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5792
+- input: F65,C00427732,IND,McConnaughey^Frederick R^^,4445 Southern Boulevard,,Kettering,OH,45429,Self,Photographer,20061026,1000.00,C00427732,,Chema^John
+    R^Mr.^,H,OH,03,,,,,,,,F6.5795
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00427732
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: McConnaughey^Frederick R^^
+  - name: STREET 1
+    number: '5'
+    value: 4445 Southern Boulevard
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Kettering
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '45429'
+  - name: INDEMP
+    number: '10'
+    value: Self
+  - name: INDOCC
+    number: '11'
+    value: Photographer
+  - name: Of Contribution
+    number: 12-
+    value: '20061026'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00427732
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Chema^John R^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: OH
+  - name: CAN/DIST
+    number: '19'
+    value: '03'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5795
+- input: F65,C00427732,IND,Moore^Kenneth^^,15602 Edgewater Drive,,Lakewood,OH,44107,Squire
+    Sanders & Dempsey LLP,Attorney,20061025,1100.00,C00427732,,Chema^John R^Mr.^,H,OH,03,,,,,,,,F6.5791
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00427732
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Moore^Kenneth^^
+  - name: STREET 1
+    number: '5'
+    value: 15602 Edgewater Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Lakewood
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '44107'
+  - name: INDEMP
+    number: '10'
+    value: Squire Sanders & Dempsey LLP
+  - name: INDOCC
+    number: '11'
+    value: Attorney
+  - name: Of Contribution
+    number: 12-
+    value: '20061025'
+  - name: AMOUNT
+    number: '13'
+    value: '1100.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00427732
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Chema^John R^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: OH
+  - name: CAN/DIST
+    number: '19'
+    value: '03'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5791
+- input: F65,C00427732,IND,Reyes-Lopez^Vivian^^,Punta Las Marias,25 Calle Emajagua,San
+    Juan,PR,00913,Department Homeland Security,Attorney,20061026,1000.00,C00427732,,Chema^John
+    R^Mr.^,H,OH,03,,,,,,,,F6.5794
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00427732
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Reyes-Lopez^Vivian^^
+  - name: STREET 1
+    number: '5'
+    value: Punta Las Marias
+  - name: STREET 2
+    number: '6'
+    value: 25 Calle Emajagua
+  - name: CITY
+    number: '7'
+    value: San Juan
+  - name: STATE
+    number: '8'
+    value: PR
+  - name: ZIP
+    number: '9'
+    value: 00913
+  - name: INDEMP
+    number: '10'
+    value: Department Homeland Security
+  - name: INDOCC
+    number: '11'
+    value: Attorney
+  - name: Of Contribution
+    number: 12-
+    value: '20061026'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00427732
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Chema^John R^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: OH
+  - name: CAN/DIST
+    number: '19'
+    value: '03'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5794
+- input: F65,C00427732,PAC,BUILDING RELATIONSHIPS IN DIVERSE GEOGRAPHIC ENVIRONMENTS
+    PAC (BRIDGE PAC),499 SOUTH CAPITOL ST SW SUITE 412,,WASHINGTON,DC,20003,,,20061026,2500.00,C00427732,,Chema^John
+    R^Mr.^,H,OH,03,,,,,,,,F6.5797
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00427732
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: BUILDING RELATIONSHIPS IN DIVERSE GEOGRAPHIC ENVIRONMENTS PAC (BRIDGE PAC)
+  - name: STREET 1
+    number: '5'
+    value: 499 SOUTH CAPITOL ST SW SUITE 412
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: WASHINGTON
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20003'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061026'
+  - name: AMOUNT
+    number: '13'
+    value: '2500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00427732
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Chema^John R^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: OH
+  - name: CAN/DIST
+    number: '19'
+    value: '03'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5797
+sourceurl: !!python/unicode 20061027
+type: single
