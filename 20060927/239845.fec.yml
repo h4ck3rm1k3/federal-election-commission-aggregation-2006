@@ -1,0 +1,398 @@
+countraw: 7
+countrows: 5
+filename: 239845.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00344705
+  - name: COMMITTEE NAME
+    number: '3'
+    value: CANNON FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 190 WEST 800 NORTH
+  - name: STREET 2
+    number: '5'
+    value: ' SUITE 100'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: PROVO
+  - name: ZIP
+    number: '8'
+    value: UT
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '84601'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H6UT03042
+  - name: CAN/OFFICE
+    number: '11'
+    value: CANNON^CHRISTOPHER B^Hon.^
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: UT
+  - name: Signed
+    number: 14-
+    value: '03'
+  - value: '20060926'
+  expected_count: 14
+  input: F6,C00344705,CANNON FOR CONGRESS,"190 WEST 800 NORTH, SUITE 100",,PROVO,UT,84601,H6UT03042,CANNON^CHRISTOPHER
+    B^Hon.^,H,UT,03,20060926
+  input_count: 15
+  record: fec.version.v5_3.F6
+  result: []
+- input: F65,C00344705,IND,AHLSTROM^PAUL^^,7911 SOUTH DAVINICI DRIVE,,SALT LAKE CITY,UT,84121,VSPRING
+    CAPITAL,VENTURE CAPITAL,20060621,2000.00,C00344705,H6UT03042,CANNON^CHRISTOPHER
+    B^Hon.^,H,UT,03,,,,,,,,F6.11816
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00344705
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: AHLSTROM^PAUL^^
+  - name: STREET 1
+    number: '5'
+    value: 7911 SOUTH DAVINICI DRIVE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: SALT LAKE CITY
+  - name: STATE
+    number: '8'
+    value: UT
+  - name: ZIP
+    number: '9'
+    value: '84121'
+  - name: INDEMP
+    number: '10'
+    value: VSPRING CAPITAL
+  - name: INDOCC
+    number: '11'
+    value: VENTURE CAPITAL
+  - name: Of Contribution
+    number: 12-
+    value: '20060621'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00344705
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6UT03042
+  - name: CANDIDATE NAME
+    number: '16'
+    value: CANNON^CHRISTOPHER B^Hon.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: UT
+  - name: CAN/DIST
+    number: '19'
+    value: '03'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.11816
+- input: F65,C00344705,IND,Holding^Carol^^,PO Box 98,,Cody,WY,824140098,Sinclair Oil
+    Corporation,Owner,20060609,1000.00,C00344705,H6UT03042,CANNON^CHRISTOPHER B^Hon.^,H,UT,03,,,,,,,,F6.11813
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00344705
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Holding^Carol^^
+  - name: STREET 1
+    number: '5'
+    value: PO Box 98
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Cody
+  - name: STATE
+    number: '8'
+    value: WY
+  - name: ZIP
+    number: '9'
+    value: '824140098'
+  - name: INDEMP
+    number: '10'
+    value: Sinclair Oil Corporation
+  - name: INDOCC
+    number: '11'
+    value: Owner
+  - name: Of Contribution
+    number: 12-
+    value: '20060609'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00344705
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6UT03042
+  - name: CANDIDATE NAME
+    number: '16'
+    value: CANNON^CHRISTOPHER B^Hon.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: UT
+  - name: CAN/DIST
+    number: '19'
+    value: '03'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.11813
+- input: F65,C00344705,IND,Holding^R E^^,PO BOX 98,,CODY,WY,82414,SINCLAIR OIL CORPORATION,OWNER,20060609,2000.00,C00344705,H6UT03042,CANNON^CHRISTOPHER
+    B^Hon.^,H,UT,03,,,,,,,,F6.11814
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00344705
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Holding^R E^^
+  - name: STREET 1
+    number: '5'
+    value: PO BOX 98
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: CODY
+  - name: STATE
+    number: '8'
+    value: WY
+  - name: ZIP
+    number: '9'
+    value: '82414'
+  - name: INDEMP
+    number: '10'
+    value: SINCLAIR OIL CORPORATION
+  - name: INDOCC
+    number: '11'
+    value: OWNER
+  - name: Of Contribution
+    number: 12-
+    value: '20060609'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00344705
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6UT03042
+  - name: CANDIDATE NAME
+    number: '16'
+    value: CANNON^CHRISTOPHER B^Hon.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: UT
+  - name: CAN/DIST
+    number: '19'
+    value: '03'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.11814
+- input: F65,C00344705,PAC,Greenberg Traurig PAC,1221 Brickell Ave.,,Miami,FL,33131,,,20060609,1000.00,C00344705,H6UT03042,CANNON^CHRISTOPHER
+    B^Hon.^,H,UT,03,,,,,,,,F6.11815
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00344705
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Greenberg Traurig PAC
+  - name: STREET 1
+    number: '5'
+    value: 1221 Brickell Ave.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Miami
+  - name: STATE
+    number: '8'
+    value: FL
+  - name: ZIP
+    number: '9'
+    value: '33131'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20060609'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00344705
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6UT03042
+  - name: CANDIDATE NAME
+    number: '16'
+    value: CANNON^CHRISTOPHER B^Hon.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: UT
+  - name: CAN/DIST
+    number: '19'
+    value: '03'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.11815
+sourceurl: !!python/unicode 20060927
+type: single
