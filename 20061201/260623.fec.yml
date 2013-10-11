@@ -1,0 +1,2363 @@
+countraw: 30
+countrows: 28
+filename: 260623.fec
+header: {}
+rows:
+- input: F6,C00427807,KAREN CARTER FOR CONGRESS,1215 PRYTANIA ST SUITE 364A,,NEW ORLEANS,LA,70130,,,H,LA,02,20061130
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00427807
+  - name: COMMITTEE NAME
+    number: '3'
+    value: KAREN CARTER FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 1215 PRYTANIA ST SUITE 364A
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: NEW ORLEANS
+  - name: STATE
+    number: '7'
+    value: LA
+  - name: ZIP
+    number: '8'
+    value: '70130'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ''
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: LA
+  - name: CAN/DIST
+    number: '13'
+    value: '02'
+  - name: Signed
+    number: 14-
+    value: '20061130'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00427807
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: American Medical Association PAC
+  - name: STREET 1
+    number: '5'
+    value: 1101 Vermont Ave
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20005'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20061128'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '5000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00427807
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H6LA02132
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: LA
+  - name: CONDUIT NAME
+    number: '20'
+    value: '02'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.5203
+  expected_count: 27
+  input: F65,C00427807,PAC,American Medical Association PAC,"1101 Vermont Ave, NW",,Washington,DC,20005,,,20061128,5000.00,C00427807,H6LA02132,,H,LA,02,,,,,,,,F6.5203
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: F65,C00427807,IND,Babineaux^Erroll^^,27 Oak Place,,New Iberia,LA,70563,Acadian
+    Ambulance,government affairs,20061128,1000.00,C00427807,H6LA02132,,H,LA,02,,,,,,,,F6.5197
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00427807
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Babineaux^Erroll^^
+  - name: STREET 1
+    number: '5'
+    value: 27 Oak Place
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: New Iberia
+  - name: STATE
+    number: '8'
+    value: LA
+  - name: ZIP
+    number: '9'
+    value: '70563'
+  - name: INDEMP
+    number: '10'
+    value: Acadian Ambulance
+  - name: INDOCC
+    number: '11'
+    value: government affairs
+  - name: Of Contribution
+    number: 12-
+    value: '20061128'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00427807
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6LA02132
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: LA
+  - name: CAN/DIST
+    number: '19'
+    value: '02'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5197
+- input: F65,C00427807,IND,Bacchus^Marcel A.^Dr.^,932 N. Carrollton Ave.,,New Orleans,LA,70119,self,physician,20061129,1000.00,C00427807,H6LA02132,,H,LA,02,,,,,,,,F6.5226
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00427807
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Bacchus^Marcel A.^Dr.^
+  - name: STREET 1
+    number: '5'
+    value: 932 N. Carrollton Ave.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: New Orleans
+  - name: STATE
+    number: '8'
+    value: LA
+  - name: ZIP
+    number: '9'
+    value: '70119'
+  - name: INDEMP
+    number: '10'
+    value: self
+  - name: INDOCC
+    number: '11'
+    value: physician
+  - name: Of Contribution
+    number: 12-
+    value: '20061129'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00427807
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6LA02132
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: LA
+  - name: CAN/DIST
+    number: '19'
+    value: '02'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5226
+- input: F65,C00427807,IND,Bailey^James J.^^III,7255 Bocage Blvd.,,Baton Rouge,LA,70809,self,,20061129,1000.00,C00427807,H6LA02132,,H,LA,02,,,,,,,,F6.5217
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00427807
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Bailey^James J.^^III
+  - name: STREET 1
+    number: '5'
+    value: 7255 Bocage Blvd.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Baton Rouge
+  - name: STATE
+    number: '8'
+    value: LA
+  - name: ZIP
+    number: '9'
+    value: '70809'
+  - name: INDEMP
+    number: '10'
+    value: self
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061129'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00427807
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6LA02132
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: LA
+  - name: CAN/DIST
+    number: '19'
+    value: '02'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5217
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00427807
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Bart^Morris^^
+  - name: STREET 1
+    number: '5'
+    value: 909 Poydras St.
+  - name: STREET 2
+    number: '6'
+    value: 20th Flr.
+  - name: CITY
+    number: '7'
+    value: New Orleans
+  - name: STATE
+    number: '8'
+    value: LA
+  - name: ZIP
+    number: '9'
+    value: '70112'
+  - name: INDEMP
+    number: '10'
+    value: Morris Bart
+  - name: INDOCC
+    number: '11'
+    value: ' Attys.'
+  - name: Of Contribution
+    number: 12-
+    value: Atty.
+  - name: AMOUNT
+    number: '13'
+    value: '20061128'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00427807
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H6LA02132
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: LA
+  - name: CONDUIT NAME
+    number: '20'
+    value: '02'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.5209
+  expected_count: 27
+  input: F65,C00427807,IND,Bart^Morris^^,909 Poydras St.,20th Flr.,New Orleans,LA,70112,"Morris
+    Bart, Attys.",Atty.,20061128,1000.00,C00427807,H6LA02132,,H,LA,02,,,,,,,,F6.5209
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: F65,C00427807,IND,Bencomo^Raul R.^^,928 Moss St.,,New Orleans,LA,70119,Bencomo
+    & Assocs.,atty.,20061129,2100.00,C00427807,H6LA02132,,H,LA,02,,,,,,,,F6.5219
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00427807
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Bencomo^Raul R.^^
+  - name: STREET 1
+    number: '5'
+    value: 928 Moss St.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: New Orleans
+  - name: STATE
+    number: '8'
+    value: LA
+  - name: ZIP
+    number: '9'
+    value: '70119'
+  - name: INDEMP
+    number: '10'
+    value: Bencomo & Assocs.
+  - name: INDOCC
+    number: '11'
+    value: atty.
+  - name: Of Contribution
+    number: 12-
+    value: '20061129'
+  - name: AMOUNT
+    number: '13'
+    value: '2100.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00427807
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6LA02132
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: LA
+  - name: CAN/DIST
+    number: '19'
+    value: '02'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5219
+- input: F65,C00427807,IND,Bollinger^Donald T.^^,POB 250,,Lockport,LA,70374,Bollinger
+    Shipyards,,20061128,2000.00,C00427807,H6LA02132,,H,LA,02,,,,,,,,F6.5214
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00427807
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Bollinger^Donald T.^^
+  - name: STREET 1
+    number: '5'
+    value: POB 250
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Lockport
+  - name: STATE
+    number: '8'
+    value: LA
+  - name: ZIP
+    number: '9'
+    value: '70374'
+  - name: INDEMP
+    number: '10'
+    value: Bollinger Shipyards
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061128'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00427807
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6LA02132
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: LA
+  - name: CAN/DIST
+    number: '19'
+    value: '02'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5214
+- input: F65,C00427807,IND,Brown^Marina K.^^,1215 Prytania St.,,New Orleans,LA,70130,self,,20061129,1000.00,C00427807,H6LA02132,,H,LA,02,,,,,,,,F6.5218
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00427807
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Brown^Marina K.^^
+  - name: STREET 1
+    number: '5'
+    value: 1215 Prytania St.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: New Orleans
+  - name: STATE
+    number: '8'
+    value: LA
+  - name: ZIP
+    number: '9'
+    value: '70130'
+  - name: INDEMP
+    number: '10'
+    value: self
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061129'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00427807
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6LA02132
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: LA
+  - name: CAN/DIST
+    number: '19'
+    value: '02'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5218
+- input: F65,C00427807,IND,Buerger^Alan^^,8850 Montgomery Avenue,,Glenside,PA,19038,self,executive,20061128,2000.00,C00427807,H6LA02132,,H,LA,02,,,,,,,,F6.5201
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00427807
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Buerger^Alan^^
+  - name: STREET 1
+    number: '5'
+    value: 8850 Montgomery Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Glenside
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '19038'
+  - name: INDEMP
+    number: '10'
+    value: self
+  - name: INDOCC
+    number: '11'
+    value: executive
+  - name: Of Contribution
+    number: 12-
+    value: '20061128'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00427807
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6LA02132
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: LA
+  - name: CAN/DIST
+    number: '19'
+    value: '02'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5201
+- input: F65,C00427807,IND,Buerger^Constance^Mrs.^,8850 Montgomery Avenue,,Glenside,PA,19038,self,executive,20061128,2000.00,C00427807,H6LA02132,,H,LA,02,,,,,,,,F6.5199
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00427807
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Buerger^Constance^Mrs.^
+  - name: STREET 1
+    number: '5'
+    value: 8850 Montgomery Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Glenside
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '19038'
+  - name: INDEMP
+    number: '10'
+    value: self
+  - name: INDOCC
+    number: '11'
+    value: executive
+  - name: Of Contribution
+    number: 12-
+    value: '20061128'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00427807
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6LA02132
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: LA
+  - name: CAN/DIST
+    number: '19'
+    value: '02'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5199
+- input: F65,C00427807,IND,Carmouche^John H.^^,6832 Highland Rd.,,Baton Rouge,LA,70808,Talbot
+    Carmouch & Marcello APL,attorney,20061128,2100.00,C00427807,H6LA02132,,H,LA,02,,,,,,,,F6.5216
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00427807
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Carmouche^John H.^^
+  - name: STREET 1
+    number: '5'
+    value: 6832 Highland Rd.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Baton Rouge
+  - name: STATE
+    number: '8'
+    value: LA
+  - name: ZIP
+    number: '9'
+    value: '70808'
+  - name: INDEMP
+    number: '10'
+    value: Talbot Carmouch & Marcello APL
+  - name: INDOCC
+    number: '11'
+    value: attorney
+  - name: Of Contribution
+    number: 12-
+    value: '20061128'
+  - name: AMOUNT
+    number: '13'
+    value: '2100.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00427807
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6LA02132
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: LA
+  - name: CAN/DIST
+    number: '19'
+    value: '02'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5216
+- input: F65,C00427807,IND,Damico^Frank^^,522 Baronne St.,,New Orleans,LA,70113,Frank
+    Damico Law Firm,,20061128,2100.00,C00427807,H6LA02132,,H,LA,02,,,,,,,,F6.5215
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00427807
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Damico^Frank^^
+  - name: STREET 1
+    number: '5'
+    value: 522 Baronne St.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: New Orleans
+  - name: STATE
+    number: '8'
+    value: LA
+  - name: ZIP
+    number: '9'
+    value: '70113'
+  - name: INDEMP
+    number: '10'
+    value: Frank Damico Law Firm
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061128'
+  - name: AMOUNT
+    number: '13'
+    value: '2100.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00427807
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6LA02132
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: LA
+  - name: CAN/DIST
+    number: '19'
+    value: '02'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5215
+- input: F65,C00427807,IND,Dugan^James R.^^II,181 English Turn Drive,,New Orleans,LA,70131,self,,20061129,1000.00,C00427807,H6LA02132,,H,LA,02,,,,,,,,F6.5230
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00427807
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Dugan^James R.^^II
+  - name: STREET 1
+    number: '5'
+    value: 181 English Turn Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: New Orleans
+  - name: STATE
+    number: '8'
+    value: LA
+  - name: ZIP
+    number: '9'
+    value: '70131'
+  - name: INDEMP
+    number: '10'
+    value: self
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061129'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00427807
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6LA02132
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: LA
+  - name: CAN/DIST
+    number: '19'
+    value: '02'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5230
+- input: F65,C00427807,IND,Florence^Robert P.^^,2917 Esplanade Ave,,New Orleans,LA,70119,self,,20061129,1000.00,C00427807,H6LA02132,,H,LA,02,,,,,,,,F6.5234
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00427807
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Florence^Robert P.^^
+  - name: STREET 1
+    number: '5'
+    value: 2917 Esplanade Ave
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: New Orleans
+  - name: STATE
+    number: '8'
+    value: LA
+  - name: ZIP
+    number: '9'
+    value: '70119'
+  - name: INDEMP
+    number: '10'
+    value: self
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061129'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00427807
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6LA02132
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: LA
+  - name: CAN/DIST
+    number: '19'
+    value: '02'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5234
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00427807
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Flower^Paul H.^^
+  - name: STREET 1
+    number: '5'
+    value: 1476 Calhoun St.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: New Orleans
+  - name: STATE
+    number: '8'
+    value: LA
+  - name: ZIP
+    number: '9'
+    value: '70118'
+  - name: INDEMP
+    number: '10'
+    value: Carl E. Woodward
+  - name: INDOCC
+    number: '11'
+    value: ' LLC'
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20061129'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2100.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00427807
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H6LA02132
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: LA
+  - name: CONDUIT NAME
+    number: '20'
+    value: '02'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.5222
+  expected_count: 27
+  input: F65,C00427807,IND,Flower^Paul H.^^,1476 Calhoun St.,,New Orleans,LA,70118,"Carl
+    E. Woodward, LLC",,20061129,2100.00,C00427807,H6LA02132,,H,LA,02,,,,,,,,F6.5222
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00427807
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Forstall^Warren A.^^Jr.
+  - name: STREET 1
+    number: '5'
+    value: 320 N. Carrollton Ave.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: New Orleans
+  - name: STATE
+    number: '8'
+    value: LA
+  - name: ZIP
+    number: '9'
+    value: '70119'
+  - name: INDEMP
+    number: '10'
+    value: Law-Warren A. Forstall
+  - name: INDOCC
+    number: '11'
+    value: ' Jr.'
+  - name: Of Contribution
+    number: 12-
+    value: atty.
+  - name: AMOUNT
+    number: '13'
+    value: '20061129'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00427807
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H6LA02132
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: LA
+  - name: CONDUIT NAME
+    number: '20'
+    value: '02'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.5225
+  expected_count: 27
+  input: F65,C00427807,IND,Forstall^Warren A.^^Jr.,320 N. Carrollton Ave.,,New Orleans,LA,70119,"Law-Warren
+    A. Forstall, Jr.",atty.,20061129,1000.00,C00427807,H6LA02132,,H,LA,02,,,,,,,,F6.5225
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: F65,C00427807,IND,Hammer^Mike R.^^,333 Girod St.,,New Orleans,LA,70130,Pontchatrain
+    Capital,,20061128,2100.00,C00427807,H6LA02132,,H,LA,02,,,,,,,,F6.5213
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00427807
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Hammer^Mike R.^^
+  - name: STREET 1
+    number: '5'
+    value: 333 Girod St.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: New Orleans
+  - name: STATE
+    number: '8'
+    value: LA
+  - name: ZIP
+    number: '9'
+    value: '70130'
+  - name: INDEMP
+    number: '10'
+    value: Pontchatrain Capital
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061128'
+  - name: AMOUNT
+    number: '13'
+    value: '2100.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00427807
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6LA02132
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: LA
+  - name: CAN/DIST
+    number: '19'
+    value: '02'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5213
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00427807
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Hugel^Dieter M.^^
+  - name: STREET 1
+    number: '5'
+    value: 7351 W. Roadway
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: New Orleans
+  - name: STATE
+    number: '8'
+    value: LA
+  - name: ZIP
+    number: '9'
+    value: '70124'
+  - name: INDEMP
+    number: '10'
+    value: Gulf Coast Marine
+  - name: INDOCC
+    number: '11'
+    value: ' LLC'
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20061128'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2100.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00427807
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H6LA02132
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: LA
+  - name: CONDUIT NAME
+    number: '20'
+    value: '02'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.5212
+  expected_count: 27
+  input: F65,C00427807,IND,Hugel^Dieter M.^^,7351 W. Roadway,,New Orleans,LA,70124,"Gulf
+    Coast Marine, LLC",,20061128,2100.00,C00427807,H6LA02132,,H,LA,02,,,,,,,,F6.5212
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: F65,C00427807,PAC,Human Rights LGBT PAC,1640 Rhode Island Ave NW,,Washington,DC,20036,,,20061129,4000.00,C00427807,H6LA02132,,H,LA,02,,,,,,,,F6.5220
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00427807
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Human Rights LGBT PAC
+  - name: STREET 1
+    number: '5'
+    value: 1640 Rhode Island Ave NW
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20036'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061129'
+  - name: AMOUNT
+    number: '13'
+    value: '4000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00427807
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6LA02132
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: LA
+  - name: CAN/DIST
+    number: '19'
+    value: '02'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5220
+- input: F65,C00427807,IND,Kuiper^Steven A.^^,1123 Louisiana Ave.,,New Orleans,LA,70115,Acadian
+    Ambulance,executive,20061128,1000.00,C00427807,H6LA02132,,H,LA,02,,,,,,,,F6.5195
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00427807
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Kuiper^Steven A.^^
+  - name: STREET 1
+    number: '5'
+    value: 1123 Louisiana Ave.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: New Orleans
+  - name: STATE
+    number: '8'
+    value: LA
+  - name: ZIP
+    number: '9'
+    value: '70115'
+  - name: INDEMP
+    number: '10'
+    value: Acadian Ambulance
+  - name: INDOCC
+    number: '11'
+    value: executive
+  - name: Of Contribution
+    number: 12-
+    value: '20061128'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00427807
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6LA02132
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: LA
+  - name: CAN/DIST
+    number: '19'
+    value: '02'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5195
+- input: F65,C00427807,IND,Labadie^Juan J.^Dr.^,300 Fairfield Ave,,Gretna,LA,70056,self,physician,20061129,1000.00,C00427807,H6LA02132,,H,LA,02,,,,,,,,F6.5228
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00427807
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Labadie^Juan J.^Dr.^
+  - name: STREET 1
+    number: '5'
+    value: 300 Fairfield Ave
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Gretna
+  - name: STATE
+    number: '8'
+    value: LA
+  - name: ZIP
+    number: '9'
+    value: '70056'
+  - name: INDEMP
+    number: '10'
+    value: self
+  - name: INDOCC
+    number: '11'
+    value: physician
+  - name: Of Contribution
+    number: 12-
+    value: '20061129'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00427807
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6LA02132
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: LA
+  - name: CAN/DIST
+    number: '19'
+    value: '02'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5228
+- input: F65,C00427807,IND,Manshel^Stephen D.^^,7523 Garnet St.,,New Orleans,LA,70124,TVG
+    Development,,20061128,2100.00,C00427807,H6LA02132,,H,LA,02,,,,,,,,F6.5211
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00427807
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Manshel^Stephen D.^^
+  - name: STREET 1
+    number: '5'
+    value: 7523 Garnet St.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: New Orleans
+  - name: STATE
+    number: '8'
+    value: LA
+  - name: ZIP
+    number: '9'
+    value: '70124'
+  - name: INDEMP
+    number: '10'
+    value: TVG Development
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061128'
+  - name: AMOUNT
+    number: '13'
+    value: '2100.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00427807
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6LA02132
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: LA
+  - name: CAN/DIST
+    number: '19'
+    value: '02'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5211
+- input: F65,C00427807,IND,Montero^Marcia S.^^,1456 Verna Court,,New Orleans,LA,70119,self,attorney,20061129,1000.00,C00427807,H6LA02132,,H,LA,02,,,,,,,,F6.5223
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00427807
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Montero^Marcia S.^^
+  - name: STREET 1
+    number: '5'
+    value: 1456 Verna Court
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: New Orleans
+  - name: STATE
+    number: '8'
+    value: LA
+  - name: ZIP
+    number: '9'
+    value: '70119'
+  - name: INDEMP
+    number: '10'
+    value: self
+  - name: INDOCC
+    number: '11'
+    value: attorney
+  - name: Of Contribution
+    number: 12-
+    value: '20061129'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00427807
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6LA02132
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: LA
+  - name: CAN/DIST
+    number: '19'
+    value: '02'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5223
+- input: F65,C00427807,IND,Ozanne^Dominic^^,1625 E. 25th St.,,Cleveland,OH,44114,Ozanne
+    Construction,President,20061129,1000.00,C00427807,H6LA02132,,H,LA,02,,,,,,,,F6.5232
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00427807
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Ozanne^Dominic^^
+  - name: STREET 1
+    number: '5'
+    value: 1625 E. 25th St.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Cleveland
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '44114'
+  - name: INDEMP
+    number: '10'
+    value: Ozanne Construction
+  - name: INDOCC
+    number: '11'
+    value: President
+  - name: Of Contribution
+    number: 12-
+    value: '20061129'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00427807
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6LA02132
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: LA
+  - name: CAN/DIST
+    number: '19'
+    value: '02'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5232
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00427807
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Parmelee^Janice^Ms.^
+  - name: STREET 1
+    number: '5'
+    value: 3445 N. Causeway Blvd.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Metairie
+  - name: STATE
+    number: '8'
+    value: LA
+  - name: ZIP
+    number: '9'
+    value: '70002'
+  - name: INDEMP
+    number: '10'
+    value: Hammack-Jones Group
+  - name: INDOCC
+    number: '11'
+    value: ' LLC'
+  - name: Of Contribution
+    number: 12-
+    value: executive
+  - name: AMOUNT
+    number: '13'
+    value: '20061128'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00427807
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H6LA02132
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: LA
+  - name: CONDUIT NAME
+    number: '20'
+    value: '02'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.5205
+  expected_count: 27
+  input: F65,C00427807,IND,Parmelee^Janice^Ms.^,3445 N. Causeway Blvd.,,Metairie,LA,70002,"Hammack-Jones
+    Group, LLC",executive,20061128,2000.00,C00427807,H6LA02132,,H,LA,02,,,,,,,,F6.5205
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: F65,C00427807,IND,Vince^Cllinton^^,1666 K Street NW,,Washington,DC,20006,self,,20061128,2100.00,C00427807,H6LA02132,,H,LA,02,,,,,,,,F6.5210
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00427807
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Vince^Cllinton^^
+  - name: STREET 1
+    number: '5'
+    value: 1666 K Street NW
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20006'
+  - name: INDEMP
+    number: '10'
+    value: self
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061128'
+  - name: AMOUNT
+    number: '13'
+    value: '2100.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00427807
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6LA02132
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: LA
+  - name: CAN/DIST
+    number: '19'
+    value: '02'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5210
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00427807
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Winston^Marc E.^^
+  - name: STREET 1
+    number: '5'
+    value: 400 Poydras Street
+  - name: STREET 2
+    number: '6'
+    value: Ste. 1850
+  - name: CITY
+    number: '7'
+    value: New Orleans
+  - name: STATE
+    number: '8'
+    value: LA
+  - name: ZIP
+    number: '9'
+    value: '70130'
+  - name: INDEMP
+    number: '10'
+    value: Marco OUtdoor Advertising
+  - name: INDOCC
+    number: '11'
+    value: ' Inc'
+  - name: Of Contribution
+    number: 12-
+    value: executive
+  - name: AMOUNT
+    number: '13'
+    value: '20061128'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00427807
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H6LA02132
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: LA
+  - name: CONDUIT NAME
+    number: '20'
+    value: '02'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.5207
+  expected_count: 27
+  input: F65,C00427807,IND,Winston^Marc E.^^,400 Poydras Street,Ste. 1850,New Orleans,LA,70130,"Marco
+    OUtdoor Advertising, Inc",executive,20061128,1000.00,C00427807,H6LA02132,,H,LA,02,,,,,,,,F6.5207
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+sourceurl: !!python/unicode 20061201
+type: single
