@@ -1,0 +1,141 @@
+countraw: 4
+countrows: 2
+filename: 257807.fec
+header: {}
+rows:
+- input: F6,C00414656,"Kleeb for Congress","PO Box 638","","Kearney","NE","68848","H6NE03131","Kleeb^Scott^Michael","","","",20061105
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00414656
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Kleeb for Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 638
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Kearney
+  - name: STATE
+    number: '7'
+    value: NE
+  - name: ZIP
+    number: '8'
+    value: '68848'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H6NE03131
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Kleeb^Scott^Michael
+  - name: CAN/OFFICE
+    number: '11'
+    value: ''
+  - name: CAN/STATE
+    number: '12'
+    value: ''
+  - name: CAN/DIST
+    number: '13'
+    value: ''
+  - name: Signed
+    number: 14-
+    value: '20061105'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00414656
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Olson
+  - name: STREET 1
+    number: '5'
+    value: ' Karl'
+  - name: STREET 2
+    number: '6'
+    value: 9850 OSCE PL
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Dulles
+  - name: ZIP
+    number: '9'
+    value: VA
+  - name: INDEMP
+    number: '10'
+    value: '20189'
+  - name: INDOCC
+    number: '11'
+    value: U.S. Department of State
+  - name: Of Contribution
+    number: 12-
+    value: Foreign Service Officer
+  - name: AMOUNT
+    number: '13'
+    value: '20061104'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1700.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 11ai-000005541
+  expected_count: 27
+  input: F65,C00414656,IND,"Olson, Karl","9850 OSCE PL","","Dulles","VA","20189","U.S.
+    Department of State","Foreign Service Officer","20061104","1700.00","","","","","","","","","","","","",,11ai-000005541
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+sourceurl: !!python/unicode 20061106
+type: single
