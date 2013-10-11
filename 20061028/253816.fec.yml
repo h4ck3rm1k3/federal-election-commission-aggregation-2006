@@ -1,0 +1,1289 @@
+countraw: 18
+countrows: 16
+filename: 253816.fec
+header: {}
+rows:
+- input: F6,C00410969,ROSKAM FOR CONGRESS COMMITTEE,423 W. Wesley Street,,Wheaton,IL,60189,H6IL06117,ROSKAM^PETER^^,H,IL,6,20061028
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00410969
+  - name: COMMITTEE NAME
+    number: '3'
+    value: ROSKAM FOR CONGRESS COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: 423 W. Wesley Street
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Wheaton
+  - name: STATE
+    number: '7'
+    value: IL
+  - name: ZIP
+    number: '8'
+    value: '60189'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H6IL06117
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ROSKAM^PETER^^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: IL
+  - name: CAN/DIST
+    number: '13'
+    value: '6'
+  - name: Signed
+    number: 14-
+    value: '20061028'
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F6
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: All donors listed are memo entries to support the transers from the joint
+      fundraising committee Illinios Congressional Victory Committee 2006.
+  - name: AMENDED CD
+    number: '5'
+    value: NO VALUE!
+  expected_count: 5
+  input: TEXT,F6,,All donors listed are memo entries to support the transers from
+    the joint fundraising committee Illinios Congressional Victory Committee 2006.
+  input_count: 4
+  record: fec.version.v5_3.TEXT
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00410969
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Altenberger^Christine^^
+  - name: STREET 1
+    number: '5'
+    value: 400 NW Corp Centre
+  - name: STREET 2
+    number: '6'
+    value: ' 2500 W. Higgin'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Hoffman Estates
+  - name: ZIP
+    number: '9'
+    value: IL
+  - name: INDEMP
+    number: '10'
+    value: '60195'
+  - name: INDOCC
+    number: '11'
+    value: Homemaker
+  - name: Of Contribution
+    number: 12-
+    value: Homemaker
+  - name: AMOUNT
+    number: '13'
+    value: '20061018'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1562.50'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00410969
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H6IL06117
+  - name: CAN/OFFICE
+    number: '17'
+    value: ROSKAM^PETER^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: IL
+  - name: CONDUIT NAME
+    number: '20'
+    value: '6'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.4222
+  expected_count: 27
+  input: F65,C00410969,IND,Altenberger^Christine^^,"400 NW Corp Centre, 2500 W. Higgin",,Hoffman
+    Estates,IL,60195,Homemaker,Homemaker,20061018,1562.50,C00410969,H6IL06117,ROSKAM^PETER^^,H,IL,6,,,,,,,,F6.4222
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00410969
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Altenberger^Douglas^^
+  - name: STREET 1
+    number: '5'
+    value: 400 NW Corp Centre
+  - name: STREET 2
+    number: '6'
+    value: ' 2500 W. Higgin'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Hoffman Estates
+  - name: ZIP
+    number: '9'
+    value: IL
+  - name: INDEMP
+    number: '10'
+    value: '60195'
+  - name: INDOCC
+    number: '11'
+    value: Stonegate Properties
+  - name: Of Contribution
+    number: 12-
+    value: Developer
+  - name: AMOUNT
+    number: '13'
+    value: '20061018'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1562.50'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00410969
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H6IL06117
+  - name: CAN/OFFICE
+    number: '17'
+    value: ROSKAM^PETER^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: IL
+  - name: CONDUIT NAME
+    number: '20'
+    value: '6'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.4221
+  expected_count: 27
+  input: F65,C00410969,IND,Altenberger^Douglas^^,"400 NW Corp Centre, 2500 W. Higgin",,Hoffman
+    Estates,IL,60195,Stonegate Properties,Developer,20061018,1562.50,C00410969,H6IL06117,ROSKAM^PETER^^,H,IL,6,,,,,,,,F6.4221
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: F65,C00410969,IND,Blood^C. Kenneth^^,40W270B La Fox Rd.,,St. Charles,IL,60177,B&B
+    Enterprises,Land Developer,20061018,1250.00,C00410969,H6IL06117,ROSKAM^PETER^^,H,IL,6,,,,,,,,F6.4220
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00410969
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Blood^C. Kenneth^^
+  - name: STREET 1
+    number: '5'
+    value: 40W270B La Fox Rd.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: St. Charles
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60177'
+  - name: INDEMP
+    number: '10'
+    value: B&B Enterprises
+  - name: INDOCC
+    number: '11'
+    value: Land Developer
+  - name: Of Contribution
+    number: 12-
+    value: '20061018'
+  - name: AMOUNT
+    number: '13'
+    value: '1250.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00410969
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6IL06117
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ROSKAM^PETER^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: IL
+  - name: CAN/DIST
+    number: '19'
+    value: '6'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.4220
+- input: F65,C00410969,IND,Boose^Jerry^^,4N657 Hidden Oakds Rd.,,St. Charles,IL,60175,B&B
+    Enterprises,Land Developer,20061018,1250.00,C00410969,H6IL06117,ROSKAM^PETER^^,H,IL,6,,,,,,,,F6.4219
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00410969
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Boose^Jerry^^
+  - name: STREET 1
+    number: '5'
+    value: 4N657 Hidden Oakds Rd.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: St. Charles
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60175'
+  - name: INDEMP
+    number: '10'
+    value: B&B Enterprises
+  - name: INDOCC
+    number: '11'
+    value: Land Developer
+  - name: Of Contribution
+    number: 12-
+    value: '20061018'
+  - name: AMOUNT
+    number: '13'
+    value: '1250.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00410969
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6IL06117
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ROSKAM^PETER^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: IL
+  - name: CAN/DIST
+    number: '19'
+    value: '6'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.4219
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00410969
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Ferro^Michael^^
+  - name: STREET 1
+    number: '5'
+    value: 1500 N. lake Shore Dr.
+  - name: STREET 2
+    number: '6'
+    value: ' Unit 21A'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Chicago
+  - name: ZIP
+    number: '9'
+    value: IL
+  - name: INDEMP
+    number: '10'
+    value: '60610'
+  - name: INDOCC
+    number: '11'
+    value: Click Commerce
+  - name: Of Contribution
+    number: 12-
+    value: Chairman
+  - name: AMOUNT
+    number: '13'
+    value: '20061018'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2100.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00410969
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H6IL06117
+  - name: CAN/OFFICE
+    number: '17'
+    value: ROSKAM^PETER^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: IL
+  - name: CONDUIT NAME
+    number: '20'
+    value: '6'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.4217
+  expected_count: 27
+  input: F65,C00410969,IND,Ferro^Michael^^,"1500 N. lake Shore Dr., Unit 21A",,Chicago,IL,60610,Click
+    Commerce,Chairman,20061018,2100.00,C00410969,H6IL06117,ROSKAM^PETER^^,H,IL,6,,,,,,,,F6.4217
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00410969
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Huizenga^Heidi^^
+  - name: STREET 1
+    number: '5'
+    value: 2215 York Road
+  - name: STREET 2
+    number: '6'
+    value: ' Ste 500'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Oak Brook
+  - name: ZIP
+    number: '9'
+    value: IL
+  - name: INDEMP
+    number: '10'
+    value: '60523'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20061018'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2100.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00410969
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H6IL06117
+  - name: CAN/OFFICE
+    number: '17'
+    value: ROSKAM^PETER^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: IL
+  - name: CONDUIT NAME
+    number: '20'
+    value: '6'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.4218
+  expected_count: 27
+  input: F65,C00410969,IND,Huizenga^Heidi^^,"2215 York Road, Ste 500",,Oak Brook,IL,60523,,,20061018,2100.00,C00410969,H6IL06117,ROSKAM^PETER^^,H,IL,6,,,,,,,,F6.4218
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: F65,C00410969,IND,McKenna^Joan^^,8338 Austin Avenue,,Morton Grove,IL,60053,,,20061005,2100.00,C00410969,H6IL06117,ROSKAM^PETER^^,H,IL,6,,,,,,,,F6.4223
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00410969
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: McKenna^Joan^^
+  - name: STREET 1
+    number: '5'
+    value: 8338 Austin Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Morton Grove
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60053'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061005'
+  - name: AMOUNT
+    number: '13'
+    value: '2100.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00410969
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6IL06117
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ROSKAM^PETER^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: IL
+  - name: CAN/DIST
+    number: '19'
+    value: '6'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.4223
+- input: F65,C00410969,IND,Pollard^Judith^^,1116 N. Stoddard,,Wheaton,IL,60187,,,20061011,2100.00,C00410969,H6IL06117,ROSKAM^PETER^^,H,IL,6,,,,,,,,F6.4211
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00410969
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Pollard^Judith^^
+  - name: STREET 1
+    number: '5'
+    value: 1116 N. Stoddard
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Wheaton
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60187'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061011'
+  - name: AMOUNT
+    number: '13'
+    value: '2100.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00410969
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6IL06117
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ROSKAM^PETER^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: IL
+  - name: CAN/DIST
+    number: '19'
+    value: '6'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.4211
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00410969
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Reyes^Anne^^
+  - name: STREET 1
+    number: '5'
+    value: 9500 West Bryn Mawr Ave.
+  - name: STREET 2
+    number: '6'
+    value: ' Ste 700'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Rosemont
+  - name: ZIP
+    number: '9'
+    value: IL
+  - name: INDEMP
+    number: '10'
+    value: '60018'
+  - name: INDOCC
+    number: '11'
+    value: Homemaker
+  - name: Of Contribution
+    number: 12-
+    value: Homemaker
+  - name: AMOUNT
+    number: '13'
+    value: '20061025'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2100.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00410969
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H6IL06117
+  - name: CAN/OFFICE
+    number: '17'
+    value: ROSKAM^PETER^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: IL
+  - name: CONDUIT NAME
+    number: '20'
+    value: '6'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.4212
+  expected_count: 27
+  input: F65,C00410969,IND,Reyes^Anne^^,"9500 West Bryn Mawr Ave., Ste 700",,Rosemont,IL,60018,Homemaker,Homemaker,20061025,2100.00,C00410969,H6IL06117,ROSKAM^PETER^^,H,IL,6,,,,,,,,F6.4212
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: F65,C00410969,IND,Reyes^David^^,1433 Via Anita,,Pacific Palisades,CA,90272,Reyes
+    Holdings,Co-Chairman,20061025,2100.00,C00410969,H6IL06117,ROSKAM^PETER^^,H,IL,6,,,,,,,,F6.4213
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00410969
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Reyes^David^^
+  - name: STREET 1
+    number: '5'
+    value: 1433 Via Anita
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Pacific Palisades
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '90272'
+  - name: INDEMP
+    number: '10'
+    value: Reyes Holdings
+  - name: INDOCC
+    number: '11'
+    value: Co-Chairman
+  - name: Of Contribution
+    number: 12-
+    value: '20061025'
+  - name: AMOUNT
+    number: '13'
+    value: '2100.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00410969
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6IL06117
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ROSKAM^PETER^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: IL
+  - name: CAN/DIST
+    number: '19'
+    value: '6'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.4213
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00410969
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Reyes^J. Christopher^^
+  - name: STREET 1
+    number: '5'
+    value: 9500 West Bryn Mawr Ave.
+  - name: STREET 2
+    number: '6'
+    value: ' Ste 700'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Rosemont
+  - name: ZIP
+    number: '9'
+    value: IL
+  - name: INDEMP
+    number: '10'
+    value: '60018'
+  - name: INDOCC
+    number: '11'
+    value: Reyes Holdings
+  - name: Of Contribution
+    number: 12-
+    value: Co-Chairman
+  - name: AMOUNT
+    number: '13'
+    value: '20061025'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2100.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00410969
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H6IL06117
+  - name: CAN/OFFICE
+    number: '17'
+    value: ROSKAM^PETER^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: IL
+  - name: CONDUIT NAME
+    number: '20'
+    value: '6'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.4214
+  expected_count: 27
+  input: F65,C00410969,IND,Reyes^J. Christopher^^,"9500 West Bryn Mawr Ave., Ste 700",,Rosemont,IL,60018,Reyes
+    Holdings,Co-Chairman,20061025,2100.00,C00410969,H6IL06117,ROSKAM^PETER^^,H,IL,6,,,,,,,,F6.4214
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00410969
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Reyes^M. Jude^^
+  - name: STREET 1
+    number: '5'
+    value: 9500 West Bryn Mawr Ave.
+  - name: STREET 2
+    number: '6'
+    value: ' Ste 700'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Rosemont
+  - name: ZIP
+    number: '9'
+    value: IL
+  - name: INDEMP
+    number: '10'
+    value: '60018'
+  - name: INDOCC
+    number: '11'
+    value: Reyes Holdings
+  - name: Of Contribution
+    number: 12-
+    value: Co-Chairman
+  - name: AMOUNT
+    number: '13'
+    value: '20061025'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2100.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00410969
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H6IL06117
+  - name: CAN/OFFICE
+    number: '17'
+    value: ROSKAM^PETER^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: IL
+  - name: CONDUIT NAME
+    number: '20'
+    value: '6'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.4215
+  expected_count: 27
+  input: F65,C00410969,IND,Reyes^M. Jude^^,"9500 West Bryn Mawr Ave., Ste 700",,Rosemont,IL,60018,Reyes
+    Holdings,Co-Chairman,20061025,2100.00,C00410969,H6IL06117,ROSKAM^PETER^^,H,IL,6,,,,,,,,F6.4215
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: F65,C00410969,IND,Ritchie^Joseph^^,2100 Enterprise Ave.,,Geneva,IL,60134,Fox
+    River Financial,Investment Advisor,20061024,2100.00,C00410969,H6IL06117,ROSKAM^PETER^^,H,IL,6,,,,,,,,F6.4216
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00410969
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Ritchie^Joseph^^
+  - name: STREET 1
+    number: '5'
+    value: 2100 Enterprise Ave.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Geneva
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60134'
+  - name: INDEMP
+    number: '10'
+    value: Fox River Financial
+  - name: INDOCC
+    number: '11'
+    value: Investment Advisor
+  - name: Of Contribution
+    number: 12-
+    value: '20061024'
+  - name: AMOUNT
+    number: '13'
+    value: '2100.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00410969
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6IL06117
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ROSKAM^PETER^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: IL
+  - name: CAN/DIST
+    number: '19'
+    value: '6'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.4216
+- input: F65,C00410969,IND,Wymer Jr^John^^,67 Oak Creek Dr.,,Yorkville,IL,60560,Fairmount
+    Minerals Ltd.,Vice President,20061018,1000.00,C00410969,H6IL06117,ROSKAM^PETER^^,H,IL,6,,,,,,,,F6.4224
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00410969
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Wymer Jr^John^^
+  - name: STREET 1
+    number: '5'
+    value: 67 Oak Creek Dr.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Yorkville
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60560'
+  - name: INDEMP
+    number: '10'
+    value: Fairmount Minerals Ltd.
+  - name: INDOCC
+    number: '11'
+    value: Vice President
+  - name: Of Contribution
+    number: 12-
+    value: '20061018'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00410969
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6IL06117
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ROSKAM^PETER^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: IL
+  - name: CAN/DIST
+    number: '19'
+    value: '6'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.4224
+sourceurl: !!python/unicode 20061028
+type: single
