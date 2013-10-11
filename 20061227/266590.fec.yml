@@ -1,0 +1,125 @@
+countraw: 3
+countrows: 1
+filename: 266590.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H6MI16034
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: 607 14th Street
+  - name: STREET 2
+    number: '5'
+    value: ' N.W.'
+  - name: CITY
+    number: '6'
+    value: Suite 800
+  - name: STATE
+    number: '7'
+    value: Washington
+  - name: ZIP
+    number: '8'
+    value: DC
+  - name: PTY/CODE
+    number: '9'
+    value: '20005'
+  - name: CAN/OFFICE
+    number: '10'
+    value: DEM
+  - name: CAN/STATE
+    number: '11'
+    value: H
+  - name: CAN/DIST
+    number: '12'
+    value: MI
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '15'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: '2008'
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: C00002600
+  - name: STREET 1
+    number: '16'
+    value: John D. Dingell for Congress Committee
+  - name: STREET 2
+    number: '17'
+    value: 607 14th Street
+  - name: CITY
+    number: '18'
+    value: ' N.W.'
+  - name: STATE
+    number: '19'
+    value: Suite 800
+  - name: ZIP
+    number: '20'
+    value: Washington
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: DC
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: '20005'
+  - name: STREET 1
+    number: '23'
+    value: ''
+  - name: STREET 2
+    number: '24'
+    value: ''
+  - name: CITY
+    number: '25'
+    value: ''
+  - name: STATE
+    number: '26'
+    value: ''
+  - name: ZIP
+    number: '27'
+    value: ''
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: ''
+  - name: Signed
+    number: 29-
+    value: ''
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: John D. Dingell
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '20061227'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: '0'
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: '0'
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: Dingell
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: John
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: D.
+  - value: Mr.
+  - value: ''
+  expected_count: 36
+  input: '"F2N","H6MI16034","","607 14th Street, N.W.","Suite 800","Washington","DC","20005","DEM","H","MI","15","2008","C00002600","John
+    D. Dingell for Congress Committee","607 14th Street, N.W.","Suite 800","Washington","DC","20005","","","","","","","","John
+    D. Dingell","20061227","0","0","Dingell","John","D.","Mr.",""'
+  input_count: 38
+  record: fec.version.v5_3.F2
+  result: []
+sourceurl: !!python/unicode 20061227
+type: single
