@@ -1,0 +1,332 @@
+countraw: 5
+countrows: 3
+filename: 257506.fec
+header: {}
+rows:
+- input: F24,C00003418,REPUBLICAN NATIONAL COMMITTEE,310 FIRST STREET SE,,WASHINGTON,DC,20003,Banning^Jay^^,20061104,24
+  record: fec.version.v5_3.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00003418
+  - name: COMMITTEE NAME
+    number: '3'
+    value: REPUBLICAN NATIONAL COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: 310 FIRST STREET SE
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: WASHINGTON
+  - name: STATE
+    number: '7'
+    value: DC
+  - name: ZIP
+    number: '8'
+    value: '20003'
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: Banning^Jay^^
+  - name: Signed
+    number: 10-
+    value: '20061104'
+  - name: REPORT TYPE
+    number: '11'
+    value: '24'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00003418
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: FLS Connect
+  - name: STREET 1
+    number: '5'
+    value: 2401 W. Behrend Drive
+  - name: STREET 2
+    number: '6'
+    value: Suite 7
+  - name: CITY
+    number: '7'
+    value: Phonenix
+  - name: STATE
+    number: '8'
+    value: AZ
+  - name: ZIP
+    number: '9'
+    value: '85027'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Phones
+  - name: DATE
+    number: '11'
+    value: '20061103'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '12168.06'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: O
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S6MO00305
+  - name: S/O CAN/NAME
+    number: '15'
+    value: McCaskill
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ^Claire
+  - name: S/O STATE
+    number: '17'
+    value: S
+  - name: S/O CAN/DIST
+    number: '18'
+    value: MO
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: C00003418
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: Banning^Jay
+  - name: Notarized
+    number: 33-
+    value: '20061104'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE.00000
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2006
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: 24A
+  - value: '6608545.62'
+  expected_count: 46
+  input: SE24,C00003418,ORG,FLS Connect,2401 W. Behrend Drive,Suite 7,Phonenix,AZ,85027,Phones,20061103,12168.06,O,S6MO00305,"McCaskill,^Claire",S,MO,,C00003418,,,,,,,,,,,,Banning^Jay,20061104,,,,,SE.00000,,,,,G2006,,,24A,6608545.62
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00003418
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: ''
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: ''
+  - name: DATE
+    number: '11'
+    value: ''
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '0.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: UNI
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE.UNI
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: NO VALUE!
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: NO VALUE!
+  - name: CATEGORY CODE
+    number: '44'
+    value: NO VALUE!
+  - name: TRANS CODE
+    number: '45'
+    value: NO VALUE!
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: NO VALUE!
+  expected_count: 46
+  input: SE24,C00003418,,,,,,,,,,0.00,UNI,,,,,,,,,,,,,,,,,,,,,,,,SE.UNI,,,,
+  input_count: 41
+  record: fec.version.v5_3.SE
+  result: []
+sourceurl: !!python/unicode 20061104
+type: single
