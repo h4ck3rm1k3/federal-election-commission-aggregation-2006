@@ -1,0 +1,337 @@
+countraw: 5
+countrows: 3
+filename: 255619.fec
+header: {}
+rows:
+- input: F24,C00384826,Iowa Presidential Watch PAC,PO Box 171,,Webster City,IA,50595,Eddy^Linda
+    L^Ms^,20061101,24
+  record: fec.version.v5_3.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00384826
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Iowa Presidential Watch PAC
+  - name: STREET 1
+    number: '4'
+    value: PO Box 171
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Webster City
+  - name: STATE
+    number: '7'
+    value: IA
+  - name: ZIP
+    number: '8'
+    value: '50595'
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: Eddy^Linda L^Ms^
+  - name: Signed
+    number: 10-
+    value: '20061101'
+  - name: REPORT TYPE
+    number: '11'
+    value: '24'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00384826
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Comcast Spotlight
+  - name: STREET 1
+    number: '5'
+    value: ' Johnstown'
+  - name: STREET 2
+    number: '6'
+    value: 508 Luray Ave
+  - name: CITY
+    number: '7'
+    value: suite D
+  - name: STATE
+    number: '8'
+    value: Johnstown
+  - name: ZIP
+    number: '9'
+    value: PA
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '15904'
+  - name: DATE
+    number: '11'
+    value: TV commercial media buy
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20061101'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '8000.00'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: O
+  - name: S/O CAN/NAME
+    number: '15'
+    value: H6PA12030
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: MURTHA^JOHN P MR.^^
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: PA
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '12'
+  - name: Unused field
+    number: '20'
+    value: C00384826
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: '20061101'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24.5354
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2006
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '004'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '13000.00'
+  expected_count: 46
+  input: SE24,C00384826,ORG,"Comcast Spotlight, Johnstown",508 Luray Ave,suite D,Johnstown,PA,15904,TV
+    commercial media buy,20061101,8000.00,O,H6PA12030,MURTHA^JOHN P MR.^^,H,PA,12,C00384826,,,,,,,,,,,,,20061101,,,,,SE24.5354,,,,,G2006,,004,,13000.00
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00384826
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Comcast Spotlight
+  - name: STREET 1
+    number: '5'
+    value: ' Pittsburgh'
+  - name: STREET 2
+    number: '6'
+    value: Seven Parkway Center
+  - name: CITY
+    number: '7'
+    value: suite 1000
+  - name: STATE
+    number: '8'
+    value: Pittsburgh
+  - name: ZIP
+    number: '9'
+    value: PA
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '15220'
+  - name: DATE
+    number: '11'
+    value: TV commercial media buy
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20061101'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '5000.00'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: O
+  - name: S/O CAN/NAME
+    number: '15'
+    value: H6PA12030
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: MURTHA^JOHN P MR.^^
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: PA
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '12'
+  - name: Unused field
+    number: '20'
+    value: C00384826
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: '20061101'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24.5353
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2006
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '004'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '5000.00'
+  expected_count: 46
+  input: SE24,C00384826,ORG,"Comcast Spotlight, Pittsburgh",Seven Parkway Center,suite
+    1000,Pittsburgh,PA,15220,TV commercial media buy,20061101,5000.00,O,H6PA12030,MURTHA^JOHN
+    P MR.^^,H,PA,12,C00384826,,,,,,,,,,,,,20061101,,,,,SE24.5353,,,,,G2006,,004,,5000.00
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+sourceurl: !!python/unicode 20061101
+type: single
