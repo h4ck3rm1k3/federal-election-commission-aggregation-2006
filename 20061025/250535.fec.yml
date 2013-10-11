@@ -1,0 +1,655 @@
+countraw: 10
+countrows: 8
+filename: 250535.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00270140
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Stupak for Congress
+  - name: STREET 1
+    number: '4'
+    value: 817 Ninth Avenue
+  - name: STREET 2
+    number: '5'
+    value: ' P.O. Box 156'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Menominee
+  - name: ZIP
+    number: '8'
+    value: MI
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '49858'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H2MI01068
+  - name: CAN/OFFICE
+    number: '11'
+    value: Bart Stupak
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: MI
+  - name: Signed
+    number: 14-
+    value: '1'
+  - value: '20061025'
+  expected_count: 14
+  input: F6,"C00270140","Stupak for Congress","817 Ninth Avenue, P.O. Box 156","","Menominee","MI","49858","H2MI01068","Bart
+    Stupak","H","MI","1",20061025
+  input_count: 15
+  record: fec.version.v5_3.F6
+  result: []
+- input: 'F65,"C00270140","PAC","American Chemistry Council PAC","1300 Wilson Boulevard","ATTN:
+    Leslie Kaplan","Arlington","VA","22209","","",20061024,"1000","C00252338","","","","","","","","","","","","","C11040"'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00270140
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: American Chemistry Council PAC
+  - name: STREET 1
+    number: '5'
+    value: 1300 Wilson Boulevard
+  - name: STREET 2
+    number: '6'
+    value: 'ATTN: Leslie Kaplan'
+  - name: CITY
+    number: '7'
+    value: Arlington
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22209'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061024'
+  - name: AMOUNT
+    number: '13'
+    value: '1000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00252338
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C11040
+- input: F65,"C00270140","PAC","SPRINT NEXTEL CORPORATION POLITICAL ACTION COMMITTEE","6450
+    SPRINT PARKWAY","KSOPNH0204-2B412","OVERLAND PARK","KS","66251","","",20061024,"2000","C00089342","","","","","","","","","","","","","C11041"
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00270140
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: SPRINT NEXTEL CORPORATION POLITICAL ACTION COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: 6450 SPRINT PARKWAY
+  - name: STREET 2
+    number: '6'
+    value: KSOPNH0204-2B412
+  - name: CITY
+    number: '7'
+    value: OVERLAND PARK
+  - name: STATE
+    number: '8'
+    value: KS
+  - name: ZIP
+    number: '9'
+    value: '66251'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061024'
+  - name: AMOUNT
+    number: '13'
+    value: '2000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00089342
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C11041
+- input: F65,"C00270140","PAC","OCCIDENTAL PETROLEUM CORPORATION POLITICAL ACTION
+    COMMITTEE","10889 Wilshire Boulevard Suite 600","","Los Angeles","CA","90024","","",20061024,"1000","C00083857","","","","","","","","","","","","","C11043"
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00270140
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: OCCIDENTAL PETROLEUM CORPORATION POLITICAL ACTION COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: 10889 Wilshire Boulevard Suite 600
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Los Angeles
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '90024'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061024'
+  - name: AMOUNT
+    number: '13'
+    value: '1000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00083857
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C11043
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00270140
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: LABORERS' INTERNATIONAL UNION
+  - name: STREET 1
+    number: '5'
+    value: 905 16th Street
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: WASHINGTON
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20006'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20061024'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '3000'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C70001052
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: C11044
+  expected_count: 27
+  input: F65,"C00270140","PAC","LABORERS' INTERNATIONAL UNION","905 16th Street, NW","","WASHINGTON","DC","20006","","",20061024,"3000","C70001052","","","","","","","","","","","","","C11044"
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: F65,"C00270140","PAC","Dealers Election Action Committee","8400 Westpark
+    Drive","","Mclean","VA","22102","","",20061024,"2000","C00040998","","","","","","","","","","","","","C11046"
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00270140
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Dealers Election Action Committee
+  - name: STREET 1
+    number: '5'
+    value: 8400 Westpark Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Mclean
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22102'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061024'
+  - name: AMOUNT
+    number: '13'
+    value: '2000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00040998
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C11046
+- input: F65,"C00270140","PAC","ANHEUSER-BUSCH COMPANIES INC POLITICAL ACTION COMM","ONE
+    BUSCH PLACE","","ST. LOUIS","MO","63118","","",20061024,"2000","C00034488","","","","","","","","","","","","","C11047"
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00270140
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: ANHEUSER-BUSCH COMPANIES INC POLITICAL ACTION COMM
+  - name: STREET 1
+    number: '5'
+    value: ONE BUSCH PLACE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: ST. LOUIS
+  - name: STATE
+    number: '8'
+    value: MO
+  - name: ZIP
+    number: '9'
+    value: '63118'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061024'
+  - name: AMOUNT
+    number: '13'
+    value: '2000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00034488
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C11047
+- input: F65,"C00270140","PAC","United Food & Commercial Workers Int'l Union AFL-C","1775
+    K St NW","","Washington","DC","20006","","",20061025,"2500","C00002766","","","","","","","","","","","","","C11048"
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00270140
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: United Food & Commercial Workers Int'l Union AFL-C
+  - name: STREET 1
+    number: '5'
+    value: 1775 K St NW
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20006'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061025'
+  - name: AMOUNT
+    number: '13'
+    value: '2500'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00002766
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C11048
+sourceurl: !!python/unicode 20061025
+type: single
