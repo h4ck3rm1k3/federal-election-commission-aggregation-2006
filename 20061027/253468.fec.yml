@@ -1,0 +1,592 @@
+countraw: 9
+countrows: 7
+filename: 253468.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00417543
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Cranley for Congress
+  - name: STREET 1
+    number: '4'
+    value: 37 W 7th St
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Cincinnati
+  - name: STATE
+    number: '7'
+    value: OH
+  - name: ZIP
+    number: '8'
+    value: '45202'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H0OH01040
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Cranley^IV
+  - name: CAN/OFFICE
+    number: '11'
+    value: ' John J^^'
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: OH
+  - name: Signed
+    number: 14-
+    value: '01'
+  - value: '20061027'
+  expected_count: 14
+  input: F6,C00417543,Cranley for Congress,37 W 7th St,,Cincinnati,OH,45202,H0OH01040,"Cranley^IV,
+    John J^^",H,OH,01,20061027
+  input_count: 15
+  record: fec.version.v5_3.F6
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00417543
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Doering^Ruth M^^
+  - name: STREET 1
+    number: '5'
+    value: 30 Arcadia Ave
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Lakeside Park
+  - name: STATE
+    number: '8'
+    value: KY
+  - name: ZIP
+    number: '9'
+    value: '41017'
+  - name: INDEMP
+    number: '10'
+    value: Best Efforts
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061026'
+  - name: AMOUNT
+    number: '13'
+    value: '2100.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00417543
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Cranley^IV
+  - name: CAN/OFFICE
+    number: '17'
+    value: ' John J^^'
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: OH
+  - name: CONDUIT NAME
+    number: '20'
+    value: '01'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.13022
+  expected_count: 27
+  input: F65,C00417543,IND,Doering^Ruth M^^,30 Arcadia Ave,,Lakeside Park,KY,41017,Best
+    Efforts,,20061026,2100.00,C00417543,,"Cranley^IV, John J^^",H,OH,01,,,,,,,,F6.13022
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00417543
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Lawrence^Diana H^^
+  - name: STREET 1
+    number: '5'
+    value: 320 Sunny Acres Dr
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Cincinnati
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '45255'
+  - name: INDEMP
+    number: '10'
+    value: Best Efforts
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061026'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00417543
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Cranley^IV
+  - name: CAN/OFFICE
+    number: '17'
+    value: ' John J^^'
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: OH
+  - name: CONDUIT NAME
+    number: '20'
+    value: '01'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.13023
+  expected_count: 27
+  input: F65,C00417543,IND,Lawrence^Diana H^^,320 Sunny Acres Dr,,Cincinnati,OH,45255,Best
+    Efforts,,20061026,2000.00,C00417543,,"Cranley^IV, John J^^",H,OH,01,,,,,,,,F6.13023
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00417543
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Lawrence^Richard D^^
+  - name: STREET 1
+    number: '5'
+    value: 606 Philadelphia St
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Covington
+  - name: STATE
+    number: '8'
+    value: KY
+  - name: ZIP
+    number: '9'
+    value: '41011'
+  - name: INDEMP
+    number: '10'
+    value: Best Efforts
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061026'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00417543
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Cranley^IV
+  - name: CAN/OFFICE
+    number: '17'
+    value: ' John J^^'
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: OH
+  - name: CONDUIT NAME
+    number: '20'
+    value: '01'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.13024
+  expected_count: 27
+  input: F65,C00417543,IND,Lawrence^Richard D^^,606 Philadelphia St,,Covington,KY,41011,Best
+    Efforts,,20061026,2000.00,C00417543,,"Cranley^IV, John J^^",H,OH,01,,,,,,,,F6.13024
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00417543
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: McKenna^Robert W^^Jr.
+  - name: STREET 1
+    number: '5'
+    value: 9149 Dry Fork Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Harrison
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '45303'
+  - name: INDEMP
+    number: '10'
+    value: Best Efforts
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061026'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00417543
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Cranley^IV
+  - name: CAN/OFFICE
+    number: '17'
+    value: ' John J^^'
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: OH
+  - name: CONDUIT NAME
+    number: '20'
+    value: '01'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.13025
+  expected_count: 27
+  input: F65,C00417543,IND,McKenna^Robert W^^Jr.,9149 Dry Fork Road,,Harrison,OH,45303,Best
+    Efforts,,20061026,1000.00,C00417543,,"Cranley^IV, John J^^",H,OH,01,,,,,,,,F6.13025
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00417543
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: DEMOCRATS FOR LIFE OF AMERICA INC PAC
+  - name: STREET 1
+    number: '5'
+    value: 601 PENNSYLVANIA AVENUE NW
+  - name: STREET 2
+    number: '6'
+    value: SOUTH BUILDING SUITE 900
+  - name: CITY
+    number: '7'
+    value: WASHINGTON
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20004'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061026'
+  - name: AMOUNT
+    number: '13'
+    value: '1500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00417543
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Cranley^IV
+  - name: CAN/OFFICE
+    number: '17'
+    value: ' John J^^'
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: OH
+  - name: CONDUIT NAME
+    number: '20'
+    value: '01'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.13026
+  expected_count: 27
+  input: F65,C00417543,PAC,DEMOCRATS FOR LIFE OF AMERICA INC PAC,601 PENNSYLVANIA
+    AVENUE NW,SOUTH BUILDING SUITE 900,WASHINGTON,DC,20004,,,20061026,1500.00,C00417543,,"Cranley^IV,
+    John J^^",H,OH,01,,,,,,,,F6.13026
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00417543
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Our Congress PAC
+  - name: STREET 1
+    number: '5'
+    value: P O Box 344
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Prescott
+  - name: STATE
+    number: '8'
+    value: AZ
+  - name: ZIP
+    number: '9'
+    value: '71857'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061026'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00417543
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Cranley^IV
+  - name: CAN/OFFICE
+    number: '17'
+    value: ' John J^^'
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: OH
+  - name: CONDUIT NAME
+    number: '20'
+    value: '01'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.13027
+  expected_count: 27
+  input: F65,C00417543,PAC,Our Congress PAC,P O Box 344,,Prescott,AZ,71857,,,20061026,1000.00,C00417543,,"Cranley^IV,
+    John J^^",H,OH,01,,,,,,,,F6.13027
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+sourceurl: !!python/unicode 20061027
+type: single
