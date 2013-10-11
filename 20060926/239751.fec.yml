@@ -1,0 +1,126 @@
+countraw: 3
+countrows: 1
+filename: 239751.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H2IN03111
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 6728
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: South Bend
+  - name: STATE
+    number: '7'
+    value: IN
+  - name: ZIP
+    number: '8'
+    value: '46660   '
+  - name: PTY/CODE
+    number: '9'
+    value: REP
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: IN
+  - name: CAN/DIST
+    number: '12'
+    value: '02'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '2006'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: C00384958
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: Chocola for Congress
+  - name: STREET 1
+    number: '16'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '17'
+    value: P.O. Box 6728
+  - name: CITY
+    number: '18'
+    value: ''
+  - name: STATE
+    number: '19'
+    value: South Bend
+  - name: ZIP
+    number: '20'
+    value: IN
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: '46660   '
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: '        '
+  - name: STREET 1
+    number: '23'
+    value: Hoosiers for a Republican Majority
+  - name: STREET 2
+    number: '24'
+    value: 228 S Washington St.
+  - name: CITY
+    number: '25'
+    value: ' #115'
+  - name: STATE
+    number: '26'
+    value: ''
+  - name: ZIP
+    number: '27'
+    value: Alexandria
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: 'VA '
+  - name: Signed
+    number: 29-
+    value: '22314    '
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: J. Christopher Chocola
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '20060926'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: '2100.00'
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: '2100.00'
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: Christopher Chocola
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: J.
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 36
+  input: '"F2","H2IN03111","","P.O. Box 6728","","South Bend","IN","46660   ","REP","H","IN",02,2006,"C00384958","Chocola
+    for Congress, Inc.","P.O. Box 6728","","South Bend","IN","46660   ","        ","Hoosiers
+    for a Republican Majority","228 S Washington St., #115","","Alexandria","VA ","22314    ","J.
+    Christopher Chocola",20060926,2100.00,2100.00,"Christopher Chocola","J.","","",""'
+  input_count: 38
+  record: fec.version.v5_3.F2
+  result: []
+sourceurl: !!python/unicode 20060926
+type: single
