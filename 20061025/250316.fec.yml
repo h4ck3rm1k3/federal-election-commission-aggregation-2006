@@ -1,0 +1,221 @@
+countraw: 5
+countrows: 3
+filename: 250316.fec
+header: {}
+rows:
+- input: F24,C00405951,ENVIRONMENTAL ACTION PAC INC,PO Box 120197,,Boston,MA,02112,Heller^Rachel^Ms^,20061025,48
+  record: fec.version.v5_3.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00405951
+  - name: COMMITTEE NAME
+    number: '3'
+    value: ENVIRONMENTAL ACTION PAC INC
+  - name: STREET 1
+    number: '4'
+    value: PO Box 120197
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Boston
+  - name: STATE
+    number: '7'
+    value: MA
+  - name: ZIP
+    number: '8'
+    value: '02112'
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: Heller^Rachel^Ms^
+  - name: Signed
+    number: 10-
+    value: '20061025'
+  - name: REPORT TYPE
+    number: '11'
+    value: '48'
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F24
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: This is not a new expenditure.  This replaces 1 of the 2 notices on our
+      PREVOUS 48-hour notice indicating $10
+  - name: AMENDED CD
+    number: '5'
+    value: 000 was being spent against Richard Pombo.     That original notice should
+      have read $10K against Pombo
+  - value: ' $10K against Santorum'
+  - value: ' and $10K against Allen'
+  - value: ' not $20K against Pombo & $10K against Santorum.  We just discovered this
+      error!   So'
+  - value: ' the total planned (not yet spent) expenditure still totals $30K'
+  - value: ' not $40K.   The aim of this 2nd 48-hour filing is to correct the error
+      on the 1st 48-hour filing.'
+  expected_count: 5
+  input: TEXT,F24,,"This is not a new expenditure.  This replaces 1 of the 2 notices
+    on our PREVOUS 48-hour notice indicating $10,000 was being spent against Richard
+    Pombo.     That original notice should have read $10K against Pombo, $10K against
+    Santorum, and $10K against Allen, not $20K against Pombo & $10K against Santorum.  We
+    just discovered this error!   So, the total planned (not yet spent) expenditure
+    still totals $30K, not $40K.   The aim of this 2nd 48-hour filing is to correct
+    the error on the 1st 48-hour filing."
+  input_count: 10
+  record: fec.version.v5_3.TEXT
+  result: []
+- input: SE24,C00405951,ORG,Direct Advantage Marketing (DAM),2100 Wharton St.,,Pittsburgh,PA,15203,phone
+    $$ solicitation of members,20061017,10000.00,O,S8VA00214,ALLEN^GEORGE^^,S,VA,00,C00405951,,,,,,,,,,,,,20061025,,,,,SE24.6328,,,,,G2006,,003,,10000.00
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00405951
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Direct Advantage Marketing (DAM)
+  - name: STREET 1
+    number: '5'
+    value: 2100 Wharton St.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Pittsburgh
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '15203'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: phone $$ solicitation of members
+  - name: DATE
+    number: '11'
+    value: '20061017'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '10000.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: O
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S8VA00214
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ALLEN^GEORGE^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: S
+  - name: S/O STATE
+    number: '17'
+    value: VA
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00405951
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: '20061025'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.6328
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '003'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '10000.00'
+sourceurl: !!python/unicode 20061025
+type: single
