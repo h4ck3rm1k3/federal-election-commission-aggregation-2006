@@ -1,0 +1,225 @@
+countraw: 5
+countrows: 3
+filename: 252886.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00272732
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Friends of Corrine Brown
+  - name: STREET 1
+    number: '4'
+    value: 3109 River Bend Court
+  - name: STREET 2
+    number: '5'
+    value: ' D-102'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Laurel
+  - name: ZIP
+    number: '8'
+    value: MD
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '20724'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H2FL03056
+  - name: CAN/OFFICE
+    number: '11'
+    value: Corrine Brown
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: FL
+  - name: Signed
+    number: 14-
+    value: '3'
+  - value: '20061026'
+  expected_count: 14
+  input: F6,"C00272732","Friends of Corrine Brown","3109 River Bend Court, D-102","","Laurel","MD","20724","H2FL03056","Corrine
+    Brown","H","FL","3",20061026
+  input_count: 15
+  record: fec.version.v5_3.F6
+  result: []
+- input: F65,"C00272732","PAC","Swisher PAC","459 E. 16th Street","","Jacksonville","FL","32206","","",20061026,"5000","C00312785","","","","","","","","","","","","","C332785"
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00272732
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Swisher PAC
+  - name: STREET 1
+    number: '5'
+    value: 459 E. 16th Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Jacksonville
+  - name: STATE
+    number: '8'
+    value: FL
+  - name: ZIP
+    number: '9'
+    value: '32206'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061026'
+  - name: AMOUNT
+    number: '13'
+    value: '5000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00312785
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C332785
+- input: F65,"C00272732","IND","Oglevee^Kathryn","138 Olglevee Lane","","Connellsville","PA","15425","N/A","Homemaker",20061026,"1000","","","","","","","","","","","","","","C332786"
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00272732
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Oglevee^Kathryn
+  - name: STREET 1
+    number: '5'
+    value: 138 Olglevee Lane
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Connellsville
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '15425'
+  - name: INDEMP
+    number: '10'
+    value: N/A
+  - name: INDOCC
+    number: '11'
+    value: Homemaker
+  - name: Of Contribution
+    number: 12-
+    value: '20061026'
+  - name: AMOUNT
+    number: '13'
+    value: '1000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C332786
+sourceurl: !!python/unicode 20061027
+type: single
