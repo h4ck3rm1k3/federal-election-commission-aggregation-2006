@@ -1,0 +1,904 @@
+countraw: 9
+countrows: 7
+filename: 240871.fec
+header: {}
+rows:
+- input: '"F24N","C00030718","NATIONAL ASSOCIATION OF REALTORS POLITICAL ACTION COMMITTEE","430
+    North Michigan Avenue","","Chicago","IL","60611","Wolf^Bruce^^","20061005","48"'
+  record: fec.version.v5_3.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00030718
+  - name: COMMITTEE NAME
+    number: '3'
+    value: NATIONAL ASSOCIATION OF REALTORS POLITICAL ACTION COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: 430 North Michigan Avenue
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Chicago
+  - name: STATE
+    number: '7'
+    value: IL
+  - name: ZIP
+    number: '8'
+    value: '60611'
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: Wolf^Bruce^^
+  - name: Signed
+    number: 10-
+    value: '20061005'
+  - name: REPORT TYPE
+    number: '11'
+    value: '48'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00030718
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: The Stevens & Schriefer Group Media
+  - name: STREET 1
+    number: '5'
+    value: ' Inc'
+  - name: STREET 2
+    number: '6'
+    value: 2120 L Street NW
+  - name: CITY
+    number: '7'
+    value: Ste 510
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '20037'
+  - name: DATE
+    number: '11'
+    value: TV Ad Costs
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20061003'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '949000.00'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: SUP
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: Talent^James^Mr.^
+  - name: S/O STATE
+    number: '17'
+    value: S
+  - name: S/O CAN/DIST
+    number: '18'
+    value: MO
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: C00368183
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: Wolf^Bruce^^
+  - name: Notarized
+    number: 33-
+    value: '20061005'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: '13205152'
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2006
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '004'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '949000.00'
+  expected_count: 46
+  input: '"SE24","C00030718","","The Stevens & Schriefer Group Media, Inc","2120 L
+    Street NW","Ste 510","Washington","DC","20037","TV Ad Costs","20061003",949000.00,"SUP","","Talent^James^Mr.^","S","MO","","C00368183","","","","","","","","","","","","Wolf^Bruce^^","20061005","","","","","13205152","","","","","G2006","","004","",949000.00'
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+- input: '"SE24","C00030718","","National Association of Realtors","430 N Michigan
+    Avenue","","Chicago","IL","60611","Consulting Services","20061003",300.00,"SUP","","Talent^James^Mr^","S","MO","","C00368183","","","","","","","","","","","","Wolf^Bruce^^","20061005","","","","","13205153","","","","","G2006","","001","",949300.00'
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00030718
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: National Association of Realtors
+  - name: STREET 1
+    number: '5'
+    value: 430 N Michigan Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Chicago
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60611'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Consulting Services
+  - name: DATE
+    number: '11'
+    value: '20061003'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '300.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: SUP
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Talent^James^Mr^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: S
+  - name: S/O STATE
+    number: '17'
+    value: MO
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00368183
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: Wolf^Bruce^^
+  - name: Signed
+    number: 32-
+    value: '20061005'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: '13205153'
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '001'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '949300.00'
+- input: '"SE24","C00030718","","Majority Communications","274 Marconi Boulevard","Ste
+    260","Columbus","OH","43215","Direct Mail Costs","20061004",198023.00,"SUP","","Northup^Anne^Ms.^","H","KY","03","C00364448","","","","","","","","","","","","Wolf^Bruce^^","20061005","","","","","13205154","","","","","G2006","","004","",198023.00'
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00030718
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: Majority Communications
+  - name: STREET 1
+    number: '5'
+    value: 274 Marconi Boulevard
+  - name: STREET 2
+    number: '6'
+    value: Ste 260
+  - name: CITY
+    number: '7'
+    value: Columbus
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '43215'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Direct Mail Costs
+  - name: DATE
+    number: '11'
+    value: '20061004'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '198023.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: SUP
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Northup^Anne^Ms.^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: KY
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '03'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00364448
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: Wolf^Bruce^^
+  - name: Signed
+    number: 32-
+    value: '20061005'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: '13205154'
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '004'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '198023.00'
+- input: '"SE24","C00030718","","National Association of Realtors","430 N Michigan
+    Avenue","","Chicago","IL","60611","Consulting Services","20061004",500.00,"SUP","","Northup^Anne^Ms^","H","KY","03","C00364448","","","","","","","","","","","","Wolf^Bruce^^","20061005","","","","","13205155","","","","","G2006","","001","",198523.00'
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00030718
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: National Association of Realtors
+  - name: STREET 1
+    number: '5'
+    value: 430 N Michigan Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Chicago
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60611'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Consulting Services
+  - name: DATE
+    number: '11'
+    value: '20061004'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '500.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: SUP
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Northup^Anne^Ms^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: KY
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '03'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00364448
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: Wolf^Bruce^^
+  - name: Signed
+    number: 32-
+    value: '20061005'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: '13205155'
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '001'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '198523.00'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00030718
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: The Stevens & Schriefer Group Media
+  - name: STREET 1
+    number: '5'
+    value: ' Inc'
+  - name: STREET 2
+    number: '6'
+    value: 2120 L Street NW
+  - name: CITY
+    number: '7'
+    value: Ste 510
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '20037'
+  - name: DATE
+    number: '11'
+    value: TV/Radio Ad Costs
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20061005'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '805252.00'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: SUP
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: Northup^Anne^Ms^
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: KY
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '03'
+  - name: Unused field
+    number: '20'
+    value: C00364448
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: Wolf^Bruce^^
+  - name: Notarized
+    number: 33-
+    value: '20061005'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: '13205156'
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2006
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '004'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '1003775.00'
+  expected_count: 46
+  input: '"SE24","C00030718","","The Stevens & Schriefer Group Media, Inc","2120 L
+    Street NW","Ste 510","Washington","DC","20037","TV/Radio Ad Costs","20061005",805252.00,"SUP","","Northup^Anne^Ms^","H","KY","03","C00364448","","","","","","","","","","","","Wolf^Bruce^^","20061005","","","","","13205156","","","","","G2006","","004","",1003775.00'
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+- input: '"SE24","C00030718","","National Association of Realtors","430 N Michigan
+    Avenue","","Chicago","IL","60611","Consulting Services","20061005",500.00,"SUP","","Northup^Anne^Ms^","H","KY","03","C00364448","","","","","","","","","","","","Wolf^Bruce^^","20061005","","","","","13205157","","","","","G2006","","001","",1004275.00'
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00030718
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: National Association of Realtors
+  - name: STREET 1
+    number: '5'
+    value: 430 N Michigan Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Chicago
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60611'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Consulting Services
+  - name: DATE
+    number: '11'
+    value: '20061005'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '500.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: SUP
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Northup^Anne^Ms^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: KY
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '03'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00364448
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: Wolf^Bruce^^
+  - name: Signed
+    number: 32-
+    value: '20061005'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: '13205157'
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '001'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '1004275.00'
+sourceurl: !!python/unicode 20061005
+type: single
