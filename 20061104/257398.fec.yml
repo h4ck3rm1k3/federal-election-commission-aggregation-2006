@@ -1,0 +1,664 @@
+countraw: 10
+countrows: 8
+filename: 257398.fec
+header: {}
+rows:
+- input: F6,C00364349,JERRY WELLER FOR CONGRESS INC.,P.O. Box 2368,,Joliet,IL,60434,H4IL11096,WELLER^GERALD
+    C JERRY^^,H,IL,11,20061103
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00364349
+  - name: COMMITTEE NAME
+    number: '3'
+    value: JERRY WELLER FOR CONGRESS INC.
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 2368
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Joliet
+  - name: STATE
+    number: '7'
+    value: IL
+  - name: ZIP
+    number: '8'
+    value: '60434'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H4IL11096
+  - name: CANDIDATE NAME
+    number: '10'
+    value: WELLER^GERALD C JERRY^^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: IL
+  - name: CAN/DIST
+    number: '13'
+    value: '11'
+  - name: Signed
+    number: 14-
+    value: '20061103'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00364349
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Noble^Frederick W.^^
+  - name: STREET 1
+    number: '5'
+    value: 41700 Corporate Way
+  - name: STREET 2
+    number: '6'
+    value: ' Ste D'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Palm Desert
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: INDEMP
+    number: '10'
+    value: '92260'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20061102'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2100.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00364349
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H4IL11096
+  - name: CAN/OFFICE
+    number: '17'
+    value: WELLER^GERALD C JERRY^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: IL
+  - name: CONDUIT NAME
+    number: '20'
+    value: '11'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.10131
+  expected_count: 27
+  input: F65,C00364349,IND,Noble^Frederick W.^^,"41700 Corporate Way, Ste D",,Palm
+    Desert,CA,92260,,,20061102,2100.00,C00364349,H4IL11096,WELLER^GERALD C JERRY^^,H,IL,11,,,,,,,,F6.10131
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: F65,C00364349,IND,Ozinga^Martin^^,18801 Old Lagrange Rd,,Mokena,IL,60448,Ozinga
+    Brothers,President,20061103,2000.00,C00364349,H4IL11096,WELLER^GERALD C JERRY^^,H,IL,11,,,,,,,,F6.10133
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00364349
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Ozinga^Martin^^
+  - name: STREET 1
+    number: '5'
+    value: 18801 Old Lagrange Rd
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Mokena
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60448'
+  - name: INDEMP
+    number: '10'
+    value: Ozinga Brothers
+  - name: INDOCC
+    number: '11'
+    value: President
+  - name: Of Contribution
+    number: 12-
+    value: '20061103'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00364349
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H4IL11096
+  - name: CANDIDATE NAME
+    number: '16'
+    value: WELLER^GERALD C JERRY^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: IL
+  - name: CAN/DIST
+    number: '19'
+    value: '11'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.10133
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00364349
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Tully^Thomas M.^^
+  - name: STREET 1
+    number: '5'
+    value: 33 N Dearborn St
+  - name: STREET 2
+    number: '6'
+    value: ' Ste 2450'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Chicago
+  - name: ZIP
+    number: '9'
+    value: IL
+  - name: INDEMP
+    number: '10'
+    value: '60602'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20061103'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00364349
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H4IL11096
+  - name: CAN/OFFICE
+    number: '17'
+    value: WELLER^GERALD C JERRY^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: IL
+  - name: CONDUIT NAME
+    number: '20'
+    value: '11'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.10134
+  expected_count: 27
+  input: F65,C00364349,IND,Tully^Thomas M.^^,"33 N Dearborn St, Ste 2450",,Chicago,IL,60602,,,20061103,1000.00,C00364349,H4IL11096,WELLER^GERALD
+    C JERRY^^,H,IL,11,,,,,,,,F6.10134
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: F65,C00364349,PAC,DIAGEO NORTH AMERICA INC.  EMPLOYEES' POLITICAL PARTICIPATION
+    COMMITTEE,750 EAST MAIN STREET,PO BOX 778,STAMFORD,CT,06902,,,20061103,1000.00,C00364349,H4IL11096,WELLER^GERALD
+    C JERRY^^,H,IL,11,,,,,,,,F6.10132
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00364349
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: DIAGEO NORTH AMERICA INC.  EMPLOYEES' POLITICAL PARTICIPATION COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: 750 EAST MAIN STREET
+  - name: STREET 2
+    number: '6'
+    value: PO BOX 778
+  - name: CITY
+    number: '7'
+    value: STAMFORD
+  - name: STATE
+    number: '8'
+    value: CT
+  - name: ZIP
+    number: '9'
+    value: 06902
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061103'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00364349
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H4IL11096
+  - name: CANDIDATE NAME
+    number: '16'
+    value: WELLER^GERALD C JERRY^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: IL
+  - name: CAN/DIST
+    number: '19'
+    value: '11'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.10132
+- input: F65,C00364349,PAC,INTUIT 21ST CENTURY LEADERSHIP FUND,2700 Coast Avenue,,Mountain
+    View,CA,94043,,,20061102,1000.00,C00364349,H4IL11096,WELLER^GERALD C JERRY^^,H,IL,11,,,,,,,,F6.10128
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00364349
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: INTUIT 21ST CENTURY LEADERSHIP FUND
+  - name: STREET 1
+    number: '5'
+    value: 2700 Coast Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Mountain View
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '94043'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061102'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00364349
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H4IL11096
+  - name: CANDIDATE NAME
+    number: '16'
+    value: WELLER^GERALD C JERRY^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: IL
+  - name: CAN/DIST
+    number: '19'
+    value: '11'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.10128
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00364349
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: MWW GROUP INC POLITICAL ACTION COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: ' THE'
+  - name: STREET 2
+    number: '6'
+    value: ONE MEADOWLANDS PLAZA
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: EAST RUTHERFORD
+  - name: ZIP
+    number: '9'
+    value: NJ
+  - name: INDEMP
+    number: '10'
+    value: '07073'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20061102'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00364349
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H4IL11096
+  - name: CAN/OFFICE
+    number: '17'
+    value: WELLER^GERALD C JERRY^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: IL
+  - name: CONDUIT NAME
+    number: '20'
+    value: '11'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.10129
+  expected_count: 27
+  input: F65,C00364349,PAC,"MWW GROUP INC POLITICAL ACTION COMMITTEE, THE",ONE MEADOWLANDS
+    PLAZA,,EAST RUTHERFORD,NJ,07073,,,20061102,1000.00,C00364349,H4IL11096,WELLER^GERALD
+    C JERRY^^,H,IL,11,,,,,,,,F6.10129
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: F65,C00364349,PAC,NATIONAL ASSOCIATION OF SURETY BOND PRODUCERS POLITICAL
+    ACTION COMMITTEE (SURETYPAC),1828 L Street NW,Suite 720,Washington,DC,20036,,,20061102,1000.00,C00364349,H4IL11096,WELLER^GERALD
+    C JERRY^^,H,IL,11,,,,,,,,F6.10130
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00364349
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: NATIONAL ASSOCIATION OF SURETY BOND PRODUCERS POLITICAL ACTION COMMITTEE
+      (SURETYPAC)
+  - name: STREET 1
+    number: '5'
+    value: 1828 L Street NW
+  - name: STREET 2
+    number: '6'
+    value: Suite 720
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20036'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061102'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00364349
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H4IL11096
+  - name: CANDIDATE NAME
+    number: '16'
+    value: WELLER^GERALD C JERRY^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: IL
+  - name: CAN/DIST
+    number: '19'
+    value: '11'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.10130
+sourceurl: !!python/unicode 20061104
+type: single
