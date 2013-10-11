@@ -1,0 +1,489 @@
+countraw: 8
+countrows: 6
+filename: 248752.fec
+header: {}
+rows:
+- input: 'F6,"C00329292","Dave Wu for US Congress","818 SW Third Ave. #1182","","Portland","OR","97204","","","H","OR","1",20061023'
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00329292
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Dave Wu for US Congress
+  - name: STREET 1
+    number: '4'
+    value: '818 SW Third Ave. #1182'
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Portland
+  - name: STATE
+    number: '7'
+    value: OR
+  - name: ZIP
+    number: '8'
+    value: '97204'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ''
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: OR
+  - name: CAN/DIST
+    number: '13'
+    value: '1'
+  - name: Signed
+    number: 14-
+    value: '20061023'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00329292
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Brainerd^Paul
+  - name: STREET 1
+    number: '5'
+    value: 2000 1st Ave
+  - name: STREET 2
+    number: '6'
+    value: ' #2504'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Seattle
+  - name: ZIP
+    number: '9'
+    value: WA
+  - name: INDEMP
+    number: '10'
+    value: '981212172'
+  - name: INDOCC
+    number: '11'
+    value: N/A
+  - name: Of Contribution
+    number: 12-
+    value: Retired
+  - name: AMOUNT
+    number: '13'
+    value: '20061023'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2100'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: C27495
+  expected_count: 27
+  input: 'F65,"C00329292","IND","Brainerd^Paul","2000 1st Ave, #2504","","Seattle","WA","981212172","N/A","Retired",20061023,"2100","","","","","","","","","","","","","","C27495"'
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: F65,"C00329292","PAC","Health Net Inc. PAC","21650 Oxnard St.","","Woodland
+    Hills","CA","91367","","",20061023,"2000","C00230789","","","","","","","","","","","","","C27496"
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00329292
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Health Net Inc. PAC
+  - name: STREET 1
+    number: '5'
+    value: 21650 Oxnard St.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Woodland Hills
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '91367'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061023'
+  - name: AMOUNT
+    number: '13'
+    value: '2000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00230789
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C27496
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00329292
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Amer. Fed. of State
+  - name: STREET 1
+    number: '5'
+    value: ' Cty'
+  - name: STREET 2
+    number: '6'
+    value: ' and Municipal Workers'
+  - name: CITY
+    number: '7'
+    value: 1625 L Street
+  - name: STATE
+    number: '8'
+    value: ' NW'
+  - name: ZIP
+    number: '9'
+    value: ''
+  - name: INDEMP
+    number: '10'
+    value: Washington
+  - name: INDOCC
+    number: '11'
+    value: DC
+  - name: Of Contribution
+    number: 12-
+    value: '20036'
+  - name: AMOUNT
+    number: '13'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '20061023'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: '1000'
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: ''
+  - value: C27497
+  expected_count: 27
+  input: F65,"C00329292","PAC","Amer. Fed. of State, Cty, and Municipal Workers","1625
+    L Street, NW","","Washington","DC","20036","","",20061023,"1000","","","","","","","","","","","","","","C27497"
+  input_count: 30
+  record: fec.version.v5_3.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00329292
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Laborers' Political League
+  - name: STREET 1
+    number: '5'
+    value: 905 16th Street
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20006'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20061023'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2500'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: C27501
+  expected_count: 27
+  input: F65,"C00329292","PAC","Laborers' Political League","905 16th Street, NW","","Washington","DC","20006","","",20061023,"2500","","","","","","","","","","","","","","C27501"
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: F65,"C00329292","PAC","Dairy Farmers of America PAC","Box 909700","","Kansas
+    City","MO","641909700","","",20061023,"1000","","","","","","","","","","","","","","C27510"
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00329292
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Dairy Farmers of America PAC
+  - name: STREET 1
+    number: '5'
+    value: Box 909700
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Kansas City
+  - name: STATE
+    number: '8'
+    value: MO
+  - name: ZIP
+    number: '9'
+    value: '641909700'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061023'
+  - name: AMOUNT
+    number: '13'
+    value: '1000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C27510
+sourceurl: !!python/unicode 20061023
+type: single
