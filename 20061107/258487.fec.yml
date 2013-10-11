@@ -1,0 +1,229 @@
+countraw: 5
+countrows: 3
+filename: 258487.fec
+header: {}
+rows:
+- input: F6,C00341529,HENRY E. BROWN JR. FOR CONGRESS,P. O. Box 61886,,North Charleston,SC,29419,H0SC01071,BROWN^HENRY
+    E.^^Jr.,H,SC,01,20061107
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00341529
+  - name: COMMITTEE NAME
+    number: '3'
+    value: HENRY E. BROWN JR. FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: P. O. Box 61886
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: North Charleston
+  - name: STATE
+    number: '7'
+    value: SC
+  - name: ZIP
+    number: '8'
+    value: '29419'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H0SC01071
+  - name: CANDIDATE NAME
+    number: '10'
+    value: BROWN^HENRY E.^^Jr.
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: SC
+  - name: CAN/DIST
+    number: '13'
+    value: '01'
+  - name: Signed
+    number: 14-
+    value: '20061107'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00341529
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: ASSOCIATED GENERAL CONTRACTORS OF AMERICA POLITICAL ACTION COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: 333 HON CARLYLE STREET
+  - name: STREET 2
+    number: '6'
+    value: ' SUITE 200'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: ALEXANDRIA
+  - name: ZIP
+    number: '9'
+    value: VA
+  - name: INDEMP
+    number: '10'
+    value: '22314'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20061107'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00341529
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H0SC01071
+  - name: CAN/OFFICE
+    number: '17'
+    value: BROWN^HENRY E.^^Jr.
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: SC
+  - name: CONDUIT NAME
+    number: '20'
+    value: '01'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.14907
+  expected_count: 27
+  input: F65,C00341529,PAC,ASSOCIATED GENERAL CONTRACTORS OF AMERICA POLITICAL ACTION
+    COMMITTEE,"333 HON CARLYLE STREET, SUITE 200",,ALEXANDRIA,VA,22314,,,20061107,1000.00,C00341529,H0SC01071,BROWN^HENRY
+    E.^^Jr.,H,SC,01,,,,,,,,F6.14907
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: F65,C00341529,PAC,EMPLOYEES OF NORTHROP GRUMMAN CORPORATION PAC,520 S. GRAND
+    AVE. STE. 700,.,LOS ANGELES,CA,90071,,,20061107,1000.00,C00341529,H0SC01071,BROWN^HENRY
+    E.^^Jr.,H,SC,01,,,,,,,,F6.14908
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00341529
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: EMPLOYEES OF NORTHROP GRUMMAN CORPORATION PAC
+  - name: STREET 1
+    number: '5'
+    value: 520 S. GRAND AVE. STE. 700
+  - name: STREET 2
+    number: '6'
+    value: .
+  - name: CITY
+    number: '7'
+    value: LOS ANGELES
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '90071'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061107'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00341529
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H0SC01071
+  - name: CANDIDATE NAME
+    number: '16'
+    value: BROWN^HENRY E.^^Jr.
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: SC
+  - name: CAN/DIST
+    number: '19'
+    value: '01'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.14908
+sourceurl: !!python/unicode 20061107
+type: single
