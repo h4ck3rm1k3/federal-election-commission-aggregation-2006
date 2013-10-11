@@ -1,0 +1,313 @@
+countraw: 6
+countrows: 4
+filename: 257208.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00140715
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Hoyer for Congress
+  - name: STREET 1
+    number: '4'
+    value: Hoyer for Congress Committee
+  - name: STREET 2
+    number: '5'
+    value: 7905 Malcolm Road
+  - name: CITY
+    number: '6'
+    value: ' Suite 102'
+  - name: STATE
+    number: '7'
+    value: Clinton
+  - name: ZIP
+    number: '8'
+    value: MD
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '20735'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H2MD05155
+  - name: CAN/OFFICE
+    number: '11'
+    value: Steny Hamilton Hoyer
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: MD
+  - name: Signed
+    number: 14-
+    value: '5'
+  - value: '20061103'
+  expected_count: 14
+  input: F6,"C00140715","Hoyer for Congress","Hoyer for Congress Committee","7905
+    Malcolm Road, Suite 102","Clinton","MD","20735","H2MD05155","Steny Hamilton Hoyer","H","MD","5",20061103
+  input_count: 15
+  record: fec.version.v5_3.F6
+  result: []
+- input: F65,"C00140715","PAC","BP CORPORATION NORTH AMERICA INC. POLITICAL ACTION","28100
+    Torch Parkway","Mail Code 5N","Warrenville","IL","60555","","",20061103,"1000","C00060103","","","","","","","","","","","","","C28667"
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00140715
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: BP CORPORATION NORTH AMERICA INC. POLITICAL ACTION
+  - name: STREET 1
+    number: '5'
+    value: 28100 Torch Parkway
+  - name: STREET 2
+    number: '6'
+    value: Mail Code 5N
+  - name: CITY
+    number: '7'
+    value: Warrenville
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60555'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061103'
+  - name: AMOUNT
+    number: '13'
+    value: '1000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00060103
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C28667
+- input: F65,"C00140715","PAC","CISCO SYSTEMS INC. FEDERAL PAC AKA CISCO SYSTEMS E","20
+    Park Road Suite E","","Burlingame","CA","94010","","",20061103,"2500","C00362707","","","","","","","","","","","","","C28668"
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00140715
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: CISCO SYSTEMS INC. FEDERAL PAC AKA CISCO SYSTEMS E
+  - name: STREET 1
+    number: '5'
+    value: 20 Park Road Suite E
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Burlingame
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '94010'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061103'
+  - name: AMOUNT
+    number: '13'
+    value: '2500'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00362707
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C28668
+- input: F65,"C00140715","PAC","RECORDING INDUSTRY ASSOC/AMERICA INC POLITICAL ACTION
+    COMMITTEE (FKA RECORDING ARTS PAC)","1330 CONNECTICUT AVENUE SUITE 300",".","WASHINGTON","DC","20036","","",20061103,"1000","C00009357","","","","","","","","","","","","","C28669"
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00140715
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: RECORDING INDUSTRY ASSOC/AMERICA INC POLITICAL ACTION COMMITTEE (FKA RECORDING
+      ARTS PAC)
+  - name: STREET 1
+    number: '5'
+    value: 1330 CONNECTICUT AVENUE SUITE 300
+  - name: STREET 2
+    number: '6'
+    value: .
+  - name: CITY
+    number: '7'
+    value: WASHINGTON
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20036'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061103'
+  - name: AMOUNT
+    number: '13'
+    value: '1000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00009357
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C28669
+sourceurl: !!python/unicode 20061103
+type: single
