@@ -1,0 +1,622 @@
+countraw: 7
+countrows: 5
+filename: 241693.fec
+header: {}
+rows:
+- input: F24,"C00004036","Service Employees International Union Committee On Political
+    Education (SEIU COPE)","1313 L Street NW","","Washington","DC","20005","Anna Burger",20061010,"24"
+  record: fec.version.v5_3.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00004036
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Service Employees International Union Committee On Political Education
+      (SEIU COPE)
+  - name: STREET 1
+    number: '4'
+    value: 1313 L Street NW
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Washington
+  - name: STATE
+    number: '7'
+    value: DC
+  - name: ZIP
+    number: '8'
+    value: '20005'
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: Anna Burger
+  - name: Signed
+    number: 10-
+    value: '20061010'
+  - name: REPORT TYPE
+    number: '11'
+    value: '24'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00004036
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: MacWilliams Robinson & Partners
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 1660 L Street N W Suite 301
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '20036'
+  - name: DATE
+    number: '11'
+    value: radio spots (pd in Sept)
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20061010'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '24976.5'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: S6MD03177
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: Ben Cardin
+  - name: S/O STATE
+    number: '17'
+    value: S
+  - name: S/O CAN/DIST
+    number: '18'
+    value: MD
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '3'
+  - name: Unused field
+    number: '20'
+    value: C00411587
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: Signing Guy
+  - name: Notarized
+    number: 33-
+    value: '20061010'
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20021028'
+  - name: Notary
+    number: 35-
+    value: '20021231'
+  - name: AMENDED CD
+    number: '36'
+    value: Notary Dude
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: D11922
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2006
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '004'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '24976.5'
+  expected_count: 46
+  input: SE24,"C00004036","ORG","MacWilliams Robinson & Partners, Inc.","1660 L Street
+    N W Suite 301","","Washington","DC","20036","radio spots (pd in Sept)",20061010,"24976.5","S","S6MD03177","Ben
+    Cardin","S","MD","3","C00411587","","","","","","","","","","","","Signing Guy",20061010,20021028,20021231,"Notary
+    Dude","","D11922","","","","","G2006","","004","","24976.5"
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+- input: SE24,"C00004036","ORG","Missiion Control Inc","201 Adams Street","","Manchester","CT","06040","Postage
+    and printing pd for in SEPT",20061010,"35400","S","H6OH15104","Mary Jo Kilroy","H","OH","15","C00416156","","","","","","","","","","","","Signing
+    Guy",20061010,20021028,20021231,"Notary Dude","","D11924","","","","","G2006","","006","","35400"
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00004036
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Missiion Control Inc
+  - name: STREET 1
+    number: '5'
+    value: 201 Adams Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Manchester
+  - name: STATE
+    number: '8'
+    value: CT
+  - name: ZIP
+    number: '9'
+    value: '06040'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Postage and printing pd for in SEPT
+  - name: DATE
+    number: '11'
+    value: '20061010'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '35400'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H6OH15104
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Mary Jo Kilroy
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: OH
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '15'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00416156
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: Signing Guy
+  - name: Signed
+    number: 32-
+    value: '20061010'
+  - name: Notarized
+    number: 33-
+    value: '20021028'
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20021231'
+  - name: Notary
+    number: 35-
+    value: Notary Dude
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: D11924
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '006'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '35400'
+- input: SE24,"C00004036","ORG","Missiion Control Inc","201 Adams Street","","Manchester","CT","06040","Postage
+    and printing pd for in SEPT",20061010,"35400","S","H6CO07023","Edwin Perlmutter","H","CO","7","C00410639","","","","","","","","","","","","Signing
+    Guy",20061010,20021028,20021231,"Notary Dude","","D11925","","","","","G2006","","006","","35400"
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00004036
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Missiion Control Inc
+  - name: STREET 1
+    number: '5'
+    value: 201 Adams Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Manchester
+  - name: STATE
+    number: '8'
+    value: CT
+  - name: ZIP
+    number: '9'
+    value: '06040'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Postage and printing pd for in SEPT
+  - name: DATE
+    number: '11'
+    value: '20061010'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '35400'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H6CO07023
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Edwin Perlmutter
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: CO
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '7'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00410639
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: Signing Guy
+  - name: Signed
+    number: 32-
+    value: '20061010'
+  - name: Notarized
+    number: 33-
+    value: '20021028'
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20021231'
+  - name: Notary
+    number: 35-
+    value: Notary Dude
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: D11925
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '006'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '35400'
+- input: SE24,"C00004036","ORG","Missiion Control Inc","201 Adams Street","","Manchester","CT","06040","Postage
+    and printing pd for in SEPT",20061010,"35400","S","H4MN06079","Patty Wetterling","H","MN","6","C00419721","","","","","","","","","","","","Signing
+    Guy",20061010,20021028,20021231,"Notary Dude","","D11926","","","","","G2006","","006","","35400"
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00004036
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Missiion Control Inc
+  - name: STREET 1
+    number: '5'
+    value: 201 Adams Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Manchester
+  - name: STATE
+    number: '8'
+    value: CT
+  - name: ZIP
+    number: '9'
+    value: '06040'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Postage and printing pd for in SEPT
+  - name: DATE
+    number: '11'
+    value: '20061010'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '35400'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H4MN06079
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Patty Wetterling
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: MN
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '6'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00419721
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: Signing Guy
+  - name: Signed
+    number: 32-
+    value: '20061010'
+  - name: Notarized
+    number: 33-
+    value: '20021028'
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20021231'
+  - name: Notary
+    number: 35-
+    value: Notary Dude
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: D11926
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '006'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '35400'
+sourceurl: !!python/unicode 20061010
+type: single
