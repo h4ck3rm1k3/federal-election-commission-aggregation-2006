@@ -1,0 +1,142 @@
+countraw: 4
+countrows: 2
+filename: 255688.fec
+header: {}
+rows:
+- input: '"F6","C00265298","Terry Everett for Congress","P.O. Box 1828","","Dothan","AL","36302   ","H2AL02067","Terry
+    Everett","H","AL","02",20061101'
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00265298
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Terry Everett for Congress
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 1828
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Dothan
+  - name: STATE
+    number: '7'
+    value: AL
+  - name: ZIP
+    number: '8'
+    value: '36302   '
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2AL02067
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Terry Everett
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: AL
+  - name: CAN/DIST
+    number: '13'
+    value: '02'
+  - name: Signed
+    number: 14-
+    value: '20061101'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00265298
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Dynetics
+  - name: STREET 1
+    number: '5'
+    value: ' Inc. PAC'
+  - name: STREET 2
+    number: '6'
+    value: Government Affairs Director
+  - name: CITY
+    number: '7'
+    value: '1000 Explorer Blvd. '
+  - name: STATE
+    number: '8'
+    value: Huntsville
+  - name: ZIP
+    number: '9'
+    value: AL
+  - name: INDEMP
+    number: '10'
+    value: '35806'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20061101'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '5000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00380709
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 61101.C13947
+  expected_count: 27
+  input: '"F65","C00265298","PAC","Dynetics, Inc. PAC","Government Affairs Director","1000
+    Explorer Blvd. ","Huntsville","AL","35806","","",20061101,5000.00,"C00380709","","","","",,"","","","","","","","61101.C13947"'
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+sourceurl: !!python/unicode 20061101
+type: single
