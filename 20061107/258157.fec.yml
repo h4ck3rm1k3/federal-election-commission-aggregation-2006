@@ -1,0 +1,488 @@
+countraw: 6
+countrows: 4
+filename: 258157.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00135368
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Sierra Club Political Committee
+  - name: STREET 1
+    number: '4'
+    value: 85 Second Street
+  - name: STREET 2
+    number: '5'
+    value: ' 2nd Flr.'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: San Francisco
+  - name: ZIP
+    number: '8'
+    value: CA
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: '94105'
+  - name: Signed
+    number: 10-
+    value: Duvall^Catherine^^
+  - name: REPORT TYPE
+    number: '11'
+    value: '20061106'
+  - value: '24'
+  expected_count: 11
+  input: F24,C00135368,Sierra Club Political Committee,"85 Second Street, 2nd Flr.",,San
+    Francisco,CA,94105,Duvall^Catherine^^,20061106,24
+  input_count: 12
+  record: fec.version.v5_3.F24
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00135368
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Besa^Glen^^
+  - name: STREET 1
+    number: '5'
+    value: 422 E. Franklin St.
+  - name: STREET 2
+    number: '6'
+    value: ' 3rd Floor'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Richmond
+  - name: ZIP
+    number: '9'
+    value: VA
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '23219'
+  - name: DATE
+    number: '11'
+    value: Salaries and Benefits
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20061106'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '148.48'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: Kellam^Phil^^
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: VA
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '02'
+  - name: Unused field
+    number: '20'
+    value: C00135368
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: '20061106'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24.41860
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2006
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '001'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '148.48'
+  expected_count: 46
+  input: SE24,C00135368,IND,Besa^Glen^^,"422 E. Franklin St., 3rd Floor",,Richmond,VA,23219,Salaries
+    and Benefits,20061106,148.48,S,,Kellam^Phil^^,H,VA,02,C00135368,,,,,,,,,,,,,20061106,,,,,SE24.41860,,,,,G2006,,001,,148.48
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00135368
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: GRS Consulting
+  - name: STREET 1
+    number: '5'
+    value: ' LLC.'
+  - name: STREET 2
+    number: '6'
+    value: 1954 University Ave W
+  - name: CITY
+    number: '7'
+    value: ' #12'
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: Saint Paul
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: MN
+  - name: DATE
+    number: '11'
+    value: '55104'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: Consulting fees
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20061106'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '10000.00'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: S
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O STATE
+    number: '17'
+    value: Kellam^Phil^^
+  - name: S/O CAN/DIST
+    number: '18'
+    value: H
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: VA
+  - name: Unused field
+    number: '20'
+    value: '02'
+  - name: Unused field
+    number: '21'
+    value: C00135368
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20061106'
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: SE24.41861
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: G2006
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '006'
+  - value: ''
+  - value: '10148.48'
+  expected_count: 46
+  input: 'SE24,C00135368,ORG,"GRS Consulting, LLC.","1954 University Ave W, #12",,Saint
+    Paul,MN,55104,Consulting fees,20061106,10000.00,S,,Kellam^Phil^^,H,VA,02,C00135368,,,,,,,,,,,,,20061106,,,,,SE24.41861,,,,,G2006,,006,,10148.48'
+  input_count: 48
+  record: fec.version.v5_3.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00135368
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: GRS Consulting
+  - name: STREET 1
+    number: '5'
+    value: ' LLC.'
+  - name: STREET 2
+    number: '6'
+    value: 1954 University Ave W
+  - name: CITY
+    number: '7'
+    value: ' #12'
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: Saint Paul
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: MN
+  - name: DATE
+    number: '11'
+    value: '55104'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: Consulting fees
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20061106'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '10000.00'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: S
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O STATE
+    number: '17'
+    value: Webb^James^^
+  - name: S/O CAN/DIST
+    number: '18'
+    value: S
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: VA
+  - name: Unused field
+    number: '20'
+    value: '00'
+  - name: Unused field
+    number: '21'
+    value: C00135368
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20061106'
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: SE24.41866
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: G2006
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '006'
+  - value: ''
+  - value: '10000.00'
+  expected_count: 46
+  input: 'SE24,C00135368,ORG,"GRS Consulting, LLC.","1954 University Ave W, #12",,Saint
+    Paul,MN,55104,Consulting fees,20061106,10000.00,S,,Webb^James^^,S,VA,00,C00135368,,,,,,,,,,,,,20061106,,,,,SE24.41866,,,,,G2006,,006,,10000.00'
+  input_count: 48
+  record: fec.version.v5_3.SE
+  result: []
+sourceurl: !!python/unicode 20061107
+type: single
