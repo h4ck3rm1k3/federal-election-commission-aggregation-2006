@@ -1,0 +1,227 @@
+countraw: 5
+countrows: 3
+filename: 256939.fec
+header: {}
+rows:
+- input: F6,"C00371211","Brad Miller for United States Congress","P.O. Box 10322","","Raleigh","NC","27605","","","H","NC","13",20061103
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00371211
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Brad Miller for United States Congress
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 10322
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Raleigh
+  - name: STATE
+    number: '7'
+    value: NC
+  - name: ZIP
+    number: '8'
+    value: '27605'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ''
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: NC
+  - name: CAN/DIST
+    number: '13'
+    value: '13'
+  - name: Signed
+    number: 14-
+    value: '20061103'
+- input: F65,"C00371211","PAC","NORFOLK SOUTHERN CORPORATION GOOD GOVERNMENT FUND","Three
+    Commercial Place","","Norfolk","VA","23510","","",20061102,"1000","C00009282","","","","","","","","","","","","","C39660"
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00371211
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: NORFOLK SOUTHERN CORPORATION GOOD GOVERNMENT FUND
+  - name: STREET 1
+    number: '5'
+    value: Three Commercial Place
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Norfolk
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '23510'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061102'
+  - name: AMOUNT
+    number: '13'
+    value: '1000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00009282
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C39660
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00371211
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Boisseau^Jane
+  - name: STREET 1
+    number: '5'
+    value: 345 Greenwich St.
+  - name: STREET 2
+    number: '6'
+    value: Apt 5A
+  - name: CITY
+    number: '7'
+    value: New York
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '10013'
+  - name: INDEMP
+    number: '10'
+    value: Attorney
+  - name: INDOCC
+    number: '11'
+    value: LeBoeuf
+  - name: Of Contribution
+    number: 12-
+    value: ' Lamb'
+  - name: AMOUNT
+    number: '13'
+    value: ' Greene & McRae LLP'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20061102'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '1640'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: C39661
+  expected_count: 27
+  input: F65,"C00371211","IND","Boisseau^Jane","345 Greenwich St.","Apt 5A","New York","NY","10013","Attorney","LeBoeuf,
+    Lamb, Greene & McRae LLP",20061102,"1640","","","","","","","","","","","","","","C39661"
+  input_count: 29
+  record: fec.version.v5_3.F65
+  result: []
+sourceurl: !!python/unicode 20061103
+type: single
