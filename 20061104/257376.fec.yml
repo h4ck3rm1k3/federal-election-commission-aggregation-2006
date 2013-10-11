@@ -1,0 +1,2615 @@
+countraw: 21
+countrows: 19
+filename: 257376.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00135368
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Sierra Club Political Committee
+  - name: STREET 1
+    number: '4'
+    value: 85 Second Street
+  - name: STREET 2
+    number: '5'
+    value: ' 2nd Flr.'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: San Francisco
+  - name: ZIP
+    number: '8'
+    value: CA
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: '94105'
+  - name: Signed
+    number: 10-
+    value: Duvall^Catherine^^
+  - name: REPORT TYPE
+    number: '11'
+    value: '20061103'
+  - value: '24'
+  expected_count: 11
+  input: F24,C00135368,Sierra Club Political Committee,"85 Second Street, 2nd Flr.",,San
+    Francisco,CA,94105,Duvall^Catherine^^,20061103,24
+  input_count: 12
+  record: fec.version.v5_3.F24
+  result: []
+- input: SE24,C00135368,ORG,Beyond the Bay,2014 Palmetto,STE C,Pacifica,CA,94044,Travel
+    expense,20061102,21.94,S,S6OH00163,BROWN^SHERROD^^,S,OH,00,C00135368,,,,,,,,,,,,,20061103,,,,,SE24.41839,,,,,G2006,,002,,404.90
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00135368
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Beyond the Bay
+  - name: STREET 1
+    number: '5'
+    value: 2014 Palmetto
+  - name: STREET 2
+    number: '6'
+    value: STE C
+  - name: CITY
+    number: '7'
+    value: Pacifica
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '94044'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Travel expense
+  - name: DATE
+    number: '11'
+    value: '20061102'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '21.94'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S6OH00163
+  - name: S/O CAN/NAME
+    number: '15'
+    value: BROWN^SHERROD^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: S
+  - name: S/O STATE
+    number: '17'
+    value: OH
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00135368
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: '20061103'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.41839
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '002'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '404.90'
+- input: SE24,C00135368,ORG,Cafe Napolitana,40 N High Street,,Columbus,OH,43215,Supplies,20061031,38.30,S,S6OH00163,BROWN^SHERROD^^,S,OH,00,C00135368,,,,,,,,,,,,,20061103,,,,,SE24.41838,,,,,G2006,,001,,44.39
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00135368
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Cafe Napolitana
+  - name: STREET 1
+    number: '5'
+    value: 40 N High Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Columbus
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '43215'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Supplies
+  - name: DATE
+    number: '11'
+    value: '20061031'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '38.30'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S6OH00163
+  - name: S/O CAN/NAME
+    number: '15'
+    value: BROWN^SHERROD^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: S
+  - name: S/O STATE
+    number: '17'
+    value: OH
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00135368
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: '20061103'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.41838
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '001'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '44.39'
+- input: SE24,C00135368,ORG,Field Works,2852 Connecticut Ave NW,,Washington,DC,20008,Consulting
+    Fees,20061102,2725.89,S,S6OH00163,BROWN^SHERROD^^,S,OH,00,C00135368,,,,,,,,,,,,,20061103,,,,,SE24.41850,,,,,G2006,,006,,3290.21
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00135368
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Field Works
+  - name: STREET 1
+    number: '5'
+    value: 2852 Connecticut Ave NW
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20008'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Consulting Fees
+  - name: DATE
+    number: '11'
+    value: '20061102'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '2725.89'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S6OH00163
+  - name: S/O CAN/NAME
+    number: '15'
+    value: BROWN^SHERROD^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: S
+  - name: S/O STATE
+    number: '17'
+    value: OH
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00135368
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: '20061103'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.41850
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '006'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '3290.21'
+- input: SE24,C00135368,ORG,Field Works,2852 Connecticut Ave NW,,Washington,DC,20008,Consulting
+    Fees,20061102,2725.88,S,H0OH01040,CRANLEY^JOHN J IV^^,H,OH,01,C00135368,,,,,,,,,,,,,20061103,,,,,SE24.41857,,,,,G2006,,006,,3286.44
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00135368
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Field Works
+  - name: STREET 1
+    number: '5'
+    value: 2852 Connecticut Ave NW
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20008'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Consulting Fees
+  - name: DATE
+    number: '11'
+    value: '20061102'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '2725.88'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H0OH01040
+  - name: S/O CAN/NAME
+    number: '15'
+    value: CRANLEY^JOHN J IV^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: OH
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '01'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00135368
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: '20061103'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.41857
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '006'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '3286.44'
+- input: SE24,C00135368,IND,Haegele^Greg^^,85 Second Street,2nd Floor,San Francisco,CA,94105,Salaries
+    and benefits,20061101,236.10,S,S6OH00163,BROWN^SHERROD^^,S,OH,00,C00135368,,,,,,,,,,,,,20061103,,,,,SE24.41843,,,,,G2006,,001,,330.89
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00135368
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Haegele^Greg^^
+  - name: STREET 1
+    number: '5'
+    value: 85 Second Street
+  - name: STREET 2
+    number: '6'
+    value: 2nd Floor
+  - name: CITY
+    number: '7'
+    value: San Francisco
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '94105'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Salaries and benefits
+  - name: DATE
+    number: '11'
+    value: '20061101'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '236.10'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S6OH00163
+  - name: S/O CAN/NAME
+    number: '15'
+    value: BROWN^SHERROD^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: S
+  - name: S/O STATE
+    number: '17'
+    value: OH
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00135368
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: '20061103'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.41843
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '001'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '330.89'
+- input: SE24,C00135368,IND,Haegele^Greg^^,85 Second Street,2nd Floor,San Francisco,CA,94105,Salaries
+    and Benefits,20061102,519.42,S,H0OH01040,CRANLEY^JOHN J IV^^,H,OH,01,C00135368,,,,,,,,,,,,,20061103,,,,,SE24.41854,,,,,G2006,,001,,560.56
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00135368
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Haegele^Greg^^
+  - name: STREET 1
+    number: '5'
+    value: 85 Second Street
+  - name: STREET 2
+    number: '6'
+    value: 2nd Floor
+  - name: CITY
+    number: '7'
+    value: San Francisco
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '94105'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Salaries and Benefits
+  - name: DATE
+    number: '11'
+    value: '20061102'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '519.42'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H0OH01040
+  - name: S/O CAN/NAME
+    number: '15'
+    value: CRANLEY^JOHN J IV^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: OH
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '01'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00135368
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: '20061103'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.41854
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '001'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '560.56'
+- input: SE24,C00135368,IND,Kotchmar^Rich^^,408 C St NE,,Washington,DC,20002,Salaries
+    and Benefits,20061103,79.34,S,S6OH00163,BROWN^SHERROD^^,S,OH,00,C00135368,,,,,,,,,,,,,20061103,,,,,SE24.41844,,,,,G2006,,001,,3385.25
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00135368
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Kotchmar^Rich^^
+  - name: STREET 1
+    number: '5'
+    value: 408 C St NE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20002'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Salaries and Benefits
+  - name: DATE
+    number: '11'
+    value: '20061103'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '79.34'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S6OH00163
+  - name: S/O CAN/NAME
+    number: '15'
+    value: BROWN^SHERROD^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: S
+  - name: S/O STATE
+    number: '17'
+    value: OH
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00135368
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: '20061103'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.41844
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '001'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '3385.25'
+- input: SE24,C00135368,IND,Kotchmar^Rich^^,408 C St NE,,Washington,DC,20002,Salaries
+    and Benefits,20061103,79.34,S,H0OH01040,CRANLEY^JOHN J IV^^,H,OH,01,C00135368,,,,,,,,,,,,,20061103,,,,,SE24.41855,,,,,G2006,,001,,3365.78
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00135368
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Kotchmar^Rich^^
+  - name: STREET 1
+    number: '5'
+    value: 408 C St NE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20002'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Salaries and Benefits
+  - name: DATE
+    number: '11'
+    value: '20061103'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '79.34'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H0OH01040
+  - name: S/O CAN/NAME
+    number: '15'
+    value: CRANLEY^JOHN J IV^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: OH
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '01'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00135368
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: '20061103'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.41855
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '001'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '3365.78'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00135368
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Malchow Schlackman Hoppey & Cooper
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 1101 14th Street
+  - name: CITY
+    number: '7'
+    value: ' NW'
+  - name: STATE
+    number: '8'
+    value: ' 3rd Floor'
+  - name: ZIP
+    number: '9'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Washington
+  - name: DATE
+    number: '11'
+    value: DC
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20005'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: 'Mailers: door hangers'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '20061103'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: '2532.50'
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: S
+  - name: S/O STATE
+    number: '17'
+    value: S6OH00163
+  - name: S/O CAN/DIST
+    number: '18'
+    value: BROWN^SHERROD^^
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: S
+  - name: Unused field
+    number: '20'
+    value: OH
+  - name: Unused field
+    number: '21'
+    value: '00'
+  - name: Unused field
+    number: '22'
+    value: C00135368
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: '20061103'
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: SE24.41845
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: G2006
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '006'
+  - value: ''
+  - value: '5917.75'
+  expected_count: 46
+  input: 'SE24,C00135368,ORG,"Malchow Schlackman Hoppey & Cooper, Inc.","1101 14th
+    Street, NW, 3rd Floor",,Washington,DC,20005,Mailers: door hangers,20061103,2532.50,S,S6OH00163,BROWN^SHERROD^^,S,OH,00,C00135368,,,,,,,,,,,,,20061103,,,,,SE24.41845,,,,,G2006,,006,,5917.75'
+  input_count: 49
+  record: fec.version.v5_3.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00135368
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Malchow Schlackman Hoppey & Cooper
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 1101 14th Street
+  - name: CITY
+    number: '7'
+    value: ' NW'
+  - name: STATE
+    number: '8'
+    value: ' 3rd Floor'
+  - name: ZIP
+    number: '9'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Washington
+  - name: DATE
+    number: '11'
+    value: DC
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20005'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: 'Mailers: door hangers'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '20061103'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: '2532.50'
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: S
+  - name: S/O STATE
+    number: '17'
+    value: H0OH01040
+  - name: S/O CAN/DIST
+    number: '18'
+    value: CRANLEY^JOHN J IV^^
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: H
+  - name: Unused field
+    number: '20'
+    value: OH
+  - name: Unused field
+    number: '21'
+    value: '01'
+  - name: Unused field
+    number: '22'
+    value: C00135368
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: '20061103'
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: SE24.41856
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: G2006
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '006'
+  - value: ''
+  - value: '5898.28'
+  expected_count: 46
+  input: 'SE24,C00135368,ORG,"Malchow Schlackman Hoppey & Cooper, Inc.","1101 14th
+    Street, NW, 3rd Floor",,Washington,DC,20005,Mailers: door hangers,20061103,2532.50,S,H0OH01040,CRANLEY^JOHN
+    J IV^^,H,OH,01,C00135368,,,,,,,,,,,,,20061103,,,,,SE24.41856,,,,,G2006,,006,,5898.28'
+  input_count: 49
+  record: fec.version.v5_3.SE
+  result: []
+- input: SE24,C00135368,IND,McHugh^Teresa^^,131North High Street,,Columbus,OH,43215,Supplies,20061031,6.09,S,S6OH00163,BROWN^SHERROD^^,S,OH,00,C00135368,,,,,,,,,,,,,20061103,,,,,SE24.41835,,,,,G2006,,001,,6.09
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00135368
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: McHugh^Teresa^^
+  - name: STREET 1
+    number: '5'
+    value: 131North High Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Columbus
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '43215'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Supplies
+  - name: DATE
+    number: '11'
+    value: '20061031'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '6.09'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S6OH00163
+  - name: S/O CAN/NAME
+    number: '15'
+    value: BROWN^SHERROD^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: S
+  - name: S/O STATE
+    number: '17'
+    value: OH
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00135368
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: '20061103'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.41835
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '001'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '6.09'
+- input: SE24,C00135368,ORG,Pittsburgh Jet Center,1859 Route 588,,Zelienople,PA,16063,Travel
+    expense,20061102,159.42,S,S6OH00163,BROWN^SHERROD^^,S,OH,00,C00135368,,,,,,,,,,,,,20061103,,,,,SE24.41841,,,,,G2006,,001,,564.32
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00135368
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Pittsburgh Jet Center
+  - name: STREET 1
+    number: '5'
+    value: 1859 Route 588
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Zelienople
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '16063'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Travel expense
+  - name: DATE
+    number: '11'
+    value: '20061102'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '159.42'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S6OH00163
+  - name: S/O CAN/NAME
+    number: '15'
+    value: BROWN^SHERROD^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: S
+  - name: S/O STATE
+    number: '17'
+    value: OH
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00135368
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: '20061103'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.41841
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '001'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '564.32'
+- input: SE24,C00135368,ORG,SC - Columbus Office,131 North High Street,,Columbus,OH,43215,Office
+    and phone rental,20061102,52.07,S,S6OH00163,BROWN^SHERROD^^,S,OH,00,C00135368,,,,,,,,,,,,,20061103,,,,,SE24.41833,,,,,G2006,,001,,382.96
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00135368
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: SC - Columbus Office
+  - name: STREET 1
+    number: '5'
+    value: 131 North High Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Columbus
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '43215'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Office and phone rental
+  - name: DATE
+    number: '11'
+    value: '20061102'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '52.07'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S6OH00163
+  - name: S/O CAN/NAME
+    number: '15'
+    value: BROWN^SHERROD^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: S
+  - name: S/O STATE
+    number: '17'
+    value: OH
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00135368
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: '20061103'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.41833
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '001'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '382.96'
+- input: SE24,C00135368,CCM,Sierra Club.,85 Second St. 2nd Flr.,,San Francisco,CA,94105,List
+    Rental,20061101,24.00,S,S6OH00163,BROWN^SHERROD^^,S,OH,00,C00135368,,,,,,,,,,,,,20061103,,,,,SE24.41832,,,,,G2006,,006,,68.39
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00135368
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: NAME (Payee)
+    number: '4'
+    value: Sierra Club.
+  - name: STREET 1
+    number: '5'
+    value: 85 Second St. 2nd Flr.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: San Francisco
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '94105'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: List Rental
+  - name: DATE
+    number: '11'
+    value: '20061101'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '24.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S6OH00163
+  - name: S/O CAN/NAME
+    number: '15'
+    value: BROWN^SHERROD^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: S
+  - name: S/O STATE
+    number: '17'
+    value: OH
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00135368
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: '20061103'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.41832
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '006'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '68.39'
+- input: SE24,C00135368,CCM,Sierra Club.,85 Second St. 2nd Flr.,,San Francisco,CA,94105,List
+    Rental,20061101,26.40,S,S6OH00163,BROWN^SHERROD^^,S,OH,00,C00135368,,,,,,,,,,,,,20061103,,,,,SE24.41842,,,,,G2006,,006,,94.79
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00135368
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: NAME (Payee)
+    number: '4'
+    value: Sierra Club.
+  - name: STREET 1
+    number: '5'
+    value: 85 Second St. 2nd Flr.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: San Francisco
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '94105'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: List Rental
+  - name: DATE
+    number: '11'
+    value: '20061101'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '26.40'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S6OH00163
+  - name: S/O CAN/NAME
+    number: '15'
+    value: BROWN^SHERROD^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: S
+  - name: S/O STATE
+    number: '17'
+    value: OH
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00135368
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: '20061103'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.41842
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '006'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '94.79'
+- input: SE24,C00135368,CCM,Sierra Club.,85 Second St. 2nd Flr.,,San Francisco,CA,94105,List
+    Rental,20061101,17.60,S,H0OH01040,CRANLEY^JOHN J IV^^,H,OH,01,C00135368,,,,,,,,,,,,,20061103,,,,,SE24.41852,,,,,G2006,,006,,17.60
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00135368
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: NAME (Payee)
+    number: '4'
+    value: Sierra Club.
+  - name: STREET 1
+    number: '5'
+    value: 85 Second St. 2nd Flr.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: San Francisco
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '94105'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: List Rental
+  - name: DATE
+    number: '11'
+    value: '20061101'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '17.60'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H0OH01040
+  - name: S/O CAN/NAME
+    number: '15'
+    value: CRANLEY^JOHN J IV^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: OH
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '01'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00135368
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: '20061103'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.41852
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '006'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '17.60'
+- input: SE24,C00135368,IND,VanCantfort^Maggie^^,632 Vine Street,,Cincinnati,OH,45202,Salaries
+    and Benefits,20061102,15.70,S,S6OH00163,BROWN^SHERROD^^,S,OH,00,C00135368,,,,,,,,,,,,,20061103,,,,,SE24.41851,,,,,G2006,,001,,3305.91
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00135368
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: VanCantfort^Maggie^^
+  - name: STREET 1
+    number: '5'
+    value: 632 Vine Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Cincinnati
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '45202'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Salaries and Benefits
+  - name: DATE
+    number: '11'
+    value: '20061102'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '15.70'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S6OH00163
+  - name: S/O CAN/NAME
+    number: '15'
+    value: BROWN^SHERROD^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: S
+  - name: S/O STATE
+    number: '17'
+    value: OH
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00135368
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: '20061103'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.41851
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '001'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '3305.91'
+- input: SE24,C00135368,IND,VanCantfort^Maggie^^,632 Vine Street,,Cincinnati,OH,45202,Salaries
+    and Benefits,20061102,23.54,S,H0OH01040,CRANLEY^JOHN J IV^^,H,OH,01,C00135368,,,,,,,,,,,,,20061103,,,,,SE24.41853,,,,,G2006,,001,,41.14
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00135368
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: VanCantfort^Maggie^^
+  - name: STREET 1
+    number: '5'
+    value: 632 Vine Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Cincinnati
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '45202'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Salaries and Benefits
+  - name: DATE
+    number: '11'
+    value: '20061102'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '23.54'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H0OH01040
+  - name: S/O CAN/NAME
+    number: '15'
+    value: CRANLEY^JOHN J IV^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: OH
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '01'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00135368
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: '20061103'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.41853
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '001'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '41.14'
+sourceurl: !!python/unicode 20061104
+type: single
