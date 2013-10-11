@@ -1,0 +1,496 @@
+countraw: 8
+countrows: 6
+filename: 256724.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00412312
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Campbell for Congress
+  - name: STREET 1
+    number: '4'
+    value: 4590 MacArthur Blvd.
+  - name: STREET 2
+    number: '5'
+    value: ' Suite 500'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Irvine
+  - name: ZIP
+    number: '8'
+    value: CA
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '92660   '
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H6CA48039
+  - name: CAN/OFFICE
+    number: '11'
+    value: John B.T. Campbell III
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: CA
+  - name: Signed
+    number: 14-
+    value: '48'
+  - value: '20061102'
+  expected_count: 14
+  input: '"F6","C00412312","Campbell for Congress","4590 MacArthur Blvd., Suite 500","","Irvine","CA","92660   ","H6CA48039","John
+    B.T. Campbell III","H","CA","48",20061102'
+  input_count: 15
+  record: fec.version.v5_3.F6
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00412312
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Leonard^Steven Clark
+  - name: STREET 1
+    number: '5'
+    value: 537 Newport Center Drive
+  - name: STREET 2
+    number: '6'
+    value: ' PMB 243'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Newport Beach
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: INDEMP
+    number: '10'
+    value: '92660'
+  - name: INDOCC
+    number: '11'
+    value: Information Requested
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20061101'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 61102.C6715
+  expected_count: 27
+  input: '"F65","C00412312","IND","Leonard^Steven Clark","537 Newport Center Drive,
+    PMB 243","","Newport Beach","CA","92660","Information Requested","",20061101,1000.00,"","","","","",,"","","","","","","","61102.C6715"'
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00412312
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Makarechian^Paul
+  - name: STREET 1
+    number: '5'
+    value: 4100 MacArthur Boulevard
+  - name: STREET 2
+    number: '6'
+    value: ' Suite 20'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Newport Beach
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: INDEMP
+    number: '10'
+    value: '926602069'
+  - name: INDOCC
+    number: '11'
+    value: Makar Properties
+  - name: Of Contribution
+    number: 12-
+    value: CEO
+  - name: AMOUNT
+    number: '13'
+    value: '20061101'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2100.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 61102.C6712
+  expected_count: 27
+  input: '"F65","C00412312","IND","Makarechian^Paul","4100 MacArthur Boulevard, Suite
+    20","","Newport Beach","CA","926602069","Makar Properties","CEO",20061101,2100.00,"","","","","",,"","","","","","","","61102.C6712"'
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: '"F65","C00412312","IND","McHowell^David","6401 East Via Arboles","","Anaheim","CA","92807","Elmore
+    Toyota","General Manager",20061102,2100.00,"","","","","",,"","","","","","","","61102.C6711"'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00412312
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: McHowell^David
+  - name: STREET 1
+    number: '5'
+    value: 6401 East Via Arboles
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Anaheim
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '92807'
+  - name: INDEMP
+    number: '10'
+    value: Elmore Toyota
+  - name: INDOCC
+    number: '11'
+    value: General Manager
+  - name: Of Contribution
+    number: 12-
+    value: '20061102'
+  - name: AMOUNT
+    number: '13'
+    value: '2100.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 61102.C6711
+- input: '"F65","C00412312","PAC","McKesson Corporation Political Fund","One Post
+    Street","","San Francisco","CA","941040000","Qualified Multi-Candidate Com.","",20061101,3000.00,"C00108035","","","","",,"","","","","","","","61102.C6713"'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00412312
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: McKesson Corporation Political Fund
+  - name: STREET 1
+    number: '5'
+    value: One Post Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: San Francisco
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '941040000'
+  - name: INDEMP
+    number: '10'
+    value: Qualified Multi-Candidate Com.
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061101'
+  - name: AMOUNT
+    number: '13'
+    value: '3000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00108035
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 61102.C6713
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00412312
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Mortgage Bankers Association
+  - name: STREET 1
+    number: '5'
+    value: 1919 Pennsylvania Avenue
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ' 8th '
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: INDEMP
+    number: '10'
+    value: DC
+  - name: INDOCC
+    number: '11'
+    value: '200063438'
+  - name: Of Contribution
+    number: 12-
+    value: Qualified Multi-Candidate Com.
+  - name: AMOUNT
+    number: '13'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20061101'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '2000.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: C00004812
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: 61102.C6714
+  expected_count: 27
+  input: '"F65","C00412312","PAC","Mortgage Bankers Association","1919 Pennsylvania
+    Avenue, NW, 8th ","","Washington","DC","200063438","Qualified Multi-Candidate
+    Com.","",20061101,2000.00,"C00004812","","","","",,"","","","","","","","61102.C6714"'
+  input_count: 29
+  record: fec.version.v5_3.F65
+  result: []
+sourceurl: !!python/unicode 20061103
+type: single
