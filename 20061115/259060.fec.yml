@@ -1,0 +1,128 @@
+countraw: 3
+countrows: 1
+filename: 259060.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H2TN05131
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: c/o Davidson
+  - name: STREET 2
+    number: '5'
+    value: ' Golden & Lundy'
+  - name: CITY
+    number: '6'
+    value: ' P.C.'
+  - name: STATE
+    number: '7'
+    value: P.O. Box 927
+  - name: ZIP
+    number: '8'
+    value: Nashville
+  - name: PTY/CODE
+    number: '9'
+    value: TN
+  - name: CAN/OFFICE
+    number: '10'
+    value: '37024   '
+  - name: CAN/STATE
+    number: '11'
+    value: DEM
+  - name: CAN/DIST
+    number: '12'
+    value: H
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: TN
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: '5 '
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: '2008'
+  - name: STREET 1
+    number: '16'
+    value: C00376665
+  - name: STREET 2
+    number: '17'
+    value: Cooper for Congress Committee
+  - name: CITY
+    number: '18'
+    value: c/o Davidson
+  - name: STATE
+    number: '19'
+    value: ' Golden & Lundy'
+  - name: ZIP
+    number: '20'
+    value: ' P.C.'
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: P.O. Box 927
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: Brentwood
+  - name: STREET 1
+    number: '23'
+    value: TN
+  - name: STREET 2
+    number: '24'
+    value: '37024   '
+  - name: CITY
+    number: '25'
+    value: '        '
+  - name: STATE
+    number: '26'
+    value: ''
+  - name: ZIP
+    number: '27'
+    value: ''
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: ''
+  - name: Signed
+    number: 29-
+    value: ''
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: ' '
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '       '
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: James H.S. Cooper
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: '20061115'
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: '0.00'
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: '0.00'
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: H.S. Cooper
+  - value: James
+  - value: ''
+  - value: ''
+  - value: ''
+  expected_count: 36
+  input: '"F2","H2TN05131","","c/o Davidson, Golden & Lundy, P.C.","P.O. Box 927","Nashville","TN","37024   ","DEM","H","TN",5
+    ,2008,"C00376665","Cooper for Congress Committee","c/o Davidson, Golden & Lundy,
+    P.C.","P.O. Box 927","Brentwood","TN","37024   ","        ","","","",""," ","       ","James
+    H.S. Cooper",20061115,0.00,0.00,"H.S. Cooper","James","","",""'
+  input_count: 40
+  record: fec.version.v5_3.F2
+  result: []
+sourceurl: !!python/unicode 20061115
+type: single
