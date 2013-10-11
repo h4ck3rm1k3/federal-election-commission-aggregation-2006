@@ -1,0 +1,397 @@
+countraw: 7
+countrows: 5
+filename: 249702.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00421727
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Bob 2 Congress
+  - name: STREET 1
+    number: '4'
+    value: 25 Maluniu Avenue
+  - name: STREET 2
+    number: '5'
+    value: ' Suite 207'
+  - name: CITY
+    number: '6'
+    value: Box 171
+  - name: STATE
+    number: '7'
+    value: Kailua
+  - name: ZIP
+    number: '8'
+    value: HI
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '96734'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H6HI02285
+  - name: CAN/OFFICE
+    number: '11'
+    value: HOGUE^BOB CHARLES^^
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: HI
+  - name: Signed
+    number: 14-
+    value: '2'
+  - value: '20061024'
+  expected_count: 14
+  input: F6,C00421727,Bob 2 Congress,"25 Maluniu Avenue, Suite 207",Box 171,Kailua,HI,96734,H6HI02285,HOGUE^BOB
+    CHARLES^^,H,HI,2,20061024
+  input_count: 15
+  record: fec.version.v5_3.F6
+  result: []
+- input: F65,C00421727,IND,Chotzen^Tamar^^,PO Box 220,,Kihei,HI,967530220,,,20061024,2100.00,C00421727,,HOGUE^BOB
+    CHARLES^^,H,HI,2,,,,,,,,F6.6414
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00421727
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Chotzen^Tamar^^
+  - name: STREET 1
+    number: '5'
+    value: PO Box 220
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Kihei
+  - name: STATE
+    number: '8'
+    value: HI
+  - name: ZIP
+    number: '9'
+    value: '967530220'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061024'
+  - name: AMOUNT
+    number: '13'
+    value: '2100.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00421727
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: HOGUE^BOB CHARLES^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: HI
+  - name: CAN/DIST
+    number: '19'
+    value: '2'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.6414
+- input: F65,C00421727,IND,Gorman^Patrick^^,1470 Kikaha Street,,Hilo,HI,967203263,Sunset
+    Pet Memorial Services,Owner,20061024,1000.00,C00421727,,HOGUE^BOB CHARLES^^,H,HI,2,,,,,,,,F6.6411
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00421727
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Gorman^Patrick^^
+  - name: STREET 1
+    number: '5'
+    value: 1470 Kikaha Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Hilo
+  - name: STATE
+    number: '8'
+    value: HI
+  - name: ZIP
+    number: '9'
+    value: '967203263'
+  - name: INDEMP
+    number: '10'
+    value: Sunset Pet Memorial Services
+  - name: INDOCC
+    number: '11'
+    value: Owner
+  - name: Of Contribution
+    number: 12-
+    value: '20061024'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00421727
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: HOGUE^BOB CHARLES^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: HI
+  - name: CAN/DIST
+    number: '19'
+    value: '2'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.6411
+- input: F65,C00421727,IND,Gutteling^Edward^^,153 Honolii Pali,,Hilo,HI,96720,Hawaii
+    Orthopedics Inc,Orthopedic surgeon,20061024,1000.00,C00421727,,HOGUE^BOB CHARLES^^,H,HI,2,,,,,,,,F6.6412
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00421727
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Gutteling^Edward^^
+  - name: STREET 1
+    number: '5'
+    value: 153 Honolii Pali
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Hilo
+  - name: STATE
+    number: '8'
+    value: HI
+  - name: ZIP
+    number: '9'
+    value: '96720'
+  - name: INDEMP
+    number: '10'
+    value: Hawaii Orthopedics Inc
+  - name: INDOCC
+    number: '11'
+    value: Orthopedic surgeon
+  - name: Of Contribution
+    number: 12-
+    value: '20061024'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00421727
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: HOGUE^BOB CHARLES^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: HI
+  - name: CAN/DIST
+    number: '19'
+    value: '2'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.6412
+- input: F65,C00421727,IND,Henderson^Richard^^,P.O. Box 655,,Hilo,HI,96721,HIS Inc.,Owner,20061024,1000.00,C00421727,,HOGUE^BOB
+    CHARLES^^,H,HI,2,,,,,,,,F6.6413
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00421727
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Henderson^Richard^^
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 655
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Hilo
+  - name: STATE
+    number: '8'
+    value: HI
+  - name: ZIP
+    number: '9'
+    value: '96721'
+  - name: INDEMP
+    number: '10'
+    value: HIS Inc.
+  - name: INDOCC
+    number: '11'
+    value: Owner
+  - name: Of Contribution
+    number: 12-
+    value: '20061024'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00421727
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: HOGUE^BOB CHARLES^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: HI
+  - name: CAN/DIST
+    number: '19'
+    value: '2'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.6413
+sourceurl: !!python/unicode 20061025
+type: single
