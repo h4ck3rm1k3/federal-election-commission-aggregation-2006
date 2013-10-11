@@ -1,0 +1,231 @@
+countraw: 5
+countrows: 3
+filename: 256778.fec
+header: {}
+rows:
+- input: '"F6","C00269340","LoBiondo for Congress","PO Box 775","","Marmora","NJ","082230775","H2NJ02037","Frank
+    A. LoBiondo","H","NJ","2 ",20061103'
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00269340
+  - name: COMMITTEE NAME
+    number: '3'
+    value: LoBiondo for Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 775
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Marmora
+  - name: STATE
+    number: '7'
+    value: NJ
+  - name: ZIP
+    number: '8'
+    value: 082230775
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2NJ02037
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Frank A. LoBiondo
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: NJ
+  - name: CAN/DIST
+    number: '13'
+    value: '2 '
+  - name: Signed
+    number: 14-
+    value: '20061103'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00269340
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: General Dynamics Voluntary PAC
+  - name: STREET 1
+    number: '5'
+    value: Diane Mossler
+  - name: STREET 2
+    number: '6'
+    value: ' Treasurer'
+  - name: CITY
+    number: '7'
+    value: '2941 Fairview Park Drive '
+  - name: STATE
+    number: '8'
+    value: Falls Church
+  - name: ZIP
+    number: '9'
+    value: VA
+  - name: INDEMP
+    number: '10'
+    value: '220424523'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20061101'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '4000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 61103.C20799
+  expected_count: 27
+  input: '"F65","C00269340","PAC","General Dynamics Voluntary PAC","Diane Mossler,
+    Treasurer","2941 Fairview Park Drive ","Falls Church","VA","220424523","","",20061101,4000.00,"","","","","",,"","","","","","","","61103.C20799"'
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00269340
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Pilots Society PAC
+  - name: STREET 1
+    number: '5'
+    value: 'Attn: Captain Mike Linton'
+  - name: STREET 2
+    number: '6'
+    value: ' Preside'
+  - name: CITY
+    number: '7'
+    value: 'P. O. Box 37479 '
+  - name: STATE
+    number: '8'
+    value: Philadelphia
+  - name: ZIP
+    number: '9'
+    value: PA
+  - name: INDEMP
+    number: '10'
+    value: '19147'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20061101'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 61103.C20800
+  expected_count: 27
+  input: '"F65","C00269340","PAC","Pilots Society PAC","Attn: Captain Mike Linton,
+    Preside","P. O. Box 37479 ","Philadelphia","PA","19147","","",20061101,2000.00,"","","","","",,"","","","","","","","61103.C20800"'
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+sourceurl: !!python/unicode 20061103
+type: single
