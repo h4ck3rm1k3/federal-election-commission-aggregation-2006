@@ -1,0 +1,186 @@
+countraw: 4
+countrows: 2
+filename: 264081.fec
+header: {}
+rows:
+- input: F24,"C00071365","DEMOCRATIC STATE CENTRAL COMMITTEE OF LA","P.O. BOX 4385","","Baton
+    Rouge","LA","70821","Henry A. Smith",20061207,"24"
+  record: fec.version.v5_3.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00071365
+  - name: COMMITTEE NAME
+    number: '3'
+    value: DEMOCRATIC STATE CENTRAL COMMITTEE OF LA
+  - name: STREET 1
+    number: '4'
+    value: P.O. BOX 4385
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Baton Rouge
+  - name: STATE
+    number: '7'
+    value: LA
+  - name: ZIP
+    number: '8'
+    value: '70821'
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: Henry A. Smith
+  - name: Signed
+    number: 10-
+    value: '20061207'
+  - name: REPORT TYPE
+    number: '11'
+    value: '24'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SF
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00071365
+  - name: Has filer been designated to make Coodinated Expenditures?
+    number: '3-DESIG '
+    value: N
+  - name: FEC COMMITTEE ID NUMBER (Designating)
+    number: '4'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '5'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER (Subordinating)
+    number: '6'
+    value: C00071365
+  - name: COMMITTEE NAME
+    number: '7'
+    value: DEMOCRATIC STATE CENTRAL COMMITTEE OF LA
+  - name: STREET 1
+    number: '8'
+    value: P.O. BOX 4385
+  - name: STREET 2
+    number: '9'
+    value: ''
+  - name: CITY
+    number: '10'
+    value: Baton Rouge
+  - name: STATE
+    number: '11'
+    value: LA
+  - name: ZIP
+    number: '12'
+    value: '70821'
+  - name: ENTITY TYPE
+    number: '13'
+    value: ORG
+  - name: NAME (Payee)
+    number: '14'
+    value: MPRESS
+  - name: STREET 1
+    number: '15'
+    value: 4100 Howard Ave.
+  - name: STREET 2
+    number: '16'
+    value: New Orleans
+  - name: CITY
+    number: '17'
+    value: ' LA 70125'
+  - name: STATE
+    number: '18'
+    value: New Orleans
+  - name: ZIP
+    number: '19'
+    value: LA
+  - name: AGG. GENERAL ELECT AMOUNT EXPENDED
+    number: '20'
+    value: '70125'
+  - name: TRANS Purpose DESCRIP
+    number: '21'
+    value: '38113.9'
+  - name: DATE
+    number: '22'
+    value: Direct Mail - Postage and Printing
+  - name: AMOUNT
+    number: '23'
+    value: '20061207'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '24'
+    value: '28810.5'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '25'
+    value: C00427807
+  - name: CANDIDATE NAME
+    number: '26'
+    value: H6LA02132
+  - name: CAN/OFFICE
+    number: '27'
+    value: Karen Carter
+  - name: CAN/STATE
+    number: '28'
+    value: H
+  - name: CAN/DIST
+    number: '29'
+    value: LA
+  - name: CONDUIT NAME
+    number: '30'
+    value: '02'
+  - name: CONDUIT STREET 1
+    number: '31'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '32'
+    value: ''
+  - name: CONDUIT CITY
+    number: '33'
+    value: ''
+  - name: CONDUIT STATE
+    number: '34'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '35'
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: D9587
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: UNLIMITED SPENDING
+    number: '42'
+    value: ''
+  - name: CATEGORY CODE
+    number: '43'
+    value: ''
+  - name: TRANS CODE
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: SF,"C00071365","N","","","C00071365","DEMOCRATIC STATE CENTRAL COMMITTEE
+    OF LA","P.O. BOX 4385","","Baton Rouge","LA","70821","ORG","MPRESS","4100 Howard
+    Ave.","New Orleans, LA 70125","New Orleans","LA","70125",38113.9,"Direct Mail
+    - Postage and Printing",20061207,28810.5,"C00427807","H6LA02132","Karen Carter","H","LA","02","","","","","","","","D9587","","","","","","",""
+  input_count: 45
+  record: fec.version.v5_3.SF
+  result: []
+sourceurl: !!python/unicode 20061207
+type: single

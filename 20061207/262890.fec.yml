@@ -1,0 +1,2208 @@
+countraw: 20
+countrows: 16
+filename: 262890.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00000935
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Democratic Congressional Campaign Committee
+  - name: STREET 1
+    number: '4'
+    value: 430 South Capitol Street
+  - name: STREET 2
+    number: '5'
+    value: ' SE'
+  - name: CITY
+    number: '6'
+    value: 2nd Floor
+  - name: STATE
+    number: '7'
+    value: Washington
+  - name: ZIP
+    number: '8'
+    value: DC
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: '20003'
+  - name: Signed
+    number: 10-
+    value: Lapp
+  - name: REPORT TYPE
+    number: '11'
+    value: ' John C.'
+  - value: '20061206'
+  - value: '24'
+  expected_count: 11
+  input: '"F24","C00000935","Democratic Congressional Campaign Committee","430 South
+    Capitol Street, SE","2nd Floor","Washington","DC","20003","Lapp, John C.","20061206","24"'
+  input_count: 13
+  record: fec.version.v5_3.F24
+  result: []
+- input: '"SE24","C00000935","ORG","Groundswell Communications Inc ","1029 North Royal
+    Street","Suite 350","Alexandria","VA","22314","Phone Banking ","20061205","785.70","S","H8TX28013","Rodriguez^Ciro
+    D.","H","TX","23","C00326066","","","","","","","","","","","","","","","","","","SE24-75227","","","","","R2006","Runoff","","24A","871410.53"'
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00000935
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: 'Groundswell Communications Inc '
+  - name: STREET 1
+    number: '5'
+    value: 1029 North Royal Street
+  - name: STREET 2
+    number: '6'
+    value: Suite 350
+  - name: CITY
+    number: '7'
+    value: Alexandria
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22314'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: 'Phone Banking '
+  - name: DATE
+    number: '11'
+    value: '20061205'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '785.70'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H8TX28013
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Rodriguez^Ciro D.
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: TX
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '23'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00326066
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24-75227
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: R2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: Runoff
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: 24A
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '871410.53'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00000935
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: 'Great American Media '
+  - name: STREET 1
+    number: '5'
+    value: 1010 Wisconsin Ave.
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '20007'
+  - name: DATE
+    number: '11'
+    value: 'Media Buy '
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20061205'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '6496.51'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: H8TX28013
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: Rodriguez^Ciro D.
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: TX
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '23'
+  - name: Unused field
+    number: '20'
+    value: C00326066
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24-75161
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: R2006
+  - name: CATEGORY CODE
+    number: '44'
+    value: Runoff
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: 24A
+  - value: '871410.53'
+  expected_count: 46
+  input: '"SE24","C00000935","ORG","Great American Media ","1010 Wisconsin Ave., NW","","Washington","DC","20007","Media
+    Buy ","20061205","6496.51","S","H8TX28013","Rodriguez^Ciro D.","H","TX","23","C00326066","","","","","","","","","","","","","","","","","","SE24-75161","","","","","R2006","Runoff","","24A","871410.53"'
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00000935
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: 'Great American Media '
+  - name: STREET 1
+    number: '5'
+    value: 1010 Wisconsin Ave.
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '20007'
+  - name: DATE
+    number: '11'
+    value: 'Media Buy '
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20061205'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '43476.62'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: O
+  - name: S/O CAN/NAME
+    number: '15'
+    value: H2TX23058
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: Bonilla^Henry
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: TX
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '23'
+  - name: Unused field
+    number: '20'
+    value: C00257402
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24-75162
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: R2006
+  - name: CATEGORY CODE
+    number: '44'
+    value: Runoff
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: 24A
+  - value: '871410.53'
+  expected_count: 46
+  input: '"SE24","C00000935","ORG","Great American Media ","1010 Wisconsin Ave., NW","","Washington","DC","20007","Media
+    Buy ","20061205","43476.62","O","H2TX23058","Bonilla^Henry","H","TX","23","C00257402","","","","","","","","","","","","","","","","","","SE24-75162","","","","","R2006","Runoff","","24A","871410.53"'
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00000935
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: 'Great American Media '
+  - name: STREET 1
+    number: '5'
+    value: 1010 Wisconsin Ave.
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '20007'
+  - name: DATE
+    number: '11'
+    value: 'Media Buy '
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20061205'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '34398.43'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: H8TX28013
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: Rodriguez^Ciro D.
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: TX
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '23'
+  - name: Unused field
+    number: '20'
+    value: C00326066
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24-75159
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: R2006
+  - name: CATEGORY CODE
+    number: '44'
+    value: Runoff
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: 24A
+  - value: '871410.53'
+  expected_count: 46
+  input: '"SE24","C00000935","ORG","Great American Media ","1010 Wisconsin Ave., NW","","Washington","DC","20007","Media
+    Buy ","20061205","34398.43","S","H8TX28013","Rodriguez^Ciro D.","H","TX","23","C00326066","","","","","","","","","","","","","","","","","","SE24-75159","","","","","R2006","Runoff","","24A","871410.53"'
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00000935
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: 'Great American Media '
+  - name: STREET 1
+    number: '5'
+    value: 1010 Wisconsin Ave.
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '20007'
+  - name: DATE
+    number: '11'
+    value: 'Media Buy '
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20061205'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '34398.43'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: O
+  - name: S/O CAN/NAME
+    number: '15'
+    value: H2TX23058
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: Bonilla^Henry
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: TX
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '23'
+  - name: Unused field
+    number: '20'
+    value: C00257402
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24-75160
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: R2006
+  - name: CATEGORY CODE
+    number: '44'
+    value: Runoff
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: 24A
+  - value: '871410.53'
+  expected_count: 46
+  input: '"SE24","C00000935","ORG","Great American Media ","1010 Wisconsin Ave., NW","","Washington","DC","20007","Media
+    Buy ","20061205","34398.43","O","H2TX23058","Bonilla^Henry","H","TX","23","C00257402","","","","","","","","","","","","","","","","","","SE24-75160","","","","","R2006","Runoff","","24A","871410.53"'
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+- input: '"SE24","C00000935","ORG","The Strategy Group ","1603 Orrington Avenue","Suite
+    1730","Evanston","IL","60201","Mail Services ","20061205","7617.97","S","H8TX28013","Rodriguez^Ciro
+    D.","H","TX","23","C00326066","","","","","","","","","","","","","","","","","","SE24-75184","","","","","R2006","Runoff","","24A","871410.53"'
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00000935
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: 'The Strategy Group '
+  - name: STREET 1
+    number: '5'
+    value: 1603 Orrington Avenue
+  - name: STREET 2
+    number: '6'
+    value: Suite 1730
+  - name: CITY
+    number: '7'
+    value: Evanston
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60201'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: 'Mail Services '
+  - name: DATE
+    number: '11'
+    value: '20061205'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '7617.97'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H8TX28013
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Rodriguez^Ciro D.
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: TX
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '23'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00326066
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24-75184
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: R2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: Runoff
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: 24A
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '871410.53'
+- input: '"SE24","C00000935","ORG","The Strategy Group ","1603 Orrington Avenue","Suite
+    1730","Evanston","IL","60201","Mail Services ","20061205","7617.98","O","H2TX23058","Bonilla^Henry","H","TX","23","C00257402","","","","","","","","","","","","","","","","","","SE24-75185","","","","","R2006","Runoff","","24A","871410.53"'
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00000935
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: 'The Strategy Group '
+  - name: STREET 1
+    number: '5'
+    value: 1603 Orrington Avenue
+  - name: STREET 2
+    number: '6'
+    value: Suite 1730
+  - name: CITY
+    number: '7'
+    value: Evanston
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60201'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: 'Mail Services '
+  - name: DATE
+    number: '11'
+    value: '20061205'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '7617.98'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: O
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H2TX23058
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Bonilla^Henry
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: TX
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '23'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00257402
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24-75185
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: R2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: Runoff
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: 24A
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '871410.53'
+- input: '"SE24","C00000935","ORG","The Strategy Group ","1603 Orrington Avenue","Suite
+    1730","Evanston","IL","60201","Mail Services ","20061205","14965.18","S","H8TX28013","Rodriguez^Ciro
+    D.","H","TX","23","C00326066","","","","","","","","","","","","","","","","","","SE24-75182","","","","","R2006","Runoff","","24A","871410.53"'
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00000935
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: 'The Strategy Group '
+  - name: STREET 1
+    number: '5'
+    value: 1603 Orrington Avenue
+  - name: STREET 2
+    number: '6'
+    value: Suite 1730
+  - name: CITY
+    number: '7'
+    value: Evanston
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60201'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: 'Mail Services '
+  - name: DATE
+    number: '11'
+    value: '20061205'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '14965.18'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H8TX28013
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Rodriguez^Ciro D.
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: TX
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '23'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00326066
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24-75182
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: R2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: Runoff
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: 24A
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '871410.53'
+- input: '"SE24","C00000935","ORG","The Strategy Group ","1603 Orrington Avenue","Suite
+    1730","Evanston","IL","60201","Mail Services ","20061205","14965.18","O","H2TX23058","Bonilla^Henry","H","TX","23","C00257402","","","","","","","","","","","","","","","","","","SE24-75183","","","","","R2006","Runoff","","24A","871410.53"'
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00000935
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: 'The Strategy Group '
+  - name: STREET 1
+    number: '5'
+    value: 1603 Orrington Avenue
+  - name: STREET 2
+    number: '6'
+    value: Suite 1730
+  - name: CITY
+    number: '7'
+    value: Evanston
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60201'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: 'Mail Services '
+  - name: DATE
+    number: '11'
+    value: '20061205'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '14965.18'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: O
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H2TX23058
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Bonilla^Henry
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: TX
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '23'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00257402
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24-75183
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: R2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: Runoff
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: 24A
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '871410.53'
+- input: '"SE24","C00000935","ORG","The Strategy Group ","1603 Orrington Avenue","Suite
+    1730","Evanston","IL","60201","Mail Services ","20061206","14964.97","S","H8TX28013","Rodriguez^Ciro
+    D.","H","TX","23","C00326066","","","","","","","","","","","","","","","","","","SE24-75215","","","","","R2006","Runoff","","24A","871410.53"'
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00000935
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: 'The Strategy Group '
+  - name: STREET 1
+    number: '5'
+    value: 1603 Orrington Avenue
+  - name: STREET 2
+    number: '6'
+    value: Suite 1730
+  - name: CITY
+    number: '7'
+    value: Evanston
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60201'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: 'Mail Services '
+  - name: DATE
+    number: '11'
+    value: '20061206'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '14964.97'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H8TX28013
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Rodriguez^Ciro D.
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: TX
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '23'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00326066
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24-75215
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: R2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: Runoff
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: 24A
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '871410.53'
+- input: '"SE24","C00000935","ORG","The Strategy Group ","1603 Orrington Avenue","Suite
+    1730","Evanston","IL","60201","Mail Services ","20061206","14964.98","O","H2TX23058","Bonilla^Henry","H","TX","23","C00257402","","","","","","","","","","","","","","","","","","SE24-75216","","","","","R2006","Runoff","","24A","871410.53"'
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00000935
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: 'The Strategy Group '
+  - name: STREET 1
+    number: '5'
+    value: 1603 Orrington Avenue
+  - name: STREET 2
+    number: '6'
+    value: Suite 1730
+  - name: CITY
+    number: '7'
+    value: Evanston
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60201'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: 'Mail Services '
+  - name: DATE
+    number: '11'
+    value: '20061206'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '14964.98'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: O
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H2TX23058
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Bonilla^Henry
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: TX
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '23'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00257402
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24-75216
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: R2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: Runoff
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: 24A
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '871410.53'
+- input: '"SE24","C00000935","ORG","The Strategy Group ","1603 Orrington Avenue","Suite
+    1730","Evanston","IL","60201","Mail Services ","20061206","8081.44","S","H8TX28013","Rodriguez^Ciro
+    D.","H","TX","23","C00326066","","","","","","","","","","","","","","","","","","SE24-75217","","","","","R2006","Runoff","","24A","871410.53"'
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00000935
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: 'The Strategy Group '
+  - name: STREET 1
+    number: '5'
+    value: 1603 Orrington Avenue
+  - name: STREET 2
+    number: '6'
+    value: Suite 1730
+  - name: CITY
+    number: '7'
+    value: Evanston
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60201'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: 'Mail Services '
+  - name: DATE
+    number: '11'
+    value: '20061206'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '8081.44'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H8TX28013
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Rodriguez^Ciro D.
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: TX
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '23'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00326066
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24-75217
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: R2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: Runoff
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: 24A
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '871410.53'
+- input: '"SE24","C00000935","ORG","The Strategy Group ","1603 Orrington Avenue","Suite
+    1730","Evanston","IL","60201","Mail Services ","20061206","8081.45","O","H2TX23058","Bonilla^Henry","H","TX","23","C00257402","","","","","","","","","","","","","","","","","","SE24-75218","","","","","R2006","Runoff","","24A","871410.53"'
+  record: fec.version.v5_3.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00000935
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: 'The Strategy Group '
+  - name: STREET 1
+    number: '5'
+    value: 1603 Orrington Avenue
+  - name: STREET 2
+    number: '6'
+    value: Suite 1730
+  - name: CITY
+    number: '7'
+    value: Evanston
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60201'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: 'Mail Services '
+  - name: DATE
+    number: '11'
+    value: '20061206'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '8081.45'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: O
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H2TX23058
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Bonilla^Henry
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: TX
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '23'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00257402
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24-75218
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: R2006
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: Runoff
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: 24A
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '871410.53'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00000935
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: 'Great American Media '
+  - name: STREET 1
+    number: '5'
+    value: 1010 Wisconsin Ave.
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '20007'
+  - name: DATE
+    number: '11'
+    value: 'Media Buy '
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20061206'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '52650.54'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: H8TX28013
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: Rodriguez^Ciro D.
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: TX
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '23'
+  - name: Unused field
+    number: '20'
+    value: C00326066
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24-75172
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: R2006
+  - name: CATEGORY CODE
+    number: '44'
+    value: Runoff
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: 24A
+  - value: '871410.53'
+  expected_count: 46
+  input: '"SE24","C00000935","ORG","Great American Media ","1010 Wisconsin Ave., NW","","Washington","DC","20007","Media
+    Buy ","20061206","52650.54","S","H8TX28013","Rodriguez^Ciro D.","H","TX","23","C00326066","","","","","","","","","","","","","","","","","","SE24-75172","","","","","R2006","Runoff","","24A","871410.53"'
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00000935
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: 'Great American Media '
+  - name: STREET 1
+    number: '5'
+    value: 1010 Wisconsin Ave.
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '20007'
+  - name: DATE
+    number: '11'
+    value: 'Media Buy '
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20061206'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '325333.14'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: O
+  - name: S/O CAN/NAME
+    number: '15'
+    value: H2TX23058
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: Bonilla^Henry
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: TX
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '23'
+  - name: Unused field
+    number: '20'
+    value: C00257402
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24-75173
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: R2006
+  - name: CATEGORY CODE
+    number: '44'
+    value: Runoff
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: 24A
+  - value: '871410.53'
+  expected_count: 46
+  input: '"SE24","C00000935","ORG","Great American Media ","1010 Wisconsin Ave., NW","","Washington","DC","20007","Media
+    Buy ","20061206","325333.14","O","H2TX23058","Bonilla^Henry","H","TX","23","C00257402","","","","","","","","","","","","","","","","","","SE24-75173","","","","","R2006","Runoff","","24A","871410.53"'
+  input_count: 47
+  record: fec.version.v5_3.SE
+  result: []
+sourceurl: !!python/unicode 20061207
+type: single
