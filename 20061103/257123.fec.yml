@@ -1,0 +1,231 @@
+countraw: 5
+countrows: 3
+filename: 257123.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00379727
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Kendrick Meek for Congress
+  - name: STREET 1
+    number: '4'
+    value: 111 NW 183rd Street
+  - name: STREET 2
+    number: '5'
+    value: ' Suite 325'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Miami
+  - name: ZIP
+    number: '8'
+    value: FL
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '33169'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H2FL17056
+  - name: CAN/OFFICE
+    number: '11'
+    value: Kendrick B. Meek
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: FL
+  - name: Signed
+    number: 14-
+    value: '17'
+  - value: '20061103'
+  expected_count: 14
+  input: F6,"C00379727","Kendrick Meek for Congress","111 NW 183rd Street, Suite 325","","Miami","FL","33169","H2FL17056","Kendrick
+    B. Meek","H","FL","17",20061103
+  input_count: 15
+  record: fec.version.v5_3.F6
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00379727
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Book^Ronald L.
+  - name: STREET 1
+    number: '5'
+    value: 10711 Hawks Vista St
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Plantation
+  - name: STATE
+    number: '8'
+    value: FL
+  - name: ZIP
+    number: '9'
+    value: '33324'
+  - name: INDEMP
+    number: '10'
+    value: Ronald L. Book
+  - name: INDOCC
+    number: '11'
+    value: ' P.A.'
+  - name: Of Contribution
+    number: 12-
+    value: Lobbyist
+  - name: AMOUNT
+    number: '13'
+    value: '20061103'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1250'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: C2633
+  expected_count: 27
+  input: F65,"C00379727","IND","Book^Ronald L.","10711 Hawks Vista St","","Plantation","FL","33324","Ronald
+    L. Book, P.A.","Lobbyist",20061103,"1250","","","","","","","","","","","","","","C2633"
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: F65,"C00379727","IND","Book^Patricia","10711 Hawks Vista Street","","Plantation","FL","33324","Self-Employed","Pastry
+    Chef",20061103,"1250","","","","","","","","","","","","","","C2634"
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00379727
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Book^Patricia
+  - name: STREET 1
+    number: '5'
+    value: 10711 Hawks Vista Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Plantation
+  - name: STATE
+    number: '8'
+    value: FL
+  - name: ZIP
+    number: '9'
+    value: '33324'
+  - name: INDEMP
+    number: '10'
+    value: Self-Employed
+  - name: INDOCC
+    number: '11'
+    value: Pastry Chef
+  - name: Of Contribution
+    number: 12-
+    value: '20061103'
+  - name: AMOUNT
+    number: '13'
+    value: '1250'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C2634
+sourceurl: !!python/unicode 20061103
+type: single
