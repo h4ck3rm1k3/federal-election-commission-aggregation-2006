@@ -1,0 +1,226 @@
+countraw: 5
+countrows: 3
+filename: 257737.fec
+header: {}
+rows:
+- input: '"F6","C00419952","Paul Aronsohn for Congress","P.O. Box 563","","Ridgewood","NJ","07451","H6NJ05148","Paul
+    Stuart Aronsohn","H","NJ","5","20061105"'
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00419952
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Paul Aronsohn for Congress
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 563
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Ridgewood
+  - name: STATE
+    number: '7'
+    value: NJ
+  - name: ZIP
+    number: '8'
+    value: '07451'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H6NJ05148
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Paul Stuart Aronsohn
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: NJ
+  - name: CAN/DIST
+    number: '13'
+    value: '5'
+  - name: Signed
+    number: 14-
+    value: '20061105'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00419952
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Genova
+  - name: STREET 1
+    number: '5'
+    value: ' Burns & Vernoia'
+  - name: STREET 2
+    number: '6'
+    value: Eisenhower Parkway
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Livingston
+  - name: ZIP
+    number: '9'
+    value: NJ
+  - name: INDEMP
+    number: '10'
+    value: 070391023
+  - name: INDOCC
+    number: '11'
+    value: Partnership
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20061104'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: C4116360
+  expected_count: 27
+  input: '"F65","C00419952","ORG","Genova, Burns & Vernoia","Eisenhower Parkway","","Livingston","NJ","070391023","Partnership","","20061104","1000.00","","","","","","","","","","","","","","C4116360"'
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: '"F65","C00419952","PAC","SMITHKLINE BEECHAM CORPORATION POLITICAL ACTION
+    CO","Five Moore Drive","P.O. Box 13358","Res. Triangle Park","NC","27709","","","20061104","1000.00","C00199703","","","","","","","","","","","","","C4116365"'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00419952
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: SMITHKLINE BEECHAM CORPORATION POLITICAL ACTION CO
+  - name: STREET 1
+    number: '5'
+    value: Five Moore Drive
+  - name: STREET 2
+    number: '6'
+    value: P.O. Box 13358
+  - name: CITY
+    number: '7'
+    value: Res. Triangle Park
+  - name: STATE
+    number: '8'
+    value: NC
+  - name: ZIP
+    number: '9'
+    value: '27709'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061104'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00199703
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C4116365
+sourceurl: !!python/unicode 20061105
+type: single
