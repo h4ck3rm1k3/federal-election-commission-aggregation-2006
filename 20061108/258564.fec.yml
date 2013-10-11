@@ -1,0 +1,319 @@
+countraw: 6
+countrows: 4
+filename: 258564.fec
+header: {}
+rows:
+- input: F6,C00346080,CLAY JR. FOR CONGRESS,P.O. BOX 4544,,ST. LOUIS,MO,63108,H0MO01066,Clay^William
+    Lacy^Rep.^Jr.,H,MO,1,20061108
+  record: fec.version.v5_3.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00346080
+  - name: COMMITTEE NAME
+    number: '3'
+    value: CLAY JR. FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: P.O. BOX 4544
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: ST. LOUIS
+  - name: STATE
+    number: '7'
+    value: MO
+  - name: ZIP
+    number: '8'
+    value: '63108'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H0MO01066
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Clay^William Lacy^Rep.^Jr.
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: MO
+  - name: CAN/DIST
+    number: '13'
+    value: '1'
+  - name: Signed
+    number: 14-
+    value: '20061108'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00346080
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Mortgage Bankers Association of America
+  - name: STREET 1
+    number: '5'
+    value: 1919 Pennsylvania Avenue
+  - name: STREET 2
+    number: '6'
+    value: ' N.W.'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20006'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20061107'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2500.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00346080
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: Clay^William Lacy^Rep.^Jr.
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: MO
+  - name: CONDUIT NAME
+    number: '20'
+    value: '1'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.11252
+  expected_count: 27
+  input: F65,C00346080,PAC,Mortgage Bankers Association of America,"1919 Pennsylvania
+    Avenue, N.W.",,Washington,DC,20006,,,20061107,2500.00,C00346080,,Clay^William
+    Lacy^Rep.^Jr.,H,MO,1,,,,,,,,F6.11252
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00346080
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: National Education Association
+  - name: STREET 1
+    number: '5'
+    value: 1201 16th Street
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: SUITE 421
+  - name: STATE
+    number: '8'
+    value: Washinton
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20036'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20061106'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '3000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00346080
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: Clay^William Lacy^Rep.^Jr.
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: MO
+  - name: CONDUIT NAME
+    number: '20'
+    value: '1'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.11251
+  expected_count: 27
+  input: F65,C00346080,PAC,National Education Association,"1201 16th Street, NW",SUITE
+    421,Washinton,DC,20036,,,20061106,3000.00,C00346080,,Clay^William Lacy^Rep.^Jr.,H,MO,1,,,,,,,,F6.11251
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+- input: F65,C00346080,PAC,Verizon Communications Inc Good Government Club (FKA Bell
+    Atlantic Corporation PAC),1717 Arch Street 47th,Floor S,Philadelphia,PA,19103,,,20061107,1000.00,C00346080,,Clay^William
+    Lacy^Rep.^Jr.,H,MO,1,,,,,,,,F6.11254
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00346080
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Verizon Communications Inc Good Government Club (FKA Bell Atlantic Corporation
+      PAC)
+  - name: STREET 1
+    number: '5'
+    value: 1717 Arch Street 47th
+  - name: STREET 2
+    number: '6'
+    value: Floor S
+  - name: CITY
+    number: '7'
+    value: Philadelphia
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '19103'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061107'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00346080
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Clay^William Lacy^Rep.^Jr.
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: MO
+  - name: CAN/DIST
+    number: '19'
+    value: '1'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.11254
+sourceurl: !!python/unicode 20061108
+type: single
