@@ -1,0 +1,230 @@
+countraw: 6
+countrows: 3
+filename: 258087.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00290155
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Cubin For Congress
+  - name: STREET 1
+    number: '4'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '5'
+    value: P.O. Box 4657
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Casper
+  - name: ZIP
+    number: '8'
+    value: WY
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '82604'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ''
+  - name: CAN/OFFICE
+    number: '11'
+    value: ''
+  - name: CAN/STATE
+    number: '12'
+    value: ''
+  - name: CAN/DIST
+    number: '13'
+    value: ''
+  - name: Signed
+    number: 14-
+    value: ''
+  - value: '20061104'
+  expected_count: 14
+  input: '"F6","C00290155","Cubin For Congress, Inc.","P.O. Box 4657","","Casper","WY","82604","","","","","",20061104'
+  input_count: 15
+  record: fec.version.v5_3.F6
+  result: []
+- input: '"F65","C00290155","","C.A.R.T.E.R. PAC","7315 Wisconsin Avenue","Suite 705
+    East","Bethesda","MD","20814","","",20061104,2000.00,"","","","","","","","","","","","","","25016"'
+  record: fec.version.v5_3.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00290155
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: C.A.R.T.E.R. PAC
+  - name: STREET 1
+    number: '5'
+    value: 7315 Wisconsin Avenue
+  - name: STREET 2
+    number: '6'
+    value: Suite 705 East
+  - name: CITY
+    number: '7'
+    value: Bethesda
+  - name: STATE
+    number: '8'
+    value: MD
+  - name: ZIP
+    number: '9'
+    value: '20814'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20061104'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: '25016'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00290155
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Long^Caitlin^^
+  - name: STREET 1
+    number: '5'
+    value: 401 East 60th Street
+  - name: STREET 2
+    number: '6'
+    value: ' #24D'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: New York
+  - name: ZIP
+    number: '9'
+    value: NY
+  - name: INDEMP
+    number: '10'
+    value: '10022'
+  - name: INDOCC
+    number: '11'
+    value: Credit Director
+  - name: Of Contribution
+    number: 12-
+    value: Group Managing Director
+  - name: AMOUNT
+    number: '13'
+    value: '20061104'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2100.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: '25015'
+  expected_count: 27
+  input: '"F65","C00290155","","Long^Caitlin^^","401 East 60th Street, #24D","","New
+    York","NY","10022","Credit Director","Group Managing Director",20061104,2100.00,"","","","","","","","","","","","","","25015"'
+  input_count: 28
+  record: fec.version.v5_3.F65
+  result: []
+sourceurl: !!python/unicode 20061106
+type: single
